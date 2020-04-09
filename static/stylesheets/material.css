@@ -1,0 +1,288 @@
+/* 
+
+Make something awesome!
+---
+color scheme primary: #DA2E75
+
+*/
+
+/**
+ * Material Design 
+ * https://getmdl.io 
+ */
+html>body, .mdl-textfield__input {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.mdl-card__media {
+    background-color: transparent;
+}
+
+/*
+Rules for sizing the icon.
+http://google.github.io/material-design-icons/
+*/
+.material-icons.md-text { font-size: 90%;  }
+.material-icons.md-18   { font-size: 18px; }
+.material-icons.md-24   { font-size: 24px; }
+.material-icons.md-36   { font-size: 36px; }
+.material-icons.md-48   { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+/*
+material.grey-pink.min.css
+
+@media screen and (max-width: 1024px)
+material.grey-pink.min.css:8
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    padding: 16px;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    display: block;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 16px 40px;
+    margin: 0;
+    color: #757575;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+    display: block;
+    color: rgb(66,66,66);
+    line-height: 64px;
+    padding: 0 24px;
+}
+ */
+
+
+/*
+demo-layout-transparent
+demo-layout-waterfall
+demo-layout--fixed-drawer
+*/
+
+/*
+<!-- Uses a transparent header that draws on top of the layout's background -->
+ */
+.demo-layout-landing.mdl-layout {
+    background: url('../third-party/unspalsh.com/joel-filipe-151692.jpg') center / cover;
+}
+
+/**
+ * 
+ * https://codepen.io/peiche/pen/PPPRgz
+ * 
+ */
+.demo-layout-landing .mdl-layout__header {
+    /*add background transition*/
+    transition-property: max-height, box-shadow, background;
+}
+
+.demo-layout-landing .mdl-layout__header.is-casting-shadow {
+    /*override initial background when scrolling*/
+    background-color: white;
+}
+
+.demo-layout-landing .is-focused .mdl-textfield__input {
+    border-color: white;
+}
+
+ {
+    padding-left: 40px;
+}
+
+.demo-layout-page-about .founder-image {
+    background: url('../images/IMG_0593 copy.JPG') center / cover;
+    height: 500px;
+}
+.demo-layout-page-about.is-small-screen .founder-image {
+    height: 200px;
+}
+
+.demo-layout-page-about .mdl-layout__header-row,
+.demo-layout-landing .mdl-layout__header-row,
+.demo-layout-dashboard .mdl-layout__header-row,
+.demo-layout-user .mdl-layout__header-row,
+.demo-layout-start .mdl-layout__header-row,
+.demo-layout-intro .mdl-layout__header-row,
+.demo-layout-auth .mdl-layout__header-row,
+.demo-layout-page-legal .mdl-layout__header-row,
+.demo-layout-page .mdl-layout__header-row {
+    padding-left: 40px;
+}
+
+.demo-layout-page-about.is-small-screen .mdl-layout__header-row,
+.demo-layout-landing.is-small-screen .mdl-layout__header-row {
+    padding-left: 60px;
+}
+
+.demo-layout-dashboard.is-small-screen .mdl-layout__header-row,
+.demo-layout-user.is-small-screen .mdl-layout__header-row,
+.demo-layout-start.is-small-screen .mdl-layout__header-row,
+.demo-layout-intro.is-small-screen .mdl-layout__header-row,
+.demo-layout-auth.is-small-screen .mdl-layout__header-row,
+.demo-layout-page-legal.is-small-screen .mdl-layout__header-row,
+.demo-layout-page.is-small-screen .mdl-layout__header-row {
+    padding-left: 16px;
+}
+
+.demo-layout-auth {
+    background: url('../third-party/toptal.com-subtlepatterns/struckaxiom.png');
+}
+
+
+.demo-layout-settings .mdl-layout__tab-bar-button,
+.demo-layout-custom .mdl-layout__tab-bar-button {
+    background-color: white;
+}
+
+
+/*
+demo-card-square
+demo-card-wide
+demo-card-event
+ */
+.demo-layout-auth .demo-card-square > .mdl-card__title {
+    height: 300px;
+    background:
+        url('../third-party/tumblr.com/tumblr_oan67aYRRE1qinh1vo1_12801.jpg') center / cover;
+    background-position: 25% 50%;
+}
+
+.demo-card-square > .mdl-card__title {
+    height: 300px;
+    background:
+        url('../third-party/tumblr.com/tumblr_oan67aYRRE1qinh1vo1_1280.jpg') center / cover;
+}
+
+.demo-card-event > .mdl-card__actions {
+    -webkit-align-items: center;
+         -ms-flex-align: center;
+            align-items: center;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.demo-layout-dashboard .demo-card-event {
+    background: url('../third-party/giphy.com/ezgif.com-hexagon-MK4q2AR4alX9K.gif') center / cover;
+}
+
+/*
+Twitter Emoji
+*/
+img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+}
+
+/*
+Bootstrap CSS reference elements
+*/
+.pull-left  { float:  left !important; }
+.pull-right { float: right !important; }
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-responsive{display:block;max-width:100%;height:auto}
+.img-rounded{border-radius:6px}
+.img-thumbnail{display:inline-block;max-width:100%;height:auto;padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
+.img-circle{border-radius:50%}
+
+.img-fluid  { max-width: 100%; }
+
+/**
+ * Handling Long Words and URLs (Forcing Breaks, Hyphenation, Ellipsis, etc)
+ * https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/
+ */
+.dont-break-out {
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+/**
+ * Preventing Overflow with Ellipsis
+ */
+.ellipses {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/**
+ * Example
+ */
+.hyphenate {
+    /* Careful, this breaks the word wherever it is without a hyphen */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    /* Adds a hyphen where the word breaks */
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+/**
+ * Make “Pre” Text Wrap
+ * https://css-tricks.com/snippets/css/make-pre-text-wrap/
+ */
+.pre-wrap {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap:   break-word;     /* Internet Explorer 5.5+ */
+}
+
+.flex-flow-row-wrap { flex-flow: row wrap; }
+
+dialog::backdrop {
+    opacity: .75;
+    background: #333 url(../images/dot.png);
+}
+.mdl-layout__obfuscator.is-visible {
+    opacity: .75;
+    background: #333 url(../images/dot.png);
+}
+
+.full-width { width: 100% !important; }
+
+.bg-cover {
+    background-color: transparent;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

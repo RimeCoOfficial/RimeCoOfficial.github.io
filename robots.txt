@@ -2,7 +2,7 @@
 ---
 
 # You know, for robots
-# http://www.robotstxt.org
+# https://www.robotstxt.org
 # 
 # robots@rime.co
 

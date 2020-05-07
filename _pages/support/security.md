@@ -49,7 +49,7 @@
 <p>We have full time security staff to help identify and prevent new attack vectors. We always test new features in order to rule out potential attacks, such as XSS-protecting wikis, and ensuring that Pages cannot access cookies.</p>
 
 <!-- <h4>Credit card safety</h4>
-<p>When you sign up for a paid account on Rime, we do not store any of your card information on our servers. It's handed off to <a href="http://braintreepaymentsolutions.com">Braintree Payment Solutions</a>, a company dedicated to storing your sensitive data on <a href="http://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard">PCI-Compliant</a> servers.</p> -->
+<p>When you sign up for a paid account on Rime, we do not store any of your card information on our servers. It's handed off to <a href="https://braintreepaymentsolutions.com">Braintree Payment Solutions</a>, a company dedicated to storing your sensitive data on <a href="https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard">PCI-Compliant</a> servers.</p> -->
 
 <h4>Contact Us</h4>
 <p>Have a question, concern, or comment about Rime security? Please email <?php echo mailto('support@rime.co.</p>

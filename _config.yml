@@ -36,7 +36,7 @@ defaults:
       sitemap:         false
       
 # jekyll-seo-tag
-title:            Rime.co
+title:            Rime
 tagline:          'Build Business with AI Powered Blog'
 description:      'Introducing Arya, your personal blog manager.
   Business Focused - A weblog which connects your different content stream and bring (sync) all your posts in one place. Currently Rime support 11 services.

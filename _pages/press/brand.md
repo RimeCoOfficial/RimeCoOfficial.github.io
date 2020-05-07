@@ -16,7 +16,7 @@ UTF-8: E2 9C B1
 
 <h3>Typeface: Nexa Bold 80% Opacity</h3>
 
-<p><a href="http://www.fontfabric.com/nexa-free-font/">Nexa Bold</a></p>
+<p><a href="https://www.fontfabric.com/nexa-free-font/">Nexa Bold</a></p>
 
 <img class="full-width" src="{{site.baseurl}}/assets/images/design_logo.png">
 

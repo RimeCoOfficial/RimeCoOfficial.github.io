@@ -36,6 +36,6 @@
 
 <br>
 
-<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="mailto:founders@rime.co?subject=Full Stack Programmer&amp;body=Hi founders, I am [full_name] (http://rime.co/@[username]) I wanna be a Full Stack Programmer. I have attached my resume.)" style="width: 175px; margin-bottom: 10px;">
+<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="mailto:founders@rime.co?subject=Full Stack Programmer&amp;body=Hi founders, I am [full_name] (https://rime.co/@[username]) I wanna be a Full Stack Programmer. I have attached my resume.)" style="width: 175px; margin-bottom: 10px;">
     Apply
 </a>

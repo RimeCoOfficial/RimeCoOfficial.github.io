@@ -14,21 +14,21 @@ $articles = [
         'Edmund',
         'Haggerston Times',
         'Sep 3, 2015',
-        'http://www.haggerston-times.com/rime-is-a-desktop-app-from-2-indian-Founders-that-allows-you-to-display-all-of-your-social-media-content-in-one-place'
+        'https://www.haggerston-times.com/rime-is-a-desktop-app-from-2-indian-Founders-that-allows-you-to-display-all-of-your-social-media-content-in-one-place'
     ],
     [
         'Research assistants from IIT Bombay start a social media startup',
         'YS Team',
         'YourStory',
         'Feb 20, 2015',
-        'http://yourstory.com/2015/02/rime-social-media'
+        'https://yourstory.com/2015/02/rime-social-media'
     ],
     [
         'Indian Startup Opportunities',
         'Ravi Vooda',
         'Mafianz',
         'Apr 16, 2014',
-        'http://www.mafianz.com/blog/philosophy/indian-startup-opportunities'
+        'https://www.mafianz.com/blog/philosophy/indian-startup-opportunities'
     ],
 ];
 

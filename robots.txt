@@ -1,3 +1,6 @@
+---
+---
+
 # You know, for robots
 # http://www.robotstxt.org
 # 
@@ -12,4 +15,4 @@ Disallow: /weblog/*/search/*
 ## Wait 1 second between successive requests.
 # Crawl-delay: 1
 
-Sitemap: https://rime.co/sitemap.xml
+Sitemap: {{site.baseurl}}/sitemap.xml

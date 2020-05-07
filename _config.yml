@@ -1,13 +1,16 @@
+theme_color:      DA2E75
+
 # Where things are
 sass:
   style: compact # possible values: nested expanded compact compressed
+
 collections:
   posts:
-    output: true
-    permalink: /:collection/:name
+    output:       true
+    permalink:    /:collection/:name
   pages:
-    output:    true
-    permalink: /:path
+    output:       true
+    permalink:    /:path      
 
 # Plugins
 plugins:
@@ -25,6 +28,13 @@ defaults:
     values:
       layout:     default
 
+# jekyll-sitemap
+defaults:
+  - scope:
+      path:            "assets/*"
+    values:
+      sitemap:         false
+      
 # jekyll-seo-tag
 title:            Rime.co
 tagline:          'Build Business with AI Powered Blog'
@@ -32,8 +42,12 @@ description:      'Introducing Arya, your personal blog manager.
   Business Focused - A weblog which connects your different content stream and bring (sync) all your posts in one place. Currently Rime support 11 services.
   Saves time - Our platform organizes your posts into collection and topics. Rime optimizes your weblog for search engines with updated standards. SEO includes meta tags, schema and AMP.
   Builds audience - Host the weblog on your custom domain which defines you completely. From top stories to latest posts, life events to places, everything in one place.'
-baseurl:          /RhymeTek
-# color:            DA2E75
+image:
+  path:           /assets/images/logo-share.png
+  height:         500
+  width:          500
+# author:           Rhyme Tek.
+lang: en_UK
 twitter:
   username:       rimeofficial
   card:           summary
@@ -42,12 +56,6 @@ facebook:
   publisher:      297545803726080
   admins:         suvozit
 logo:             /assets/images/logo-share.png
-author:           Rhyme Tek.
-image:
-  twitter:        /assets/images/logo-share.png
-  facebook:       /assets/images/logo-share.png
-  height:         500
-  width:          500
 social:
   name: Rhyme Tek.
   links:
@@ -58,8 +66,3 @@ social:
     - https://keybase.io/RhymeTek
 webmaster_verifications:
   google: KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU
-  bing: 1234
-  alexa: 1234
-  yandex: 1234
-  baidu: 1234
-lang: en_UK

@@ -1,0 +1,15 @@
+# You know, for robots
+# http://www.robotstxt.org
+# 
+# robots@rime.co
+
+User-Agent: *
+Disallow: /action/*
+Disallow: /api/*
+Disallow: /test/*
+Disallow: /weblog/*/search/*
+
+## Wait 1 second between successive requests.
+# Crawl-delay: 1
+
+Sitemap: https://rime.co/sitemap.xml

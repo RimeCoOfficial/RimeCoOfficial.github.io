@@ -1,0 +1,37 @@
+
+<div class="infinite-pagination">
+    <a href="{{site.baseurl}}/$next_id" class="infinite-next-link">More</a>
+</div>
+
+<!-- <div class="ias-trigger ias-trigger-prev"><a style="display: none;">Load previous items</a></div> -->
+
+<script src="{{site.baseurl}}/assets/third-party/plugins/webcreate/infinite-ajax-scroll/2.2.1/jquery-ias.min.js"></script>
+
+<script type="text/javascript">
+    var ias = $.ias({
+        container:  '.infinite-container',
+        item:       '.infinite-item',
+        pagination: '.infinite-pagination',
+        next:       '.infinite-next-link',
+        delay:      100,
+    }).on('rendered', function() {
+        <?php if (!empty($emojifyInit)) { ?> emojifyInit(); <?php } ?>
+    });
+
+    // Adds a link which has to be clicked to load the next page
+    <?php
+    if (!empty($show_trigger))
+    {
+        ?>
+        ias.extension(new IASTriggerExtension({ text: 'Load more' }));
+        <?php
+    }
+    ?>
+
+    // The History extension adds history support.
+    ias.extension(new IASPagingExtension());
+    ias.extension(new IASHistoryExtension({ prev: '.prev a' }));
+
+    // Adds a loader image which is displayed during loading
+    ias.extension(new IASSpinnerExtension({src: '{{site.baseurl}}/assets/images/wait-bar.gif'}));
+</script>

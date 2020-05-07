@@ -1,0 +1,124 @@
+
+<div class="demo-layout-dashboard mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-200">
+    <header class="mdl-layout__header mdl-color--white">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">
+                <!-- <a href="{{site.baseurl}}/"> -->
+                    <img src="{{site.baseurl}}/assets/images/logotype.svg" height=25 alt="Rime">
+                <!-- </a> -->
+            </span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            
+            <!-- Navigation -->
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{site.baseurl}}/settings">Settings</a>
+
+                <a class="mdl-navigation__link mdl-layout--small-screen-only" href="{{site.baseurl}}/settings">
+                    <i class="material-icons">settings</i>
+                </a>
+                <!-- <a class="mdl-navigation__link" href="{{site.baseurl}}/search"><i class="material-icons">search</i></a> -->
+
+                <a class="mdl-navigation__link" href="{{site.baseurl}}/@'.$logged_in_user['username']">
+                    <img class="bg-cover img-circle"
+                        style="background-image: url(<?php echo $logged_in_user['profile_image_url']; ?>)"
+                        height="39px"
+                        src="{{site.baseurl}}/assets/images/blank.png"
+                        alt="<?php echo $logged_in_user['username']; ?>">
+                </a>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="mdl-layout__content">
+        <div class="mdl-grid">
+
+            <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--4-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+
+                <h1 class="mdl-typography--font-light mdl-color-text--grey-600">
+                    Hello <?php echo $logged_in_user['username']; ?>,
+                </h1>
+
+                <p class="mdl-color-text--grey-600">
+                    We would love to hear your thoughts so we can improve your Rime experience.
+
+                    <a href="https://docs.google.com/forms/d/15T8c86v5_QmD887jpHBNLB4teRxHfM_0479QDb_pkV8">Feedback</a>
+                </p>
+            </div>
+
+            <!-- Thw Weblog -->
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card portfolio-blog-card-compact">
+                <div class="mdl-card__media">
+                    <img class="article-image img-fluid" src="{{site.baseurl}}/assets/third-party/material.io/rss_feed.png">
+                </div>
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">The Weblog</h2>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{site.baseurl}}/customize">
+                        Customize
+                    </a>
+                </div>
+                <div class="mdl-card__menu">
+                    <a class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="<?php echo weblog_url($logged_in_user, $weblog" target="_blank">
+                        <i class="material-icons">open_in_new</i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service -->
+
+            <div class="demo-card-event mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card mdl-color-text--white">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h4 class="mdl-card__title-text mdl-color-text--white">
+                      Last sync<br>
+                      <?php echo date('M j, Y', strtotime($service['last_sync'])<br>
+                      <?php echo date('H.ma', strtotime($service['last_sync'])
+                    </h4>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white" href="{{site.baseurl}}/service">
+                        Connect
+                    </a>
+                    <div class="mdl-layout-spacer"></div>
+
+                    <i class="material-icons">
+                        <?php
+                        switch ($service['status'])
+                        {
+                            case '0':
+                            case '200': echo 'check';   break;
+                            default:    echo 'error';   break;
+                        }
+                        ?>
+                    </i>
+                </div>
+            </div>
+
+            <!-- Invite -->
+
+            <!-- <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card portfolio-blog-card-compact">
+                <div class="mdl-card__media">
+                    <img class="article-image img-fluid" src="{{site.baseurl}}/assets/images/invite.png">
+                </div>
+                <div class="mdl-card__title ">
+                    <h2 class="mdl-card__title-text">We'd love your feedback</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    We would love to hear your thoughts so we can improve your Rime experience
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://docs.google.com/forms/d/15T8c86v5_QmD887jpHBNLB4teRxHfM_0479QDb_pkV8" target="_blank">
+                        Feedback
+                    </a>
+                </div>
+            </div> -->
+
+        </div>
+    </main>
+</div>
+
+<div class="mdl-tooltip mdl-tooltip--large mdl-tooltip--left" for="edit">Settings</div>
+<div class="mdl-tooltip mdl-tooltip--large mdl-tooltip--left" for="palette">Customize</div>

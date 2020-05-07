@@ -3,4 +3,10 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .DS_Store
-*.sublime-project
+
+.bundle
+*.gem
+Gemfile.lock
+spec/dest
+spec/*fixtures/**/.jekyll-cache
+vendor/bundle

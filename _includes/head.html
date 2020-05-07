@@ -1,0 +1,40 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% assign title = site.title %}
+    {% if page.title != site.title %}
+    {% assign title = page.title + ' - ' + site.title %}
+    {% endif %}
+    <title>{{title}} - {{site.title}}</title>
+    
+    <!-- SEO -->
+
+    <!-- 
+    Choose color scheme
+
+    Color schemes used in Material Design are based on a primary and an accent colors which you may want to personalize. These colors are specified in the CSS file name by following this pattern: material.{primary}-{accent}.min.css (e.g. material.indigo-pink.min.css). Our CDN hosts a number of color combinations based on common Material Design colors. To discover and preview available color combinations use our Customize and Preview tool.
+    -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-deep_purple.min.css" /> -->
+    <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" /> -->
+    <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-indigo.min.css" /> -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
+    <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.purple-pink.min.css" /> -->
+
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/third-party/fontello-5089ef83/css/fontello.css">
+    <!--[if lt IE 7]>
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/third-party/fontello-5089ef83/css/fontello-ie7.css">
+    <![endif]-->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/stylesheets/material.min.css">
+
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <link rel="icon" href="{{site.baseurl}}/favicon.ico" type="image/ico">
+
+    <link rel="search" href="{{site.baseurl}}/opensearch.xml" title="Search" type="application/opensearchdescription+xml">
+</head>

@@ -1,0 +1,18 @@
+
+<script type="text/javascript">
+    $(document).on('click', '.service-popup', function(e) {
+        var $this = $(this)
+        if ($this.is('a')) e.preventDefault();
+
+        var $btn = $this;
+
+        var oAuthURL = $btn.attr('href');
+        win = window.open(oAuthURL, '_blank', 'modal=yes,alwaysRaised=yes');
+
+        checkConnect = setInterval(function() {
+            if (!win || !win.closed) return;
+            clearInterval(checkConnect);
+            window.location.reload();
+        }, 100);
+    });
+</script>

@@ -1,3 +1,7 @@
+---
+title: Security
+layout: support
+---
 
 <h1 class="mdl-typography--font-light">Security</h1>
 

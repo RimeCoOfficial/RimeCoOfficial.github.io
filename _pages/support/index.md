@@ -1,3 +1,7 @@
+---
+title: Support
+layout: support
+---
 
 <h1 class="mdl-typography--font-light">Support</h1>
 

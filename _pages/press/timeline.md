@@ -1,3 +1,7 @@
+---
+title: Timeline
+layout: press
+---
 
 <h1 class="mdl-typography--font-light">Timeline</h1>
 

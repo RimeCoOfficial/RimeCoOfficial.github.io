@@ -1,3 +1,7 @@
+---
+title: Plans
+layout: plans
+---
 
 <h1 class="mdl-typography--font-light">Pricing</h1>
 

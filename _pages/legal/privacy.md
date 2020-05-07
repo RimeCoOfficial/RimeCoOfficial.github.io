@@ -1,3 +1,7 @@
+---
+title: Privacy Policy
+layout: legal
+---
 
 <h1 class="mdl-typography--font-light mdl-typography--display-2">Privacy Policy</h1>
 

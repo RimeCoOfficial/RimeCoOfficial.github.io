@@ -1,3 +1,7 @@
+---
+title: Legal
+layout: legal
+---
 
 <h1 class="mdl-typography--font-light mdl-typography--display-2">Overview</h1>
 

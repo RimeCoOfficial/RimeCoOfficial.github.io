@@ -1,3 +1,7 @@
+---
+title: Features
+layout: features
+---
 
 <h1 class="mdl-typography--font-light">Features</h1>
 

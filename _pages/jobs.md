@@ -1,3 +1,7 @@
+---
+title: Jobs
+layout: jobs
+---
 
 <h1 class="mdl-typography--font-light">Jobs</h1>
 

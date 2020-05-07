@@ -1,3 +1,7 @@
+---
+title: Refund
+layout: plans
+---
 
 <h1 class="mdl-typography--font-light">Refund Policy</h1>
 

@@ -1,3 +1,7 @@
+---
+title: Libraries
+layout: support
+---
 
 <h1 class="mdl-typography--font-light">Libraries Used</h1>
 

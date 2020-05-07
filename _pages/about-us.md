@@ -48,7 +48,7 @@ layout: about
         </h3>
         <p>
             <strong>CEO and Founder</strong>
-            Founder of <a href="https://bitsits.com">BitSits Games</a> (started 2009), won Intel Level up 2011 and several other national level techfests. Graduate from <a href="https://www.becs.ac.in/">Bengal Engineering and Science University, Shibpur</a> (B.E., Civil Engineering). Worked at <a href="https://www.ubisoft.com/en-US/studio/pune.aspx">Ubisoft</a>, India on FarCry (CryEngine).
+            Founder of <a href="https://www.bitsits.games">Bitsits Games</a> (started 2009), won Intel Level up 2011 and several other national level techfests. Graduate from <a href="https://www.iiests.ac.in">IIEST, Shibpur</a> (B.E., Civil). Worked at <a href="https://www.ubisoft.com/en-US/studio/pune.aspx">Ubisoft</a>, India on FarCry Classics XBOX PS3.
         </p>
         <p>
             <a href="mailto:suvozit@rime.co">suvozit@rime.co</a>
@@ -65,7 +65,7 @@ layout: about
         </h3>
         <p>
             <strong>Co-Founder and Marketing Lead</strong>
-            Graduate of <a href="https://www.nitrr.ac.in/">NIT Raipur</a> (B.Tech Electronic and Communications) and <a href="https://www.iitb.ac.in/">IIT Bombay</a> (M.Tech Electrical Engineering). Worked as a Verification Engineer in <a href="https://www-07.ibm.com/in/isl/">IBM-ISL</a> Bangalore.</p>
+            Graduate of <a href="https://www.nitrr.ac.in/">NIT Raipur</a> (B.Tech Electronics) and <a href="https://www.iitb.ac.in/">IIT Bombay</a> (M.Tech Electrical). Worked as a Verification Engineer in <a href="https://www-07.ibm.com/in/isl/">IBM-ISL</a> Bangalore.</p>
         <p>
             <a href="mailto:girish@rime.co">girish@rime.co</a>
         </p>

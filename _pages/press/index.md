@@ -1,3 +1,7 @@
+---
+title: Press
+layout: press
+---
 
 <h1 class="mdl-typography--font-light">Press Releases</h1>
 

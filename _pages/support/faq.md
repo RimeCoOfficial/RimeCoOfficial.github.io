@@ -1,3 +1,7 @@
+---
+title: FAQ
+layout: support
+---
 
 <h1 class="mdl-typography--font-light">FAQ</h1>
 

@@ -1,3 +1,7 @@
+---
+title: Brand
+layout: press
+---
 
 <h1 class="mdl-typography--font-light">Brand</h1>
 

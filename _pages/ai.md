@@ -1,3 +1,7 @@
+---
+title: Arya
+layout: ai
+---
 
 <h1 class="mdl-typography--font-light mdl-typography--display-2">Bot</h1>
 

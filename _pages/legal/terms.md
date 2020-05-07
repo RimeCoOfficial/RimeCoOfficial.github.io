@@ -1,3 +1,7 @@
+---
+title: Terms of Service
+layout: legal
+---
 
 <h1 class="mdl-typography--font-light mdl-typography--display-2">Terms of Service</h1>
 

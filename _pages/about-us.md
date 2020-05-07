@@ -1,3 +1,8 @@
+---
+title: About Us
+permalink: about/us
+layout: about
+---
 
 <div class="founder-image mdl-grid mdl-color--white">
     <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
@@ -46,7 +51,7 @@
             Founder of <a href="https://bitsits.com">BitSits Games</a> (started 2009), won Intel Level up 2011 and several other national level techfests. Graduate from <a href="https://www.becs.ac.in/">Bengal Engineering and Science University, Shibpur</a> (B.E., Civil Engineering). Worked at <a href="https://www.ubisoft.com/en-US/studio/pune.aspx">Ubisoft</a>, India on FarCry (CryEngine).
         </p>
         <p>
-            <?php echo mailto('suvozit@rime.co
+            <a href="mailto:suvozit@rime.co">suvozit@rime.co</a>
         </p>
 
         <h3 class="">
@@ -62,7 +67,7 @@
             <strong>Co-Founder and Marketing Lead</strong>
             Graduate of <a href="https://www.nitrr.ac.in/">NIT Raipur</a> (B.Tech Electronic and Communications) and <a href="https://www.iitb.ac.in/">IIT Bombay</a> (M.Tech Electrical Engineering). Worked as a Verification Engineer in <a href="https://www-07.ibm.com/in/isl/">IBM-ISL</a> Bangalore.</p>
         <p>
-            <?php echo mailto('girish@rime.co
+            <a href="mailto:girish@rime.co">girish@rime.co</a>
         </p>
 
         <hr>
@@ -73,8 +78,7 @@
             Mumbai, MH 400076. IN
         </address>
         <p>
-            <?php echo mailto('support@rime.co<br>
-            +91-9970186882
+            <a href="mailto:support@rime.co">support@rime.co</a>
         </p>
 
     </div>

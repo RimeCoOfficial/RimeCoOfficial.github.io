@@ -45,13 +45,14 @@
 
                             <div class="mdl-card mdl-cell mdl-cell--5-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone">
                                 <div class="mdl-card__media">
+                                    <img id="random-img" src="#" width="100%" />
 
-                                    {% assign min = 1 %}
-                                    {% assign max = 9 %}
-                                    {% assign diff = max | minus: min %}
-                                    {% assign random_number = "now" | date: "%M" | modulo: diff | plus: min %}
-                                    
-                                    <img src="{{site.baseurl}}/assets/third-party/giphy.com/animated-typography-franchise/error-{{random_number}}.gif" width="100%">
+                                    <script>
+                                        $random_number = Math.floor(Math.random() * 9) + 1;  // returns a random integer from 1 to 9
+                                        document.getElementById("random-img").setAttribute(
+                                            'src', 
+                                            '{{site.baseurl}}/assets/third-party/giphy.com/animated-typography-franchise/error-' + $random_number + '.gif')
+                                    </script>
                                 </div>
                             </div>
 

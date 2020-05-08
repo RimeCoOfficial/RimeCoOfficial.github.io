@@ -1,0 +1,24 @@
+list:
+  - name: "Shubhajit Saha"
+    username: suvozit
+    hash: e57d108fcdc4698ddd09ca11024118e3
+    bio: "CEO & Founder"
+    avatar: user/suvozit.jpg
+    social:
+      - facebook_id:  suvozit
+      - google_id:    suvozit
+      - linkedin_id:  suvozit
+    password_hash: b18ad4f0d72e53791faba82533f4ab101447d11b1a36bd3923c4072363d48640
+    email: suvozit@rime.co
+
+  - name: "Girish Nayak"
+    username: girish
+    hash: dabe0d16e465745eb3108c9598d07860
+    bio: "Co-Founder & Marketing Lead"
+    avatar: user/girish.jpg
+    social:
+      - facebook_id:  girishnayak12
+      - google_id:    girishnayak12
+      - linkedin_id:  girishnayak12
+    password_hash: c728bd3ff8a0428877af72530d91d560f2f8c5e96c9dea36b17d344dc4971023
+    email: girish@rime.co

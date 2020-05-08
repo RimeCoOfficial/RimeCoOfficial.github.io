@@ -10,10 +10,10 @@ All the power you need at a fraction of the cost. Read our <a href="{{ site.base
 <!-- Square card -->
 <style>
 .demo-card-square.mdl-card {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 400px;
   margin-right: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 .demo-card-square > .mdl-card__title {
   background:

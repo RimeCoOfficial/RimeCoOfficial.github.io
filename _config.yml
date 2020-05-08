@@ -10,7 +10,10 @@ collections:
     permalink:    /:collection/:name
   pages:
     output:       true
-    permalink:    /:path      
+    permalink:    /:path
+  newsletters:
+    output:       true
+    permalink:    /newsletters/:path
 
 # Plugins
 plugins:
@@ -46,7 +49,7 @@ image:
   path:           /assets/images/logo-share.png
   height:         500
   width:          500
-# author:           Rhyme Tek.
+author:           Rhyme Tek.
 lang: en_UK
 twitter:
   username:       rimeofficial

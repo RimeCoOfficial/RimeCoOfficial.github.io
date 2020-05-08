@@ -1,11 +1,11 @@
-- message: 'It takes a lot of time, knowledge and money to create a website'
+- message: 'It takes a lot of time, knowledge <br>and money to create a website ???'
   action: 'I agree'
   link: 'intro/how'
 
-- message: 'Our AI will help you to create a website from the content that defines you'
+- message: 'Our AI will help you to create a website <br>from the content that defines you !!!'
   action: 'I am curious'
   link: 'intro/what'
   
-- message: 'Welcome to the whole new concept of creating your online persona'
+- message: 'Welcome to the whole new concept <br>of creating your online persona ...'
   action: 'Sign In'
   link: 'auth/sign-in'

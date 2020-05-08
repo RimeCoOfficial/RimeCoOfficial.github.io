@@ -14,7 +14,7 @@ layout: support
             </span>
         </span>
         <span class="mdl-list__item-secondary-content">
-            <a class="mdl-list__item-secondary-action" href="{{site.baseurl}}/support/faq"><i class="material-icons">arrow_forward</i></a>
+            <a class="mdl-list__item-secondary-action" href="{{ site.baseurl }}/support/faq"><i class="material-icons">arrow_forward</i></a>
         </span>
     </div>
     <div class="mdl-list__item mdl-list__item--two-line">
@@ -25,7 +25,7 @@ layout: support
             </span>
         </span>
         <span class="mdl-list__item-secondary-content">
-            <a class="mdl-list__item-secondary-action" href="{{site.baseurl}}/support/libraries"><i class="material-icons">arrow_forward</i></a>
+            <a class="mdl-list__item-secondary-action" href="{{ site.baseurl }}/support/libraries"><i class="material-icons">arrow_forward</i></a>
         </span>
     </div>
     <div class="mdl-list__item mdl-list__item--two-line">
@@ -36,7 +36,7 @@ layout: support
             </span>
         </span>
         <span class="mdl-list__item-secondary-content">
-            <a class="mdl-list__item-secondary-action" href="{{site.baseurl}}/support/security"><i class="material-icons">arrow_forward</i></a>
+            <a class="mdl-list__item-secondary-action" href="{{ site.baseurl }}/support/security"><i class="material-icons">arrow_forward</i></a>
         </span>
     </div>
 </div>

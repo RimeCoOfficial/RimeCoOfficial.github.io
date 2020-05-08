@@ -7,7 +7,7 @@ layout: support
 
 <p>This is a short list of our most frequently asked questions. For more information
 about Rime, or if you need support, please email our
-support <?php echo mailto('support@rime.co.</p>
+support <a href="mailto:support@rime.co">support@rime.co</a>.</p>
 
 <style type="text/css">
     .docs-toc ul {
@@ -62,7 +62,7 @@ which are:
 </ol>
 
 <p>We will also support RSS feed, which is currently in development. Subscribe to our
-<?php echo anchor('settings/notifications', 'Announcement mails and we will
+<a href="settings/notifications">Announcement</a> emails and we will
 let you know when its ready.</p>
 
 <h4 id="does-rime-save-my-services-password">Does Rime save my service's password?</h4>

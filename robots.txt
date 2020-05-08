@@ -15,4 +15,4 @@ Disallow: /weblog/*/search/*
 ## Wait 1 second between successive requests.
 # Crawl-delay: 1
 
-Sitemap: {{site.baseurl}}/sitemap.xml
+Sitemap: {{ site.baseurl }}/sitemap.xml

@@ -9,7 +9,7 @@ layout: legal
 
 <p>Explains what information we collect and why, how we use it, and how to review and update it.</p>
 
-<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="{{site.baseurl}}/legal/privacy" style="width: 250px; margin-bottom: 10px;">
+<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="{{ site.baseurl }}/legal/privacy" style="width: 250px; margin-bottom: 10px;">
     Read our Privacy Policy
 </a>
 
@@ -17,6 +17,6 @@ layout: legal
 
 <p>Describes the rules you agree to when using our services.</p>
 
-<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="{{site.baseurl}}/legal/terms" style="width: 250px; margin-bottom: 10px;">
+<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="{{ site.baseurl }}/legal/terms" style="width: 250px; margin-bottom: 10px;">
     Read our Terms of Service
 </a>

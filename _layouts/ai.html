@@ -7,7 +7,7 @@ layout: default
         <div class="mdl-layout__header-row">
             <!-- Title -->
             <span class="mdl-layout-title">
-                <img src="{{site.baseurl}}/assets/images/logotype.svg" height=25 alt="Rime">
+                <img src="{{ site.baseurl }}/assets/images/logotype.svg" height=25 alt="Rime">
             </span>
             <!-- Add spacer, to align navigation to the right -->
             <div class="mdl-layout-spacer"></div>
@@ -17,11 +17,11 @@ layout: default
                 if (!empty($logged_in_user))
                 {
                     ?>
-                    <a class="mdl-navigation__link" href="{{site.baseurl}}/@'.$logged_in_user['username']">
+                    <a class="mdl-navigation__link" href="{{ site.baseurl }}/@'.$logged_in_user['username']">
                         <img class="bg-cover img-circle"
                             style="background-image: url(<?php echo $logged_in_user['profile_image_url']; ?>)"
                             height="39px"
-                            src="{{site.baseurl}}/assets/images/blank.png"
+                            src="{{ site.baseurl }}/assets/images/blank.png"
                             alt="<?php echo $logged_in_user['username']; ?>">
                     </a>
                     <?php
@@ -29,7 +29,7 @@ layout: default
                 else
                 {
                     ?>
-                    <a class="mdl-navigation__link" href="{{site.baseurl}}/auth/sign-in">
+                    <a class="mdl-navigation__link" href="{{ site.baseurl }}/auth/sign-in">
                         <span class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                             Sign in
                         </span>

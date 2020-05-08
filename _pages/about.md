@@ -5,7 +5,7 @@ layout: about
 
 <div class="mdl-grid mdl-color--black">
     <div class="mdl-cell mdl-cell--4-offset-desktop mdl-cell--4-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-        <img src="{{site.baseurl}}/assets/third-party/giphy.com/art-artist-on-tumblr-delirium-lab-3o85xpJDoAcPrVIeOs-downsized.gif" alt="both" style="max-width: 100%;">
+        <img src="{{ site.baseurl }}/assets/third-party/giphy.com/art-artist-on-tumblr-delirium-lab-3o85xpJDoAcPrVIeOs-downsized.gif" alt="both" style="max-width: 100%;">
     </div>
 </div>
 <div class="mdl-grid">
@@ -28,7 +28,7 @@ layout: about
             Startups and companies can use this Weblog on their website to inform their visitor about their activities on the web. It helps them to build better SEO for their company without spending time and money on technology. 
         </p>
 
-        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="{{site.baseurl}}/about/us" style="width: 175px; margin-bottom: 10px;">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="{{ site.baseurl }}/about/us" style="width: 175px; margin-bottom: 10px;">
             Our story
         </a>
     </div>

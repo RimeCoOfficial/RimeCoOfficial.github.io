@@ -7,8 +7,8 @@ layout: default
         <div class="mdl-layout__header-row">
             <!-- Title -->
             <span class="mdl-layout-title">
-                <!-- <a href="{{site.baseurl}}/"> -->
-                    <img src="{{site.baseurl}}/assets/images/logotype.svg" height=25 alt="Rime">
+                <!-- <a href="{{ site.baseurl }}/"> -->
+                    <img src="{{ site.baseurl }}/assets/images/logotype.svg" height=25 alt="Rime">
                 <!-- </a> -->
             </span>
             <!-- Add spacer, to align navigation to the right -->
@@ -16,18 +16,18 @@ layout: default
             
             <!-- Navigation -->
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{site.baseurl}}/settings">Settings</a>
+                <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{ site.baseurl }}/settings">Settings</a>
 
-                <a class="mdl-navigation__link mdl-layout--small-screen-only" href="{{site.baseurl}}/settings">
+                <a class="mdl-navigation__link mdl-layout--small-screen-only" href="{{ site.baseurl }}/settings">
                     <i class="material-icons">settings</i>
                 </a>
-                <!-- <a class="mdl-navigation__link" href="{{site.baseurl}}/search"><i class="material-icons">search</i></a> -->
+                <!-- <a class="mdl-navigation__link" href="{{ site.baseurl }}/search"><i class="material-icons">search</i></a> -->
 
-                <a class="mdl-navigation__link" href="{{site.baseurl}}/@'.$logged_in_user['username']">
+                <a class="mdl-navigation__link" href="{{ site.baseurl }}/@'.$logged_in_user['username']">
                     <img class="bg-cover img-circle"
                         style="background-image: url(<?php echo $logged_in_user['profile_image_url']; ?>)"
                         height="39px"
-                        src="{{site.baseurl}}/assets/images/blank.png"
+                        src="{{ site.baseurl }}/assets/images/blank.png"
                         alt="<?php echo $logged_in_user['username']; ?>">
                 </a>
             </nav>
@@ -54,13 +54,13 @@ layout: default
 
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card portfolio-blog-card-compact">
                 <div class="mdl-card__media">
-                    <img class="article-image img-fluid" src="{{site.baseurl}}/assets/third-party/material.io/rss_feed.png">
+                    <img class="article-image img-fluid" src="{{ site.baseurl }}/assets/third-party/material.io/rss_feed.png">
                 </div>
                 <div class="mdl-card__title">
                     <h2 class="mdl-card__title-text">The Weblog</h2>
                 </div>
                 <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{site.baseurl}}/customize">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ site.baseurl }}/customize">
                         Customize
                     </a>
                 </div>
@@ -82,7 +82,7 @@ layout: default
                     </h4>
                 </div>
                 <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white" href="{{site.baseurl}}/service">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white" href="{{ site.baseurl }}/service">
                         Connect
                     </a>
                     <div class="mdl-layout-spacer"></div>
@@ -104,7 +104,7 @@ layout: default
 
             <!-- <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card portfolio-blog-card-compact">
                 <div class="mdl-card__media">
-                    <img class="article-image img-fluid" src="{{site.baseurl}}/assets/images/invite.png">
+                    <img class="article-image img-fluid" src="{{ site.baseurl }}/assets/images/invite.png">
                 </div>
                 <div class="mdl-card__title ">
                     <h2 class="mdl-card__title-text">We'd love your feedback</h2>

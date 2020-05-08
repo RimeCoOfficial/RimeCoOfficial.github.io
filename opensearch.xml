@@ -7,9 +7,9 @@
   <Description>Search for world's information and people on Rime</Description>
   <Tags>Rime Social Network article photo video blog microblog text message image post sound file words friends rss</Tags>
   <Image width="16" height="16" type="image/x-icon">
-    {{site.baseurl}}/favicon.ico
+    {{ site.baseurl }}/favicon.ico
   </Image>
-  <Url method="GET" type="text/html" template="{{site.baseurl}}/search?q={searchTerms}"/>
-  <Url method="GET" type="application/x-suggestions+json" template="{{site.baseurl}}/search/suggestions.js?q={searchTerms}"/>
-  <moz:SearchForm>{{site.baseurl}}/search</moz:SearchForm>
+  <Url method="GET" type="text/html" template="{{ site.baseurl }}/search?q={searchTerms}"/>
+  <Url method="GET" type="application/x-suggestions+json" template="{{ site.baseurl }}/search/suggestions.js?q={searchTerms}"/>
+  <moz:SearchForm>{{ site.baseurl }}/search</moz:SearchForm>
 </OpenSearchDescription>

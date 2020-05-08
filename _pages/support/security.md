@@ -56,4 +56,4 @@ layout: support
 <p>When you sign up for a paid account on Rime, we do not store any of your card information on our servers. It's handed off to <a href="https://braintreepaymentsolutions.com">Braintree Payment Solutions</a>, a company dedicated to storing your sensitive data on <a href="https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard">PCI-Compliant</a> servers.</p> -->
 
 <h4>Contact Us</h4>
-<p>Have a question, concern, or comment about Rime security? Please email <?php echo mailto('support@rime.co.</p>
+<p>Have a question, concern, or comment about Rime security? Please email <a href="mailto:support@rime.co">support@rime.co</a>.</p>

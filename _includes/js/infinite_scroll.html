@@ -1,11 +1,11 @@
 
 <div class="infinite-pagination">
-    <a href="{{site.baseurl}}/$next_id" class="infinite-next-link">More</a>
+    <a href="{{ site.baseurl }}/$next_id" class="infinite-next-link">More</a>
 </div>
 
 <!-- <div class="ias-trigger ias-trigger-prev"><a style="display: none;">Load previous items</a></div> -->
 
-<script src="{{site.baseurl}}/assets/third-party/plugins/webcreate/infinite-ajax-scroll/2.2.1/jquery-ias.min.js"></script>
+<script src="{{ site.baseurl }}/assets/third-party/plugins/webcreate/infinite-ajax-scroll/2.2.1/jquery-ias.min.js"></script>
 
 <script type="text/javascript">
     var ias = $.ias({
@@ -33,5 +33,5 @@
     ias.extension(new IASHistoryExtension({ prev: '.prev a' }));
 
     // Adds a loader image which is displayed during loading
-    ias.extension(new IASSpinnerExtension({src: '{{site.baseurl}}/assets/images/wait-bar.gif'}));
+    ias.extension(new IASSpinnerExtension({src: '{{ site.baseurl }}/assets/images/wait-bar.gif'}));
 </script>

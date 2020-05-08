@@ -27,13 +27,13 @@ All the power you need at a fraction of the cost. Read our <a href="{{ site.base
     </div>
     <div class="mdl-card__supporting-text">
         Monthly subscription pack includes: 
-        additional per 1 GB storage
+        1 GB storage
         + 5 GB free bandwidth
         + 10 Websites.
     </div>
     <div class="mdl-card__actions mdl-card--border">
         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ site.baseurl }}/auth/sign-in">
-            0.99 USD
+            ₹ 99.99
         </a>
     </div>
 </div>
@@ -44,13 +44,13 @@ All the power you need at a fraction of the cost. Read our <a href="{{ site.base
     </div>
     <div class="mdl-card__supporting-text">
         Monthly subscription pack includes: 
-        additional 10 GB storage
-        + 100 Websites
-        + 50 GB free bandwidth.
+        10 GB storage
+        + 50 GB free bandwidth
+        + 100 Websites.
     </div>
     <div class="mdl-card__actions mdl-card--border">
         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ site.baseurl }}/auth/sign-in">
-            9.99 USD
+            ₹ 999.99
         </a>
     </div>
 </div>

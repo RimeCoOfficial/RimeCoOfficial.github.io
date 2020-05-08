@@ -10,10 +10,10 @@ All the power you need at a fraction of the cost. Read our <a href="{{ site.base
 <!-- Square card -->
 <style>
 .demo-card-square.mdl-card {
-  width: 300px;
+  width: 280px;
   height: 400px;
-  margin-right: 50px;
-  margin-bottom: 25px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 .demo-card-square > .mdl-card__title {
   background:
@@ -32,7 +32,7 @@ All the power you need at a fraction of the cost. Read our <a href="{{ site.base
         + 10 Websites.
     </div>
     <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ site.baseurl }}/auth/sign-in">
+        <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="{{ site.baseurl }}/auth/sign-in">
             ₹ 99.99
         </a>
     </div>
@@ -49,7 +49,7 @@ All the power you need at a fraction of the cost. Read our <a href="{{ site.base
         + 100 Websites.
     </div>
     <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ site.baseurl }}/auth/sign-in">
+        <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="{{ site.baseurl }}/auth/sign-in">
             ₹ 999.99
         </a>
     </div>

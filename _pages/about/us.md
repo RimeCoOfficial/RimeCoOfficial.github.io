@@ -1,6 +1,5 @@
 ---
 title: About Us
-permalink: about/us
 layout: about
 ---
 

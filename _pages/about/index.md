@@ -21,7 +21,7 @@ layout: about
         </p>
 
         <p>
-            Rime is an AI-based personal website building platform, helps you to collect posts from multiple social networking services, such as Instagram, Tumblr, Flickr, LinkedIn, Vimeo, Youtube, facebook etc into one simple, intelligent and beautiful page. It's an online diary for your internet life, your personal World Wide Web.
+            Rime is an AI-based personal website building platform, helps you to collect posts from multiple social networking services, such as Instagram, Tumblr, Flickr, LinkedIn, Vimeo, Youtube, facebook etc into one simple, intelligent and beautiful page. It's an online diary for your internet life, your persona of the World Wide Web.
         </p>
 
         <p>

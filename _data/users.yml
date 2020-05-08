@@ -1,24 +1,104 @@
 list:
-  - name: "Shubhajit Saha"
+  - name: Shubhajit Saha
     username: suvozit
     hash: e57d108fcdc4698ddd09ca11024118e3
-    bio: "CEO & Founder"
+    bio: CEO & Founder
     avatar: user/suvozit.jpg
-    social:
-      - facebook_id:  suvozit
-      - google_id:    suvozit
-      - linkedin_id:  suvozit
-    password_hash: b18ad4f0d72e53791faba82533f4ab101447d11b1a36bd3923c4072363d48640
     email: suvozit@rime.co
+    login:
+      - password_hash: f7d4652b6897b63b778e22cec0f2ce7c258c7405b77d34df2b22be279a27b710
+      - facebook:  12345678901234
+      - google:    12345678901234
+      - linkedin:  12345678901234
+    social:
+      - blogspot:   [bitsits.blogger.com, suvozit.blogger.com]
+      - facebook:   [suvozit, hizz.shot]
+      - flickr:     [suvozit]
+      - foursquare: [suvozit]
+      - github:     [suvozit]
+      - google:     [suvozit]
+      - instagram:  [suvozit]
+      - linkedin:   [suvozit]
+      - twitter:    [suvozit]
+      - tumblr:     [suvozit]
+      - vimeo:      [suvozit]
+      - youtube:    [suvozit]
+    domain: suvozit.com
 
-  - name: "Girish Nayak"
+  - name: Girish Nayak
     username: girish
     hash: dabe0d16e465745eb3108c9598d07860
-    bio: "Co-Founder & Marketing Lead"
+    bio: Co-Founder & Marketing Lead
     avatar: user/girish.jpg
-    social:
-      - facebook_id:  girishnayak12
-      - google_id:    girishnayak12
-      - linkedin_id:  girishnayak12
-    password_hash: c728bd3ff8a0428877af72530d91d560f2f8c5e96c9dea36b17d344dc4971023
     email: girish@rime.co
+    login:
+      - password_hash: c728bd3ff8a0428877af72530d91d560f2f8c5e96c9dea36b17d344dc4971023
+      - facebook:  12345678901234
+      - google:    12345678901234
+      - linkedin:  12345678901234
+    social:
+      - blogspot:   []
+      - facebook:   [girishnayak12]
+      - flickr:     [girishnayak12]
+      - foursquare: [girishnayak12]
+      - github:     [girishnayak12]
+      - google:     [girishnayak12]
+      - instagram:  [girishnayak12]
+      - linkedin:   [girishnayak12]
+      - twitter:    [girishnayak12]
+      - tumblr:     [girishnayak12]
+      - vimeo:      [girishnayak12]
+      - youtube:    [girishnayak12]
+    domain: girish.blog
+
+  - name: Rhyme Tek.
+    username: rime
+    hash: 06e8ac7044098eb5fd68c3ece563a8b3
+    bio: Official Home Page
+    avatar: user/rime.jpg
+    email: social@rime.co
+    login:
+      - password_hash: b7b22b7a593de88f0760bb81aecc7e10acc54a6d562c77e867dea61a0145b1f2
+      - facebook:  12345678901234
+      - google:    12345678901234
+      - linkedin:  12345678901234
+    social:
+      - blogspot:   []
+      - facebook:   [RhymeTek]
+      - flickr:     [RhymeTek]
+      - foursquare: [RhymeTek]
+      - github:     [RhymeTek]
+      - google:     [RhymeTek]
+      - instagram:  [workwithme.in]
+      - linkedin:   [RhymeTek]
+      - twitter:    [RhymeTek]
+      - tumblr:     [RhymeTek, rimefounders]
+      - vimeo:      [RhymeTek]
+      - youtube:    [RhymeTek]
+    domain: girish.blog
+
+  - name: Nazariya
+    username: nazariya
+    hash: 19df7978d87f42c8e319aa3cd177915e
+    bio: Make history your future
+    avatar: user/nazariya.jpg
+    email: contact@nazariya.in
+    login:
+      - password_hash: b35879d9632daeeea4a0204f67e23982e9aae31d32b3c5bedc0f5fa4c973b70e
+      - facebook:  12345678901234
+      - google:    12345678901234
+      - linkedin:  12345678901234
+    social:
+      - blogspot:   [NazariyaOfficial]
+      - facebook:   [NazariyaOfficial]
+      - flickr:     [NazariyaOfficial]
+      - foursquare: [NazariyaOfficial]
+      - github:     [Nazariya]
+      - google:     [NazariyaOfficial]
+      - instagram:  [NazariyaOfficial]
+      - linkedin:   [NazariyaOfficial]
+      - twitter:    [NazariyaOfficial]
+      - tumblr:     [NazariyaOfficial]
+      - vimeo:      [NazariyaOfficial]
+      - youtube:    [NazariyaOfficial]
+    domain: girish.blog

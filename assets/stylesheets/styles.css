@@ -101,7 +101,7 @@ demo-layout--fixed-drawer
 }
 
 .demo-layout-page-about .founder-image {
-    background: url('../images/IMG_0593 2.JPG') center / cover;
+    background: url('../images/founders-2.JPG') center / cover;
     height: 500px;
 }
 .demo-layout-page-about.is-small-screen .founder-image {

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign state = content | strip_html | lstrip | rstrip | downcase %}
+{% assign state = page.url | split: "/" | last %}
 
 {% case state %}
   {% when "why" %}
@@ -73,7 +73,7 @@ layout: default
                     <div class="mdl-card__supporting-text">
                         <p style="min-height: 100px;">
                             <b>Arya</b> <br>
-                            <span id="typed-element"></span>
+                            <span id="typed-element-intro"></span>
                         </p>
                     </div>
 
@@ -95,15 +95,3 @@ layout: default
         </div>
     </main>
 </div>
-
-<script src="{{ site.baseurl }}/assets/third-party/mattboldt-typed.js-1.1.4/dist/typed.min.js"></script>
-<script>
-  $(function(){
-      $("#typed-element").typed({
-        strings: [
-            "{{ site.data.intro[ stage ]['message'] }}",
-        ],
-        typeSpeed: 75
-      });
-  });
-</script>

@@ -7,18 +7,8 @@
 
 -->
 
-<script src="{{ site.baseurl }}/assets/third-party/mattboldt-typed.js-1.1.4/dist/typed.min.js"></script>
-<script>
-    $(function(){
-        $("#typed-element").typed({
-            strings: ["Arya", "आर्या", "ārya", "আর্য"],
-            typeSpeed:  75,
-            backSpeed:  25,
-            backDelay:  1000,
-            loop:       true,
-        });
-    });
-</script>
-
 {% include js/emojify.html %}
+
+{% include js/typed.html %}
+
 {% include js/google_analytics.html %}

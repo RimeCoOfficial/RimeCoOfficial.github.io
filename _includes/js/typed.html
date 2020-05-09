@@ -1,0 +1,52 @@
+
+<script src="{{ site.baseurl }}/assets/third-party/mattboldt-typed.js-1.1.4/dist/typed.min.js"></script>
+
+<script>
+    $(function(){
+        $("#typed-element-arya").typed({
+            strings: ["Aryá", "आर्या", "আর্য"],
+            typeSpeed:  75,
+            backSpeed:  25,
+            backDelay:  1000,
+            loop:       true,
+        });
+    });
+</script>
+
+{% assign state = page.url | split: "/" | last %}
+
+{% case state %}
+  {% when "why" %}
+    {% assign stage = 0 %}
+  {% when "how" %}
+    {% assign stage = 1 %}
+  {% else %}
+    {% assign stage = 2 %}
+{% endcase %}
+
+<script>
+  $(function(){
+      $("#typed-element-intro").typed({
+        strings: [
+            "{{ site.data.intro[ stage ].message }}"
+        ],
+        typeSpeed: 75
+      });
+  });
+</script>
+
+<script>
+    $(function(){
+        $("#typed-element-hello").typed({
+            strings: [
+                "I'm Aryá",
+                "আমি আর্য",
+                "में आर्य",
+            ],
+            typeSpeed: 75,
+            backSpeed:  25,
+            backDelay:  1000,
+            loop:       true,
+        });
+    });
+  </script>

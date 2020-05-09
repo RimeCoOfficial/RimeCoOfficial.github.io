@@ -19,7 +19,7 @@ layout: default
                 if (!empty($logged_in_user))
                 {
                     ?>
-                    <a class="mdl-navigation__link" href="{{ site.baseurl }}/@'.$logged_in_user['username']">
+                    <a class="mdl-navigation__link" href="{{ site.baseurl }}/u/'.$logged_in_user['username']">
                         <img class="bg-cover img-circle"
                             style="background-image: url(<?php echo $logged_in_user['profile_image_url']; ?>)"
                             height="39px"

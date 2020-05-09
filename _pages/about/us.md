@@ -41,7 +41,7 @@ layout: about
                 Shubhajit Saha
             </span>
             
-            <a class="mdl-typography--font-light" href="{{ site.baseurl }}/@suvozit" target="_blank">
+            <a class="mdl-typography--font-light" href="{{ site.baseurl }}/u/suvozit" target="_blank">
                 <i class="material-icons">open_in_new</i>
             </a>
         </h3>
@@ -58,7 +58,7 @@ layout: about
                 Girish Nayak
             </span>
 
-            <a class="mdl-typography--font-light" href="{{ site.baseurl }}/@girish" target="_blank">
+            <a class="mdl-typography--font-light" href="{{ site.baseurl }}/u/girish" target="_blank">
                 <i class="material-icons">open_in_new</i>
             </a>
         </h3>

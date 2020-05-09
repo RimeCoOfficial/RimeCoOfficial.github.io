@@ -16,8 +16,18 @@ layout: default
             
             <!-- Navigation -->
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{ site.baseurl }}/settings">Settings</a>
+                <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{ site.baseurl }}/settings">
+                    <!-- Number badge -->
+                    <span class="mdl-badge" data-badge="4">Inbox</span>
+                </a>
+                <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{ site.baseurl }}/settings">
+                    Settings
+                </a>
 
+                <a class="mdl-navigation__link mdl-layout--small-screen-only" href="{{ site.baseurl }}/settings">
+                    <!-- Number badge on icon -->
+                    <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="4">inbox</div>
+                </a>
                 <a class="mdl-navigation__link mdl-layout--small-screen-only" href="{{ site.baseurl }}/settings">
                     <i class="material-icons">settings</i>
                 </a>

@@ -9,5 +9,3 @@ We made a platform which brings together all your creative contents in one place
 We happen to be the first people's network that defines you completely
 
 [Sign Up](https://RhymeTek.github.io)
-
-&mdash; Rhyme Tek. Team

@@ -1,0 +1,166 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
+    <meta name="robots" content="none">
+    <style>
+        @media all and (max-width: 500px) {
+            .email {
+                width: 100% !important;
+            }
+            .email-hr {
+                margin-top: 25px;
+                margin-right: auto;
+                margin-bottom: 25px;
+                margin-left: auto;
+            }
+            .email-disclaimer {
+                font-size: 12px;
+            }
+            .email-title--stats {
+                font-size: 32px;
+                line-height: 35px;
+            }
+            .email-allCaps {
+                font-size: 12px;
+                line-height: 14px;
+            }
+            .email-title--post {
+                font-size: 22px;
+                line-height: 26px;
+            }
+            .email-postImage {
+                width: 92px;
+                height: 80px;
+            }
+            .email-postImage--hero {
+                float: right;
+                margin-left: 7px;
+            }
+            .email-topWriter--badge {
+                float: none;
+                text-align: center;
+                width: 100%;
+                min-width: 100%;
+                padding-top: 0;
+                padding-right: 0;
+                padding-bottom: 0;
+                padding-left: 0;
+                margin-bottom: 20px;
+            }
+            .email-card {
+                width: 100%;
+                margin-left: 0;
+                margin-right: 0;
+            }
+            .email-headline--section {
+                font-size: 20px;
+                line-height: 24px;
+                margin-bottom: 5px;
+            }
+            .email-subtitle--section {
+                font-size: 14px;
+                line-height: 18px;
+            }
+            .email-subtitle--stats {
+                font-size: 12px;
+            }
+            .email-xs-width100 {
+                width: 100px;
+            }
+            .email-xs-width140 {
+                width: 140px;
+            }
+            .email-xs-height85 {
+                height: 85px;
+            }
+            .email-xs-minHeight0 {
+                min-height: 0;
+            }
+            .email-xs-hide {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body class="" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+    <div class="email-fillWidth email-backgroundWhite" style="min-width: 100%; width: 100%; background-color: #ffffff;">
+        <table class="email email-paddingBottom0" style="width: 600px; margin-left: auto; margin-right: auto; padding-left: 20px; padding-right: 20px; padding-bottom: 0; color: #333332; line-height: 1.4; font-family: -apple-system , BlinkMacSystemFont , &apos;Segoe UI&apos; , &apos;Roboto&apos; , &apos;Ubuntu&apos; , &apos;Open Sans&apos; , &apos;Helvetica Neue&apos; , sans-serif;">
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <table class="email" style="width: 600px; margin-left: auto; margin-right: auto; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; color: #333332; line-height: 1.4; font-family: -apple-system , BlinkMacSystemFont , &apos;Segoe UI&apos; , &apos;Roboto&apos; , &apos;Ubuntu&apos; , &apos;Open Sans&apos; , &apos;Helvetica Neue&apos; , sans-serif;">
+        <tr>
+            <td><img src="https://medium.com/_/stat?event=email.opened&amp;source=email-anon_46d555a61b15--publication.newsletter" width="1" height="1">
+                <div>
+                    <div class="email-sectionPreview email-sectionPreview--collection email-sectionPreview--borderless email-center" style="margin-top: 15px; margin-bottom: 30px; padding-top: 0; border-top: 1px solid #e5e5e5; border: 0; text-align: center;">
+                        <a href="https://medium.com/postmaster?source=email-anon_46d555a61b15--publication.newsletter" style="color: #333332; text-decoration: none;"><img class="email-avatar email-avatar--medium email-avatar--square email-inlineBlock email-floatNone" src="https://cdn-images-1.medium.com/fit/c/150/150/1*4xmlVpaEJavjFB_6I6OYHA.png" alt="Postmaster" style="display: inline-block; width: 75px; height: 75px; border-radius: 0; background: #f0f0f0; line-height: 0; margin-right: 10px; float: none;">
+                        </a>
+                    </div>
+                    <div class="email-left" style="text-align: left;">
+                        <h2 class="email-title" style="font-family: Charter , Georgia , Cambria , &apos;Times New Roman&apos; , Times , serif; color: #333332; font-size: 32px; font-weight: 300; line-height: 36px; margin-bottom: 20px;">Foobar</h2>
+                        <h4 class="email-subtitle email-subtitle--letter" style="font-weight: 300; font-size: 26px; margin-top: 10px; margin-bottom: 10px; color: #8e8e8e;">From Wikipedia, the free encyclopedia</h4>
+                        <p class="email-left" style="margin-top: 0; margin-bottom: 20px; text-align: left;">The terms <strong class="email-bold" style="font-weight: 700;">foobar</strong> (<a class="email-link email-underline" href="http://me.dm/r-66o-SJstly?source=email-anon_46d555a61b15--publication.newsletter" style="color: #333332; text-decoration: underline;">/ˈfuːbɑr/</a>), <strong class="email-bold" style="font-weight: 700;">fubar</strong>, or <strong class="email-bold" style="font-weight: 700;">foo</strong>, <strong class="email-bold" style="font-weight: 700;">bar</strong>, <strong class="email-bold" style="font-weight: 700;">baz</strong> and <strong class="email-bold" style="font-weight: 700;">qux</strong> (alternatively, <strong class="email-bold" style="font-weight: 700;">quux</strong>) and sometimes <strong class="email-bold" style="font-weight: 700;">norf</strong> are sometimes used as <a class="email-link email-underline" href="http://me.dm/r-nESst_ZzS3?source=email-anon_46d555a61b15--publication.newsletter" style="color: #333332; text-decoration: underline;">placeholder names</a> (also referred to as <a class="email-link email-underline" href="http://me.dm/r-ifk7tIdDNI?source=email-anon_46d555a61b15--publication.newsletter" style="color: #333332; text-decoration: underline;">metasyntactic variables</a>) in <a class="email-link email-underline" href="http://me.dm/r-JRVbT31Yyk?source=email-anon_46d555a61b15--publication.newsletter" style="color: #333332; text-decoration: underline;">computer programming</a> or computer-related documentation.</p>
+                        <p class="email-image email-center" style="margin-top: 0; margin-bottom: 20px; text-align: center;"><img class="email-maxFillWidth" src="http://placehold.it/600x230/CCCCCC/969696?text=foo{bar}" style="max-width: 100%;"><span class="email-caption" style="display: block; font-family: Charter , Georgia , Cambria , &apos;Times New Roman&apos; , Times , serif; font-size: 12px; font-style: italic; font-weight: 300; margin-bottom: 10px;">img.src=http://placehold.it/600x230/CCCCCC/969696?text=foo{bar}</span>
+                        </p>
+                        <h2 class="email-title" style="font-family: Charter , Georgia , Cambria , &apos;Times New Roman&apos; , Times , serif; color: #333332; font-size: 32px; font-weight: 300; line-height: 36px; margin-bottom: 20px;">Pseudo Vars</h2>
+                        <h4 class="email-subtitle email-subtitle--letter" style="font-weight: 300; font-size: 26px; margin-top: 10px; margin-bottom: 10px; color: #8e8e8e;">Reserved</h4>
+                        <ol class="email-list email-list--ordered">
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_request_id</strong> {_request_id}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_subject</strong> {_subject}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_recipient_id</strong> {_recipient_id}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_to_email</strong> {_to_email}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_to_name</strong> {_to_name}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_reply_to_email</strong> {_reply_to_email}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_reply_to_name</strong> {_reply_to_name}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_unsubscribe_link</strong> {_unsubscribe_link}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_web_version_link</strong> {_web_version_link}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_current_day</strong> {_current_day}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_current_day_number</strong> {_current_day_number}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_current_date</strong> {_current_date}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_current_month</strong> {_current_month}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_current_month_number</strong> {_current_month_number}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_current_year</strong> {_current_year}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_app_name</strong> {_app_name}</li>
+                            <li class="email-left email-list-item" style="margin-bottom: 10px; text-align: left;"><strong class="email-bold" style="font-weight: 700;">_app_base_url</strong> {_app_base_url}</li>
+                        </ol>
+                        <h4 class="email-subtitle email-subtitle--letter" style="font-weight: 300; font-size: 26px; margin-top: 10px; margin-bottom: 10px; color: #8e8e8e;">Custom</h4>
+                        <ul class="email-list email-list--unordered">
+                            <li class="email-left email-list-item" style="text-align: left;"><strong class="email-bold" style="font-weight: 700;">foo</strong> {bar}</li>
+                        </ul>
+                        <h2 class="email-title" style="font-family: Charter , Georgia , Cambria , &apos;Times New Roman&apos; , Times , serif; color: #333332; font-size: 32px; font-weight: 300; line-height: 36px; margin-bottom: 20px;">Emoji (づ￣ ³￣)づ</h2>
+                        <p class="email-image email-center" style="margin-top: 0; margin-bottom: 20px; text-align: center;"><img class="email-maxFillWidth" src="https://cdn-images-1.medium.com/max/128/0*ZXDwPNciIkTwnm1_.png" style="max-width: 100%;"><span class="email-caption" style="display: block; font-family: Charter , Georgia , Cambria , &apos;Times New Roman&apos; , Times , serif; font-size: 12px; font-style: italic; font-weight: 300; margin-bottom: 10px;">The Oxford Dictionary named 😂 (Face With Tears of Joy) its 2015 Word of the year.</span>
+                        </p>
+                        <p class="email-left" style="margin-top: 0; margin-bottom: 20px; text-align: left;">Happy Debugging!</p>
+                        <p class="email-left" style="margin-top: 0; margin-bottom: 20px; text-align: left;"> — The Rime Team</p>
+                    </div>
+                    <div class="email-left email-section--letter" style="margin-top: 20px; font-size: 12px; text-align: left;">
+                        <div class="email-marginTop15 email-marginBottom35" style="margin-top: 15px; margin-bottom: 35px;"><a class="button button--withChrome u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--withIconAndLabel button--withSvgIcon email-marginRight15 email-textGreen" href="https://medium.com/_/api/requests/5b580e6ce536?source=email-anon_46d555a61b15--publication.newsletter" style="color: #00ab6b; text-decoration: none; margin-right: 15px;"><span class="button-defaultState"><img class="email-icon email-icon--micro email-icon--marginLeft0" src="https://cdn-images-1.medium.com/proxy/1*qvCTX1XHNpntqxt01oypQw@2x.png" style="display: inline-block; vertical-align: middle; width: 18px; margin-top: 0; margin-right: 5px; margin-bottom: 0; margin-left: 5px;"></span><span class="button-label">Recommend</span></a><a class="button button--withChrome u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--withIconAndLabel button--withSvgIcon" href="https://medium.com/postmaster/f93e7a8039c9?source=email-anon_46d555a61b15--publication.newsletter#--respond" style="color: #333332; text-decoration: none;"><span class="button-defaultState"><img class="email-icon email-icon--micro" src="https://cdn-images-1.medium.com/proxy/1*xzKQM4FzSurAVkghLQQWkA@2x.png" style="display: inline-block; vertical-align: middle; width: 18px; margin-top: 0; margin-right: 5px; margin-bottom: 0; margin-left: 5px;"></span><span class="button-label">Respond</span></a>
+                        </div>
+                    </div>
+                    <div class="email-left email-section--letter" style="margin-top: 20px; font-size: 12px; text-align: left;"><a class="email-link email-textTransparentBlack" href="https://medium.com/postmaster/f93e7a8039c9?source=email-anon_46d555a61b15--publication.newsletter" style="color: rgba(0 , 0 , 0 , 0.44); text-decoration: none;">View in browser</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td><img class="email-logo email-logo--small" src="https://cdn-images-1.medium.com/proxy/1*x91rxfZYzIT9OJ5-ySD30A.png" alt="Medium Logo" style="display: block; margin-left: auto; margin-right: auto; width: 32px;">
+                <div class="email-footer" style="padding-top: 15px; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 30px; color: #b3b3b1; font-size: 12px; text-align: center; border-top: 1px solid #e5e5e5;">Sent by <a class="email-link email-textGray email-underline" href="https://medium.com/?source=email-anon_46d555a61b15--publication.newsletter" style="color: #8e8e8e; text-decoration: underline;">Medium</a> &middot; 760 Market Street, 9th floor, San Francisco, CA 94102
+                    <div><a class="email-link email-textGray email-underline" href="https://medium.com/me/email-settings/78a957ffb71c/7c0cce879f25?source=email-anon_46d555a61b15--publication.newsletter&amp;collectionId=226b4165591b" style="color: #8e8e8e; text-decoration: underline;">Email settings</a> &middot; <a class="email-link email-textGray email-underline" href="https://help.medium.com" style="color: #8e8e8e; text-decoration: underline;">Help center</a> &middot; <a class="email-link email-textGray email-underline" href="https://medium.com/policy/f03bf92035c9?source=email-anon_46d555a61b15--publication.newsletter" style="color: #8e8e8e; text-decoration: underline;">Privacy policy</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table><img src="https://u1823150.ct.sendgrid.net/wf/open?upn=rQvFyO1ezojWW3FkDBDgY1paWyHWvaw7H9mrxmjjfSxgSRmx5ciayRYLTQC-2BDpw37zbQp0VPF-2F9TySCRGQZqSMWoXFQrZZMLY2RVbnICQPh9yRz2EWj5ZhSs544dbxwjgy-2BkiLv9PTbg8Kl2xgITHoXKRWvQrU-2BlPpoo2kCmV-2Be4J8-2B-2BBP3C490nMSs2aFC4Zkp-2B28PVWJQg6x7RYsIBM0MduULGlxeU9WOigsmVC3nyYkX519bstg4BOXMmkzhdpUIblbkgt-2Fzt10sf4gpEwnBcwNQqAlf52jCDVV4x1m2ZBj0WNgE-2B4Q0JFtcJQKgi0WHEXnHbXR90oanUSe-2Fv3qgV4FaU-2F4B1CLp4ZF2srP0-3D" alt="" width="1" height="1" border="0" style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" />
+</body>
+
+</html>

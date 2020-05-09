@@ -1,0 +1,119 @@
+---
+layout: default
+---
+
+<?php
+$nav_tab_icons = array(
+    'customize/logo'    => 'font_download', // text_fields
+    'customize/icon'    => 'face',
+    'customize/title'   => 'title',
+    'customize/domain'  => 'domain',
+);
+
+$nav_tabs = array(
+    'customize/logo'    => 'Logo',
+    'customize/icon'    => 'Icon',
+    'customize/title'   => 'Title',
+    'customize/domain'  => 'Domain',
+);
+
+$nav_links = array(
+    ''              => 'Home',
+    'service'       => 'Services',
+    'settings'      => 'Settings',
+    'customize'     => 'Customize',
+);
+?>
+
+<div class="demo-layout-custom mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-200">
+    <header class="mdl-layout__header mdl-color--white">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">Customize</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="{{ site.baseurl }}/@'.$logged_in_user['username']">
+                    <img class="bg-cover img-circle"
+                        style="background-image: url({{ site.data.logged_in_user.profile_image_url }})"
+                        height="39px"
+                        src="{{ site.baseurl }}/assets/images/blank.png"
+                        alt="{{ site.data.logged_in_user.username }}">
+                </a>
+            </nav>
+        </div>
+        <!-- Tabs -->
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--white">
+            <!-- 
+            <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Tab 1</a>
+            <a href="#scroll-tab-2" class="mdl-layout__tab">Tab 2</a>
+            <a href="#scroll-tab-3" class="mdl-layout__tab">Tab 3</a>
+            <a href="#scroll-tab-4" class="mdl-layout__tab">Tab 4</a>
+            <a href="#scroll-tab-5" class="mdl-layout__tab">Tab 5</a>
+            <a href="#scroll-tab-6" class="mdl-layout__tab">Tab 6</a>
+            -->
+
+            <?php
+            foreach ($nav_tabs as $uri => $name)
+            {
+                $is_active = '';
+                if (uri_string() == $uri) $is_active = 'is-active';
+                ?>
+                <a href="{{ site.baseurl }}/$uri" class="mdl-layout__tab {{ is_active }}">
+                    {{ name }}
+                </a>
+                <?php
+            }
+            ?>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer mdl-color--white">
+        <span class="mdl-layout-title">
+            <!-- Title -->
+            <a href="{{ site.baseurl }}">
+                <img src="{{ site.baseurl }}/assets/images/logotype.svg" height=25 alt="Rime">
+            </a>
+        </span>
+        <nav class="mdl-navigation">
+            <!-- 
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+             -->
+
+            <?php
+            foreach ($nav_links as $key => $value)
+            {
+                ?>
+                <a class="mdl-navigation__link" href="{{ site.baseurl }}/$key">{{ value }}</a>
+                <?php
+            }  
+            ?>
+        </nav>
+    </div>
+
+    <main class="mdl-layout__content">
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--5-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <?php
+                $image_type = [
+                    'logo'      => 'customize-01',
+                    'domain'    => 'customize-02',
+                    'icon'      => 'customize-03',
+                    'title'     => 'customize-04',
+                ];
+                ?>
+                <img src="{{ site.baseurl }}/assets/images/'.$image_type[ $image ].'.png" class="full-width">
+            </div>
+            
+            <div class="mdl-card mdl-cell mdl-cell--6-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <div class="mdl-card__supporting-text">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+
+         {% include settings/alert.html %}
+    </main>
+</div>

@@ -1,6 +1,6 @@
 ---
 title: Did you miss me?
-layout: email
+layout: newsletters
 date: 2015-09-02 20:00:00
 tags: Social-Media Technology
 ---

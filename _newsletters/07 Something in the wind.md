@@ -1,6 +1,6 @@
 ---
 title: Something in the wind!
-layout: email
+layout: newsletters
 date: 2015-06-05 10:00:00
 tags: Art Graffiti
 ---

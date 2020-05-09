@@ -1,0 +1,103 @@
+---
+---
+
+<?php
+$is_logged_in_user = FALSE;
+if (!empty($logged_in_user) AND $req_user['user_id'] == $logged_in_user['user_id'])
+{
+    $is_logged_in_user = TRUE;
+}
+?>
+
+<div class="demo-layout-user mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-200">
+    <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--grey-200">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">
+                <a href="{{ site.baseurl }}">
+                    <img src="{{ site.baseurl }}/assets/images/logotype.svg" height=25 alt="Rime">
+                </a>
+            </span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+            <nav class="mdl-navigation">
+                <?php
+                if (!empty($logged_in_user) AND $is_logged_in_user)
+                {
+                    ?>
+                    <a id="exit_to_app" class="mdl-navigation__link" href="{{ site.baseurl }}/auth/sign-out">
+                        <i class="material-icons">exit_to_app</i>
+                    </a>
+                    <?php
+                }
+                else
+                {
+                    ?>
+                    <a id="feedback" class="mdl-navigation__link" href="#feedback">
+                        <i class="material-icons">feedback</i>
+                    </a>
+                    <?php
+                }
+                ?>
+                
+            </nav>
+        </div>
+    </header>
+    <main class="mdl-layout__content">
+        <div class="page-content">
+
+            <!-- Your content goes here -->
+
+            <div class="mdl-grid">
+                <!-- <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--2-col-tablet"></div> -->
+
+                <div class="mdl-cell mdl-cell--4-offset-desktop mdl-cell--4-col-desktop mdl-cell--2-offset-tablet mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                    <div class="mdl-grid mdl-grid--no-spacing">
+                        <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                            <div class="mdl-card__media">
+                                <img src="{{ site.baseurl }}/assets/images/blank.png" class="bg-cover" style="background-image: url({{ req_user['profile_image_url'] }})" width="100%">
+                            </div>
+
+                            <div class="mdl-card__supporting-text">
+                                <h1 class="mdl-card__title-text">
+                                    {{ req_user['full_name'] }}
+
+                                    <?php
+                                    if ($req_user['verified'])
+                                    {
+                                        ?>
+                                        <small>
+                                            <i id="verified" class="material-icons md-text mdl-color-text--accent">star</i>
+                                        </small>
+                                        <?php
+                                    }
+                                    ?>
+                                </h1>
+
+                                <p style="-webkit-margin-before: 0.5em; -webkit-margin-after: 0em;">
+                                    {{ req_user['bio'] }}
+                                </p>
+                            </div>
+
+                            
+                            <div class="mdl-card__actions mdl-card--border--">
+                                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="$req_user, $req_user_weblog" target="_blank">
+                                    {{ req_user['username'] }}
+                                    &nbsp; <i class="material-icons">rss_feed</i>
+                                </a>
+                            </div>
+
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<div class="mdl-tooltip  mdl-tooltip--large" for="exit_to_app">Sign Out</div>
+<div class="mdl-tooltip  mdl-tooltip--large" for="feedback">Report Abuse</div>
+<div class="mdl-tooltip  mdl-tooltip--large" for="verified">Verified</div>

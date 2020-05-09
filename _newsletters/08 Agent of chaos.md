@@ -1,6 +1,6 @@
 ---
 title: Agent of chaos
-layout: email
+layout: newsletters
 date: 2015-08-25 10:00:00
 tags: Film Video
 ---

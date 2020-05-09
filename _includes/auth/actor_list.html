@@ -1,0 +1,87 @@
+{% assign random_user = 0 %}
+
+{% assign random_login = 0 %}
+
+{% assign login_user = site.data.users[ random_user ] %}
+{% assign login_app = login_user.social[ random_login ] %}
+{% assign actors = login_app.actors %}
+
+{% if actors.size == 0 %}
+
+<div class="mdl-card__supporting-text">
+    That’s an error, That’s all we know.
+</div>
+
+{% else if actors.size == 1 %}
+
+<!-- Auto Login -->
+<!-- <script type="text/javascript">
+    $(function() {
+        setTimeout(function () {
+            // window.location = "{{ redirect }}";
+        }, 1000);
+    });
+</script> -->
+
+{% endif %}
+
+<div class="mdl-card__supporting-text">
+    Choose an account
+</div>
+
+<ul class="demo-list-two mdl-list">
+
+    {% for a in actors %}
+    {% if a.login %}
+    <li class="mdl-list__item mdl-list__item--two-line">
+        <span class="mdl-list__item-primary-content">
+            <!-- <i class="material-icons mdl-list__item-avatar">person</i> -->
+            <img class="mdl-list__item-avatar bg-cover" style="background-image: url({{ site.baseurl }}/{{ a.img }})" width="40px" height="40px" src="{{ site.baseurl }}/assets/images/blank.png">
+            <span>
+                {{ a.name }}
+
+                {% if a.verified == 'y' %}
+                <i class="material-icons md-text mdl-color-text--accent">star</i>
+                {% endif %}
+            </span>
+            <span class="mdl-list__item-sub-title">{{ a.id }}</span>
+        </span>
+        <span class="mdl-list__item-secondary-content">
+            <!-- <span class="mdl-list__item-secondary-info">Actor Login</span> -->
+            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--accent mdl-button--icon" href="{{ site.baseurl }}/dashboard/{{ a.login }}"><i class="material-icons">arrow_forward</i></a>
+        </span>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+<div class="mdl-card__supporting-text">
+    Create new account
+</div>
+
+
+<ul class="demo-list-two mdl-list">
+
+    {% for a in actors %}
+    {% if a.login == nil %}
+    <li class="mdl-list__item mdl-list__item--two-line">
+        <span class="mdl-list__item-primary-content">
+            <!-- <i class="material-icons mdl-list__item-avatar">person</i> -->
+            <img class="mdl-list__item-avatar bg-cover" style="background-image: url({{ site.baseurl }}/{{ a.img }})" width="40px" height="40px" src="{{ site.baseurl }}/assets/images/blank.png">
+            <span>
+                {{ a.name }}
+
+                {% if a.verified == 'y' %}
+                <i class="material-icons md-text mdl-color-text--accent">star</i>
+                {% endif %}
+            </span>
+            <span class="mdl-list__item-sub-title">{{ a.id }}</span>
+        </span>
+        <span class="mdl-list__item-secondary-content">
+            <!-- <span class="mdl-list__item-secondary-info">Actor Login</span> -->
+            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--accent mdl-button--icon" href="{{ site.baseurl }}/auth/new"><i class="material-icons">add</i></a>
+        </span>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>

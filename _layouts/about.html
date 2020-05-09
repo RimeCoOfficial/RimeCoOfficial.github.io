@@ -30,10 +30,10 @@ layout: default
                     ?>
                     <!-- <a class="mdl-navigation__link" href="{{ site.baseurl }}/u/'.$logged_in_user['username']">
                         <img class="bg-cover img-circle"
-                            style="background-image: url(<?php echo $logged_in_user['profile_image_url']; ?>)"
+                            style="background-image: url({{ site.data.logged_in_user.profile_image_url }})"
                             height="39px"
                             src="{{ site.baseurl }}/assets/images/blank.png"
-                            alt="<?php echo $logged_in_user['username']; ?>">
+                            alt="{{ site.data.logged_in_user.username }}">
                     </a> -->
                     <?php
                 }

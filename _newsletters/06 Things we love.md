@@ -1,6 +1,6 @@
 ---
 title: Things we love!
-layout: email
+layout: newsletters
 date: 2015-05-20 10:00:00
 tags: Comics Art
 ---

@@ -1,6 +1,6 @@
 ---
 title: Newsletters
-layout: email
+layout: newsletters
 ---
 
 <!-- LIST -->

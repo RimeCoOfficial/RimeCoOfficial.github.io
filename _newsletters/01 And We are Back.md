@@ -1,6 +1,6 @@
 ---
 title: And We are Back!! Launch 2.0
-layout: email
+layout: newsletters
 date: 2014-12-08 10:10:00 +0530
 tags: Startup Apps
 ---

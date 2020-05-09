@@ -1,0 +1,93 @@
+---
+---
+
+<?php
+$show_skip_link = FALSE;
+if (!empty($oauth_id))
+{
+    // hide skip else
+}
+else if ($this->session->flashdata('flash_oauth_id') != TRUE)
+{
+    $show_skip_link = TRUE;
+}
+?>
+
+<div class="demo-layout-start mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-200">
+    <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--grey-200">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">
+                <!-- <a href="{{ site.baseurl }}"> -->
+                    <img src="{{ site.baseurl }}/assets/images/logotype.svg" height=25 alt="Rime">
+                <!-- </a> -->
+            </span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+
+            <!-- Simple MDL Progress Bar -->
+            <div id="p1" class="mdl-progress mdl-js-progress" style="width: 150px;"></div>
+            <script>
+              document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
+                this.MaterialProgress.setProgress({{ step / $step_total * 100 }});
+                // this.MaterialProgress.setProgress(50);
+              });
+            </script>
+
+            &nbsp;
+            &nbsp;
+            &nbsp;
+
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+            <nav class="mdl-navigation">
+                <?php
+                if ($show_skip_link)
+                {
+                    if (!empty($next))  $next = base_url('start/add/'.$next);
+                    else                $next = base_url();
+                    ?>
+                    <a id="skip_next" class="mdl-navigation__link" href="{{ next }}">
+                        <i class="material-icons">skip_next</i>
+                    </a>
+                    <?php
+                }
+                else
+                {
+                    ?>
+                    <span class="mdl-navigation__link">
+                        <i class="material-icons mdl-color-text--grey-300">skip_next</i>
+                    </span>
+                    <?php
+                }
+                ?>
+            </nav>
+        </div>
+    </header>
+    <main class="mdl-layout__content">
+        <div class="page-content">
+
+            <!-- Your content goes here -->
+            <div class="mdl-grid">
+
+                <div class="demo-card-square mdl-card mdl-cell mdl-cell--3-offset-desktop mdl-cell--6-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+
+                    <div class="mdl-card__title mdl-card--expand">
+                        <h2 class="mdl-card__title-text">
+                            Get Started {{ site.data.logged_in_user.username }},
+                        </h2>
+                    </div>
+
+                     {% include start/add_actor.html %}
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<div class="mdl-tooltip mdl-tooltip--large" for="skip_next">
+    Skip Next
+</div>
+<div class="mdl-tooltip mdl-tooltip--large" for="p1">
+    {{ step }} of {{ step_total }}
+</div>

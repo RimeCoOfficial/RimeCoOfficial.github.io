@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="demo-layout-auth mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--scroll-- mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">
+                <a href="{{ site.url }}">
+                    <img src="{{ site.url }}/assets/images/logotype.svg" height=25 alt="Rime">
+                </a>
+            </span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+            <nav class="mdl-navigation">
+                <a id="exit_to_app" class="mdl-navigation__link" href="{{ site.url }}">
+                    <i class="material-icons">close</i>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main class="mdl-layout__content">
+        <div class="page-content">
+
+            <!-- Your content goes here -->
+
+            <div class="mdl-grid">
+
+                <div class="demo-card-square mdl-card mdl-cell mdl-cell--3-offset-desktop mdl-cell--6-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                    <div class="mdl-card__title mdl-card--expand">
+                       <h2 class="mdl-card__title-text">{{ page.title }}</h2>
+                    </div>
+                    
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </main>
+</div>

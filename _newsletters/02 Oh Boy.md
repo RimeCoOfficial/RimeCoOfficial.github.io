@@ -1,6 +1,6 @@
 ---
 title: Oh Boy! Newsletter
-layout: email
+layout: newsletters
 date: 2015-02-01 10:10:00 +0530
 tags: Poetry Photography
 ---

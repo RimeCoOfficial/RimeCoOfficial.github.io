@@ -1,6 +1,6 @@
 ---
 title: April Madness — Superheros are in Rime!
-layout: email
+layout: newsletters
 date: 2015-04-01 10:00:00
 tags: Batman Abuse
 ---

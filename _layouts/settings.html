@@ -1,0 +1,175 @@
+---
+---
+
+<?php
+$nav_tabs = array(
+    'settings/username'         => 'Username',
+    'settings/account'          => 'Account',
+    'settings/email'            => 'Email',
+    'settings/notifications'    => 'Notifications',
+    // 'settings/deactivate'       => 'Deactivite',
+);
+
+$nav_links = array(
+    ''              => 'Home',
+    'service'       => 'Services',
+    'settings'      => 'Settings',
+    'customize'     => 'Customize',
+);
+
+$footer_nav = array(
+    'About'         => 'about',
+    'Jobs'          => 'jobs',
+    'FAQ'           => 'support/faq',
+
+    'Blog'          => 'http://weblog.rime.co',
+    'Open Source'   => 'http://rime.social',
+    'Press'         => 'press',
+
+    'Terms'         => 'legal/terms',
+    'Privacy'       => 'legal/privacy',
+    'Security'      => 'support/security',
+    'Libraries'     => 'support/libraries',
+    'Feedback'      => 'https://docs.google.com/forms/d/15T8c86v5_QmD887jpHBNLB4teRxHfM_0479QDb_pkV8'
+    // 'Feedback'      => mailto('feedback@rime.co', NULL,
+);
+?>
+
+<!-- Simple header with scrollable tabs. -->
+<div class="demo-layout-settings mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-200">
+    <header class="mdl-layout__header mdl-color--white">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">Settings</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="{{ site.baseurl }}/@'.$logged_in_user['username']">
+                    <img class="bg-cover img-circle"
+                        style="background-image: url({{ site.data.logged_in_user.profile_image_url }})"
+                        height="39px"
+                        src="{{ site.baseurl }}/assets/images/blank.png"
+                        alt="{{ site.data.logged_in_user.username }}">
+                </a>
+            </nav>
+        </div>
+        <!-- Tabs -->
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--white">
+            <!-- 
+            <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Tab 1</a>
+            <a href="#scroll-tab-2" class="mdl-layout__tab">Tab 2</a>
+            <a href="#scroll-tab-3" class="mdl-layout__tab">Tab 3</a>
+            <a href="#scroll-tab-4" class="mdl-layout__tab">Tab 4</a>
+            <a href="#scroll-tab-5" class="mdl-layout__tab">Tab 5</a>
+            <a href="#scroll-tab-6" class="mdl-layout__tab">Tab 6</a>
+            -->
+
+            <?php
+            foreach ($nav_tabs as $uri => $name)
+            {
+                $is_active = '';
+                if (uri_string() == $uri) $is_active = 'is-active';
+                ?>
+                <a href="{{ site.baseurl }}/$uri" class="mdl-layout__tab {{ is_active }}">
+                    {{ name }}
+                </a>
+                <?php
+            }
+            ?>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer mdl-color--white">
+        <span class="mdl-layout-title">
+            <!-- Title -->
+            <a href="{{ site.baseurl }}">
+                <img src="{{ site.baseurl }}/assets/images/logotype.svg" height=25 alt="Rime">
+            </a>
+        </span>
+        <nav class="mdl-navigation">
+            <!-- 
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+             -->
+
+            <?php
+            foreach ($nav_links as $key => $value)
+            {
+                ?>
+                <a class="mdl-navigation__link" href="{{ site.baseurl }}/$key">{{ value }}</a>
+                <?php
+            }  
+            ?>
+        </nav>
+    </div>
+    <main class="mdl-layout__content">
+
+        <div class="mdl-grid">
+            <div class="mdl-card mdl-cell mdl-cell--1-offset-desktop mdl-cell--5-col-desktop mdl-cell--1-offset-tablet mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+
+                <!-- 
+                <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+                    <div class="page-content">Your content goes here</div>
+                </section>
+                <section class="mdl-layout__tab-panel" id="scroll-tab-2">
+                    <div class="page-content">Your content goes here</div>
+                </section>
+                <section class="mdl-layout__tab-panel" id="scroll-tab-3">
+                    <div class="page-content">Your content goes here</div>
+                </section>
+                <section class="mdl-layout__tab-panel" id="scroll-tab-4">
+                    <div class="page-content">Your content goes here</div>
+                </section>
+                <section class="mdl-layout__tab-panel" id="scroll-tab-5">
+                    <div class="page-content">Your content goes here</div>
+                </section>
+                <section class="mdl-layout__tab-panel" id="scroll-tab-6">
+                    <div class="page-content">Your content goes here</div>
+                </section>
+                 -->
+
+                <section class="mdl-layout__tab-panel is-active" id="scroll-tab-0">
+                    <div class="page-content">
+                        <!-- Your content goes here -->
+                        <div class="mdl-card__supporting-text">{% include uri_string.html %}</div>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                <br>
+            </div>
+
+            <div class="mdl-cell mdl-cell--5-col-desktop mdl-cell--1-offset-tablet mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+
+                <ul class="mdl-mini-footer__link-list flex-flow-row-wrap mdl-color-text--grey-600">
+                    <?php
+                    foreach ($footer_nav as $title => $url)
+                    {
+                        $attr = '';
+                        if (!starts_with($url, 'http'))
+                        {
+                            $url = base_url($url);
+                        }
+                        else $attr = 'target="_blank"';
+                        ?>
+                            <li><a class="link-light-inverse" href="{{ url }}" {{ attr }}>
+                                {{ title }}
+                            </a></li>
+                        <?php
+                    }
+                    ?>
+                </ul>
+            </div>
+        </div>
+
+         {% include settings/alert.html %}
+    </main>
+</div>
+
+<div class="mdl-tooltip mdl-tooltip--large" for="info_outline">
+    Check the <br>
+    Notification Center <i class="material-icons md-18">notifications</i>
+</div>

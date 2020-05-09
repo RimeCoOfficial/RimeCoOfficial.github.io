@@ -1,0 +1,19 @@
+---
+---
+
+<?php
+$this->view('form/checkbox', array('id' => $id,  'value' => $logged_in_user['email_subscription'][ $id ]));
+?>
+
+<?php
+$list_unsubscribe = [
+    'announcement' => 'News about Rime product and feature updates; on partner products and other third party services',
+    'newsletter' => 'Suggestions for recommended accounts and featured posts',
+    'notification' => 'Someone from my address book joins Rime',
+    'tips' => 'Tips on getting more out of Rime',
+];
+
+echo $list_unsubscribe[ $id ];
+?>
+<br>
+<br>

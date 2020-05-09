@@ -1,6 +1,6 @@
 ---
 title: Feeling lazy — refreshment is here
-layout: email
+layout: newsletters
 date: 2015-04-03 10:00:00
 tags: Social-Media Marketing
 ---

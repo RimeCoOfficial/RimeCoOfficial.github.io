@@ -1,6 +1,6 @@
 ---
 title: No Password
-layout: email
+layout: newsletters
 date: 2016-09-27 10:00:00
 tags: Social-Media Technology
 ---

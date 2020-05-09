@@ -1,0 +1,32 @@
+- name: Facebook
+  detials: User, Page
+  kind:
+      user:
+        name: Facebook
+        icon: icon-facebook
+      page:
+        name: Facebook Page
+        icon: icon-facebook-official
+
+- name: Google
+  detials: Google+, Blogger, YouTube
+  kind:
+      user:
+        name: Google+
+        icon: icon-google
+      channel:
+        name: YouTube
+        icon: icon-youtube-play
+      blog:
+        name: Blogger
+        icon: icon-blogger
+
+- name: LinkedIn
+  detials: User, Companies
+  kind:
+      user:
+        name: LinkedIn
+        icon: icon-linkedin
+      page:
+        name: LinkedIn Org
+        icon: icon-linkedin

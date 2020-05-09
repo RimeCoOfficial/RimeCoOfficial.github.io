@@ -1,6 +1,6 @@
 ---
 title: Reminiscence of Black and White days
-layout: email
+layout: newsletters
 date: 2015-09-02 10:00:00
 tags: Photography Film
 ---

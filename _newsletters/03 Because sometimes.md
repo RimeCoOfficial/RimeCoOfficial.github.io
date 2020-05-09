@@ -1,6 +1,6 @@
 ---
 title: Because sometimes you want to send a ❤️to someone
-layout: email
+layout: newsletters
 date: 2015-02-14 10:10:00 +0530
 tags: Emoji Love
 ---

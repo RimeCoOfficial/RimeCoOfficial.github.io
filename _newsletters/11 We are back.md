@@ -1,6 +1,6 @@
 ---
 title: We are back with your personalized, self-creating page
-layout: email
+layout: newsletters
 date: 2015-09-27 10:00:00
 tags: AWS Search-Engines
 ---

@@ -42,8 +42,8 @@ layout: default
                         alt="{{ login_user.username }}">
                 </a> -->
 
-                <a id="face" class="mdl-navigation__link" href="{{ site.baseurl }}/user">
-                    <i class="material-icons">face</i>
+                <a id="exit_to_app" class="mdl-navigation__link" href="{{ site.baseurl }}/user">
+                    <i class="material-icons">exit_to_app</i>
                 </a>
             </nav>
         </div>
@@ -78,18 +78,6 @@ layout: default
                     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white" href="{{ site.baseurl }}/service">
                         Connect
                     </a>
-                    <div class="mdl-layout-spacer"></div>
-
-                    <i class="material-icons">
-                        <?php
-                        switch ($service['status'])
-                        {
-                            case '0':
-                            case '200': echo 'check';   break;
-                            default:    echo 'error';   break;
-                        }
-                        ?>
-                    </i>
                 </div>
             </div>
 
@@ -100,7 +88,7 @@ layout: default
                     <img class="article-image img-fluid" src="{{ site.baseurl }}/{{ login_user.avatar }}">
                 </div>
                 <div class="mdl-card__actions">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ site.baseurl }}/customize">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ site.baseurl }}/user">
                         Customize
                     </a>
                 </div>
@@ -112,4 +100,4 @@ layout: default
 
 <div class="mdl-tooltip mdl-tooltip--large" for="inbox">Inbox</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="settings">Settings</div>
-<div class="mdl-tooltip mdl-tooltip--large" for="face">{{ login_user.username }}</div>
+<div class="mdl-tooltip mdl-tooltip--large" for="exit_to_app">Exit</div>

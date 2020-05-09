@@ -1,20 +1,15 @@
 ---
+layout: default
 ---
 
-<?php
-$is_logged_in_user = FALSE;
-if (!empty($logged_in_user) AND $req_user['user_id'] == $logged_in_user['user_id'])
-{
-    $is_logged_in_user = TRUE;
-}
-?>
+{% assign req_user = site.data.users[ 0 ] %}
 
 <div class="demo-layout-user mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-200">
     <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--grey-200">
         <div class="mdl-layout__header-row">
             <!-- Title -->
             <span class="mdl-layout-title">
-                <a href="{{ site.baseurl }}">
+                <a href="{{ site.baseurl }}/dashboard">
                     <img src="{{ site.baseurl }}/assets/images/logotype.svg" height=25 alt="Rime">
                 </a>
             </span>
@@ -22,25 +17,9 @@ if (!empty($logged_in_user) AND $req_user['user_id'] == $logged_in_user['user_id
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
             <nav class="mdl-navigation">
-                <?php
-                if (!empty($logged_in_user) AND $is_logged_in_user)
-                {
-                    ?>
-                    <a id="exit_to_app" class="mdl-navigation__link" href="{{ site.baseurl }}/auth/sign-out">
-                        <i class="material-icons">exit_to_app</i>
-                    </a>
-                    <?php
-                }
-                else
-                {
-                    ?>
-                    <a id="feedback" class="mdl-navigation__link" href="#feedback">
-                        <i class="material-icons">feedback</i>
-                    </a>
-                    <?php
-                }
-                ?>
-                
+                <a id="exit_to_app" class="mdl-navigation__link" href="{{ site.baseurl }}/auth/sign-out">
+                    <i class="material-icons">exit_to_app</i>
+                </a>
             </nav>
         </div>
     </header>
@@ -56,39 +35,32 @@ if (!empty($logged_in_user) AND $req_user['user_id'] == $logged_in_user['user_id
                     <div class="mdl-grid mdl-grid--no-spacing">
                         <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
                             <div class="mdl-card__media">
-                                <img src="{{ site.baseurl }}/assets/images/blank.png" class="bg-cover" style="background-image: url({{ req_user['profile_image_url'] }})" width="100%">
+                                <img src="{{ site.baseurl }}/assets/images/blank.png" class="bg-cover" style="background-image: url({{ site.baseurl }}/{{ req_user.avatar }})" width="100%">
                             </div>
 
                             <div class="mdl-card__supporting-text">
                                 <h1 class="mdl-card__title-text">
-                                    {{ req_user['full_name'] }}
+                                    {{ req_user.name }}
 
-                                    <?php
-                                    if ($req_user['verified'])
-                                    {
-                                        ?>
-                                        <small>
-                                            <i id="verified" class="material-icons md-text mdl-color-text--accent">star</i>
-                                        </small>
-                                        <?php
-                                    }
-                                    ?>
+                                    {% if req_user.verified %}
+                                    <small>
+                                        <i id="verified" class="material-icons md-text mdl-color-text--accent">star</i>
+                                    </small>
+                                    {% endif %}
+                                    
                                 </h1>
 
                                 <p style="-webkit-margin-before: 0.5em; -webkit-margin-after: 0em;">
-                                    {{ req_user['bio'] }}
+                                    {{ req_user.bio }}
                                 </p>
                             </div>
 
-                            
-                            <div class="mdl-card__actions mdl-card--border--">
-                                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="$req_user, $req_user_weblog" target="_blank">
-                                    {{ req_user['username'] }}
-                                    &nbsp; <i class="material-icons">rss_feed</i>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ req_user.domain }}" target="_blank">
+                                    {{ req_user.domain | remove: "https://" }}
+                                    &nbsp; <i class="material-icons">open_in_new</i>
                                 </a>
                             </div>
-
-                            
                             
                         </div>
                     </div>
@@ -98,6 +70,6 @@ if (!empty($logged_in_user) AND $req_user['user_id'] == $logged_in_user['user_id
     </main>
 </div>
 
-<div class="mdl-tooltip  mdl-tooltip--large" for="exit_to_app">Sign Out</div>
-<div class="mdl-tooltip  mdl-tooltip--large" for="feedback">Report Abuse</div>
-<div class="mdl-tooltip  mdl-tooltip--large" for="verified">Verified</div>
+<div class="mdl-tooltip mdl-tooltip--large" for="exit_to_app">Sign Out</div>
+<div class="mdl-tooltip mdl-tooltip--large" for="feedback">Report Abuse</div>
+<div class="mdl-tooltip mdl-tooltip--large" for="verified">Verified</div>

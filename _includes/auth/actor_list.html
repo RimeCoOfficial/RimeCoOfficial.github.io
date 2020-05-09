@@ -1,8 +1,5 @@
-{% assign random_user = 0 %}
-{% assign random_login = 0 %}
-
-{% assign login_user = site.data.users[ random_user ] %}
-{% assign login_app = login_user.social[ random_login ] %}
+{% assign login_user = site.data.users[ 0 ] %}
+{% assign login_app = login_user.social[ 0 ] %}
 {% assign actors = login_app.actors %}
 
 {% if actors.size == 0 %}
@@ -14,13 +11,13 @@
 {% else if actors.size == 1 %}
 
 <!-- Auto Login -->
-<!-- <script type="text/javascript">
+<script type="text/javascript">
     $(function() {
         setTimeout(function () {
             // window.location = "{{ redirect }}";
         }, 1000);
     });
-</script> -->
+</script>
 
 {% endif %}
 
@@ -47,7 +44,7 @@
         </span>
         <span class="mdl-list__item-secondary-content">
             <!-- <span class="mdl-list__item-secondary-info">Actor Login</span> -->
-            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--accent mdl-button--icon" href="{{ site.baseurl }}/dashboard/{{ a.login }}"><i class="material-icons">arrow_forward</i></a>
+            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--accent mdl-button--icon" href="{{ site.baseurl }}/dashboard"><i class="material-icons">arrow_forward</i></a>
         </span>
     </li>
     {% endif %}

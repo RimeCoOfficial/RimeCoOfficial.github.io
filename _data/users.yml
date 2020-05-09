@@ -41,7 +41,7 @@
         - id: bitsits
           name: Bitsits Games
           img: assets/users/93244581_2827117440705467_1235743369020309504_n.png
-  domain: suvozit.com
+  domain: https://www.shubhajitsaha.com
 
 - name: Girish Nayak
   username: girish
@@ -83,4 +83,4 @@
         - id: loudly-blog
           name: Loudly
           img: assets/users/28277419_543850895993184_3496765490179231975_n.png
-  domain: girish.blog
+  domain: https://www.girish.blog

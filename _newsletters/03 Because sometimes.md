@@ -7,11 +7,14 @@ tags: Emoji Love
 
 Hi {_to_name} (@{_metadata_username}), its the love letter of the month.
 #1 Introducing emoji
+
 Because sometimes you want to send a ❤️ to someone.
-😄 :smile:
-❤️ :heart:
-😭 :sob:
-😋 :yum:
+
+- 😄 :smile:
+- ❤️ :heart:
+- 😭 :sob:
+- 😋 :yum:
+
 #2 Watch Our video “Gift a Book!”
 
 https://rime.co/url/ab48d88a164a98a08733551da6b09ff470d66f76712b54a96af6ff27df9de7c6

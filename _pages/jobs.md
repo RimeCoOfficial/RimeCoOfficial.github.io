@@ -3,9 +3,9 @@ title: Jobs
 layout: jobs
 ---
 
-<h1 class="mdl-typography--font-light">Jobs</h1>
+<h1 class="mdl-typography--font-light">Jobs 🤩</h1>
 
-<h2 class="mdl-typography--font-light">Full Stack Programmer</h2>
+<h2 class="mdl-typography--font-light"> Full Stack Programmer</h2>
 
 <h4>Our Stack</h4>
 

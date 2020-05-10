@@ -43,10 +43,10 @@ layout: default
                     
                     {% assign icon = 'arrow_forward' %}
                     {% if stage == 2 %}
-                    {% assign icon = 'exit_to_app' %}
+                    {% assign icon = 'vpn_key' %}
                     {% endif %}
 
-                    <i class="material-icons mdl-color-text--grey-200--">{{ icon }}</i>
+                    <i id={{ icon }} class="material-icons mdl-color-text--grey-200--">{{ icon }}</i>
                 </a>
             </nav>
         </div>
@@ -83,9 +83,9 @@ layout: default
                         </a>
 
                         {% if state == "what" %}
-                            <!-- <a href="mailto:founders@rime.co?subject=Request a Demo" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored pull-right">
+                            <a href="mailto:founders@rime.co?subject=Request a Demo" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored pull-right">
                                 Request a Demo
-                            </a> -->
+                            </a>
                         {% endif %}
 
                     </div>
@@ -95,3 +95,6 @@ layout: default
         </div>
     </main>
 </div>
+
+<div class="mdl-tooltip mdl-tooltip--large" for="arrow_forward">Next</div>
+<div class="mdl-tooltip mdl-tooltip--large" for="vpn_key">Authenticate</div>

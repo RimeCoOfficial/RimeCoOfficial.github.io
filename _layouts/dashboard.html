@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% assign login_user = site.data.users[0] %}
-
 <div class="demo-layout-dashboard mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-200">
     <header class="mdl-layout__header mdl-color--white">
         <div class="mdl-layout__header-row">
@@ -36,10 +34,10 @@ layout: default
 
                 <!-- <a class="mdl-navigation__link" href="{{ site.baseurl }}/user">
                     <img class="bg-cover img-circle"
-                        style="background-image: url({{ site.baseurl }}/{{ login_user.avatar }})"
+                        style="background-image: url({{ site.baseurl }}/{{ site.data.logged_in_user.avatar }})"
                         height="39px"
                         src="{{ site.baseurl }}/assets/images/blank.png"
-                        alt="{{ login_user.username }}">
+                        alt="{{ site.data.logged_in_user.username }}">
                 </a> -->
 
                 <a id="exit_to_app" class="mdl-navigation__link" href="{{ site.baseurl }}/auth/sign-out">
@@ -55,7 +53,7 @@ layout: default
             <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--4-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
 
                 <h1 class="mdl-typography--font-light mdl-color-text--grey-600">
-                    Hello {{ login_user.username }},
+                    Hello {{ site.data.logged_in_user.username }},
                 </h1>
 
                 <p class="mdl-color-text--grey-600">
@@ -71,11 +69,12 @@ layout: default
                 <div class="mdl-card__title mdl-card--expand">
                     <h4 class="mdl-card__title-text mdl-color-text--white">
                       Last sync<br>
-                      {{ site.time | date: "%a, %b %d" }}
+                      {{ site.time | date: "%a, %b %d" }}<br>
+                      {{ site.time | date: "%H.%M" }}
                     </h4>
                 </div>
                 <div class="mdl-card__actions">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white" href="{{ site.baseurl }}/service">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white" href="{{ site.baseurl }}/services">
                         Connect
                     </a>
                     <div class="mdl-layout-spacer"></div>
@@ -89,7 +88,7 @@ layout: default
 
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card portfolio-blog-card-compact">
                 <div class="mdl-card__media">
-                    <img class="article-image img-fluid" src="{{ site.baseurl }}/{{ login_user.avatar }}">
+                    <img class="article-image img-fluid" src="{{ site.baseurl }}/{{ site.data.logged_in_user.avatar }}">
                 </div>
                 <div class="mdl-card__actions">
                     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ site.baseurl }}/user">
@@ -97,6 +96,25 @@ layout: default
                     </a>
                 </div>
             </div>
+
+            <!-- Invite -->
+
+            <!-- <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card portfolio-blog-card-compact">
+                <div class="mdl-card__media">
+                    <img class="article-image img-fluid" src="<?php echo asset_url('images/invite.png'); ?>">
+                </div>
+                <div class="mdl-card__title ">
+                    <h2 class="mdl-card__title-text">We'd love your feedback</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    We would love to hear your thoughts so we can improve your Rime experience
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://docs.google.com/forms/d/15T8c86v5_QmD887jpHBNLB4teRxHfM_0479QDb_pkV8" target="_blank">
+                        Feedback
+                    </a>
+                </div>
+            </div> -->
 
         </div>
     </main>

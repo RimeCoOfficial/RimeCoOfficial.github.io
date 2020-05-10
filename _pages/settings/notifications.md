@@ -1,4 +1,5 @@
 ---
+layout: settings
 ---
 
 form_open uri_string_q() 

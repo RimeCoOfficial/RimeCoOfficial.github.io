@@ -1,0 +1,138 @@
+{% assign social = site.data.logged_in_user.social[0] %}
+{% assign actor_list = social.actors %}
+
+{% if actor_list.size == 0 %}
+<div class="mdl-card__supporting-text">
+    That’s an error, That’s all we know.
+</div>
+{% else %}
+<!-- 
+
+    // view/user/about_ext_link, view/services/actor_list
+    $sorted_oauth_actor_list = array();
+    foreach ($oauth_actor_list as $a) $sorted_oauth_actor_list[  $a['service'].'.'.$a['oauth_id'].'.'.$a['kind'].'.'.$a['actor_id'] ] = $a;
+    ksort($sorted_oauth_actor_list);
+ -->
+
+<ul class="demo-list-three mdl-list">
+    {% for actor in actor_list %}
+    
+
+    {% assign sub_title = actor.id %}
+    {% if actor.url %}
+    {% assign sub_title = actor.url | remove: "https://www." %}
+    {% endif %}
+
+    <li class="mdl-list__item mdl-list__item--two-line">
+        <span class="mdl-list__item-primary-content">
+            <!-- <i class="material-icons mdl-list__item-avatar">person</i> -->
+            <img class="mdl-list__item-avatar bg-cover" style="background-image: url({{ site.baseurl }}/assets/third-party/material.io/face.png)" width="40px" height="40px" src="{{ site.baseurl }}/{{ actor.img }}">
+
+            <span>{{ actor.name }}</span>
+
+            <span class="mdl-list__item-sub-title dont-break-out">
+                {{ sub_title }}
+            </span>
+        </span>
+        <span class="mdl-list__item-secondary-content">
+            {% if actor.login == nil %}
+            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.baseurl }}/action/actor/add/{{ actor.id }}?redirect=services/add">
+                <!-- <i class="material-icons">add</i> -->
+                Connect
+            </a>
+            {% else %}
+            
+            {% if actor.login == site.data.logged_in_user.username %}
+            
+                {% if actor.status == 400 %}
+                <span class="mdl-list__item-secondary-info">
+                    Error: {{ actor.status }}
+                </span>
+                {% else %}
+                <time class="mdl-list__item-secondary-info" datetime="date('Y-m-d H:m', strtotime($actor['last_sync'])">
+                    Last sync: {{ actor.sync | date: "%a, %b %d" }}
+                </time>
+                {% endif %}
+
+                <a class="mdl-list__item-secondary-action dialog-button mdl-button mdl-js-button mdl-color-text--primary mdl-button--icon"
+                    href="#"
+                    data-actor-id="{{ actor.id }}"
+                    data-service-name="{{ social.app }}"
+                    data-actor-name="{{ actor.name }}">
+                    <i class="material-icons">delete</i>
+                </a>
+            {% else %}
+            <span class="mdl-list__item-secondary-info">
+                {{ actor.login }}
+            </span>
+
+            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--icon" href="{{ site.baseurl }}/users/{{ actor.login }}" target="_blank">
+                <i class="material-icons">rss_feed</i>
+            </a>
+            {% endif %}
+
+            {% endif %}
+
+        </span>
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+<!-- Dynamic Modal  -->
+<!--
+<button class="mdl-button mdl-button--raised mdl-js-button dialog-button" data-actor-id="123" data-service-name="youtube" data-actor-name="Full Name">Show Dialog</button>
+<button class="mdl-button mdl-button--raised mdl-js-button dialog-button" data-actor-id="222" data-service-name="youtube222" data-actor-name="Full Name222">Show Dialog2</button>
+-->
+
+<dialog id="dialog" class="mdl-dialog">
+    <h1 class="mdl-dialog__title mdl-typography--font-light mdl-color-text--grey-600">Unlink Account</h1>
+    <div class="mdl-dialog__content">
+        <p>
+            Are you sure, you want to unlink the following account?<br>
+            <strong></strong>
+        </p>
+    </div>
+    <div class="mdl-dialog__actions">
+        <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent close">Cancel</button>
+        <a class="unlink mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--primary" href="#">
+            <i class="material-icons">delete</i>
+        </a>
+    </div>
+</dialog>
+
+<script type="text/javascript">
+    (function() {
+        'use strict';
+        var dialogButtons = document.querySelectorAll('.dialog-button');
+        var dialog = document.querySelector('#dialog');
+        if (! dialog.showModal) {
+            dialogPolyfill.registerDialog(dialog);
+        }
+
+        dialogButtons.forEach(function(dialogButton) {
+            // console.log(dialogButton);
+            dialogButton.addEventListener('click', function() {
+
+                var jq_dialogButton = $(this)
+
+                var actor_id = jq_dialogButton.data('actor-id') // Extract info from data-* attributes
+                var actor_name = jq_dialogButton.data('actor-name') // Extract info from data-* attributes
+                var service_name = jq_dialogButton.data('service-name') // Extract info from data-* attributes
+
+                // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+                // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+                var jq_dialog = $(dialog)
+                jq_dialog.find('p strong').text(service_name.toUpperCase() + ': ' + actor_name)
+                jq_dialog.find('a.unlink').attr("href", "{{ site.baseurl }}/action/actor/remove/" + actor_id + "?redirect=services/add")
+
+                dialog.showModal();
+            });
+        });
+        
+        dialog.querySelector('button.close')
+            .addEventListener('click', function() {
+                dialog.close();
+        });
+    }());
+</script>

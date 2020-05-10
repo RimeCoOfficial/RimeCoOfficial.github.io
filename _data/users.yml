@@ -6,41 +6,57 @@
   email: suvozit@rime.co
   social:
     - app: Facebook
+      url: facebok.com
       actors: 
         - id: suvozit
           name: Shubhajit Saha
           img: assets/users/93101128_10215803195343966_9003621194796105728_n.jpg
           login: suvozit
+          sync: 2001-01-01 10:00:00
+          status: 200
 
         - id: bitsitsgames
           name: Bitsits Games
           img: assets/users/93244581_2827117440705467_1235743369020309504_n.png
+          sync: 2001-01-01 10:00:00
+          status: 200
 
         - id: hizz.shot
           name: Hizz Shot
           img: assets/users/94889555_112627467092342_2404837147778482176_o.jpg
+          sync: 2001-01-01 10:00:00
+          status: 200
 
         - id: rhymetek
           name: Rhyme Tek.
           img: assets/users/93359136_1662726090541371_8835009497538756608_n.png
+          sync: 2001-01-01 10:00:00
+          status: 200
           verified: y
           login: rime
     - app: GitHub
+      url: github.com
       actors: 
         - id: suvozit
           name: Shubhajit Saha
           img: assets/users/93101128_10215803195343966_9003621194796105728_n.jpg
+          sync: 2001-01-01 10:00:00
+          status: 200
           login: suvozit
 
         - id: rhymetek
           name: Rhyme Tek.
           img: assets/users/93359136_1662726090541371_8835009497538756608_n.png
+          sync: 2001-01-01 10:00:00
+          status: 200
           verified: y
           login: rime
 
         - id: bitsits
           name: Bitsits Games
           img: assets/users/93244581_2827117440705467_1235743369020309504_n.png
+          sync: 2001-01-01 10:00:00
+          status: 200
   domain: https://www.shubhajitsaha.com
 
 - name: Girish Nayak
@@ -51,36 +67,49 @@
   email: girish@rime.co
   social:
     - app: Facebook
+      url: facebook.com
       actors: 
         - id: girishnayak12
           name: Girish Nayak
           img: assets/users/45683760_10157920272808626_5521347417271697408_n.jpg
+          sync: 2001-01-01 10:00:00
+          status: 200
           login: suvozit
 
         - id: rhymetek
           name: Rhyme Tek.
           img: assets/users/93359136_1662726090541371_8835009497538756608_n.png
+          sync: 2001-01-01 10:00:00
+          status: 200
           verified: y
           login: rime
         
         - id: rhymetekworkwithme.social
           name: Loudly
           img: assets/users/28277419_543850895993184_3496765490179231975_n.png
-
+          sync: 2001-01-01 10:00:00
+          status: 200
     - app: Medium
+      url: medium.com
       actors: 
         - id: girishnayak12
           name: Girish Nayak
           img: assets/users/45683760_10157920272808626_5521347417271697408_n.jpg
+          sync: 2001-01-01 10:00:00
+          status: 200
           login: suvozit
 
         - id: rhymetek
           name: Rhyme Tek.
           img: assets/users/93359136_1662726090541371_8835009497538756608_n.png
+          sync: 2001-01-01 10:00:00
+          status: 200
           verified: y
           login: rime
 
         - id: loudly-blog
           name: Loudly
           img: assets/users/28277419_543850895993184_3496765490179231975_n.png
+          sync: 2001-01-01 10:00:00
+          status: 200
   domain: https://www.girish.blog

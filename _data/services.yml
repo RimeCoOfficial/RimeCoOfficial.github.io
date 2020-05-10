@@ -1,32 +1,36 @@
 - name: Facebook
   detials: User, Page
   kind:
-      user:
+      - type: user
         name: Facebook
         icon: icon-facebook
-      page:
+      
+      - type: org
         name: Facebook Page
         icon: icon-facebook-official
 
 - name: Google
   detials: Google+, Blogger, YouTube
   kind:
-      user:
+      - type: user
         name: Google+
         icon: icon-google
-      channel:
+      
+      - type: channel
         name: YouTube
         icon: icon-youtube-play
-      blog:
+      
+      - type: blog
         name: Blogger
         icon: icon-blogger
 
 - name: LinkedIn
   detials: User, Companies
   kind:
-      user:
+      - type: user
         name: LinkedIn
         icon: icon-linkedin
-      page:
+      
+      - type: org
         name: LinkedIn Org
         icon: icon-linkedin

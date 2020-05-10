@@ -1,14 +1,6 @@
 ---
+layout: default
 ---
-
-<?php
-$nav_links = array(
-    ''              => 'Home',
-    'service'       => 'Services',
-    'settings'      => 'Settings',
-    'customize'     => 'Customize',
-);
-?>
 
 <div class="demo-layout-service mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-200">
     <header class="mdl-layout__header mdl-color--white">
@@ -19,9 +11,9 @@ $nav_links = array(
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="{{ site.baseurl }}/@'.$logged_in_user['username']">
+                <a class="mdl-navigation__link" href="{{ site.baseurl }}/{{ logged_in_user.username }}">
                     <img class="bg-cover img-circle"
-                        style="background-image: url({{ site.data.logged_in_user.profile_image_url }})"
+                        style="background-image: url({{ site.baseurl }}/{{ site.data.logged_in_user.avatar }})"
                         height="39px"
                         src="{{ site.baseurl }}/assets/images/blank.png"
                         alt="{{ site.data.logged_in_user.username }}">
@@ -37,21 +29,9 @@ $nav_links = array(
             </a>
         </span>
         <nav class="mdl-navigation">
-            <!--
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            -->
-
-            <?php
-            foreach ($nav_links as $key => $value)
-            {
-                ?>
-                <a class="mdl-navigation__link" href="{{ site.baseurl }}/$key">{{ value }}</a>
-                <?php
-            }  
-            ?>
+            {% for n in site.data.nav_links %}
+            <a class="mdl-navigation__link" href="{{ site.baseurl }}/{{ n.url }}">{{ n.title }}</a>
+            {% endfor %}
         </nav>
     </div>
     <main class="mdl-layout__content">

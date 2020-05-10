@@ -1,7 +1,7 @@
 <div class="mdl-card__supporting-text">
 
     {% for s in site.data.services %}    
-    <button class="service-popup mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.baseurl }}/action/service/add/{{ s.name }}">
+    <button class="service-popup mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.baseurl }}/action/services/add/{{ s.name }}">
         <i class="icon icon-lg {{ s.kind.user.icon }}"></i>
         <!-- {{ s.name }} -->
     </button>

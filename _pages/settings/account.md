@@ -1,4 +1,5 @@
 ---
+layout: settings
 ---
 
 <?php // $this->view('settings/profile_image

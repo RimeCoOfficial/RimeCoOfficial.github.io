@@ -1,0 +1,8 @@
+- url: customize/logo
+  title: Logo
+- url: customize/icon
+  title: Icon
+- url: customize/title
+  title: Title
+- url: customize/domain
+  title: Domain

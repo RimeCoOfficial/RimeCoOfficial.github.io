@@ -1,0 +1,11 @@
+- title: Home
+  url: dashboard
+
+- title: Services
+  url: services
+
+- title: Settings
+  url: settings
+
+- title: Customize
+  url: customize

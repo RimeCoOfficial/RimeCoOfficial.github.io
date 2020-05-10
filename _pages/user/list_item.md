@@ -7,7 +7,7 @@ $people_item
 
     <div class="media-left">
         <a href="{{ site.baseurl }}/@'.$user['username']">
-            <img class="bg-cover" style="background-image: url({{ user['profile_image_url'] }})" width="60px" height="60px" src="{{ site.baseurl }}/assets/images/blank.png">
+            <img class="bg-cover" style="background-image: url({{ user['avatar'] }})" width="60px" height="60px" src="{{ site.baseurl }}/assets/images/blank.png">
         </a>
     </div>
 

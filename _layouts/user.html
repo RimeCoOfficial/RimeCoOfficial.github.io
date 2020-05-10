@@ -17,8 +17,8 @@ layout: default
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
             <nav class="mdl-navigation">
-                <a id="edit" class="mdl-navigation__link" href="{{ site.baseurl }}/customize">
-                    <i class="material-icons">edit</i>
+                <a id="palette" class="mdl-navigation__link" href="{{ site.baseurl }}/customize">
+                    <i class="material-icons">palette</i>
                 </a>
             </nav>
         </div>
@@ -57,7 +57,7 @@ layout: default
 
                             <div class="mdl-card__actions mdl-card--border">
                                 <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ req_user.domain }}" target="_blank">
-                                    {{ req_user.domain | remove: "https://" }}
+                                    {{ req_user.domain | remove: "https://www." }}
                                     &nbsp; <i class="material-icons">open_in_new</i>
                                 </a>
                             </div>
@@ -70,6 +70,6 @@ layout: default
     </main>
 </div>
 
-<div class="mdl-tooltip mdl-tooltip--large" for="edit">Customize</div>
+<div class="mdl-tooltip mdl-tooltip--large" for="palette">Customize</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="feedback">Report Abuse</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="verified">Verified</div>

@@ -1,4 +1,3 @@
 ---
 layout: settings
-title: Settings
 ---

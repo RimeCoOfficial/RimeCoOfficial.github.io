@@ -52,8 +52,8 @@ layout: default
     <main class="mdl-layout__content">
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--5-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                {% assign image = 'customize-01' %}
-                <img src="{{ site.baseurl }}/assets/images/{{ image }}.png" class="full-width">
+                {% assign image = page.url | split: "/" | last %}
+                <img src="{{ site.baseurl }}/assets/images/customize-{{ image }}.png" class="full-width">
             </div>
             
             <div class="mdl-card mdl-cell mdl-cell--6-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">

@@ -1,4 +1,6 @@
 ---
+layout: customize
+# permalink: customize
 ---
 
 <p>

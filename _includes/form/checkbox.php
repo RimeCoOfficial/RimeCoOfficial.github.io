@@ -1,5 +1,6 @@
----
----
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 
 <?php
 if (empty($value)) $value = NULL;
@@ -22,9 +23,9 @@ $element_empty = array(
 );
 ?>
 
-<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="{{ element['id'] }}">
-    <!-- <input type="checkbox" id="{{ element['id'] }}" class="mdl-checkbox__input" checked> -->
-    form_checkbox($element_empty
-    form_checkbox($element
-    <span class="mdl-checkbox__label">{{ element_config['label'] }}</span>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="<?php echo $element['id']; ?>">
+    <!-- <input type="checkbox" id="<?php echo $element['id']; ?>" class="mdl-checkbox__input" checked> -->
+    <?php echo form_checkbox($element_empty); ?>
+    <?php echo form_checkbox($element); ?>
+    <span class="mdl-checkbox__label"><?php echo $element_config['label']; ?></span>
 </label>

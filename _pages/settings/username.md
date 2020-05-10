@@ -2,7 +2,9 @@
 layout: settings
 ---
 
-{{ site.baseurl }}/<strong>{{ logged_in_user.username }}</strong></p>
+<p>{{ site.url }}/<strong>{{ site.data.logged_in_user.username }}</strong></p>
+
+<form></form>
 
 form_open uri_string_q() 
 

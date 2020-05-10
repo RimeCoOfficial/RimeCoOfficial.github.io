@@ -1,4 +1,5 @@
 ---
+layout: customize
 ---
 
 <?php

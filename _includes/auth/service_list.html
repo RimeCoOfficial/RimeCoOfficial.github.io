@@ -1,8 +1,8 @@
 <div class="mdl-card__supporting-text">
-
+    
     {% for s in site.data.services %}    
     <button class="service-popup mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.baseurl }}/action/services/add/{{ s.name }}">
-        <i class="icon icon-lg {{ s.kind.user.icon }}"></i>
+        <i class="icon icon-lg {{ s.kind[0].icon }}"></i>
         <!-- {{ s.name }} -->
     </button>
     &nbsp;
@@ -10,27 +10,24 @@
 
     <br>
     <br>
-    <br>
+    <p>
+    <!-- <br> -->
     <!-- Sign up with Facebook, Google or LinkedIn and let our AI do the work. -->
     To use Rime you must have cookies enabled.
-    <!-- <br>
-    <br> -->
+    <br>
+    <br>
     For more info, please see Login FAQ.
-    <!-- If you have any issue regarding signing in, report us <a href="mailto:support@rime.co?subject=Sign up Issue">support@rime.co</a><br> -->
+    If you have any issue regarding signing in, report us <a href="mailto:support@rime.co?subject=Sign up Issue">support@rime.co</a><br>
+    </p>
 </div>
 
 <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored" href="{{ site.baseurl }}/support/faq">
+    <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="{{ site.baseurl }}/support/faq">
         FAQ
     </a>
-
-    <!-- <div class="mdl-layout-spacer"></div> -->
-
-    <a class="mdl-button mdl-js-button mdl-js-ripple-effect pull-right" href="{{ site.baseurl }}/auth/demo">
+    <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored pull-right" href="{{ site.baseurl }}/auth/demo">
         Demo
     </a>
-
-    
 </div>
 
  {% include js/service_popup.html %}

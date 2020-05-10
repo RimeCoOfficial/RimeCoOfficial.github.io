@@ -1,4 +1,4 @@
 ---
-# layout: customize
+layout: customize
 title: Customize
 ---

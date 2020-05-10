@@ -1,10 +1,14 @@
 - title: Username
   url: settings/username
+
 - title: Account
-  url: settings/account
+  url: settings
+
 - title: Email
   url: settings/email
+
 - title: Notifications
   url: settings/notifications
+
 - title: Deactivite
   url: settings/deactivate

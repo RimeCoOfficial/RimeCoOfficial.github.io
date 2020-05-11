@@ -15,18 +15,6 @@ social:
         sync: 2001-01-01 10:00:00
         status: 200
 
-      - id: bitsitsgames
-        name: Bitsits Games
-        img: assets/users/93244581_2827117440705467_1235743369020309504_n.png
-        sync: 2001-01-01 10:00:00
-        status: 200
-
-      - id: hizz.shot
-        name: Hizz Shot
-        img: assets/users/94889555_112627467092342_2404837147778482176_o.jpg
-        sync: 2001-01-01 10:00:00
-        status: 200
-
       - id: rhymetek
         name: Rhyme Tek.
         img: assets/users/93359136_1662726090541371_8835009497538756608_n.png
@@ -34,6 +22,25 @@ social:
         status: 200
         verified: y
         login: rime
+      
+      - id: bitsitsgames
+        name: Bitsits Games
+        img: assets/users/93244581_2827117440705467_1235743369020309504_n.png
+        sync: 2001-01-01 10:00:00
+        status: 200
+        login: bitsits
+
+      - id: StringYourStory
+        name: String Your Story
+        img: assets/users/10154267_740948132594185_8004710779763242299_n.png
+        sync: 2001-01-01 10:00:00
+        status: 200
+      
+      - id: hizz.shot
+        name: Hizz Shot
+        img: assets/users/94889555_112627467092342_2404837147778482176_o.jpg
+        sync: 2001-01-01 10:00:00
+        status: 200
   - app: GitHub
     url: github.com
     actors: 

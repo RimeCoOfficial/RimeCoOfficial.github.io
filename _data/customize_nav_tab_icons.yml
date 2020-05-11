@@ -1,4 +1,8 @@
-    'customize/logo'    => 'font_download', // text_fields
-    'customize/icon'    => 'face',
-    'customize/title'   => 'title',
-    'customize/domain'  => 'domain',
+- url: customize/
+  title: font_download
+- url: customize/icon
+  title: face
+- url: customize/title
+  title: title
+- url: customize/domain
+  title: domain

@@ -15,18 +15,15 @@
         next:       '.infinite-next-link',
         delay:      100,
     }).on('rendered', function() {
-        <?php if (!empty($emojifyInit)) { ?> emojifyInit(); <?php } ?>
+        {% if $emojifyInit %}
+        emojifyInit();
+        {% endif %}
     });
 
     // Adds a link which has to be clicked to load the next page
-    <?php
-    if (!empty($show_trigger))
-    {
-        ?>
-        ias.extension(new IASTriggerExtension({ text: 'Load more' }));
-        <?php
-    }
-    ?>
+    {% if $emojifyInit %}
+    ias.extension(new IASTriggerExtension({ text: 'Load more' }));
+    {% endif %}
 
     // The History extension adds history support.
     ias.extension(new IASPagingExtension());

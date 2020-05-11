@@ -48,4 +48,6 @@ title: Add
 </div>
 {% endif %}
 
-{% include js/service_popup.html %}
+{% include services/popup.html %}
+
+{% include services/modal.html %}

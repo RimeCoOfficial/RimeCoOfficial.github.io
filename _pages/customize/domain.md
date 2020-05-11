@@ -1,6 +1,5 @@
 ---
 layout: customize
-# permalink: customize
 ---
 
 <p>
@@ -15,7 +14,7 @@ layout: customize
 </p>
 
 <p>
-    <small>To learn more, visit our <a href="{{ site.baseurl }}/support/faq" target="_blank">frequently asked questions</a> and our <a href="{{ site.baseurl }}/legal/terms" target="_blank">terms of service</a>. Otherwise, you can always use your default URL (HTTPS://rime.co/weblog/<a class="mdl-color-text--black" href="{{ site.baseurl }}//weblog/'.$logged_in_user['username']" target="_blank">{{ site.data.logged_in_user.username }}</a>) free of charge.</small>
+    <small>To learn more, visit our <a href="{{ site.baseurl }}/support/faq" target="_blank">frequently asked questions</a> and our <a href="{{ site.baseurl }}/legal/terms" target="_blank">terms of service</a>. Otherwise, you can always use your default URL ({{ site.baseurl }}/u/<a class="mdl-color-text--black" href="{{ site.baseurl }}/user" target="_blank">{{ site.data.logged_in_user.username }}</a>) free of charge.</small>
 </p>
 
 {% if weblog.domain %}
@@ -25,11 +24,11 @@ layout: customize
     </a>
 {% endif %}
 
-form_open uri_string_q() 
+<form>
 
-<?php
-$this->view('form/input', array('id' => 'domain', 'value' => $weblog['domain']));
-?>
+<!-- 'id' => 'domain', 'value' => $weblog['domain']) -->
+
+{% include form/input.html %}
 
 <br>
 <br>
@@ -40,4 +39,4 @@ $this->view('form/input', array('id' => 'domain', 'value' => $weblog['domain']))
     Change
 </button>
 
-form_close
+</form>

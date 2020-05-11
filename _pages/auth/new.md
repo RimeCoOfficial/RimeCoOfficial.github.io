@@ -27,7 +27,7 @@ else
 
 <div class="mdl-card__supporting-text">
 
-    form_open uri_string_q() 
+    <form>
 
     <?php
     $this->view('form/input',       array('id' => 'full_name',  'value' => $full_name));
@@ -48,6 +48,6 @@ else
       Create Account
     </button>
 
-    form_close
+    </form>
 
 </div>

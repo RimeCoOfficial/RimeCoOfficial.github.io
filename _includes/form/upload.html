@@ -1,0 +1,27 @@
+{% assign label = "Number" %}
+{% assign form_error = "Input is not a number!" %}
+{% assign is_invalid = 1 %}
+
+<form enctype="multipart/form-data">
+
+<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label {{ if ($is_invalid) echo 'is-invalid' }}">
+
+    <input type="file" name="{{ id }}" size="20" />
+    <input type="hidden" name="validate" value="true">
+
+    {{ if ($is_invalid) }}
+    <span class="mdl-textfield__error">{{ form_error }}</span>
+    {{ endif }}
+
+</div>
+
+<br>
+<br>
+<br>
+
+<!-- Accent-colored raised button with ripple -->
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+    Upload
+</button>
+
+</form>

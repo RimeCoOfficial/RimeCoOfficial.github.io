@@ -2,7 +2,7 @@
 layout: settings
 ---
 
-form_open uri_string_q() 
+<form>
 
 
  {% include settings/notifications_options.html id = notification %}
@@ -18,4 +18,4 @@ form_open uri_string_q()
     Save Changes
 </button>
 
-form_close
+</form>

@@ -1,12 +1,13 @@
 ---
 layout: settings
+permalink: settings
 ---
 
 <p>{{ site.url }}/<strong>{{ site.data.logged_in_user.username }}</strong></p>
 
 <form></form>
 
-form_open uri_string_q() 
+<form>
 
 <?php
 $this->view('form/input', array('id' => 'username', 'value' => $logged_in_user['username']));
@@ -21,4 +22,4 @@ $this->view('form/input', array('id' => 'username', 'value' => $logged_in_user['
     Change
 </button>
 
-form_close
+</form>

@@ -15,30 +15,21 @@ layout: default
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
             <nav class="mdl-navigation">
-                <?php
-                if (!empty($logged_in_user))
-                {
-                    ?>
-                    <a class="mdl-navigation__link" href="{{ site.baseurl }}/u/'.$logged_in_user['username']">
+                {% if site.data.logged_in_user %}
+                    <a class="mdl-navigation__link" href="{{ site.baseurl }}/user">
                         <img class="bg-cover img-circle"
                             style="background-image: url({{ site.baseurl }}/{{ site.data.logged_in_user.avatar }})"
                             height="39px"
                             src="{{ site.baseurl }}/assets/images/blank.png"
                             alt="{{ site.data.logged_in_user.username }}">
                     </a>
-                    <?php
-                }
-                else
-                {
-                    ?>
+                    {% else %}
                     <a class="mdl-navigation__link" href="{{ site.baseurl }}/auth/sign-in" style="padding-right: 0;" >
                         <span class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                             Sign in
                         </span>
                     </a>
-                    <?php
-                }
-                ?>
+                    {% endif %}
                 
             </nav>
         </div>

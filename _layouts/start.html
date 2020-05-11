@@ -1,6 +1,3 @@
----
----
-
 <?php
 $show_skip_link = FALSE;
 if (!empty($oauth_id))
@@ -50,17 +47,11 @@ else if ($this->session->flashdata('flash_oauth_id') != TRUE)
                     <a id="skip_next" class="mdl-navigation__link" href="{{ next }}">
                         <i class="material-icons">skip_next</i>
                     </a>
-                    <?php
-                }
-                else
-                {
-                    ?>
+                    {% else %}
                     <span class="mdl-navigation__link">
                         <i class="material-icons mdl-color-text--grey-300">skip_next</i>
                     </span>
-                    <?php
-                }
-                ?>
+                    {% endif %}
             </nav>
         </div>
     </header>

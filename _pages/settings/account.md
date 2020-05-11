@@ -1,13 +1,12 @@
 ---
 layout: settings
-permalink: settings
 ---
 
-<?php // $this->view('settings/profile_image
+<!-- view settings/profile_image -->
 
 <!-- <br> -->
 
-form_open uri_string_q() 
+<form>
 
 <?php
 $this->view('form/input',     array('id' => 'full_name',  'value' => $logged_in_user['full_name']));
@@ -22,4 +21,4 @@ $this->view('form/input',     array('id' => 'location',   'value' => $logged_in_
     Update
 </button>
 
-form_close
+</form>

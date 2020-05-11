@@ -1,8 +1,8 @@
 - title: Username
-  url: settings/username
+  url: settings/ #username
 
 - title: Account
-  url: settings
+  url: settings/account
 
 - title: Email
   url: settings/email

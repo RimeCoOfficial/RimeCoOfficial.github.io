@@ -25,7 +25,7 @@ Looking for activity notification controls?<br>
 
 <br>
 
-form_open uri_string_q() 
+<form>
 
 <?php
 $this->view('form/input', array('id' => 'user_email', 'value' => ( !empty($user_email['new_email']) ? $user_email['new_email'] : $user_email['email_id'] ) ));
@@ -40,4 +40,4 @@ $this->view('form/input', array('id' => 'user_email', 'value' => ( !empty($user_
     Update
 </button>
 
-form_close
+</form>

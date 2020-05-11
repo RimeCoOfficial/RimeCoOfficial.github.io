@@ -1,0 +1,7 @@
+<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label {{ include.is-invalid }}">
+
+    {% if include.is_invalid %}
+        <span class="mdl-textfield__error">Input is not a number!</span>
+        <span class="mdl-textfield__error">{{ form_error }}</span>
+    {% endif %}
+</div>

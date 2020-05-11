@@ -1,0 +1,20 @@
+<!-- html5 tag - not supported in Internet Explorer 9 and earlier versions.
+- placeholder
+- type
+- autocomplete -->
+
+{% assign label = "Number" %}
+{% assign form_error = "Input is not a number!" %}
+{% assign is_invalid = 1 %}
+
+<!-- Numeric Textfield with Floating Label -->
+<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label {{ if ($is_invalid) echo 'is-invalid' }}">
+
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
+
+    <label id="" class="mdl-textfield__label" for="sample4">Number</label>
+
+    {% if is_invalid %}
+    <span class="mdl-textfield__error">{{ form_error }}</span>
+    {% endif %}
+</div>

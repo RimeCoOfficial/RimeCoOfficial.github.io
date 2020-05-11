@@ -99,4 +99,4 @@ else
 }
 ?>
 
- {% include js/service_popup.html %}
+ {% include services/popup.html %}

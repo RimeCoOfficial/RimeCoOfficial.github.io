@@ -90,7 +90,7 @@ layout: about
             and <a href="https://www.Dsource.in">D'source</a>,
 
             Jr Gameplay Programmer 
-            at <a href="https://www.ubisoft.com/en-US/studio/pune.aspx">Ubisoft Pune</a> on <a href="https://en.wikipedia.org/wiki/Far_Cry_(video_game)">Far CryⓇ</a> Classics an HD remake for PlayStation 3 and Xbox 360.
+            at <a href="https://www.ubisoft.com/en-US/studio/pune.aspx">Ubisoft</a> Pune on <a href="https://en.wikipedia.org/wiki/Far_Cry_(video_game)">Far CryⓇ</a> Classics an HD remake for PlayStation 3 and Xbox 360.
 
             Bachelor of Civil Engineering from <a href="https://www.iiests.ac.in">IIEST Shibpur</a>.
         </p>

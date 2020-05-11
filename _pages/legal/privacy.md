@@ -67,8 +67,8 @@ layout: legal
 
 <address>
     <strong>Rime</strong><br>
-    IIT Bomaby<br>
-    Mumbai, MH 400076. IN
+    Ranka Colony, Bilekahalli<br>
+    Bengaluru, Karnataka 560076
 </address>
 
 

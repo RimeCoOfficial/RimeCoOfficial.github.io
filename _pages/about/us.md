@@ -14,7 +14,7 @@ layout: about
         <p>2016</p>
 
         <h5>Founders</h5>
-        <p>Shubhajit Saha and Girish Nayak</p>
+        <p>Girish Nayak & Shubhajit Saha</p>
 
         <h5>Incorporation</h5>
         <p>June 14, 2016</p>
@@ -38,46 +38,75 @@ layout: about
 
         <h3>
             <span class="mdl-typography--font-light">
-                Shubhajit Saha
+                Gireesh Nayak
             </span>
-            
-            <a class="mdl-typography--font-light" href="{{ site.baseurl }}/u/suvozit" target="_blank">
+
+            <a class="mdl-typography--font-light" href="{{ site.data.users[1].domain }}" target="_blank">
                 <i class="material-icons">open_in_new</i>
             </a>
         </h3>
         <p>
-            <strong>CEO and Founder</strong>
-            Founder of <a href="https://www.bitsits.games">Bitsits Games</a> (started 2009), won Intel Level up 2011 and several other national level techfests. Graduate from <a href="https://www.iiests.ac.in">IIEST, Shibpur</a> (B.E., Civil). Worked at <a href="https://www.ubisoft.com/en-US/studio/pune.aspx">Ubisoft</a>, India on FarCry Classics XBOX PS3.
+            <strong>CEO</strong>
+            
+            Founder of <a href="https://workwithme.in/">work with Me</a>.
+
+            Worked as Verification Engineer at <a href="https://www.ibm.com/">IBM-ISL</a> Bangalore.
+
+            Masters of Tech Electrical <a href="http://www.iitb.ac.in/">IIT Bombay</a> and 
+            Bachelor of Engineering Electronics & Communication from <a href="http://www.nitrr.ac.in/">NIT Raipur</a>.
+        </p>
+        <p>
+            <a href="mailto:girish@rime.co">girish@rime.co</a>
+        </p>
+
+        <h3>
+            <span class="mdl-typography--font-light">
+                Shubhajit Saha
+            </span>
+            
+            <a class="mdl-typography--font-light" href="{{ site.data.users[0].domain }}" target="_blank">
+                <i class="material-icons">open_in_new</i>
+            </a>
+        </h3>
+        <p>
+            <strong>CTO</strong>
+
+            Founder of 
+            <a href="https://www.bitsits.games">Bitsits Games</a>, 
+            <a href="https://www.azadi.store">Azadi Store</a>, 
+            <a href="https://www.mudra.club">Mudra Club</a>. 
+            
+            
+            Worked as 
+            
+            SDE III 
+            at <a href="http://agricx.com/">Agricx</a>,
+
+            Sr. Project Tech Assistant 
+            at <a href="http://www.idc.iitb.ac.in/">IDC</a> 
+            <a href="http://www.iitb.ac.in/">IIT Bombay</a>
+
+            on <a href="https://www.cdac.in/index.aspx?id=mc_ocr_ocr">OCR-Phase II</a>
+            and <a href="https://www.Dsource.in">D'source</a>,
+
+            Jr Gameplay Programmer 
+            at <a href="https://www.ubisoft.com/en-US/studio/pune.aspx">Ubisoft Pune</a> on <a href="https://en.wikipedia.org/wiki/Far_Cry_(video_game)">Far CryⓇ</a> Classics an HD remake for PlayStation 3 and Xbox 360.
+
+            Bachelor of Civil Engineering from <a href="https://www.iiests.ac.in">IIEST Shibpur</a>.
         </p>
         <p>
             <a href="mailto:suvozit@rime.co">suvozit@rime.co</a>
         </p>
 
-        <h3 class="">
-            <span class="mdl-typography--font-light">
-                Girish Nayak
-            </span>
-
-            <a class="mdl-typography--font-light" href="{{ site.baseurl }}/u/girish" target="_blank">
-                <i class="material-icons">open_in_new</i>
-            </a>
-        </h3>
-        <p>
-            <strong>Co-Founder and Marketing Lead</strong>
-            Graduate of <a href="https://www.nitrr.ac.in/">NIT Raipur</a> (B.Tech Electronics) and <a href="https://www.iitb.ac.in/">IIT Bombay</a> (M.Tech Electrical). Worked as a Verification Engineer in <a href="https://www-07.ibm.com/in/isl/">IBM-ISL</a> Bangalore.</p>
-        <p>
-            <a href="mailto:girish@rime.co">girish@rime.co</a>
-        </p>
-
         <hr>
         
         <address>
-            <strong>Rime</strong><br>
-            IIT Bomaby<br>
-            Mumbai, MH 400076. IN
+            <strong>Rhyme Tek</strong>
+            Ranka Colony, Bilekahalli<br>
+            Bengaluru, Karnataka 560076
         </address>
         <p>
-            <a href="mailto:support@rime.co">support@rime.co</a>
+            <a href="mailto:founders@rime.co">founders@rime.co</a>
         </p>
 
     </div>

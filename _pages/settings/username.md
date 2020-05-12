@@ -3,7 +3,7 @@ layout: settings
 permalink: settings
 ---
 
-<p>{{ site.url }}/<strong>{{ site.data.logged_in_user.username }}</strong></p>
+<p>{{ site.baseurl }}/<strong>{{ site.data.logged_in_user.username }}</strong></p>
 
 <form></form>
 

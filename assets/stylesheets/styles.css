@@ -74,7 +74,18 @@ demo-layout--fixed-drawer
 <!-- Uses a transparent header that draws on top of the layout's background -->
  */
 .demo-layout-landing.mdl-layout {
-    background: url('../third-party/unspalsh.com/joel-filipe-151692.jpg') center / cover;
+    background: url('../third-party/unspalsh.com/joel-filipe-151692-hflip.jpg') center / cover;
+}
+
+
+/* 
+.mdl-layout__header-row .mdl-navigation__link {
+    padding: 0 24px;
+}
+*/
+a.mdl-navigation__link:last-child {
+    /* .mdl-layout__header-row.mdl-navigation__link{ */
+    padding-right: 0 !important;
 }
 
 /**
@@ -154,7 +165,7 @@ demo-card-event
 .demo-layout-auth .demo-card-square > .mdl-card__title {
     height: 300px;
     background:
-        url('../third-party/tumblr.com/tumblr_oan67aYRRE1qinh1vo1_12801.jpg') center / cover;
+        url('../third-party/unspalsh.com/joel-filipe-189100.jpg') center / cover;
     background-position: 25% 50%;
 }
 

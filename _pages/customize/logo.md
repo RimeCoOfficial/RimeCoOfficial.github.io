@@ -21,7 +21,7 @@ permalink: customize
 {% endif %}
 
 {% if src %}
-<img src="{{ site.url }}/{{ src }}" style="{{ style }} padding-bottom: 20px; padding-top: 5px;" />
+<img src="{{ site.baseurl }}/{{ src }}" style="{{ style }} padding-bottom: 20px; padding-top: 5px;" />
 {% endif %}
 
 <p>{{ text }}</p>

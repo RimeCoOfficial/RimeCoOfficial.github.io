@@ -25,7 +25,7 @@ title: Add
     </a>
 
     <button class="service-popup mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent pull-right" href="{{ site.baseurl }}/oauth_path_base/service">
-        Authorize a new account <i class="material-icons">launch</i>
+        Authorize new account <i class="material-icons">launch</i>
     </button>
 </div>
 

@@ -1,4 +1,5 @@
-baseurl:          /rhymetek.github.io
+# baseurl:          /rhymetek.github.io
+baseurl:          /
 theme_color:      DA2E75
 
 analytics:

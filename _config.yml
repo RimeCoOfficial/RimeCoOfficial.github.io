@@ -1,6 +1,9 @@
 baseurl:          /rhymetek.github.io
 theme_color:      DA2E75
 
+analytics:
+  google: UA-41643154-1
+
 # Where things are
 sass:
   style: compact # possible values: nested expanded compact compressed

@@ -1,16 +1,19 @@
+<!-- Typed.js -->
 
-<script src="{{ site.baseurl }}/assets/third-party/mattboldt-typed.js-1.1.4/dist/typed.min.js"></script>
+<script src="{{ site.baseurl }}/assets/third-party/mattboldt-typed.js-1.1.4/dist/typed.min.js">
+</script>
 
 <script>
-    $(function(){
-        $("#typed-element-arya").typed({
-            strings: ["Aryá", "आर्या", "আর্য"],
-            typeSpeed:  75,
-            backSpeed:  25,
-            backDelay:  1000,
-            loop:       true,
-        });
-    });
+  $(function(){
+      $("#typed-element-arya").typed({
+          // strings: ["Aryá", "आर्या", "আর্য"],
+          strings: ["Rhyme", "rʌɪm", "Rime"],
+          typeSpeed:  75,
+          backSpeed:  25,
+          backDelay:  1000,
+          loop:       true,
+      });
+  });
 </script>
 
 {% assign state = page.url | split: "/" | last %}
@@ -25,28 +28,28 @@
 {% endcase %}
 
 <script>
-  $(function(){
-      $("#typed-element-intro").typed({
-        strings: [
-            "{{ site.data.intro[ stage ].message }}"
-        ],
-        typeSpeed: 75
-      });
-  });
+$(function(){
+    $("#typed-element-intro").typed({
+      strings: [
+          "{{ site.data.intro[ stage ].message }}"
+      ],
+      typeSpeed: 75
+    });
+});
 </script>
 
 <script>
-    $(function(){
-        $("#typed-element-hello").typed({
-            strings: [
-                "I'm Aryá",
-                "আমি আর্য",
-                "में आर्य",
-            ],
-            typeSpeed: 75,
-            backSpeed:  25,
-            backDelay:  1000,
-            loop:       true,
-        });
+$(function(){
+    $("#typed-element-hello").typed({
+        strings: [
+            "I'm Aryá",
+            "আমি আর্য",
+            "में आर्य",
+        ],
+        typeSpeed: 75,
+        backSpeed:  25,
+        backDelay:  1000,
+        loop:       true,
     });
-  </script>
+});
+</script>

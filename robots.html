@@ -1,15 +1,19 @@
+---
+permalink: robots.txt
+---
+
 # You know, for robots
 # https://www.robotstxt.org
 # 
-# robots@rime.co
+# robots@{{ site.url }}
 
 User-Agent: *
 Disallow: /action/*
 Disallow: /api/*
 Disallow: /test/*
-Disallow: /weblog/*/search/*
+Disallow: /search/*
 
-## Wait 1 second between successive requests.
-# Crawl-delay: 1
+# Wait 10 second between successive requests.
+Crawl-delay: 10
 
 Sitemap: {{ site.baseurl }}/sitemap.xml

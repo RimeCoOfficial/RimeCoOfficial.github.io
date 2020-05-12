@@ -68,7 +68,7 @@ layout: default
             <div class="demo-card-event mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card mdl-color-text--white">
                 <div class="mdl-card__title mdl-card--expand">
                     <h4 class="mdl-card__title-text mdl-color-text--white">
-                      Last sync<br>
+                      Last build<br>
                       {{ site.time | date: "%a, %b %d" }}<br>
                       {{ site.time | date: "%H.%M" }}
                     </h4>
@@ -123,4 +123,4 @@ layout: default
 <div class="mdl-tooltip mdl-tooltip--large" for="inbox">Inbox</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="settings">Settings</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="exit_to_app">Exit</div>
-<!-- <div class="mdl-tooltip mdl-tooltip--large" for="sync">Sync</div> -->
+<div class="mdl-tooltip mdl-tooltip--large" for="sync">site.github.build_revision</div>

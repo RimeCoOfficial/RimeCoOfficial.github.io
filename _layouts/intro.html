@@ -13,7 +13,7 @@ layout: default
     {% assign index = 2 %}
 {% endcase %}
 
-{% assign percent = index | plus: 1 | times: 100 | divided_by: 3 %}
+{% assign percent = index | times: 100 | divided_by: 3 %}
 {% assign intro = site.data.intro[ index ] %}
 
 <div class="demo-layout-intro mdl-layout mdl-js-layout mdl-layout--fixed-header">

@@ -78,16 +78,6 @@ demo-layout--fixed-drawer
 }
 
 
-/* 
-.mdl-layout__header-row .mdl-navigation__link {
-    padding: 0 24px;
-}
-*/
-a.mdl-navigation__link:last-child {
-    /* .mdl-layout__header-row.mdl-navigation__link{ */
-    padding-right: 0 !important;
-}
-
 /**
  * 
  * https://codepen.io/peiche/pen/PPPRgz

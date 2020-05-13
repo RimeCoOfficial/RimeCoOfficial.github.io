@@ -40,7 +40,7 @@ else
     <br>
     <br>
     
-    Click create account to agree to the <a href="{{ site.baseurl }}/legal/terms" target="_blank">services agreement</a> and <a href="{{ site.baseurl }}/legal/privacy" target="_blank">privacy</a><br>
+    Click create account to agree to the <a href="{{ site.url }}/legal/terms" target="_blank">services agreement</a> and <a href="{{ site.url }}/legal/privacy" target="_blank">privacy</a><br>
     <br>
 
     <!-- Accent-colored raised button with ripple -->

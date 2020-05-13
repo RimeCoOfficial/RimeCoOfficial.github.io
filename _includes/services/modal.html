@@ -43,7 +43,7 @@
                 // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
                 var jq_dialog = $(dialog)
                 jq_dialog.find('p strong').text(service_name.toUpperCase() + ': ' + actor_name)
-                jq_dialog.find('a.unlink').attr("href", "{{ site.baseurl }}/action/actor/remove/" + actor_id + "?redirect=services/add")
+                jq_dialog.find('a.unlink').attr("href", "{{ site.url }}/action/actor/remove/" + actor_id + "?redirect=services/add")
 
                 dialog.showModal();
             });

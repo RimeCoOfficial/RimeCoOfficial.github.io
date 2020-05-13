@@ -1,11 +1,12 @@
+# GitHub
 # baseurl:          /rhymetek.github.io
-baseurl:          /
-theme_color:      DA2E75
 
+# Custom
+theme_color:      DA2E75
 analytics:
   google: UA-41643154-1
 
-# Where things are
+# Where things are Advanced
 sass:
   style: compact # possible values: nested expanded compact compressed
 

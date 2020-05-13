@@ -9,7 +9,7 @@
 <br>
 
 <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--raised mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="{{ site.baseurl }}">
+    <a class="mdl-button mdl-button--raised mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}">
         Home
     </a>
 </div>

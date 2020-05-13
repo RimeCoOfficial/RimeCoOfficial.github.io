@@ -1,0 +1,111 @@
+- h1: "Features"
+  list:
+    - href: about
+      name: About
+      attr: 
+
+    - href: legal/terms
+      name: Terms
+      attr: 
+
+    - href: jobs
+      name: Jobs
+      attr: 
+
+    - href: https://medium.com/स्वतंत्र/business-ffaa41747e3" 
+      name: Partners
+      attr: target="_blank"
+
+    - href: https://medium.com/rimeofficial" 
+      name: Updates
+      attr: target="_blank"
+
+- h1: "Details"
+  list:
+    - href: specs
+      name: Specs
+      attr: 
+
+    - href: https://RhymeTek.tumblr.com/tagged/design" 
+      name: Design
+      attr: target="_blank"
+
+    - href: https://RhymeTek.tumblr.com/tagged/engineering" 
+      name: Engineering
+      attr: target="_blank"
+
+    - href: support/security
+      name: Security
+      attr: 
+
+    - href: support/libraries
+      name: Libraries
+      attr: 
+
+    - href: weblog" 
+      name: Weblog</
+      attr: target="_blank"a>
+
+    - href: newsletters" 
+      name: Newsletters
+      attr: target="_blank"
+
+    - href: https://RhymeTek.tumblr.com" 
+      name: Blog
+      attr: target="_blank"
+
+    - href: Services
+      name: serives
+      attr: 
+
+- h1: "Technology"
+  list:
+    - href: ai
+      name: AI
+      attr: 
+
+    - href: https://RhymeTek.github.io/Open-Source" 
+      name: Open Source
+      attr: target="_blank"
+
+    - href: https://medium.com/oembed" 
+      name: oEmbed
+      attr: target="_blank"
+
+    - href: https://medium.com/postmaster" 
+      name: Postmaster
+      attr: target="_blank"
+
+- h1: "FAQ"
+  list:
+    - href: support/faq
+      name: Questions
+      attr: 
+
+    - href: https://RhymeTek.tumblr.com/ask" 
+      name: Ask
+      attr: target="_blank"
+
+    - href: https://rimefounders.tumblr.com" 
+      name: Founders
+      attr: target="_blank"
+
+    - href: https://docs.google.com/forms/d/15T8c86v5_QmD887jpHBNLB4teRxHfM_0479QDb_pkV8" 
+      name: Feedback
+      attr: target="_blank"
+
+    - href: press
+      name: Press
+      attr: 
+
+    - href: support
+      name: Help
+      attr: 
+
+    - href: legal/terms
+      name: Terms
+      attr: 
+
+    - href: legal/privacy
+      name: Privacy
+      attr: 

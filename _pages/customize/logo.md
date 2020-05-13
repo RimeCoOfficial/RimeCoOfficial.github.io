@@ -15,13 +15,13 @@ permalink: customize
 
 {% if show_delete_button %}
 <!-- Icon button -->
-<a href="{{ site.baseurl }}/customize/remove-image/'.{{ type }}" class="mdl-button mdl-js-button mdl-button--icon pull-right">
+<a href="{{ site.url }}/customize/remove-image/'.{{ type }}" class="mdl-button mdl-js-button mdl-button--icon pull-right">
     <i class="material-icons">delete_forever</i>
 </a>
 {% endif %}
 
 {% if src %}
-<img src="{{ site.baseurl }}/{{ src }}" style="{{ style }} padding-bottom: 20px; padding-top: 5px;" />
+<img src="{{ site.url }}/{{ src }}" style="{{ style }} padding-bottom: 20px; padding-top: 5px;" />
 {% endif %}
 
 <p>{{ text }}</p>

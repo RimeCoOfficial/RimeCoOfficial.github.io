@@ -27,7 +27,7 @@ if ( ! empty($oauth_actor_list))
             ?>
             <li class="mdl-list__item mdl-list__item--two-line">
                 <span class="mdl-list__item-primary-content">
-                    <img class="mdl-list__item-avatar bg-cover" style="background-image: url({{ site.baseurl }}/assets/third-party/material.io/face.png)" width="40px" height="40px" src="{{ site.baseurl }}/assets/images/blank.png">
+                    <img class="mdl-list__item-avatar bg-cover" style="background-image: url({{ site.url }}/assets/third-party/material.io/face.png)" width="40px" height="40px" src="{{ site.url }}/assets/images/blank.png">
 
                     <span>
                         {{ actor['full_name'] }}
@@ -53,7 +53,7 @@ if ( ! empty($oauth_actor_list))
                     if (is_null($actor['user_id']))
                     {
                         ?>
-                        <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.baseurl }}/action/actor/add/'.$actor['actor_id'].'/'.$actor['oauth_id']).'?redirect=start/add/'.$actor['service'].'/'.$oauth_id }}">
+                        <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/action/actor/add/'.$actor['actor_id'].'/'.$actor['oauth_id']).'?redirect=start/add/'.$actor['service'].'/'.$oauth_id }}">
                             Connect
                         </a>
                         <?php

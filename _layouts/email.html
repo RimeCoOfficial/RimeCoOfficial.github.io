@@ -8,11 +8,11 @@ layout: default
         <div class="mdl-grid">
 
             <div class="mdl-cell mdl-cell--3-offset-desktop mdl-cell--9-col-desktop mdl-cell--1-offset-tablet mdl-cell--7-col-tablet mdl-cell--4-col-phone">
-                <!-- <a href="{{ site.baseurl }}"> -->
-                        <img src="{{ site.baseurl }}/assets/images/logotype.svg" height=25 alt="Rime">
-                <!-- </a> -->
+                <a href="{{ site.url }}">
+                        <img src="{{ site.url }}/assets/images/logotype.svg" height=25 alt="Rime">
+                </a>
 
-                <a href="{{ site.baseurl }}" class="pull-right mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="top: 10px;right: 10px;position: fixed;">
+                <a onclick="goBack()" class="pull-right mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="top: 10px;right: 10px;position: fixed;">
                     <i class="material-icons">close</i>
                 </a>
             </div>

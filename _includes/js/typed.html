@@ -1,44 +1,38 @@
 <!-- Typed.js -->
-
-<script src="{{ site.baseurl }}/assets/third-party/mattboldt-typed.js-1.1.4/dist/typed.min.js">
-</script>
-
 <script>
-  $(function(){
-      $("#typed-element-arya").typed({
-          // strings: ["Aryá", "आर्या", "আর্য"],
-          strings: ["Rhyme", "rʌɪm", "Rime"],
-          typeSpeed:  75,
-          backSpeed:  25,
-          backDelay:  1000,
-          loop:       true,
-      });
-  });
-</script>
+$(function(){
+    $("#typed-element-arya").typed({
+        // strings: ["Aryá", "आर्या", "আর্য"],
+        strings: ["Rhyme", "rʌɪm", "Rime"],
+        typeSpeed:  75,
+        backSpeed:  25,
+        backDelay:  2000,
+        loop:       true,
+        // showCursor: false
+    });
+});
 
-{% assign state = page.url | split: "/" | last %}
 
-{% case state %}
+{% assign index = page.url | split: "/" | last %}
+
+{% case index %}
   {% when "why" %}
-    {% assign stage = 0 %}
+    {% assign index = 0 %}
   {% when "how" %}
-    {% assign stage = 1 %}
+    {% assign index = 1 %}
   {% else %}
-    {% assign stage = 2 %}
+    {% assign index = 2 %}
 {% endcase %}
 
-<script>
 $(function(){
     $("#typed-element-intro").typed({
       strings: [
-          "{{ site.data.intro[ stage ].message }}"
+          "{{ site.data.intro[ index ].message }}",
       ],
       typeSpeed: 75
     });
 });
-</script>
 
-<script>
 $(function(){
     $("#typed-element-hello").typed({
         strings: [
@@ -53,3 +47,4 @@ $(function(){
     });
 });
 </script>
+<script src="{{ site.url }}/assets/third-party/mattboldt-typed.js-1.1.4/dist/typed.min.js"></script>

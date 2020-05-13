@@ -5,7 +5,7 @@ layout: plans
 
 <h1 class="mdl-typography--font-light">Pricing</h1>
 
-All the power you need at a fraction of the cost. Read our <a href="{{ site.baseurl }}/plans/refund">refund policy</a> for more information.
+All the power you need at a fraction of the cost. Read our <a href="{{ site.url }}/plans/refund">refund policy</a> for more information.
 
 <!-- Square card -->
 <style>
@@ -17,7 +17,7 @@ All the power you need at a fraction of the cost. Read our <a href="{{ site.base
 }
 .demo-card-square > .mdl-card__title {
   background:
-    url('{{ site.baseurl }}/assets/third-party/toptal.com-subtlepatterns/topography.png') bottom right 15% no-repeat #fff;
+    url('{{ site.url }}/assets/third-party/subtle-patterns/topography.png') bottom right 15% no-repeat #fff;
 }
 </style>
 
@@ -32,7 +32,7 @@ All the power you need at a fraction of the cost. Read our <a href="{{ site.base
         + 10 Websites.
     </div>
     <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="{{ site.baseurl }}/auth/sign-in">
+        <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/auth/sign-in">
             ₹ 99.99
         </a>
     </div>
@@ -49,7 +49,7 @@ All the power you need at a fraction of the cost. Read our <a href="{{ site.base
         + 100 Websites.
     </div>
     <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="{{ site.baseurl }}/auth/sign-in">
+        <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/auth/sign-in">
             ₹ 999.99
         </a>
     </div>

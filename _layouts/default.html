@@ -28,7 +28,7 @@
 
     Build Revision:
         {{ site.github.build_revision }} 
-        {{ site.baseurl }}/site.github.json
+        {{ site.url }}/site.github.json
 
     Build Info:
         Build time: {{ site.time | date_to_rfc822 }}
@@ -42,7 +42,6 @@
 
     <body class="emojify">
         {{ content }}
-        {% include scripts.html %}
     </body>
 
 </html>

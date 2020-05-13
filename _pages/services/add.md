@@ -9,7 +9,7 @@ title: Add
     .demo-card-square > .mdl-card__title {
         height: 200px;
         background:
-            url('{{ site.baseurl }}/assets/images/social-icon-{{ service }}.svg') center center no-repeat #FFF;
+            url('{{ site.url }}/assets/images/social-icon-{{ service }}.svg') center center no-repeat #FFF;
     }
 </style>
 
@@ -20,11 +20,11 @@ title: Add
 {% assign launch = 0 %}
 {% if launch == 0 %}
 <div class="mdl-card__actions">
-    <a class="mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ site.baseurl }}/services">
+    <a class="mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/services">
         <i class="material-icons">arrow_back</i>
     </a>
 
-    <button class="service-popup mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent pull-right" href="{{ site.baseurl }}/oauth_path_base/service">
+    <button class="service-popup mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent pull-right" href="{{ site.url }}/oauth_path_base/service">
         Authorize new account <i class="material-icons">launch</i>
     </button>
 </div>
@@ -41,7 +41,7 @@ title: Add
 </div>
 
 <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ site.baseurl }}/services">
+    <a class="mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/services">
         <!-- try again <i class="material-icons">refresh</i> -->
         <i class="material-icons">arrow_back</i>
     </a>

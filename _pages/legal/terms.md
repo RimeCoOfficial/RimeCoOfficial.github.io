@@ -68,7 +68,7 @@ layout: legal
                 User will use the Company's tokens for authentication to the supported cloud services. User is free to modify the color and the look &amp; feel of the modal/popover to suit the User's needs. In exchange the User will provide Rime brand exposure as per the modal/popover guidelines listed below. The Rime brand must be displayed in one of the two formats expressed below:
 
                 <ul>
-                    <li>Text: "Uses Rime" with a link back to {{ site.baseurl }}/</li>
+                    <li>Text: "Uses Rime" with a link back to {{ site.url }}/</li>
                     <li>User can place the Rime logo anywhere within the modal/popover as long as it visible to the user above the fold.</li>
                 </ul>
             </li>

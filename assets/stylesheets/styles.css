@@ -112,7 +112,7 @@ a.mdl-navigation__link:last-child {
 }
 
 .demo-layout-page-about .founder-image {
-    background: url('../images/founders-2.jpg') center / cover;
+    background: url('../images/founders-0.jpg') center / cover;
     height: 500px;
 }
 .demo-layout-page-about.is-small-screen .founder-image {
@@ -147,9 +147,12 @@ a.mdl-navigation__link:last-child {
 }
 
 .demo-layout-auth {
-    background: url('../third-party/toptal.com-subtlepatterns/struckaxiom.png');
+    background: url('../third-party/unspalsh.com/lukas-blazek-263121.jpg') center / cover;
 }
 
+.demo-layout-intro {
+    background: url('../third-party/unspalsh.com/helena-hertz-256396.jpg') center / cover;
+}
 
 .demo-layout-settings .mdl-layout__tab-bar-button,
 .demo-layout-custom .mdl-layout__tab-bar-button {
@@ -164,15 +167,13 @@ demo-card-event
  */
 .demo-layout-auth .demo-card-square > .mdl-card__title {
     height: 300px;
-    background:
-        url('../third-party/unspalsh.com/joel-filipe-189100.jpg') center / cover;
+    background: url('../third-party/subtle-patterns/double-bubble-outline.png');
     background-position: 25% 50%;
 }
 
 .demo-card-square > .mdl-card__title {
     height: 300px;
-    background:
-        url('../third-party/tumblr.com/tumblr_oan67aYRRE1qinh1vo1_1280.jpg') center / cover;
+    background: url('../third-party/unspalsh.com/joel-filipe-189100.jpg') center / cover;
 }
 
 .demo-card-event > .mdl-card__actions {

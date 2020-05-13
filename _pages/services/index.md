@@ -6,9 +6,9 @@ title: Service
 {% assign min_invites = 3 %}
 
 <div class="mdl-card__supporting-text">
-    <!-- <strong><a href="{{ site.baseurl }}/people/invite">Invite</a>  {{ min_invites }} or more to add more than one service</strong><br> -->
+    <!-- <strong><a href="{{ site.url }}/people/invite">Invite</a>  {{ min_invites }} or more to add more than one service</strong><br> -->
     <!-- Add Facebook, Google or Microsoft account to sync contacts -->
-    To add more than one service <a href="{{ site.baseurl }}/people/invite">Invite</a> at least {{ min_invites }} people <sup>+++</sup>
+    To add more than one service <a href="{{ site.url }}/people/invite">Invite</a> at least {{ min_invites }} people <sup>+++</sup>
 </div>
 
 <ul class="demo-list-two mdl-list">
@@ -37,7 +37,7 @@ title: Service
             <span class="mdl-list__item-sub-title">{{ s.detials }}</span>
         </span>
         <span class="mdl-list__item-secondary-content">
-            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button {{ icon_color }} mdl-button--icon" href="{{ site.baseurl }}/services/add">
+            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button {{ icon_color }} mdl-button--icon" href="{{ site.url }}/services/add">
                 <i class="material-icons">{{ icon }}</i>
             </a>
         </span>

@@ -2,51 +2,43 @@
 layout: default
 ---
 
-{% assign state = page.url | split: "/" | last %}
+{% assign index = page.url | split: "/" | last %}
 
-{% case state %}
+{% case index %}
   {% when "why" %}
-    {% assign stage = 0 %}
+    {% assign index = 0 %}
   {% when "how" %}
-    {% assign stage = 1 %}
+    {% assign index = 1 %}
   {% else %}
-    {% assign stage = 2 %}
+    {% assign index = 2 %}
 {% endcase %}
 
-{% assign percent = stage | times: 100 | divided_by: 3 %}
+{% assign percent = index | plus: 1 | times: 100 | divided_by: 3 %}
+{% assign intro = site.data.intro[ index ] %}
 
-<div class="demo-layout-intro mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-200">
-    <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--grey-200">
+<div class="demo-layout-intro mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--scroll-- mdl-layout__header--transparent">
+        
         <div class="mdl-layout__header-row">
             <!-- Title -->
             <span class="mdl-layout-title">
-                <a href="{{ site.baseurl }}/">
-                    <img src="{{ site.baseurl }}/assets/images/logotype.svg" height=25 alt="Rime">
+                <a href="{{ site.url }}/">
+                    <img src="{{ site.url }}/assets/images/logotype.svg" height=25 alt="Rime">
                 </a>
             </span>
             <!-- Add spacer, to align navigation to the right -->
             <div class="mdl-layout-spacer"></div>
-
-            <!-- Simple MDL Progress Bar -->
-            <div id="p1" class="mdl-progress mdl-js-progress" style="width: 100px;"></div>
-            <script>
-                document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
-                    this.MaterialProgress.setProgress( {{ percent }} );
-                    this.MaterialProgress.setBuffer( {{percent}} );
-                });
-            </script>
-
-            <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="{{ site.baseurl }}/{{ site.data.intro[ stage ]['link'] }} ">
+                <a class="mdl-navigation__link" href="{{ site.url }}/{{ intro.next }} ">
+
                     
-                    {% assign icon = 'arrow_forward' %}
+                    {% assign icon = "arrow_forward" %}
                     {% if stage == 2 %}
-                    {% assign icon = 'vpn_key' %}
+                    {% assign icon = "vpn_key" %}
                     {% endif %}
 
-                    <i id={{ icon }} class="material-icons mdl-color-text--grey-200--">{{ icon }}</i>
+                    <i id="{{ icon }}" class="material-icons mdl-color-text--grey-200--">{{ icon }}</i>
                 </a>
             </nav>
         </div>
@@ -55,34 +47,38 @@ layout: default
         <div class="page-content">
 
             <!-- Your content goes here -->
-
             <div class="mdl-grid">
 
-                <div class="demo-card-square mdl-card mdl-cell mdl-cell--3-offset-desktop mdl-cell--6-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <style type="text/css">
+                    .demo-card-square > .mdl-card__title {
+                        background:
+                            url('{{ site.url }}/assets/images/intro-0{{ index }}.png') center / cover;
+                    }
+                </style>
+
+                <div class="demo-card-square mdl-card mdl-cell mdl-cell--4-offset-desktop mdl-cell--4-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+
                     <div class="mdl-card__title mdl-card--expand">
+                        <!-- <div id="p11" class="mdl-progress mdl-js-progress"></div> -->
                         <!-- <h2 class="mdl-card__title-text">Welcome</h2> -->
                     </div>
-
-                    <style type="text/css">
-                        .demo-card-square > .mdl-card__title {
-                            background:
-                                url('{{ site.baseurl }}/assets/images/intro-0{{ stage | plus: 1 }}.png') center / cover;
-                        }
-                    </style>
-
+                    <div id="p1" class="mdl-progress mdl-js-progress"></div>
                     <div class="mdl-card__supporting-text">
                         <p style="min-height: 100px;">
                             <b>Arya</b> <br>
                             <span id="typed-element-intro"></span>
                         </p>
                     </div>
-
+                    
                     <div class="mdl-card__actions mdl-card--border-">
-                        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ site.baseurl }}/{{ site.data.intro[ stage ]['link'] }}">
-                            {{ site.data.intro[ stage ]['action'] }}
+                        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/{{ intro.next }}">
+                            {{ intro.action }}
                         </a>
 
-                        {% if state == "what" %}
+                        <!-- <div class="mdl-layout-spacer"></div> -->
+                        <!-- <i class="material-icons">event</i> -->
+
+                        {% if index == "2" %}
                             <a href="mailto:founders@rime.co?subject=Request a Demo" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored pull-right">
                                 Request a Demo
                             </a>
@@ -98,3 +94,12 @@ layout: default
 
 <div class="mdl-tooltip mdl-tooltip--large" for="arrow_forward">Next</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="vpn_key">Authenticate</div>
+
+<script>
+    document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
+        this.MaterialProgress.setProgress( {{ percent }} );
+        this.MaterialProgress.setBuffer( {{percent}} );
+    });
+</script>
+
+{% include scripts.html %}

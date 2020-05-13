@@ -1,67 +1,32 @@
 <footer class="mdl-mega-footer">
     <div class="mdl-mega-footer__middle-section">
 
+        {% for footer in site.data.footer %}
         <div class="mdl-mega-footer__drop-down-section">
             <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-            <h1 class="mdl-mega-footer__heading">Features</h1>
+            <h1 class="mdl-mega-footer__heading">{{ footer.h1 }}</h1>
+            
             <ul class="mdl-mega-footer__link-list">
-                <li><a href="{{ site.baseurl }}/about">About</a></li>
-                <li><a href="{{ site.baseurl }}/legal/terms">Terms</a></li>
-                <li><a href="{{ site.baseurl }}/jobs">Jobs</a></li>
-                <li><a href="https://medium.com/स्वतंत्र/business-ffaa41747e3" target="_blank">Partners</a></li>
-                <li><a href="https://medium.com/rimeofficial" target="_blank">Updates</a></li>
+            {% assign list = footer.list %}
+            {% for link in list  %}
+            <li><a href="{{ site.url }}/{{ link.href }}" {{ link.attr }}>{{ link.name }}</a></li>
+            {% endfor  %}
             </ul>
+            
         </div>
-
-        <div class="mdl-mega-footer__drop-down-section">
-            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-            <h1 class="mdl-mega-footer__heading">Details</h1>
-            <ul class="mdl-mega-footer__link-list">
-                <!-- <li><a href="#">Specs</a></li> -->
-                <li><a href="https://RhymeTek.tumblr.com/tagged/design" target="_blank">Design</a></li>
-                <li><a href="https://RhymeTek.tumblr.com/tagged/engineering" target="_blank">Engineering</a></li>
-                <li><a href="{{ site.baseurl }}/support/security">Security</a></li>
-                <li><a href="{{ site.baseurl }}/support/libraries">Libraries</a></li>
-                <!-- <li><a href="{{ site.baseurl }}/weblog" target="_blank">Weblog</a></li> -->
-                <li><a href="{{ site.baseurl }}/newsletters" target="_blank">Newsletters</a></li>
-                <li><a href="https://RhymeTek.tumblr.com" target="_blank">Blog</a></li>
-            </ul>
-        </div>
-
-        <div class="mdl-mega-footer__drop-down-section">
-            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-            <h1 class="mdl-mega-footer__heading">Technology</h1>
-            <ul class="mdl-mega-footer__link-list">
-                <!-- <li><a href="#">Services</a></li> -->
-                <!-- <li><a href="{{ site.baseurl }}/ai">Bot</a></li> -->
-                <li><a href="{{ site.baseurl }}/arya">AI</a></li>
-                <li><a href="https://RhymeTek.github.io/Open-Source" target="_blank">Open Source</a></li>
-                <li><a href="https://medium.com/oembed" target="_blank">oEmbed</a></li>
-                <li><a href="https://medium.com/postmaster" target="_blank">Postmaster</a></li>
-            </ul>
-        </div>
-
-        <div class="mdl-mega-footer__drop-down-section">
-            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-            <h1 class="mdl-mega-footer__heading">FAQ</h1>
-            <ul class="mdl-mega-footer__link-list">
-                <li><a href="{{ site.baseurl }}/support/faq">Questions</a></li>
-                <li><a href="https://RhymeTek.tumblr.com/ask" target="_blank">Ask</a></li>
-                <li><a href="https://rimefounders.tumblr.com" target="_blank">Founders</a></li>
-                <li><a href="https://docs.google.com/forms/d/15T8c86v5_QmD887jpHBNLB4teRxHfM_0479QDb_pkV8" target="_blank">Feedback</a></li>
-                <li><a href="{{ site.baseurl }}/press">Press</a></li>
-            </ul>
-        </div>
+        {% endfor %}
 
     </div>
 
     <div class="mdl-mega-footer__bottom-section">
         <div class="mdl-logo">{{site.title}}</div>
         <ul class="mdl-mega-footer__link-list">
-            <li><a href="{{ site.baseurl }}/support">Help</a></li>
-            <li><a href="{{ site.baseurl }}/legal/terms">Terms</a></li>
-            <li><a href="{{ site.baseurl }}/legal/privacy">Privacy</a></li>
+            <li><a href="{{ site.url }}/support">Help</a></li>
+            <li><a href="{{ site.url }}/legal/terms">Terms</a></li>
+            <li><a href="{{ site.url }}/legal/privacy">Privacy</a></li>
         </ul>
     </div>
 
 </footer>
+
+{% include scripts.html %}

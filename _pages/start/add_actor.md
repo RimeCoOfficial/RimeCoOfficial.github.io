@@ -16,9 +16,9 @@ $supporting_text = [
     .demo-card-square > .mdl-card__title {
         color: #fff;
         background:
-            url('{{ site.baseurl }}/assets/images/social-icon-'.$service.'-white.svg') center center no-repeat,
-            url('{{ site.baseurl }}/assets/images/stripe-v.png'),
-            url('{{ site.baseurl }}/{{ site.data.logged_in_user.avatar }}') bottom center / cover;
+            url('{{ site.url }}/assets/images/social-icon-'.$service.'-white.svg') center center no-repeat,
+            url('{{ site.url }}/assets/images/stripe-v.png'),
+            url('{{ site.url }}/{{ site.data.logged_in_user.avatar }}') bottom center / cover;
     }
 </style>
 
@@ -51,7 +51,7 @@ else if ($this->session->flashdata('flash_oauth_id') != TRUE)
     </div>
 
     <div class="mdl-card__actions">
-        <button class="service-popup mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="{{ site.baseurl }}/oauth_path_base/service">
+        <button class="service-popup mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="{{ site.url }}/oauth_path_base/service">
             Add service <i class="material-icons">launch</i>
         </button>
     </div>

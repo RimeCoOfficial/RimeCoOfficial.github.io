@@ -1,7 +1,7 @@
 <div class="mdl-card__supporting-text">
     
     {% for s in site.data.services %}    
-    <button class="service-popup mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.baseurl }}/action/services/add/{{ s.name }}">
+    <button class="service-popup mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/action/services/add/{{ s.name }}">
         <i class="icon icon-lg {{ s.kind[0].icon }}"></i>
         <!-- {{ s.name }} -->
     </button>
@@ -22,10 +22,10 @@
 </div>
 
 <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="{{ site.baseurl }}/support/faq">
+    <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/support/faq">
         FAQ
     </a>
-    <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored pull-right" href="{{ site.baseurl }}/auth/demo">
+    <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored pull-right" href="{{ site.url }}/auth/demo">
         <i id="vpn_key" class="material-icons mdl-color-text--grey-200--" tabindex="0">vpn_key</i>
     </a>
 </div>

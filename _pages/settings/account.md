@@ -8,12 +8,12 @@ layout: settings
 
 <form>
 
-<?php
-$this->view('form/input',     array('id' => 'full_name',  'value' => $logged_in_user['full_name']));
-$this->view('form/textarea',  array('id' => 'bio',        'value' => $logged_in_user['bio']));
-$this->view('form/input',     array('id' => 'location',   'value' => $logged_in_user['location']));
-?>
+{% include form/input.html id="name" value=site.data.logged_in_user.name label="Name" %}
+{% include form/textarea.html id="bio" value=site.data.logged_in_user.bio label="Bio" %}
+{% include form/input.html id="location" value=site.data.logged_in_user.location label="Location" %}
 
+<br>
+<br>
 <br>
 
 <!-- Accent-colored raised button with ripple -->

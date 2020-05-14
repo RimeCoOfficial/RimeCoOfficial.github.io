@@ -9,9 +9,7 @@ permalink: settings
 
 <form>
 
-<?php
-$this->view('form/input', array('id' => 'username', 'value' => $logged_in_user['username']));
-?>
+{% include form/input.html id="username" label="Username" value=site.data.logged_in_user.username %}
 
 <br>
 <br>

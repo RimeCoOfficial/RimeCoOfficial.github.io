@@ -2,16 +2,14 @@
 layout: default
 ---
 
-{% assign index = page.url | split: "/" | last %}
-
-{% case index %}
-  {% when "why" %}
-    {% assign index = 0 %}
-  {% when "how" %}
-    {% assign index = 1 %}
-  {% else %}
-    {% assign index = 2 %}
-{% endcase %}
+{% assign counter = 0 %}
+{% assign index = 0 %}
+{% for i in site.data.intro %}
+    {% if page.url == i.url %}
+        {% assign index = counter %}
+    {% endif %}
+    {% assign counter = counter | plus: 1 %}
+{% endfor %}
 
 {% assign percent = index | times: 100 | divided_by: 3 %}
 {% assign intro = site.data.intro[ index ] %}
@@ -99,6 +97,17 @@ layout: default
     document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
         this.MaterialProgress.setProgress( {{ percent }} );
         this.MaterialProgress.setBuffer( {{percent}} );
+    });
+</script>
+
+<script>
+    $(function(){
+        $("#typed-element-intro").typed({
+        strings: [
+            "{{ site.data.intro[ index ].message }}",
+        ],
+        typeSpeed: 75
+        });
     });
 </script>
 

@@ -30,8 +30,8 @@ layout: default
             {% assign is_active = 'is-active' %}
             {% endif %}
 
-            <a href="{{ site.url }}/{{ nav.url }}" class="mdl-layout__tab {{ is_active }}">
-                {{ nav.title }}
+            <a href="{{ site.url }}{{ nav.url }}" class="mdl-layout__tab {{ is_active }}">
+                {{ nav.name }}
             </a>
             {% endfor %}
         </div>

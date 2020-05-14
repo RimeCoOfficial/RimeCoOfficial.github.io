@@ -1,4 +1,4 @@
-<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="{{ element['id' }}">
-    <input type="checkbox" id="{{ element['id' }}" class="mdl-checkbox__input" checked>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="{{ include.id }}">
+    <input type="checkbox" id="{{ include.id }}" class="mdl-checkbox__input" {% if include.value %}checked{% endif %}>
     <span class="mdl-checkbox__label">{{ include.label }}</span>
 </label>

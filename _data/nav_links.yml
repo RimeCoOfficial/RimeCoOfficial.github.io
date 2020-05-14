@@ -4,8 +4,8 @@
 - title: Services
   url: services
 
-- title: Settings
-  url: settings
-
 - title: Customize
   url: customize
+  
+- title: Settings
+  url: settings

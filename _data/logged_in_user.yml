@@ -1,9 +1,11 @@
 name: Shubhajit Saha
 username: suvozit
 hash: e57d108fcdc4698ddd09ca11024118e3
-bio: CEO & Founder
+bio: I am an Entrepreneur. Founder @RymeTek @Bitsits Ex Ubisoft BTech IIESTS Civil ♊︎ 🙇🏻‍♂️ ··· 🤖
+location: Howrah
 avatar: assets/users/93101128_10215803195343966_9003621194796105728_n.jpg
 email: suvozit@rhyme.tek
+verified: false
 social:
   - app: Facebook
     url: facebok.com
@@ -65,3 +67,8 @@ social:
         sync: 2001-01-01 10:00:00
         status: 200
 domain: https://www.shubhajitsaha.com
+email_subscription:
+  notification: true
+  tips: false
+  newsletter: true
+  announcement: true

@@ -4,15 +4,22 @@
 - autocomplete -->
 
 {% assign label = "Number" %}
-{% assign form_error = "Input is not a number!" %}
-{% assign is_invalid = 1 %}
+
+{% if include.lable %}
+{% assign label = include.label %}
+{% endif %}
+
+{% if include.id == "domain" %}
+{% assign form_error = "The domain is already registered!" %}
+{% assign is_invalid = true %}
+{% endif %}
 
 <!-- Numeric Textfield with Floating Label -->
-<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label {{ if ($is_invalid) echo 'is-invalid' }}">
+<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label {% if is_invalid %}is-invalid{% endif %}">
 
-    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
+    <input class="mdl-textfield__input" type="text" id="sample4" value="{{ include.value }}">
+    <label id="{{ include.id }}" class="mdl-textfield__label" for="sample4">{{ include.label }}</label>
 
-    <label id="" class="mdl-textfield__label" for="sample4">Number</label>
 
     {% if is_invalid %}
     <span class="mdl-textfield__error">{{ form_error }}</span>

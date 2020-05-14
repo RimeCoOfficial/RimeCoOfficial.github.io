@@ -1,7 +1,7 @@
 ---
 ---
 
-<!-- <p>If you already have an account, use that account to <a href="anchor"></a>('auth/sign-in', 'sign in.</p> -->
+<!-- <p>If you already have an account, use that account to <a href="{{ site.url }}/auth/sign-in">sign in</a>.</p> -->
 
 <?php
 $invited_by_username = get_cookie('invited_by_username');

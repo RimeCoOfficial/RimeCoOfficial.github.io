@@ -1,7 +1,7 @@
 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label {{ include.is_invalid }}">
-    <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
+    <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5">{{ include.value }}</textarea>
 
-    <label class="mdl-textfield__label" for="sample5">Text lines...</label>
+    <label class="mdl-textfield__label" for="sample5">{{ include.label }}</label>
     {% if include.error %}
     <span class="mdl-textfield__error">{{ include.error }}</span>
     {% endif %}

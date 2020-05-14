@@ -144,7 +144,7 @@ demo-layout--fixed-drawer
     background: url('../third-party/unspalsh.com/tobias-van-schneider-230167.jpg') center / cover;
 }
 
-.demo-layout-settings .mdl-layout__tab-{{ site.url | remove: "https://"  | remove: "http://" }}bar-button,
+.demo-layout-settings .mdl-layout__tab-bar-button,
 .demo-layout-custom .mdl-layout__tab-bar-button {
     background-color: white;
 }

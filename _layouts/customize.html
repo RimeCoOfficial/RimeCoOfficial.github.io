@@ -11,7 +11,7 @@ layout: default
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="{{ site.url }}/{{ logged_in_user.username }}">
+                <a class="mdl-navigation__link" href="{{ site.url }}/user">
                     <img class="bg-cover img-circle"
                         style="background-image: url({{ site.url }}/{{ site.data.logged_in_user.avatar }})"
                         height="39px"
@@ -30,7 +30,7 @@ layout: default
             {% endif %}
 
             <a href="{{ site.url }}/{{ nav.url }}" class="mdl-layout__tab {{ is_active }}">
-                {{ nav.title }}
+                {{ nav.name }}
             </a>
             {% endfor %}
         </div>

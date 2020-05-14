@@ -26,9 +26,9 @@ layout: customize
 
 <form>
 
-<!-- 'id' => 'domain', 'value' => $weblog['domain']) -->
+<!-- ) -->
 
-{% include form/input.html %}
+{% include form/input.html id="domain" value=site.data.logged_in_user.domain label="Domain" %}
 
 <br>
 <br>

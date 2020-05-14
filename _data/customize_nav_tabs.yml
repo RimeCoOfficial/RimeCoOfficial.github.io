@@ -1,8 +1,8 @@
-- url: customize # /logo
-  title: Logo
-- url: customize/icon
-  title: Icon
-- url: customize/title
-  title: Title
-- url: customize/domain
-  title: Domain
+- name: Logo
+  url: /customize # /logo
+- name: Icon
+  url: /customize/icon
+- name: Title
+  url: /customize/title
+- name: Domain
+  url: /customize/domain

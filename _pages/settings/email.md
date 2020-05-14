@@ -7,17 +7,14 @@ layout: settings
 ?>
 
 
-Your email address <strong>{{ user_email['email_id'] }}</strong> will be used for account-related notifications (e.g. account changes, contacts joined)<br>
+Your email address <strong>{{ site.data.logged_in_user.email }}</strong> will be used for account-related notifications (e.g. account changes, contacts joined)<br>
 
-<?php
-if ( ! $user_email['verified'])
-{
-    ?>
-    <br>
-    <i class="icon-warning"></i> Verify your email, <a href="anchor"></a>('settings/resend-verification', 'resend verification<br>
-    <?php
-}
-?>
+{% if site.data.logged_in_user.verified %}
+<br>
+<i class="icon-warning"></i> Verify your email, <a href="{{ site.url }}/settings/resend-verification">resend verification</a>
+<br>
+{% endif %}
+
 
 <br>
 <i id="info_outline" class="material-icons md-24 pull-right">info_outline</i>
@@ -27,9 +24,7 @@ Looking for activity notification controls?<br>
 
 <form>
 
-<?php
-$this->view('form/input', array('id' => 'user_email', 'value' => ( !empty($user_email['new_email']) ? $user_email['new_email'] : $user_email['email_id'] ) ));
-?>
+{% include form/input.html id="user_email" value=site.data.logged_in_user.email label="Email" %}
 
 <br>
 <br>

@@ -26,4 +26,4 @@
   url: https://docs.google.com/forms/d/15T8c86v5_QmD887jpHBNLB4teRxHfM_0479QDb_pkV8
   attr: target="_blank"
 # - title: Feedback
-#   url: mailto:feedback@rime.co
+#   url: mailto:feedback@{{ site.url | remove: "https://"  | remove: "http://" }}

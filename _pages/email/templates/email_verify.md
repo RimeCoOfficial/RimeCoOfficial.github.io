@@ -103,7 +103,7 @@
             <td>
                 <div>
                     <div class="email-sectionPreview email-sectionPreview--collection email-sectionPreview--borderless email-center" style="margin-top: 15px; margin-bottom: 30px; padding-top: 0; border-top: 1px solid #e5e5e5; border: 0; text-align: center;">
-                        <a href="https://rime.co" style="color: #333332; text-decoration: none;"><img class="email-avatar email-avatar--medium email-avatar--square email-inlineBlock email-floatNone" src="https://cdn-images-1.medium.com/fit/c/150/150/1*4xmlVpaEJavjFB_6I6OYHA.png" alt="Rime" style="display: inline-block; width: 75px; height: 75px; border-radius: 0; background: #f0f0f0; line-height: 0; margin-right: 10px; float: none;">
+                        <a href="https://{{ site.url | remove: "https://"  | remove: "http://" }}" style="color: #333332; text-decoration: none;"><img class="email-avatar email-avatar--medium email-avatar--square email-inlineBlock email-floatNone" src="https://cdn-images-1.medium.com/fit/c/150/150/1*4xmlVpaEJavjFB_6I6OYHA.png" alt="Rime" style="display: inline-block; width: 75px; height: 75px; border-radius: 0; background: #f0f0f0; line-height: 0; margin-right: 10px; float: none;">
                         </a>
                     </div>
                     <div class="email-left" style="text-align: left;">
@@ -120,8 +120,8 @@
         </tr>
         <tr>
             <td>
-                <div class="email-footer" style="padding-top: 15px; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 30px; color: #b3b3b1; font-size: 12px; text-align: center; border-top: 1px solid #e5e5e5;">Sent by <a class="email-link email-textGray email-underline" href="https://rime.co" style="color: #8e8e8e; text-decoration: underline;">Rime</a> &middot; IIT Bombay, India, MH 400076
-                    <div><a class="email-link email-textGray email-underline" href="https://rime.co/settings/notifications" style="color: #8e8e8e; text-decoration: underline;">Email settings</a> &middot; <a class="email-link email-textGray email-underline" href="https://rime.co/support/faq" style="color: #8e8e8e; text-decoration: underline;">Help center</a> &middot; <a class="email-link email-textGray email-underline" href="https://rime.co/legal/privacy" style="color: #8e8e8e; text-decoration: underline;">Privacy policy</a>
+                <div class="email-footer" style="padding-top: 15px; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 30px; color: #b3b3b1; font-size: 12px; text-align: center; border-top: 1px solid #e5e5e5;">Sent by <a class="email-link email-textGray email-underline" href="https://{{ site.url | remove: "https://"  | remove: "http://" }}" style="color: #8e8e8e; text-decoration: underline;">Rime</a> &middot; IIT Bombay, India, MH 400076
+                    <div><a class="email-link email-textGray email-underline" href="https://{{ site.url | remove: "https://"  | remove: "http://" }}/settings/notifications" style="color: #8e8e8e; text-decoration: underline;">Email settings</a> &middot; <a class="email-link email-textGray email-underline" href="https://{{ site.url | remove: "https://"  | remove: "http://" }}/support/faq" style="color: #8e8e8e; text-decoration: underline;">Help center</a> &middot; <a class="email-link email-textGray email-underline" href="https://{{ site.url | remove: "https://"  | remove: "http://" }}/legal/privacy" style="color: #8e8e8e; text-decoration: underline;">Privacy policy</a>
                     </div>
                 </div>
             </td>

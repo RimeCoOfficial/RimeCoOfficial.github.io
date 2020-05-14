@@ -40,6 +40,6 @@ layout: jobs
 
 <br>
 
-<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="mailto:founders@rime.co?subject=Full Stack Programmer&amp;body=Hi founders, I am Full Name (https://rime.co/u/username), I want to join {{ site.title }} as a Full Stack Programmer. PFA Resume.)" style="width: 175px; margin-bottom: 10px;">
+<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="mailto:founders@{{ site.url | remove: "https://"  | remove: "http://" }}?subject=Full Stack Programmer&amp;body=Hi founders, I am Full Name (https://{{ site.url | remove: "https://"  | remove: "http://" }}/u/username), I want to join {{ site.title }} as a Full Stack Programmer. PFA Resume.)" style="width: 175px; margin-bottom: 10px;">
     Apply
 </a>

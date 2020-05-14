@@ -7,7 +7,7 @@ layout: support
 
 <p>This is a short list of our most frequently asked questions. For more information
 about Rime, or if you need support, please email our
-support <a href="mailto:support@rime.co">support@rime.co</a>.</p>
+support <a href="mailto:support@{{ site.url | remove: "https://"  | remove: "http://" }}">support@{{ site.url | remove: "https://"  | remove: "http://" }}</a>.</p>
 
 <style type="text/css">
     .docs-toc ul {

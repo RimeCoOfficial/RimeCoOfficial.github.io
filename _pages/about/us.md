@@ -56,7 +56,7 @@ layout: about
             Bachelor of Engineering Electronics & Communication from <a href="http://www.nitrr.ac.in/">NIT Raipur</a>.
         </p>
         <p>
-            <a href="mailto:girish@rime.co">girish@rime.co</a>
+            <a href="mailto:girish@{{ site.url | remove: "https://"  | remove: "http://" }}">girish@{{ site.url | remove: "https://"  | remove: "http://" }}</a>
         </p>
 
         <h3>
@@ -95,7 +95,7 @@ layout: about
             Bachelor of Civil Engineering from <a href="https://www.iiests.ac.in">IIEST Shibpur</a>.
         </p>
         <p>
-            <a href="mailto:suvozit@rime.co">suvozit@rime.co</a>
+            <a href="mailto:suvozit@{{ site.url | remove: "https://"  | remove: "http://" }}">suvozit@{{ site.url | remove: "https://"  | remove: "http://" }}</a>
         </p>
 
         <hr>
@@ -106,7 +106,7 @@ layout: about
             Bengaluru, Karnataka 560076
         </address>
         <p>
-            <a href="mailto:founders@rime.co">founders@rime.co</a>
+            <a href="mailto:founders@{{ site.url | remove: "https://"  | remove: "http://" }}">founders@{{ site.url | remove: "https://"  | remove: "http://" }}</a>
         </p>
 
     </div>

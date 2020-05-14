@@ -137,14 +137,14 @@ demo-layout--fixed-drawer
 }
 
 .demo-layout-auth {
-    background: url('../third-party/unspalsh.com/lukas-blazek-263121.jpg') center / cover;
+    background: url('../third-party/unspalsh.com/tobias-van-schneider-230167-square.jpg') center / cover;
 }
 
 .demo-layout-intro {
-    background: url('../third-party/unspalsh.com/helena-hertz-256396.jpg') center / cover;
+    background: url('../third-party/unspalsh.com/tobias-van-schneider-230167.jpg') center / cover;
 }
 
-.demo-layout-settings .mdl-layout__tab-bar-button,
+.demo-layout-settings .mdl-layout__tab-{{ site.url | remove: "https://"  | remove: "http://" }}bar-button,
 .demo-layout-custom .mdl-layout__tab-bar-button {
     background-color: white;
 }

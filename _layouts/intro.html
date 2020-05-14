@@ -79,7 +79,7 @@ layout: default
                         <!-- <i class="material-icons">event</i> -->
 
                         {% if index == "2" %}
-                            <a href="mailto:founders@rime.co?subject=Request a Demo" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored pull-right">
+                            <a href="mailto:founders@{{ site.url | remove: "https://"  | remove: "http://" }}?subject=Request a Demo" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored pull-right">
                                 Request a Demo
                             </a>
                         {% endif %}

@@ -1,111 +1,98 @@
 - h1: "Features"
   list:
-    - href: about
-      name: About
-      attr: 
-
-    - href: legal/terms
-      name: Terms
-      attr: 
-
-    - href: jobs
-      name: Jobs
-      attr: 
-
-    - href: https://medium.com/स्वतंत्र/business-ffaa41747e3" 
-      name: Partners
+    - name: About
+      href: about
+      
+    - name: Terms
+      href: legal/terms
+      
+    - name: Jobs
+      href: jobs
+      
+    - name: Partners
+      href: https://medium.com/स्वतंत्र/business-ffaa41747e3" 
       attr: target="_blank"
 
-    - href: https://medium.com/rimeofficial" 
-      name: Updates
+    - name: Updates
+      href: https://medium.com/rimeofficial" 
       attr: target="_blank"
 
 - h1: "Details"
   list:
-    - href: specs
-      name: Specs
-      attr: 
-
-    - href: https://RhymeTek.tumblr.com/tagged/design" 
-      name: Design
+    - name: Specs
+      href: specs
+      
+    - name: Design
+      href: https://RhymeTek.tumblr.com/tagged/design" 
       attr: target="_blank"
 
-    - href: https://RhymeTek.tumblr.com/tagged/engineering" 
-      name: Engineering
+    - name: Engineering
+      href: https://RhymeTek.tumblr.com/tagged/engineering" 
       attr: target="_blank"
 
-    - href: support/security
-      name: Security
-      attr: 
-
-    - href: support/libraries
-      name: Libraries
-      attr: 
-
-    - href: weblog" 
-      name: Weblog</
-      attr: target="_blank"a>
-
-    - href: newsletters" 
-      name: Newsletters
+    - name: Security
+      href: support/security
+      
+    - name: Libraries
+      href: support/libraries
+      
+    - name: Weblog
+      href: weblog
       attr: target="_blank"
 
-    - href: https://RhymeTek.tumblr.com" 
-      name: Blog
+    - name: Newsletters
+      href: newsletters" 
       attr: target="_blank"
 
-    - href: Services
-      name: serives
-      attr: 
+    - name: Blog
+      href: https://RhymeTek.tumblr.com" 
+      attr: target="_blank"
 
+    - name: Services
+      href: serives
+      
 - h1: "Technology"
   list:
-    - href: ai
-      name: AI
-      attr: 
-
-    - href: https://RhymeTek.github.io/Open-Source" 
-      name: Open Source
+    - name: AI
+      href: ai
+      
+    - name: Open Source
+      href: https://RhymeTek.github.io/Open-Source" 
       attr: target="_blank"
 
-    - href: https://medium.com/oembed" 
-      name: oEmbed
+    - name: oEmbed
+      href: https://medium.com/oembed" 
       attr: target="_blank"
 
-    - href: https://medium.com/postmaster" 
-      name: Postmaster
+    - name: Postmaster
+      href: https://medium.com/postmaster" 
       attr: target="_blank"
 
 - h1: "FAQ"
   list:
-    - href: support/faq
-      name: Questions
-      attr: 
-
-    - href: https://RhymeTek.tumblr.com/ask" 
-      name: Ask
+    - name: Questions
+      href: support/faq
+      
+    - name: Ask
+      href: https://RhymeTek.tumblr.com/ask" 
       attr: target="_blank"
 
-    - href: https://rimefounders.tumblr.com" 
-      name: Founders
+    - name: Founders
+      href: https://rimefounders.tumblr.com" 
       attr: target="_blank"
 
-    - href: https://docs.google.com/forms/d/15T8c86v5_QmD887jpHBNLB4teRxHfM_0479QDb_pkV8" 
-      name: Feedback
+    - name: Feedback
+      href: https://docs.google.com/forms/d/15T8c86v5_QmD887jpHBNLB4teRxHfM_0479QDb_pkV8" 
       attr: target="_blank"
 
-    - href: press
-      name: Press
-      attr: 
-
-    - href: support
-      name: Help
-      attr: 
-
-    - href: legal/terms
-      name: Terms
-      attr: 
-
-    - href: legal/privacy
-      name: Privacy
-      attr: 
+    - name: Press
+      href: press
+      
+    - name: Help
+      href: support
+      
+    - name: Terms
+      href: legal/terms
+      
+    - name: Privacy
+      href: legal/privacy

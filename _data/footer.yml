@@ -19,8 +19,8 @@
 
 - h1: "Details"
   list:
-    - name: Specs
-      href: specs
+    # - name: Specs
+    #   href: specs
       
     - name: Design
       href: https://RhymeTek.tumblr.com/tagged/design" 
@@ -48,8 +48,8 @@
       href: https://RhymeTek.tumblr.com" 
       attr: target="_blank"
 
-    - name: Services
-      href: serives
+    # - name: Services
+    #   href: serives
       
 - h1: "Technology"
   list:

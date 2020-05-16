@@ -93,22 +93,11 @@ layout: default
 <div class="mdl-tooltip mdl-tooltip--large" for="arrow_forward">Next</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="vpn_key">Authenticate</div>
 
+{% include scripts.html %}
+
 <script>
     document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
         this.MaterialProgress.setProgress( {{ percent }} );
         this.MaterialProgress.setBuffer( {{percent}} );
     });
 </script>
-
-<script>
-    $(function(){
-        $("#typed-element-intro").typed({
-        strings: [
-            "{{ site.data.intro[ index ].message }}",
-        ],
-        typeSpeed: 75
-        });
-    });
-</script>
-
-{% include scripts.html %}

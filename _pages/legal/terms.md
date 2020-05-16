@@ -204,7 +204,7 @@ layout: legal
     you may contact us using the information below.
 </p>
 <address>
-    <strong>Rime</strong><br>
+    <strong>Rhyme Tek</strong><br>
     Ranka Colony, Bilekahalli<br>
     Bengaluru, Karnataka 560076
 </address>

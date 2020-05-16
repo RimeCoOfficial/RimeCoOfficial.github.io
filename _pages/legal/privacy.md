@@ -66,7 +66,7 @@ layout: legal
 <p>If there are any questions regarding this privacy policy you may contact us using the information below.</p>
 
 <address>
-    <strong>Rime</strong><br>
+    <strong>Rhyme Tek</strong><br>
     Ranka Colony, Bilekahalli<br>
     Bengaluru, Karnataka 560076
 </address>

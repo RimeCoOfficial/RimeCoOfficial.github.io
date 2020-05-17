@@ -9,7 +9,11 @@
             <ul class="mdl-mega-footer__link-list">
             {% assign list = footer.list %}
             {% for link in list  %}
-            <li><a href="{{ site.url }}/{{ link.href }}" {{ link.attr }}>{{ link.name }}</a></li>
+            {% if link.attr %}
+            <li><a href="{{ link.href }}" {{ link.attr }}>{{ link.name }}</a></li>
+            {% else %}
+            <li><a href="{{ site.url }}/{{ link.href }}">{{ link.name }}</a></li>
+            {% endif %}
             {% endfor  %}
             </ul>
             

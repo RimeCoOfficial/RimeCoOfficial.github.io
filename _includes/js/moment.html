@@ -1,8 +1,10 @@
 <!-- Moment -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.3/locale/en-in.min.js"></script>
+<!-- <div id="dateDisplay"></div> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.3/moment.min.js"></script>
 
 <script>
-    var now = moment().format('MMM DD h:mm A');
-    alert(now);
+    document.getElementById("dateDisplay").innerHTML = moment().format('YYYY-MM-DD');
+    document.getElementById("dateDisplay").innerHTML = moment("20111031", "YYYYMMDD").fromNow();
 </script>

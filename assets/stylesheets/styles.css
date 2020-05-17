@@ -137,11 +137,11 @@ demo-layout--fixed-drawer
 }
 
 .demo-layout-auth {
-    background: url('../third-party/unspalsh.com/tobias-van-schneider-230167-square.jpg') center / cover;
+    background: url('../third-party/subtle-patterns/escheresque_ste_@2X.png');
 }
 
 .demo-layout-intro {
-    background: url('../third-party/unspalsh.com/tobias-van-schneider-230167.jpg') center / cover;
+    background: url('../third-party/subtle-patterns/pink_rice.png');
 }
 
 .demo-layout-settings .mdl-layout__tab-bar-button,
@@ -157,13 +157,14 @@ demo-card-event
  */
 .demo-layout-auth .demo-card-square > .mdl-card__title {
     height: 300px;
-    background: url('../third-party/subtle-patterns/double-bubble-outline.png');
+    background: url('../third-party/giphy.com/art-artist-on-tumblr-delirium-lab-3o85xpJDoAcPrVIeOs-downsized.gif') center / cover;
     background-position: 25% 50%;
+    color: #fff;
 }
 
 .demo-card-square > .mdl-card__title {
     height: 300px;
-    background: url('../third-party/unspalsh.com/joel-filipe-189100.jpg') center / cover;
+    /* background: url('../third-party/unspalsh.com/joel-filipe-189100.jpg') center / cover; */
 }
 
 .demo-card-event > .mdl-card__actions {

@@ -2,6 +2,9 @@
 title: About Us
 layout: about
 ---
+<style>
+
+</style>
 
 <div class="founder-image mdl-grid mdl-color--white">
     <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
@@ -18,6 +21,17 @@ layout: about
 
         <h5>Incorporation</h5>
         <p>June 14, 2016</p>
+
+        
+        <address>
+            <h5>Rhyme Tek</h5>
+            Ranka Colony, Bilekahalli<br>
+            Bengaluru, Karnataka 560076
+        </address>
+
+        <p>
+            <a href="mailto:founders@{{ site.url | remove: "https://"  | remove: "http://" }}">founders@{{ site.url | remove: "https://"  | remove: "http://" }}</a>
+        </p>
 
     </div>
 
@@ -123,18 +137,18 @@ layout: about
         <p>
             <a href="mailto:joshi@{{ site.url | remove: "https://"  | remove: "http://" }}">joshi@{{ site.url | remove: "https://"  | remove: "http://" }}</a>
         </p>
-
-
-        <hr>
         
-        <address>
-            <strong>Rhyme Tek</strong>
-            Ranka Colony, Bilekahalli<br>
-            Bengaluru, Karnataka 560076
-        </address>
-        <p>
-            <a href="mailto:founders@{{ site.url | remove: "https://"  | remove: "http://" }}">founders@{{ site.url | remove: "https://"  | remove: "http://" }}</a>
-        </p>
+        <h2>
+            <span class="mdl-typography--font-light">
+                Contributors
+            </span>
+        </h2>
+
+        {% for indi in site.data.contributors %}
+        <a href="{{ indi.link }}" target="_blank" class="thumbnail" title="{{ indi.name }}">
+            <img src="{{ site.url }}{{ indi.picture }}" alt="{{ indi.name }}" width="120px" class="pull-left" style="margin-right: 15px; margin-bottom: 15px;">
+        </a>
+        {% endfor %}
 
     </div>
 </div>

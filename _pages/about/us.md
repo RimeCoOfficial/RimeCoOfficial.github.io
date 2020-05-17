@@ -98,6 +98,33 @@ layout: about
             <a href="mailto:suvozit@{{ site.url | remove: "https://"  | remove: "http://" }}">suvozit@{{ site.url | remove: "https://"  | remove: "http://" }}</a>
         </p>
 
+        
+
+        <h3>
+            <span class="mdl-typography--font-light">
+                Sanjay Joshi
+            </span>
+
+            <a class="mdl-typography--font-light" href="https://www.linkedin.com/in/sanjay-joshi-8168535a/" target="_blank">
+                <i class="material-icons">open_in_new</i>
+            </a>
+        </h3>
+        <p>
+            <strong>Angel</strong>
+            
+            Working 
+            as Analog Engineer 
+            on next generation High Speed DDR memory Interface
+            at <a href="https://www.ibm.com/">Intel Corporation</a> Bangalore.
+
+            Masters of Tech Electrical <a href="https://www.intel.com/">IIT Bombay</a> VLSI and 
+            Bachelor of Engineering Electronics & Communication from <a href="https://technocratsgroup.edu.in/">TIT Bhopal</a>.
+        </p>
+        <p>
+            <a href="mailto:joshi@{{ site.url | remove: "https://"  | remove: "http://" }}">joshi@{{ site.url | remove: "https://"  | remove: "http://" }}</a>
+        </p>
+
+
         <hr>
         
         <address>

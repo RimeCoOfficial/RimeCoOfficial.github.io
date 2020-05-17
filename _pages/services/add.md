@@ -47,7 +47,3 @@ title: Add
     </a>
 </div>
 {% endif %}
-
-{% include services/popup.html %}
-
-{% include services/modal.html %}

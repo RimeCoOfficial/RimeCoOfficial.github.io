@@ -1,5 +1,5 @@
 ---
-title: Plans
+title: Pricing
 layout: plans
 ---
 

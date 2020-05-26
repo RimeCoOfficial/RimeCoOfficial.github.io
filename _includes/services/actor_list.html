@@ -49,7 +49,7 @@
                     Error: {{ actor.status }}
                 </span>
                 {% else %}
-                <time class="mdl-list__item-secondary-info" datetime="date('Y-m-d H:m', strtotime($actor['last_sync'])">
+                <time class="mdl-list__item-secondary-info" datetime="{{ actor.sync | date: "%a, %b %d" }}">
                     Updated: {{ actor.sync | date: "%a, %b %d" }}
                 </time>
                 {% endif %}

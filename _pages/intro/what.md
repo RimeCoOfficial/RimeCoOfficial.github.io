@@ -1,5 +1,5 @@
 ---
-title: Introduction to Weblog
+title: Introduction (3 of 3)
 layout: intro
 ---
 

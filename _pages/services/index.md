@@ -8,7 +8,7 @@ title: Service
 <div class="mdl-card__supporting-text">
     <!-- <strong><a href="{{ site.url }}/people/invite">Invite</a>  {{ min_invites }} or more to add more than one service</strong><br> -->
     <!-- Add Facebook, Google or Microsoft account to sync contacts -->
-    To add more than one service <a href="{{ site.url }}/people/invite">Invite</a> at least {{ min_invites }} people <sup>+++</sup>
+    To add more than one service <a href="{{ site.url }}/people/invite">invite</a> at least {{ min_invites }} people.
 </div>
 
 <ul class="demo-list-two mdl-list">

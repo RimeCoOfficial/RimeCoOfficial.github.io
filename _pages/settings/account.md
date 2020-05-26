@@ -1,5 +1,6 @@
 ---
 layout: settings
+title: Settings - Account
 ---
 
 <!-- view settings/profile_image -->

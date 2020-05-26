@@ -1,5 +1,5 @@
 ---
-title: Press
+title: Press Releases
 layout: press
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: About Us
+description: Find out where it all began. Read the history of how Rime has grown since Shubhajit Saha and Girish Nayak founded the company in 2016.
 layout: about
 ---
 <style>

@@ -1,5 +1,6 @@
 ---
 layout: customize
+title: Customize - Logo
 permalink: customize
 ---
 

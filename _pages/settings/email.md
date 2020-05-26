@@ -1,5 +1,6 @@
 ---
 layout: settings
+title: Settings - Email
 ---
 
 <?php

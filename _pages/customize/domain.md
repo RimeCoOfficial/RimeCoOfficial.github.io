@@ -1,5 +1,6 @@
 ---
 layout: customize
+title: Customize - Domain
 ---
 
 <p>
@@ -25,8 +26,6 @@ layout: customize
 {% endif %}
 
 <form>
-
-<!-- ) -->
 
 {% include form/input.html id="domain" value=site.data.logged_in_user.domain label="Domain" %}
 

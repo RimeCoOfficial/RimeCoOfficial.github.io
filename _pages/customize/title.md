@@ -1,5 +1,6 @@
 ---
 layout: customize
+title: Customize - Title
 ---
 
 {% if src == nil  %}

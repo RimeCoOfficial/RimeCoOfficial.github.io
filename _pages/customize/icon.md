@@ -1,5 +1,6 @@
 ---
 layout: customize
+title: Customize - Icon
 ---
 
 {% if src == nil  %}

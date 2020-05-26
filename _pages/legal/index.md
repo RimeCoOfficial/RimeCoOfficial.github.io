@@ -1,5 +1,5 @@
 ---
-title: Legal
+title: Privacy and Terms
 layout: legal
 ---
 

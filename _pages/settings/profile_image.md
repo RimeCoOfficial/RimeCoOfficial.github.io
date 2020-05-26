@@ -1,5 +1,6 @@
 ---
 layout: settings
+title: Settings - Profile Image
 ---
 
 <p><strong>Profile Image</strong></p>

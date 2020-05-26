@@ -157,9 +157,8 @@ demo-card-event
  */
 .demo-layout-auth .demo-card-square > .mdl-card__title {
     height: 300px;
-    background: url('../third-party/giphy.com/art-artist-on-tumblr-delirium-lab-3o85xpJDoAcPrVIeOs-downsized.gif') center / cover;
+    background: url('../third-party/giphy.com/key-lock-unlock-3o6nV9SfBKiNBjFhtK.gif') center / cover;
     background-position: 25% 50%;
-    color: #fff;
 }
 
 .demo-card-square > .mdl-card__title {

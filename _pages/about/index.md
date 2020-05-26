@@ -1,5 +1,6 @@
 ---
 title: About
+description: Rime’s mission is to connect the world’s information and make it universally accessible and useful. Learn about our company history and more.
 layout: about
 ---
 

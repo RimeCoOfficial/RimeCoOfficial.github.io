@@ -1,6 +1,6 @@
 {% assign label = "Number" %}
 {% assign form_error = "Input is not a number!" %}
-{% assign is_invalid = 1 %}
+{% assign is_invalid = nil %}
 
 <form enctype="multipart/form-data">
 
@@ -9,7 +9,7 @@
     <input type="file" name="{{ id }}" size="20" />
     <input type="hidden" name="validate" value="true">
 
-    {{ if ($is_invalid) }}
+    {{ if is_invalid }}
     <span class="mdl-textfield__error">{{ form_error }}</span>
     {{ endif }}
 

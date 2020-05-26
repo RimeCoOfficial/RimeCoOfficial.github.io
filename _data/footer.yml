@@ -10,24 +10,21 @@
       href: jobs
       
     - name: Partners
-      href: https://medium.com/स्वतंत्र/business-ffaa41747e3" 
+      href: https://medium.com/स्वतंत्र/business-ffaa41747e3
       attr: target="_blank"
 
     - name: Updates
-      href: https://medium.com/rimeofficial" 
+      href: https://RhymeTek.tumblr.com
       attr: target="_blank"
 
 - h1: "Details"
-  list:
-    # - name: Specs
-    #   href: specs
-      
+  list:      
     - name: Design
-      href: https://RhymeTek.tumblr.com/tagged/design" 
+      href: https://RhymeTek.tumblr.com/tagged/design
       attr: target="_blank"
 
     - name: Engineering
-      href: https://RhymeTek.tumblr.com/tagged/engineering" 
+      href: https://RhymeTek.tumblr.com/tagged/engineering
       attr: target="_blank"
 
     - name: Security
@@ -36,20 +33,9 @@
     - name: Libraries
       href: support/libraries
       
-    - name: Weblog
-      href: weblog
-      attr: target="_blank"
-
     - name: Newsletters
-      href: newsletters" 
+      href: newsletters
       attr: target="_blank"
-
-    - name: Blog
-      href: https://RhymeTek.tumblr.com" 
-      attr: target="_blank"
-
-    # - name: Services
-    #   href: serives
       
 - h1: "Technology"
   list:
@@ -57,42 +43,33 @@
       href: ai
       
     - name: Open Source
-      href: https://RhymeTek.github.io/Open-Source" 
+      href: https://RhymeTek.github.io/Open-Source
       attr: target="_blank"
 
     - name: oEmbed
-      href: https://medium.com/oembed" 
+      href: https://medium.com/oembed
       attr: target="_blank"
 
     - name: Postmaster
-      href: https://medium.com/postmaster" 
+      href: https://medium.com/postmaster
       attr: target="_blank"
 
 - h1: "FAQ"
   list:
     - name: Questions
       href: support/faq
-      
-    - name: Ask
-      href: https://RhymeTek.tumblr.com/ask" 
-      attr: target="_blank"
-
-    - name: Founders
-      href: https://rimefounders.tumblr.com" 
-      attr: target="_blank"
-
-    - name: Feedback
-      href: https://docs.google.com/forms/d/15T8c86v5_QmD887jpHBNLB4teRxHfM_0479QDb_pkV8" 
-      attr: target="_blank"
 
     - name: Press
       href: press
       
-    - name: Help
-      href: support
-      
-    - name: Terms
-      href: legal/terms
-      
-    - name: Privacy
-      href: legal/privacy
+    - name: Ask
+      href: https://RhymeTek.tumblr.com/ask
+      attr: target="_blank"
+
+    - name: Founders
+      href: https://rimefounders.tumblr.com
+      attr: target="_blank"
+
+    - name: Feedback
+      href: https://docs.google.com/forms/d/15T8c86v5_QmD887jpHBNLB4teRxHfM_0479QDb_pkV8
+      attr: target="_blank"

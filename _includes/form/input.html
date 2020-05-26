@@ -10,8 +10,8 @@
 {% endif %}
 
 {% if include.id == "domain" %}
-{% assign form_error = "The domain is already registered!" %}
-{% assign is_invalid = true %}
+{% assign form_error = "The domain is already registered." %}
+{% assign is_invalid = nil %}
 {% endif %}
 
 <!-- Numeric Textfield with Floating Label -->

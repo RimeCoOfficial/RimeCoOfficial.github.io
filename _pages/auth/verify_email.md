@@ -1,4 +1,6 @@
 ---
+layout: auth
+title: Email Verified
 ---
 
 <div class="mdl-card__supporting-text">

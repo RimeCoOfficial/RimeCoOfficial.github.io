@@ -1,5 +1,20 @@
+- name: Behance
+  detials: WIP, Projects, Following
+  kind:
+      - type: user
+        name: Behance
+        icon: icon-behance
+
+- name: Dropbox
+  detials: Public folder
+  kind:
+      - type: user
+        name: Dropbox
+        icon: icon-dropbox
+
 - name: Facebook
-  detials: User, Page
+  sign-in: true
+  detials: Timeline posts, Friends, Likes
   kind:
       - type: user
         name: Facebook
@@ -9,8 +24,34 @@
         name: Facebook Page
         icon: icon-facebook-official
 
+- name: Flickr
+  detials: Photos, Videos, Albums, Following
+  kind:
+      - type: user
+        name: Flickr
+        icon: icon-flickr
+
+- name: Foursquare
+  detials: Checkins, Following
+  kind:
+      - type: user
+        name: Foursquare
+        icon: icon-foursquare
+
+- name: Github
+  detials: Public Repositories, Gists
+  kind:
+      - type: user
+        name: GitHub
+        icon: icon-github
+
+      - type: org
+        name: Github Org
+        icon: icon-github-circled
+
 - name: Google
-  detials: Google+, Blogger, YouTube
+  sign-in: true
+  detials: Google+, Blogger, YouTube, Gmail contacts
   kind:
       - type: user
         name: Google+
@@ -24,7 +65,15 @@
         name: Blogger
         icon: icon-blogger
 
+- name: Instagram
+  detials: Photos, Videos, Following
+  kind:
+      - type: user
+        name: Instagram
+        icon: icon-instagram
+
 - name: LinkedIn
+  sign-in: true
   detials: User, Companies
   kind:
       - type: user
@@ -34,3 +83,31 @@
       - type: org
         name: LinkedIn Org
         icon: icon-linkedin
+
+- name: Microsoft
+  detials: Outlook Contacts
+  kind:
+      - type: user
+        name: Microsoft
+        icon: icon-windows
+
+- name: Tumblr
+  detials: Blog Posts, Following
+  kind:
+      - type: blog
+        name: tumblr
+        icon: icon-tumblr
+
+- name: Twitter
+  detials: Read Tweets from your timeline, See who you follow.
+  kind:
+      - type: user
+        name: twitter
+        icon: icon-twitter
+
+- name: Vimeo
+  detials: Videos, Albums, Channels, Following
+  kind:
+      - type: user
+        name: Vimeo
+        icon: icon-vimeo

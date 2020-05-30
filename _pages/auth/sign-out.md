@@ -1,6 +1,6 @@
 ---
 layout: auth
-title: Sign Out
+title: Signed Out
 ---
 
 <div class="mdl-card__supporting-text">

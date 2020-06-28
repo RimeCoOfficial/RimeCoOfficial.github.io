@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<?php
+$nav_links = array(
+    // 'people/start'     => array('name' => 'Get Started'),
+    'people/find'      => array('name' => 'Find People',
+        'nav_links' => array(
+            'people/find/actor' => array('name' => 'Following'),
+            'people/find/email' => array('name' => 'Contacts'),
+        ),
+    ),
+    'people/invite'    => array('name' => 'Invite'),
+);
+?>
+
+<div class="col-sm-4">
+    <?php // $this->view('utility/nav_side', array('nav_links' => $nav_links)); ?>
+</div>
+
+<div class="col-sm-8">
+    <h1><?php echo $page_title; ?></h1>
+
+    <div class="settings">
+    <?php
+    if (!empty($this->session->flashdata('alert')))
+    {
+        $alert = $this->session->flashdata('alert');
+    }
+
+    if (!empty($alert))
+    {
+        ?>
+        <div class="alert alert-info alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <?php echo $alert; ?>
+        </div>
+        <?php
+    }
+    ?>
+    
+    <?php echo $main_content; ?>
+    </div>
+
+</div>

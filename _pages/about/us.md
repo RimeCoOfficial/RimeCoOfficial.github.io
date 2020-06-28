@@ -56,7 +56,7 @@ layout: about
                 Gireesh Nayak
             </span>
 
-            <a class="mdl-typography--font-light" href="{{ site.data.users[1].domain }}" target="_blank">
+            <a class="mdl-typography--font-light" href="https://{{ site.data.users[1].domain }}" target="_blank">
                 <i class="material-icons">open_in_new</i>
             </a>
         </h3>
@@ -79,7 +79,7 @@ layout: about
                 Shubhajit Saha
             </span>
             
-            <a class="mdl-typography--font-light" href="{{ site.data.users[0].domain }}" target="_blank">
+            <a class="mdl-typography--font-light" href="https://{{ site.data.users[0].domain }}" target="_blank">
                 <i class="material-icons">open_in_new</i>
             </a>
         </h3>

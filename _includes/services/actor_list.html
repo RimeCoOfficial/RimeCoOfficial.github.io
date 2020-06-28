@@ -49,9 +49,7 @@
                     Error: {{ actor.status }}
                 </span>
                 {% else %}
-                <time class="mdl-list__item-secondary-info" datetime="{{ actor.sync | date: "%a, %b %d" }}">
-                    Updated: {{ actor.sync | date: "%a, %b %d" }}
-                </time>
+                <time class="mdl-list__item-secondary-info dateDisplay" datetime="{{ actor.sync | date: "%Y%m%d" }}"></time>
                 {% endif %}
 
                 <a class="mdl-list__item-secondary-action dialog-button mdl-button mdl-js-button mdl-color-text--primary mdl-button--icon"
@@ -78,3 +76,5 @@
     {% endfor %}
 </ul>
 {% endif %}
+
+{% include js/moment.html %}

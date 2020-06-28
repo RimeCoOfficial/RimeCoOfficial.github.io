@@ -1,10 +1,10 @@
 <!-- Moment -->
 
-<!-- <div id="dateDisplay"></div> -->
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.3/moment.min.js"></script>
 
 <script>
-    document.getElementById("dateDisplay").innerHTML = moment().format('YYYY-MM-DD');
-    document.getElementById("dateDisplay").innerHTML = moment("20111031", "YYYYMMDD").fromNow();
+    $(".dateDisplay").each(function() {
+        var datetime = $(this).attr("datetime");
+        $(this).html( moment(datetime, "YYYYMMDD").fromNow() );
+    });
 </script>

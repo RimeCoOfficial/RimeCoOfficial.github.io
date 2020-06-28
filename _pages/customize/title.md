@@ -5,7 +5,7 @@ title: Customize - Title
 
 {% if src == nil  %}
 {% assign style = 'height: 40px;' %}
-{% assign src = 'assets/images/weblog-logo.svg' %}
+{% assign src = 'assets/weblog/1-title.png' %}
 {% else %}
 {% assign src = 's3_bucket_url' %}
 {% assign show_delete_button = true %}

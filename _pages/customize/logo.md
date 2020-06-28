@@ -6,7 +6,7 @@ permalink: customize
 
 {% if src == nil  %}
 {% assign style = 'height: 40px;' %}
-{% assign src = 'assets/images/logotype.svg' %}
+{% assign src = 'assets/weblog/1-logo.png' %}
 {% else %}
 {% assign src = 's3_bucket_url' %}
 {% assign show_delete_button = true %}

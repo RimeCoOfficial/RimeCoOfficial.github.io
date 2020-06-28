@@ -5,7 +5,7 @@ title: Customize - Icon
 
 {% if src == nil  %}
 {% assign style = 'height: 40px;' %}
-{% assign src = 'assets/images/glyph.svg' %}
+{% assign src = 'assets/weblog/1-icon.png' %}
 {% else %}
 {% assign src = 's3_bucket_url' %}
 {% assign show_delete_button = true %}

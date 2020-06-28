@@ -27,8 +27,8 @@ All the power you need at a fraction of the cost. Read our <a href="{{ site.url 
     </div>
     <div class="mdl-card__supporting-text">
         Monthly subscription pack includes: 
-        1 GB storage
-        + 5 GB free bandwidth
+        10 GB Storage
+        + 10 GB Bandwidth
         + 10 Websites.
     </div>
     <div class="mdl-card__actions mdl-card--border">
@@ -44,8 +44,8 @@ All the power you need at a fraction of the cost. Read our <a href="{{ site.url 
     </div>
     <div class="mdl-card__supporting-text">
         Monthly subscription pack includes: 
-        10 GB storage
-        + 50 GB free bandwidth
+        100 GB Storage
+        + 100 GB Bandwidth
         + 100 Websites.
     </div>
     <div class="mdl-card__actions mdl-card--border">

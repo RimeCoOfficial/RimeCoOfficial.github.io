@@ -44,7 +44,7 @@ layout: default
         </span>
         <nav class="mdl-navigation">
             {% for n in site.data.nav_links %}
-            <a class="mdl-navigation__link" href=".{{ n.url }}">{{ n.title }}</a>
+            <a class="mdl-navigation__link" href="{{ n.url }}">{{ n.title }}</a>
             {% endfor %}
         </nav>
     </div>

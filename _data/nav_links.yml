@@ -1,11 +1,11 @@
 - title: Home
-  url: dashboard
+  url: /dashboard
 
 - title: Services
-  url: services
+  url: /services
 
 - title: Customize
-  url: customize
+  url: /customize
   
 - title: Settings
-  url: settings
+  url: /settings

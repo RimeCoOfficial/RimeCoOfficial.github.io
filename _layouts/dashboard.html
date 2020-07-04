@@ -63,7 +63,7 @@ layout: default
                 </p>
             </div>
 
-            <!-- Service -->
+            <!-- Apps -->
 
             <div class="demo-card-event mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card mdl-color-text--white">
                 <div class="mdl-card__title mdl-card--expand">
@@ -78,29 +78,37 @@ layout: default
                         Connect
                     </a>
                     <div class="mdl-layout-spacer"></div>
-                    <i id="sync" class="material-icons">sync</i>
-                    <!-- <i id="sync" class="material-icons">sync_disabled</i> -->
-                    <!-- <i id="sync" class="material-icons">sync_problem</i> -->
+                    <a id="sync" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                        <i class="material-icons">sync</i>
+                        <!-- <i class="material-icons">sync_disabled</i> -->
+                        <!-- <i class="material-icons">sync_problem</i> -->
+                    </a>
+                    
+                </div>
+                <div class="mdl-card__menu">
+                    <a id="archive" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="/@{{ site.data.logged_in_user.username }}">
+                        <i class="material-icons">archive</i>
+                    </a>
                 </div>
             </div>
 
-            <!-- Thw Weblog -->
+            <!-- Profile -->
 
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card portfolio-blog-card-compact">
                 <div class="mdl-card__media">
                     <img class="article-image img-fluid" src="{{ site.data.logged_in_user.weblog.suvozit.icon }}" height="300">
                 </div>
                 <div class="mdl-card__actions">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/@{{ site.data.logged_in_user.username }}">
-                        {{ site.data.logged_in_user.username }}
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="/customize">
+                        Customize
                     </a>
                 </div>
 
                 <div class="mdl-card__menu">
-                    <a id="palette" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/customize">
-                        <i class="material-icons">palette</i>
+                    <a id="open_in_new" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="//{{ site.data.logged_in_user.weblog.suvozit.domain }}" target="_blank">
+                        <i class="material-icons">open_in_new</i>
                     </a>
-                  </div>
+                </div>
             </div>
 
             <!-- Invite -->
@@ -122,6 +130,10 @@ layout: default
                 </div>
             </div> -->
 
+            <!-- Analytics -->
+
+            <!-- Websites List -->
+
         </div>
     </main>
 </div>
@@ -130,4 +142,5 @@ layout: default
 <div class="mdl-tooltip mdl-tooltip--large" for="settings">Settings</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="exit_to_app">Exit</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="sync">{{ site.github.build_revision | truncate: 7, "" }}</div>
-<div class="mdl-tooltip mdl-tooltip--large" for="palette">Customize</div>
+<div class="mdl-tooltip mdl-tooltip--large" for="archive">Archive</div>
+<div class="mdl-tooltip mdl-tooltip--large" for="open_in_new">{{ site.data.logged_in_user.weblog.suvozit.domain }}</div>

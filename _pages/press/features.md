@@ -90,7 +90,7 @@ layout: features
     <li>Facebook</li>
     <li>Flickr</li>
     <li>Foursquare</li>
-    <li>Github</li>
+    <li>GitHub</li>
     <li>Google</li>
     <li>Instagram</li>
     <li>Linkedin</li>

@@ -44,8 +44,16 @@ layout: default
             </a>
         </span>
         <nav class="mdl-navigation">
-            {% for n in site.data.nav_links %}
-            <a class="mdl-navigation__link" href="{{ site.url }}{{ n.url }}">{{ n.title }}</a>
+            {% for nav in site.data.nav_links %}
+            <a class="mdl-navigation__link" href="{{ site.url }}{{ nav.url }}">
+
+                {% if nav.badge == nil %}
+                {{ nav.title }}
+                {% else %}
+                <span class="mdl-badge" data-badge="{{ nav.badge }}">{{ nav.title }}</span>
+                {% endif %}
+
+            </a>
             {% endfor %}
         </nav>
     </div>

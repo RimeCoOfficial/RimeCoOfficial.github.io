@@ -17,8 +17,27 @@ layout: default
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
             <nav class="mdl-navigation">
-                <a id="palette" class="mdl-navigation__link" href="{{ site.url }}/customize">
-                    <i class="material-icons">palette</i>
+                <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{ site.url }}/people">
+                    <!-- Number badge -->
+                    <span class="mdl-badge" data-badge="4">Inbox</span>
+                </a>
+                <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{ site.url }}/settings">
+                    Settings
+                </a>
+
+                <a id="inbox" class="mdl-navigation__link mdl-layout--small-screen-only" href="{{ site.url }}/people">
+                    <!-- Number badge on icon -->
+                    <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="4">inbox</div>
+                </a>
+                <a id="settings" class="mdl-navigation__link mdl-layout--small-screen-only" href="{{ site.url }}/settings">
+                    <i class="material-icons">settings</i>
+                </a>
+                <a class="mdl-navigation__link" href="/@{{ site.data.logged_in_user.username }}">
+                    <img class="bg-cover img-circle"
+                        style="background-image: url({{ site.url }}/{{ site.data.logged_in_user.avatar }})"
+                        height="39px"
+                        src="{{ site.url }}/assets/images/blank.png"
+                        alt="{{ site.data.logged_in_user.username }}">
                 </a>
             </nav>
         </div>
@@ -56,9 +75,18 @@ layout: default
                             </div>
 
                             <div class="mdl-card__actions mdl-card--border">
-                                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://{{ req_user.weblog.suvozit.domain }}" target="_blank">
+                                <!-- <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://{{ req_user.weblog.suvozit.domain }}" target="_blank">
                                     {{ req_user.weblog.suvozit.domain | remove: "https://www." }}
                                     &nbsp; <i class="material-icons">open_in_new</i>
+                                </a> -->
+                                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="/customize">
+                                    Customize
+                                </a>
+                            </div>
+
+                            <div class="mdl-card__menu">
+                                <a id="open_in_new" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="https://{{ req_user.weblog.suvozit.domain }}" target="_blank">
+                                    <i class="material-icons">open_in_new</i>
                                 </a>
                             </div>
                             
@@ -73,3 +101,4 @@ layout: default
 <div class="mdl-tooltip mdl-tooltip--large" for="palette">Customize</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="feedback">Report Abuse</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="verified">Verified</div>
+<div class="mdl-tooltip mdl-tooltip--large" for="open_in_new">{{ req_user.weblog.suvozit.domain }}</div>

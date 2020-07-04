@@ -20,8 +20,8 @@ title: Customize - Fonts
 {% endif %}
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={{ site.data.logged_in_user.weblog.suvozit.font.primary }}&family={{ site.data.logged_in_user.weblog.suvozit.font.secondary }}">
-<div style="font-family: '{{ site.data.logged_in_user.weblog.suvozit.font.primary }}', serif; font-size: 24px; line-height: 1.5; margin-top: 10px;">{{ site.data.logged_in_user.name }}</div>
-<div style="font-family: '{{ site.data.logged_in_user.weblog.suvozit.font.secondary }}', serif; font-size: 18px; line-height: 1.5; margin-top: 10px;">{{ site.data.logged_in_user.bio }}</div>
+<div style="font-family: '{{ site.data.logged_in_user.weblog.suvozit.font.primary }}', serif; font-size: 28px; line-height: 1.5; margin-top: 10px;">{{ site.data.logged_in_user.name }}</div>
+<div style="font-family: '{{ site.data.logged_in_user.weblog.suvozit.font.secondary }}', serif; font-size: 16px; line-height: 1.5; margin-top: 10px;">{{ site.data.logged_in_user.bio }}</div>
 
 <br>
 

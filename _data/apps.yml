@@ -38,7 +38,7 @@
         name: Foursquare
         icon: icon-foursquare
 
-- name: Github
+- name: GitHub
   detials: Public Repositories, Gists
   kind:
       - type: user
@@ -46,7 +46,7 @@
         icon: icon-github
 
       - type: org
-        name: Github Org
+        name: GitHub Org
         icon: icon-github-circled
 
 - name: Google

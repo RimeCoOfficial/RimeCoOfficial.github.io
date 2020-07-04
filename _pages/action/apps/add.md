@@ -1,4 +1,4 @@
 ---
 layout: action
-redirect_to: service/add/Facebook
+redirect_to: apps/add/Facebook
 ---

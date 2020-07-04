@@ -1,8 +1,8 @@
 <div class="mdl-card__supporting-text">
     
-    {% for s in site.data.services %}
+    {% for s in site.data.apps %}
     {% if s.sign-in %}
-    <button class="service-popup mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/action/services/add/{{ s.name }}">
+    <button class="service-popup mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/action/apps/add/{{ s.name }}">
         <i class="icon icon-lg {{ s.kind[0].icon }}"></i>
         <!-- {{ s.name }} -->
     </button>

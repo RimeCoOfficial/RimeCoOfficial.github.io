@@ -12,7 +12,7 @@ title: Apps
 </div>
 
 <ul class="demo-list-two mdl-list">
-    {% for s in site.data.services %}
+    {% for s in site.data.apps %}
     {% assign s_class = "" %}
     {% if service_status_list.s_class == 0 %}
     {
@@ -37,7 +37,7 @@ title: Apps
             <span class="mdl-list__item-sub-title">{{ s.detials }}</span>
         </span>
         <span class="mdl-list__item-secondary-content">
-            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button {{ icon_color }} mdl-button--icon" href="{{ site.url }}/services/add/{{ s.name }}">
+            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button {{ icon_color }} mdl-button--icon" href="{{ site.url }}/apps/add/{{ s.name }}">
                 <i class="material-icons">{{ icon }}</i>
             </a>
         </span>

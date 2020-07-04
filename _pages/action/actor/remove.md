@@ -1,4 +1,4 @@
 ---
 layout: action
-redirect_to: services
+redirect_to: apps
 ---

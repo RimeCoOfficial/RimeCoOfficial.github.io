@@ -1,6 +1,6 @@
 ---
 layout: action
-redirect_to: services
+redirect_to: apps
 ---
 
 <!-- $this->session->set_tempdata('oauth_id', $oauth_id); // will be erased after 300 seconds -->

@@ -24,7 +24,7 @@ title: Apps
 {% assign launch = 0 %}
 {% if launch == 0 %}
 <div class="mdl-card__actions">
-    <a class="mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/services">
+    <a class="mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/apps">
         <i class="material-icons">arrow_back</i>
     </a>
 
@@ -41,11 +41,11 @@ title: Apps
 <div id="get_actor_list_{{ oauth_id }}">
     <!-- MDL Progress Bar with Indeterminate Progress -->
     <div class="mdl-progress mdl-js-progress mdl-progress__indeterminate full-width"></div>
-    <script type="text/javascript"> $('#get_actor_list_{{ oauth_id }}').load('{{ site.base_url }}/services/get-actor-list/{{ oauth_id }}'); </script>
+    <script type="text/javascript"> $('#get_actor_list_{{ oauth_id }}').load('{{ site.base_url }}/apps/get-actor-list/{{ oauth_id }}'); </script>
 </div>
 
 <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/services">
+    <a class="mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/apps">
         <!-- try again <i class="material-icons">refresh</i> -->
         <i class="material-icons">arrow_back</i>
     </a>

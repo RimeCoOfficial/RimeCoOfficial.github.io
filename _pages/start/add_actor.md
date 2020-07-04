@@ -23,7 +23,7 @@ $supporting_text = [
 </style>
 
 <?php
-${{ site.data.oauth.path_base }} = 'action/services/add';
+${{ site.data.oauth.path_base }} = 'action/apps/add';
 
 if (!empty($oauth_id))
 {

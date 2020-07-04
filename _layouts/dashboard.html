@@ -91,10 +91,16 @@ layout: default
                     <img class="article-image img-fluid" src="{{ site.url }}/{{ site.data.logged_in_user.avatar }}">
                 </div>
                 <div class="mdl-card__actions">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/{{ site.data.logged_in_user.username }}">
-                        @{{ site.data.logged_in_user.username }}
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/@{{ site.data.logged_in_user.username }}">
+                        {{ site.data.logged_in_user.username }}
                     </a>
                 </div>
+
+                <div class="mdl-card__menu">
+                    <a class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/customize">
+                        <i class="material-icons mdl-color-text--white">palette</i>
+                    </a>
+                  </div>
             </div>
 
             <!-- Invite -->

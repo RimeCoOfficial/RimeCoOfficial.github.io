@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign req_user = site.data.users[ 0 ] %}
+{% assign req_user = site.data.logged_in_user %}
 
 <div class="demo-layout-user mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-200">
     <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--grey-200">
@@ -56,8 +56,8 @@ layout: default
                             </div>
 
                             <div class="mdl-card__actions mdl-card--border">
-                                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://{{ req_user.domain }}" target="_blank">
-                                    {{ req_user.domain | remove: "https://www." }}
+                                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://{{ req_user.weblog.suvozit.domain }}" target="_blank">
+                                    {{ req_user.weblog.suvozit.domain | remove: "https://www." }}
                                     &nbsp; <i class="material-icons">open_in_new</i>
                                 </a>
                             </div>

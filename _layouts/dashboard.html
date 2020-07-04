@@ -34,7 +34,7 @@ layout: default
 
                 <!-- <a class="mdl-navigation__link" href="/@{{ site.data.logged_in_user.username }}">
                     <img class="bg-cover img-circle"
-                        style="background-image: url({{ site.url }}/{{ site.data.logged_in_user.avatar }})"
+                        style="background-image: url({{ site.url }}/{{ site.data.logged_in_user.weblog.suvozit.icon }})"
                         height="39px"
                         src="{{ site.url }}/assets/images/blank.png"
                         alt="{{ site.data.logged_in_user.username }}">
@@ -88,7 +88,7 @@ layout: default
 
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card portfolio-blog-card-compact">
                 <div class="mdl-card__media">
-                    <img class="article-image img-fluid" src="{{ site.url }}/{{ site.data.logged_in_user.avatar }}">
+                    <img class="article-image img-fluid" src="{{ site.data.logged_in_user.weblog.suvozit.icon }}" height="300">
                 </div>
                 <div class="mdl-card__actions">
                     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/@{{ site.data.logged_in_user.username }}">
@@ -98,7 +98,7 @@ layout: default
 
                 <div class="mdl-card__menu">
                     <a id="palette" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/customize">
-                        <i class="material-icons mdl-color-text--white">palette</i>
+                        <i class="material-icons">palette</i>
                     </a>
                   </div>
             </div>

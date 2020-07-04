@@ -147,7 +147,7 @@ layout: about
 
         {% for indi in site.data.contributors %}
         <a href="{{ indi.link }}" target="_blank" class="thumbnail" title="{{ indi.name }}">
-            <img src="{{ site.url }}{{ indi.picture }}" alt="{{ indi.name }}" width="120px" class="pull-left" style="margin-right: 15px; margin-bottom: 15px;">
+            <img class="img-circle pull-left" src="{{ site.url }}{{ indi.picture }}" alt="{{ indi.name }}" width="120px" style="margin-right: 15px; margin-bottom: 15px;">
         </a>
         {% endfor %}
 

@@ -1,5 +1,5 @@
 ---
-layout: user
+layout: users
 title: Shubhajit Saha
 permalink: '@suvozit'
 ---

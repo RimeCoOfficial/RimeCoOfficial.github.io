@@ -20,7 +20,7 @@
 {% else %}
 <!-- 
 
-    // view/user/about_ext_link, view/services/actor_list
+    // view/user/about_ext_link, view/apps/actor_list
     $sorted_oauth_actor_list = array();
     foreach ($oauth_actor_list as $a) $sorted_oauth_actor_list[  $a['service'].'.'.$a['oauth_id'].'.'.$a['kind'].'.'.$a['actor_id'] ] = $a;
     ksort($sorted_oauth_actor_list);

@@ -1,5 +1,5 @@
 ---
-layout: service
+layout: apps
 title: Apps
 ---
 

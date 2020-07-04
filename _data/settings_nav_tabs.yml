@@ -10,5 +10,5 @@
 - name: Notifications
   url: /settings/notifications
 
-# - name: Deactivite
-#   url: /settings/deactivate
+- name: Deactivite
+  url: /settings/deactivate

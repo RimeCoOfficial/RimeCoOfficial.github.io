@@ -1,4 +1,0 @@
----
-layout: user
-title: User
----

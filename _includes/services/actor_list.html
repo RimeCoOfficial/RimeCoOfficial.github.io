@@ -9,6 +9,7 @@
 {% for s in social %}
 {% if s.app == service %}
 {% assign actor_list = s.actors %}
+{% assign user_social = s %}
 {% endif %}
 {% endfor %}
 
@@ -23,7 +24,9 @@
     $sorted_oauth_actor_list = array();
     foreach ($oauth_actor_list as $a) $sorted_oauth_actor_list[  $a['service'].'.'.$a['oauth_id'].'.'.$a['kind'].'.'.$a['actor_id'] ] = $a;
     ksort($sorted_oauth_actor_list);
- -->
+-->
+
+<div class="mdl-card__supporting-text">{{ user_social.oauth }}</div>
 
 <ul class="demo-list-three mdl-list">
     {% for actor in actor_list %}
@@ -75,7 +78,7 @@
                 {{ actor.login }}
             </span>
 
-            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--icon" href="{{ site.url }}/users/{{ actor.login }}" target="_blank">
+            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--icon" href="{{ site.url }}/@{{ actor.login }}" target="_blank">
                 <i class="material-icons">rss_feed</i>
             </a>
             {% endif %}

@@ -1,6 +1,6 @@
 ---
 layout: service
-title: Add
+title: Apps
 ---
 
 {% assign service = page.url | split: "/" %}

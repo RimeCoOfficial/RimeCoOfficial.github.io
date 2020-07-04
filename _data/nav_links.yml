@@ -1,11 +1,8 @@
 - title: Home
   url: /dashboard
 
-- title: Services
+- title: Apps
   url: /services
-
-- title: Customize
-  url: /customize
   
 - title: Settings
   url: /settings

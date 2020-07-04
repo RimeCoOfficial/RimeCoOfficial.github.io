@@ -1,6 +1,6 @@
 ---
 layout: service
-title: Service
+title: Apps
 ---
 
 {% assign min_invites = 3 %}

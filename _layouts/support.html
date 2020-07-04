@@ -17,7 +17,7 @@ layout: default
             <nav class="mdl-navigation">
 
                 {% if site.data.logged_in_user %}
-                <a class="mdl-navigation__link" href="{{ site.url }}/user">
+                <a class="mdl-navigation__link" href="/@{{ site.data.logged_in_user.username }}">
                     <img class="bg-cover img-circle"
                         style="background-image: url({{ site.url }}/{{ site.data.logged_in_user.avatar }})"
                         height="39px"

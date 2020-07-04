@@ -32,7 +32,7 @@ layout: default
                     <i class="material-icons">settings</i>
                 </a>
 
-                <!-- <a class="mdl-navigation__link" href="{{ site.url }}/user">
+                <!-- <a class="mdl-navigation__link" href="/@{{ site.data.logged_in_user.username }}">
                     <img class="bg-cover img-circle"
                         style="background-image: url({{ site.url }}/{{ site.data.logged_in_user.avatar }})"
                         height="39px"
@@ -97,7 +97,7 @@ layout: default
                 </div>
 
                 <div class="mdl-card__menu">
-                    <a class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/customize">
+                    <a id="palette" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/customize">
                         <i class="material-icons mdl-color-text--white">palette</i>
                     </a>
                   </div>
@@ -130,3 +130,4 @@ layout: default
 <div class="mdl-tooltip mdl-tooltip--large" for="settings">Settings</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="exit_to_app">Exit</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="sync">{{ site.github.build_revision | truncate: 7, "" }}</div>
+<div class="mdl-tooltip mdl-tooltip--large" for="palette">Customize</div>

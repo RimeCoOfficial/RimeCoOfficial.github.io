@@ -6,12 +6,12 @@ layout: default
     <header class="mdl-layout__header mdl-color--white">
         <div class="mdl-layout__header-row">
             <!-- Title -->
-            <span class="mdl-layout-title">Services</span>
+            <span class="mdl-layout-title">{{ page.title }}</span>
             <!-- Add spacer, to align navigation to the right -->
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="{{ site.url }}/user">
+                <a class="mdl-navigation__link" href="/@{{ site.data.logged_in_user.username }}">
                     <img class="bg-cover img-circle"
                         style="background-image: url({{ site.url }}/{{ site.data.logged_in_user.avatar }})"
                         height="39px"

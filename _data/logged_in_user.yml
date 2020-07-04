@@ -9,6 +9,7 @@ verified: false
 social:
   - app: Facebook
     url: facebok.com
+    oauth: 10214189707007766
     actors: 
       - id: suvozit
         name: Shubhajit Saha
@@ -45,6 +46,7 @@ social:
         status: 200
   - app: GitHub
     url: github.com
+    oauth: 5635088
     actors: 
       - id: suvozit
         name: Shubhajit Saha

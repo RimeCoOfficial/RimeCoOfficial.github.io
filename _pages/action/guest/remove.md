@@ -1,6 +1,7 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-
+---
+layout: action
+redirect_to: /guest/actor/username
+---
 class Guest extends CI_Controller
 {
     function __construct()

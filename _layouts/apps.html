@@ -10,15 +10,7 @@ layout: default
             <!-- Add spacer, to align navigation to the right -->
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
-            <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="/@{{ site.data.logged_in_user.username }}">
-                    <img class="bg-cover img-circle"
-                        style="background-image: url({{ site.url }}/{{ site.data.logged_in_user.avatar }})"
-                        height="39px"
-                        src="{{ site.url }}/assets/images/blank.png"
-                        alt="{{ site.data.logged_in_user.username }}">
-                </a>
-            </nav>
+            {% include nav.html %}
         </div>
     </header>
     <div class="mdl-layout__drawer">
@@ -68,3 +60,5 @@ layout: default
         {% include apps/modal.html %}
     </main>
 </div>
+
+{% include nav_tooltips.html %}

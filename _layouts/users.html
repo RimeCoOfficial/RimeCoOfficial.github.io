@@ -16,30 +16,7 @@ layout: default
             <!-- Add spacer, to align navigation to the right -->
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
-            <nav class="mdl-navigation">
-                <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{ site.url }}/people">
-                    <!-- Number badge -->
-                    <span class="mdl-badge" data-badge="4">Inbox</span>
-                </a>
-                <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{ site.url }}/settings">
-                    Settings
-                </a>
-
-                <a id="inbox" class="mdl-navigation__link mdl-layout--small-screen-only" href="{{ site.url }}/people">
-                    <!-- Number badge on icon -->
-                    <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="4">inbox</div>
-                </a>
-                <a id="settings" class="mdl-navigation__link mdl-layout--small-screen-only" href="{{ site.url }}/settings">
-                    <i class="material-icons">settings</i>
-                </a>
-                <a class="mdl-navigation__link" href="/@{{ site.data.logged_in_user.username }}">
-                    <img class="bg-cover img-circle"
-                        style="background-image: url({{ site.url }}/{{ site.data.logged_in_user.avatar }})"
-                        height="39px"
-                        src="{{ site.url }}/assets/images/blank.png"
-                        alt="{{ site.data.logged_in_user.username }}">
-                </a>
-            </nav>
+            {% include nav.html %}
         </div>
     </header>
     <main class="mdl-layout__content">
@@ -98,6 +75,7 @@ layout: default
     </main>
 </div>
 
+{% include nav_tooltips.html %}
 <div class="mdl-tooltip mdl-tooltip--large" for="palette">Customize</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="feedback">Report Abuse</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="verified">Verified</div>

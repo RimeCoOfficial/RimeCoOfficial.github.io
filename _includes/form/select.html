@@ -1,21 +1,21 @@
 <form enctype="multipart/form-data">
 
     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label {{ include.is-invalid }}">
-        <label id="{{ id }}-Primary" class="mdl-textfield__label--" for="{{ id }}-Primary">Primary</label>
+        <label id="{{ id }}-Primary" class="mdl-textfield__label--" for="{{ id }}-Primary">Title</label>
         <select name="{{ id }}-Primary" id="{{ id }}-Primary">
             <option value="">Select</option>
-            {% for option in site.data.google_fonts %}
-            <option value="{{ option.Family | downcase }}" {% if option.Family == site.data.logged_in_user.font.primary %}selected{% endif %}>{{ option.Family }}</option>
+            {% for option in site.data.fonts %}
+            <option value="{{ option.Family | downcase }}" {% if option.Family == site.data.logged_in_user.weblog.suvozit.font..primary %}selected{% endif %}>{{ option.Family }}</option>
             {% endfor %}
         </select>
 
         <br>
         
-        <label id="{{ id }}-Secondary" class="mdl-textfield__label--" for="{{ id }}-Secondary">Secondary</label>
+        <label id="{{ id }}-Secondary" class="mdl-textfield__label--" for="{{ id }}-Secondary">Heading</label>
         <select name="{{ id }}-Secondary" id="{{ id }}-Secondary">
             <option value="">Select</option>
-            {% for option in site.data.google_fonts %}
-            <option value="{{ option.Family | downcase }}" {% if option.Family == site.data.logged_in_user.font.secondary %}selected{% endif %}>{{ option.Family }}</option>
+            {% for option in site.data.fonts %}
+            <option value="{{ option.Family | downcase }}" {% if option.Family == site.data.logged_in_user.weblog.suvozit.font..secondary %}selected{% endif %}>{{ option.Family }}</option>
             {% endfor %}
         </select>
 
@@ -32,7 +32,7 @@
 
     <!-- Accent-colored raised button with ripple -->
     <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
-        Save
+        Update
     </button>
 
 </form>

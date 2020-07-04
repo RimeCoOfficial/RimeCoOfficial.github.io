@@ -18,16 +18,16 @@ title: Customize - Domain
     <small>To learn more, visit our <a href="{{ site.url }}/support/faq" target="_blank">frequently asked questions</a> and our <a href="{{ site.url }}/legal/terms" target="_blank">terms of service</a>. Otherwise, you can always use your default URL {{ site.url }}/{{ site.data.logged_in_user.username }} free of charge.</small>
 </p>
 
-{% if weblog.domain %}
-    <!-- Icon button -->
-    <a href="{{ site.url }}/customize/remove-domain" class="mdl-button mdl-js-button mdl-button--icon pull-right">
-        <i class="material-icons">delete_forever</i>
-    </a>
+{% if site.data.logged_in_user.weblog.suvozit.domain %}
+<!-- Icon button -->
+<a href="{{ site.url }}/customize/reset/domain" class="mdl-button mdl-js-button mdl-button--icon pull-right">
+    <i class="material-icons">delete_forever</i>
+</a>
 {% endif %}
 
 <form>
 
-{% include form/input.html id="domain" value=site.data.logged_in_user.domain label="Domain" %}
+{% include form/input.html id="domain" value=site.data.logged_in_user.weblog.suvozit.domain label="Domain" %}
 
 <br>
 <br>
@@ -35,7 +35,7 @@ title: Customize - Domain
 
 <!-- Accent-colored raised button with ripple -->
 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
-    Change
+    Update
 </button>
 
 </form>

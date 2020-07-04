@@ -3,19 +3,19 @@ layout: customize
 title: Customize - Signature
 ---
 
-{% if src == nil  %}
+{% assign type = 'signature' %}
+{% assign src = site.data.logged_in_user.weblog.suvozit.signature %}
+
+{% if src != nil  %}
 {% assign style = 'height: 40px;' %}
-{% assign src = 'assets/weblog/1-title.png' %}
-{% else %}
-{% assign src = 's3_bucket_url' %}
-{% assign show_delete_button = true %}
+{% assign show_delete_button = 1 %}
 {% endif %}
 
 {% assign text = 'This title appears at the top of all your publication’s stories. It should have a transparent background, and be at least 40px tall.' %}
 
 {% if show_delete_button %}
 <!-- Icon button -->
-<a href="{{ site.url }}/customize/remove-image/'.{{ type }}" class="mdl-button mdl-js-button mdl-button--icon pull-right">
+<a href="{{ site.url }}/customize/reset/{{ type }}" class="mdl-button mdl-js-button mdl-button--icon pull-right">
     <i class="material-icons">delete_forever</i>
 </a>
 {% endif %}

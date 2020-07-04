@@ -1,5 +1,8 @@
+- name: Avatar
+  url: /settings/avatar
+
 - name: Username
-  url: /settings # /username
+  url: /settings/username
 
 - name: Account
   url: /settings/account

@@ -1,3 +1,3 @@
 ---
-redirect_to: /settings/username
+redirect_to: /settings/avatar
 ---

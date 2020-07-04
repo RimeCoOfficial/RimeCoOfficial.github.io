@@ -68,12 +68,15 @@ social:
         img: assets/users/93244581_2827117440705467_1235743369020309504_n.png
         sync: 2011-01-01 10:00:00
         status: 200
-domain: www.shubhajitsaha.com
-logo: /assets/users/suvozit/logo.png
-signature: /assets/users/suvozit/signature.png
-font:
-  primary: Lemonada
-  secondary: Exo
+weblog:
+  suvozit:
+    domain: www.shubhajitsaha.com
+    icon: /assets/weblog/suvozit/icon.png
+    signature: /assets/weblog/suvozit/signature.png
+    font:
+      primary: Roboto Slab
+      secondary: Roboto
+    title: Shubhajit Saha
 email_subscription:
   notification: true
   tips: false

@@ -4,6 +4,18 @@
 
 <script>
     $(function(){
+        $("#typed-element-username").typed({
+            strings: [
+                "Hello {{ site.data.logged_in_user.username }}",
+            ],
+            typeSpeed: 75,
+            loop:       false
+        });
+    });
+</script>
+
+<script>
+    $(function(){
         $("#typed-element-hello").typed({
             strings: [
                 "I'm Aryá",

@@ -1,33 +1,60 @@
+{% assign url = page.url %}
+
 <nav class="mdl-navigation">
+    {% if url == '/dashboard' %}
     <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{ site.url }}/explore">
         Explore
     </a>
+    {% endif %}
     <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{ site.url }}/people">
         <!-- Number badge -->
         <span class="mdl-badge" data-badge="4">Inbox</span>
     </a>
-    <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{ site.url }}/settings">
+    
+    <!-- <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{ site.url }}/settings">
         Settings
-    </a>
+    </a> -->
 
+    {% if url == '/dashboard' %}
     <a id="explore" class="mdl-navigation__link mdl-layout--small-screen-only" href="{{ site.url }}/explore">
         <i class="material-icons">explore</i>
     </a>
+    {% endif %}
     <a id="inbox" class="mdl-navigation__link mdl-layout--small-screen-only" href="{{ site.url }}/people">
         <!-- Number badge on icon -->
         <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="4">inbox</div>
     </a>
-    <a id="settings" class="mdl-navigation__link mdl-layout--small-screen-only" href="{{ site.url }}/settings">
-        <i class="material-icons">settings</i>
-    </a>
 
-    <a id="username" class="mdl-navigation__link" href="/@{{ site.data.logged_in_user.username }}">
+    <!-- <a id="settings" class="mdl-navigation__link mdl-layout--small-screen-only" href="{{ site.url }}/settings">
+        <i class="material-icons">settings</i>
+    </a> -->
+
+    <!-- <a id="username" class="mdl-navigation__link" href="/@{{ site.data.logged_in_user.username }}">
+        <img class="bg-cover img-circle"
+            style="background-image: url({{ site.url }}/{{ site.data.logged_in_user.avatar }})"
+            height="39px"
+            src="{{ site.url }}/assets/images/blank.png"
+            alt="{{ site.data.logged_in_user.username }}">
+    </a> -->
+
+    <!-- Right aligned menu below button -->
+    <a id="demo-menu-lower-right"
+    class="mdl-navigation__link"
+    href="#">
+    <!-- <i class="material-icons">more_vert</i> -->
         <img class="bg-cover img-circle"
             style="background-image: url({{ site.url }}/{{ site.data.logged_in_user.avatar }})"
             height="39px"
             src="{{ site.url }}/assets/images/blank.png"
             alt="{{ site.data.logged_in_user.username }}">
     </a>
+
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+    for="demo-menu-lower-right">
+    <li class="mdl-menu__item">Archive</li>
+    <li class="mdl-menu__item">Apps</li>
+    <li class="mdl-menu__item">Settings</li>
+    </ul>
 
     <!-- <a id="exit_to_app" class="mdl-navigation__link" href="{{ site.url }}/auth/sign-out">
         <i class="material-icons">exit_to_app</i>

@@ -1,5 +1,7 @@
 - title: Home
   url: /dashboard
+- title: Explore
+  url: /explore
 - title: Inbox
   url: /people
   badge: 4

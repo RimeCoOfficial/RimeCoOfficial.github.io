@@ -1,25 +1,17 @@
-{% assign service = page.url | split: "/" %}
-
-{% for s in service %}
-  {% assign service = s %}
-{% endfor %}
+{% assign service = page.url | split: "/" | last %}
 
 {% assign social = site.data.logged_in_user.social %}
+
+<!-- <div class="mdl-card__supporting-text">
+    That’s an error, That’s all we know.
+</div> -->
 
 {% for s in social %}
 {% if s.app == service %}
 {% assign actor_list = s.actors %}
 {% assign user_social = s %}
-{% endif %}
-{% endfor %}
 
-{% if actor_list.size == 0 %}
-<div class="mdl-card__supporting-text">
-    That’s an error, That’s all we know.
-</div>
-{% else %}
 <!-- 
-
     // view/user/about_ext_link, view/apps/actor_list
     $sorted_oauth_actor_list = array();
     foreach ($oauth_actor_list as $a) $sorted_oauth_actor_list[  $a['service'].'.'.$a['oauth_id'].'.'.$a['kind'].'.'.$a['actor_id'] ] = $a;
@@ -91,6 +83,8 @@
     </li>
     {% endfor %}
 </ul>
+
 {% endif %}
+{% endfor %}
 
 {% include js/moment.html %}

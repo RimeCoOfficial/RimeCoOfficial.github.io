@@ -24,7 +24,8 @@ layout: default
             <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--4-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
 
                 <h1 class="mdl-typography--font-light mdl-color-text--grey-600">
-                    Hello {{ site.data.logged_in_user.username }},
+                    <!-- Hello {{ site.data.logged_in_user.username }}, -->
+                    <span id="typed-element-username"></span>
                 </h1>
 
                 <p class="mdl-color-text--grey-600">
@@ -56,30 +57,31 @@ layout: default
                     </a>
                     
                 </div>
-                <div class="mdl-card__menu">
-                    <a id="archive" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="/@{{ site.data.logged_in_user.username }}">
-                        <i class="material-icons">archive</i>
-                    </a>
-                </div>
             </div>
 
             <!-- Profile -->
 
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card portfolio-blog-card-compact">
                 <div class="mdl-card__media">
-                    <img class="article-image img-fluid" src="{{ site.data.logged_in_user.weblog.suvozit.icon }}" height="300">
+                    <img class="article-image img-fluid" src="{{ site.data.logged_in_user.avatar }}" width="500">
                 </div>
                 <div class="mdl-card__actions">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="/customize">
-                        Customize
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="/settings">
+                        Settings
                     </a>
                 </div>
 
                 <div class="mdl-card__menu">
-                    <a id="open_in_new" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="//{{ site.data.logged_in_user.weblog.suvozit.domain }}" target="_blank">
-                        <i class="material-icons">open_in_new</i>
+                    <a id="rss_feed" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="/@{{ site.data.logged_in_user.username }}">
+                        <i class="material-icons">rss_feed</i>
                     </a>
                 </div>
+
+                <!-- <div class="mdl-card__menu">
+                    <a id="archive" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="/@{{ site.data.logged_in_user.username }}">
+                        <i class="material-icons">archive</i>
+                    </a>
+                </div> -->
             </div>
 
             <!-- Invite -->
@@ -112,4 +114,7 @@ layout: default
 {% include nav_tooltips.html %}
 <div class="mdl-tooltip mdl-tooltip--large" for="sync">{{ site.github.build_revision | truncate: 7, "" }}</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="archive">Archive</div>
+<div class="mdl-tooltip mdl-tooltip--large" for="rss_feed">@{{ site.data.logged_in_user.username }}</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="open_in_new">{{ site.data.logged_in_user.weblog.suvozit.domain }}</div>
+
+{% include scripts.html %}

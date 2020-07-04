@@ -10,7 +10,7 @@ social:
   - app: Facebook
     url: facebok.com
     oauth: 10214189707007766
-    actors: 
+    actors:
       - id: suvozit
         name: Shubhajit Saha
         img: assets/images/team-93101128_10215803195343966_9003621194796105728_n.jpg
@@ -47,7 +47,7 @@ social:
   - app: GitHub
     url: github.com
     oauth: 5635088
-    actors: 
+    actors:
       - id: suvozit
         name: Shubhajit Saha
         img: assets/images/team-93101128_10215803195343966_9003621194796105728_n.jpg

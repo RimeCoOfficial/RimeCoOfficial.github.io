@@ -3,11 +3,7 @@ layout: apps
 title: Apps
 ---
 
-{% assign service = page.url | split: "/" %}
-
-{% for s in service %}
-  {% assign service = s %}
-{% endfor %}
+{% assign service = page.url | split: "/" | last %}
 
 <style type="text/css">
     .demo-card-square > .mdl-card__title {

@@ -1,7 +1,6 @@
 ---
 layout: customize
-title: Customize - Logo
-permalink: customize
+title: Customize - Fonts
 ---
 
 {% if src == nil  %}
@@ -21,10 +20,8 @@ permalink: customize
 </a>
 {% endif %}
 
-{% if src %}
-<img src="{{ site.url }}/{{ src }}" style="{{ style }} padding-bottom: 20px; padding-top: 5px;" />
-{% endif %}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={{ site.data.logged_in_user.font.primary }}&family={{ site.data.logged_in_user.font.secondary }}">
+<div style="font-family: '{{ site.data.logged_in_user.font.primary }}', serif; font-size: 24px; margin-top: 20px;">Making the Web Beautiful!</div>
+<div style="font-family: '{{ site.data.logged_in_user.font.secondary }}', serif; font-size: 18px; margin-top: 20px;">Making the Web Beautiful!</div>
 
-<p>{{ text }}</p>
-
-{% include form/upload.html id='userfile' %}
+{% include form/select.html id='font' %}

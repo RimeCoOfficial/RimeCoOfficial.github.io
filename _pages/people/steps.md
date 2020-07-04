@@ -5,7 +5,7 @@ title: People
 
 <?php
 $youtube_video_id = 'wZf8VZX8ZI8';
-$youtube_video_id = 'https://www.youtube.com/embed/'.$youtube_video_id.'?vq=hd720&modestbranding=0&showinfo=0';
+$youtube_video_id = 'https://www.youtube.com/embed/wZf8VZX8ZI8'.$youtube_video_id.'?vq=hd720&modestbranding=0&showinfo=0';
 ?>
 
 <h4>Watch the video!</h4>

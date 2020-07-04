@@ -1,10 +1,9 @@
 ---
 layout: settings
 title: Settings - Username
-permalink: settings
 ---
 
-<p>{{ site.url }}/<strong>{{ site.data.logged_in_user.username }}</strong></p>
+<p>{{ site.url }}/@<strong>{{ site.data.logged_in_user.username }}</strong></p>
 
 <form></form>
 

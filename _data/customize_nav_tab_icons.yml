@@ -1,8 +1,8 @@
-- name: font_download
-  url: /customize # /logo
 - name: face
   url: /customize/icon
 - name: title
-  url: /customize/title
+  url: /customize/signature
+- name: font_download
+  url: /customize/fonts
 - name: domain
   url: /customize/domain

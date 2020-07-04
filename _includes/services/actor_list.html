@@ -1,5 +1,16 @@
-{% assign social = site.data.logged_in_user.social[0] %}
-{% assign actor_list = social.actors %}
+{% assign service = page.url | split: "/" %}
+
+{% for s in service %}
+  {% assign service = s %}
+{% endfor %}
+
+{% assign social = site.data.logged_in_user.social %}
+
+{% for s in social %}
+{% if s.app == service %}
+{% assign actor_list = s.actors %}
+{% endif %}
+{% endfor %}
 
 {% if actor_list.size == 0 %}
 <div class="mdl-card__supporting-text">
@@ -36,7 +47,7 @@
         </span>
         <span class="mdl-list__item-secondary-content">
             {% if actor.login == nil %}
-            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/action/actor/add/{{ actor.id }}?redirect=services/add">
+            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/action/actor/add/{{ actor.id }}?redirect=services/add/{{ service }}">
                 <!-- <i class="material-icons">add</i> -->
                 Connect
             </a>

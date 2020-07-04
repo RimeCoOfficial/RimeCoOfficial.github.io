@@ -37,7 +37,7 @@ title: Service
             <span class="mdl-list__item-sub-title">{{ s.detials }}</span>
         </span>
         <span class="mdl-list__item-secondary-content">
-            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button {{ icon_color }} mdl-button--icon" href="{{ site.url }}/services/add">
+            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button {{ icon_color }} mdl-button--icon" href="{{ site.url }}/services/add/{{ s.name }}">
                 <i class="material-icons">{{ icon }}</i>
             </a>
         </span>

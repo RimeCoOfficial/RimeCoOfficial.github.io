@@ -23,7 +23,7 @@ $supporting_text = [
 </style>
 
 <?php
-$oauth_path_base = 'action/services/add';
+${{ site.data.oauth.path_base }} = 'action/services/add';
 
 if (!empty($oauth_id))
 {
@@ -51,7 +51,7 @@ else if ($this->session->flashdata('flash_oauth_id') != TRUE)
     </div>
 
     <div class="mdl-card__actions">
-        <button class="service-popup mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="{{ site.url }}/oauth_path_base/service">
+        <button class="service-popup mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="{{ site.url }}/{{ site.data.oauth.path_base }}/service">
             Add service <i class="material-icons">launch</i>
         </button>
     </div>

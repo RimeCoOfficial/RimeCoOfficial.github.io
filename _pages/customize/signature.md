@@ -1,6 +1,6 @@
 ---
 layout: customize
-title: Customize - Title
+title: Customize - Signature
 ---
 
 {% if src == nil  %}

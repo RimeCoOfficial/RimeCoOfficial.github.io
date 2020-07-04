@@ -27,6 +27,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-gist
+  - jekyll-paginate 
+  - jekyll-redirect-from
 
 # Outputting
 # permalink:        /:categories/:title

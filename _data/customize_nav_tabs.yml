@@ -1,8 +1,8 @@
-- name: Logo
-  url: /customize # /logo
 - name: Icon
   url: /customize/icon
-- name: Title
-  url: /customize/title
+- name: Signature
+  url: /customize/signature
+- name: Fonts
+  url: /customize/fonts
 - name: Domain
   url: /customize/domain

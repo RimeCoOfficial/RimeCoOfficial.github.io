@@ -21,7 +21,9 @@ title: Customize - Fonts
 {% endif %}
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={{ site.data.logged_in_user.font.primary }}&family={{ site.data.logged_in_user.font.secondary }}">
-<div style="font-family: '{{ site.data.logged_in_user.font.primary }}', serif; font-size: 24px; margin-top: 20px;">Making the Web Beautiful!</div>
-<div style="font-family: '{{ site.data.logged_in_user.font.secondary }}', serif; font-size: 18px; margin-top: 20px;">Making the Web Beautiful!</div>
+<div style="font-family: '{{ site.data.logged_in_user.font.primary }}', serif; font-size: 24px; line-height: 1.5; margin-top: 10px;">Making the Web Beautiful!</div>
+<div style="font-family: '{{ site.data.logged_in_user.font.secondary }}', serif; font-size: 18px; line-height: 1.5; margin-top: 10px;">Making the Web Beautiful!</div>
+
+<br>
 
 {% include form/select.html id='font' %}

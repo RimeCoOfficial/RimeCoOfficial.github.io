@@ -66,14 +66,14 @@ layout: default
                     <img class="article-image img-fluid" src="{{ site.data.logged_in_user.avatar }}" width="500">
                 </div>
                 <div class="mdl-card__actions">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="/settings">
-                        Settings
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="/@{{ site.data.logged_in_user.username }}">
+                        Archive
                     </a>
                 </div>
 
                 <div class="mdl-card__menu">
-                    <a id="rss_feed" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="/@{{ site.data.logged_in_user.username }}">
-                        <i class="material-icons">rss_feed</i>
+                    <a id="settings" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="/settings">
+                        <i class="material-icons">settings</i>
                     </a>
                 </div>
 

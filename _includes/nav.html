@@ -1,62 +1,55 @@
-{% assign url = page.url %}
+{% if page.url == '/dashboard' %}
+{% assign dashboard = 1 %}
+{% endif %}
+
+{% if page.url == '/settings' %}
+{% assign settings = 1 %}
+{% endif %}
+
+{% assign slice = page.url | slice: 0, 2  %}
+{% if slice == '/@' %}
+{% assign user = 1 %}
+{% endif %}
 
 <nav class="mdl-navigation">
-    {% if url == '/dashboard' %}
-    <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{ site.url }}/explore">
-        Explore
-    </a>
-    {% endif %}
-    <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{ site.url }}/people">
-        <!-- Number badge -->
-        <span class="mdl-badge" data-badge="4">Inbox</span>
-    </a>
     
-    <!-- <a class="mdl-navigation__link mdl-layout--large-screen-only" href="{{ site.url }}/settings">
-        Settings
-    </a> -->
+    <!-- Settings / Sign out -->
 
-    {% if url == '/dashboard' %}
-    <a id="explore" class="mdl-navigation__link mdl-layout--small-screen-only" href="{{ site.url }}/explore">
+    {% if settings %}
+    <a id="exit_to_app" class="mdl-navigation__link" href="{{ site.url }}/auth/sign-out">
+        <i class="material-icons">exit_to_app</i>
+    </a>
+    {% else %}
+
+    <!-- Explore -->
+
+    {% if dashboard %}
+    <a id="explore" class="mdl-navigation__link" href="{{ site.url }}/explore">
         <i class="material-icons">explore</i>
     </a>
     {% endif %}
-    <a id="inbox" class="mdl-navigation__link mdl-layout--small-screen-only" href="{{ site.url }}/people">
+
+    <!-- Inbox -->
+
+    <a id="inbox" class="mdl-navigation__link" href="{{ site.url }}/people">
         <!-- Number badge on icon -->
         <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="4">inbox</div>
     </a>
 
-    <!-- <a id="settings" class="mdl-navigation__link mdl-layout--small-screen-only" href="{{ site.url }}/settings">
+    <!-- Profile | Settings -->
+    {% if user %}
+    <a id="settings" class="mdl-navigation__link" href="{{ site.url }}/settings">
         <i class="material-icons">settings</i>
-    </a> -->
-
-    <!-- <a id="username" class="mdl-navigation__link" href="/@{{ site.data.logged_in_user.username }}">
-        <img class="bg-cover img-circle"
-            style="background-image: url({{ site.url }}/{{ site.data.logged_in_user.avatar }})"
-            height="39px"
-            src="{{ site.url }}/assets/images/blank.png"
-            alt="{{ site.data.logged_in_user.username }}">
-    </a> -->
-
-    <!-- Right aligned menu below button -->
-    <a id="demo-menu-lower-right"
-    class="mdl-navigation__link"
-    href="#">
-    <!-- <i class="material-icons">more_vert</i> -->
+    </a>
+    {% else %}
+    <a id="username" class="mdl-navigation__link" href="/@{{ site.data.logged_in_user.username }}">
         <img class="bg-cover img-circle"
             style="background-image: url({{ site.url }}/{{ site.data.logged_in_user.avatar }})"
             height="39px"
             src="{{ site.url }}/assets/images/blank.png"
             alt="{{ site.data.logged_in_user.username }}">
     </a>
+    {% endif %}
 
-    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-    for="demo-menu-lower-right">
-    <li class="mdl-menu__item">Archive</li>
-    <li class="mdl-menu__item">Apps</li>
-    <li class="mdl-menu__item">Settings</li>
-    </ul>
-
-    <!-- <a id="exit_to_app" class="mdl-navigation__link" href="{{ site.url }}/auth/sign-out">
-        <i class="material-icons">exit_to_app</i>
-    </a> -->
+    {% endif %}
 </nav>

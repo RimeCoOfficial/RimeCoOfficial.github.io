@@ -3,7 +3,7 @@ layout: settings
 title: Settings - Avatar
 ---
 
-{% assign src = site.data.logged_in_user.avatar %}
+{% assign src = site.data.session.avatar %}
 {% assign style = 'height: 500px;' %}
 {% assign text = 'This works like a user icon and appears in previews of your publication content throughout Rime. It is square and should be at least 200 × 200px in size.' %}
 

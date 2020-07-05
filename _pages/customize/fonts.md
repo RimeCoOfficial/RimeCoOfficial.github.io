@@ -3,7 +3,7 @@ layout: customize
 title: Customize - Fonts
 ---
 
-{% assign src = site.data.logged_in_user.weblog.suvozit.icon %}
+{% assign src = site.data.session.weblog.suvozit.icon %}
 
 {% if src != nil  %}
 {% assign style = 'height: 40px;' %}
@@ -19,9 +19,9 @@ title: Customize - Fonts
 </a>
 {% endif %}
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={{ site.data.logged_in_user.weblog.suvozit.font.primary }}&family={{ site.data.logged_in_user.weblog.suvozit.font.secondary }}">
-<div style="font-family: '{{ site.data.logged_in_user.weblog.suvozit.font.primary }}', serif; font-size: 28px; line-height: 1.5; margin-top: 10px;">{{ site.data.logged_in_user.name }}</div>
-<div style="font-family: '{{ site.data.logged_in_user.weblog.suvozit.font.secondary }}', serif; font-size: 16px; line-height: 1.5; margin-top: 10px;">{{ site.data.logged_in_user.bio }}</div>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={{ site.data.session.weblog.suvozit.font.primary }}&family={{ site.data.session.weblog.suvozit.font.secondary }}">
+<div style="font-family: '{{ site.data.session.weblog.suvozit.font.primary }}', serif; font-size: 28px; line-height: 1.5; margin-top: 10px;">{{ site.data.session.name }}</div>
+<div style="font-family: '{{ site.data.session.weblog.suvozit.font.secondary }}', serif; font-size: 16px; line-height: 1.5; margin-top: 10px;">{{ site.data.session.bio }}</div>
 
 <br>
 

@@ -4,7 +4,7 @@ title: Customize - Signature
 ---
 
 {% assign type = 'signature' %}
-{% assign src = site.data.logged_in_user.weblog.suvozit.signature %}
+{% assign src = site.data.session.weblog.suvozit.signature %}
 
 {% if src != nil  %}
 {% assign style = 'height: 40px;' %}

@@ -5,7 +5,7 @@
         <select name="{{ id }}-Primary" id="{{ id }}-Primary">
             <option value="">Select</option>
             {% for option in site.data.fonts %}
-            <option value="{{ option.Family | downcase }}" {% if option.Family == site.data.logged_in_user.weblog.suvozit.font.primary %}selected{% endif %}>{{ option.Family }}</option>
+            <option value="{{ option.Family | downcase }}" {% if option.Family == site.data.session.weblog.suvozit.font.primary %}selected{% endif %}>{{ option.Family }}</option>
             {% endfor %}
         </select>
 
@@ -15,7 +15,7 @@
         <select name="{{ id }}-Secondary" id="{{ id }}-Secondary">
             <option value="">Select</option>
             {% for option in site.data.fonts %}
-            <option value="{{ option.Family | downcase }}" {% if option.Family == site.data.logged_in_user.weblog.suvozit.font.secondary %}selected{% endif %}>{{ option.Family }}</option>
+            <option value="{{ option.Family | downcase }}" {% if option.Family == site.data.session.weblog.suvozit.font.secondary %}selected{% endif %}>{{ option.Family }}</option>
             {% endfor %}
         </select>
 

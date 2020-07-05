@@ -1,4 +1,4 @@
-{% assign login_service = site.data.logged_in_user.social[ 0 ] %}
+{% assign login_service = site.data.session.social[ 0 ] %}
 {% assign actors = login_service.actors %}
 
 {% if actors.size == 0 %}

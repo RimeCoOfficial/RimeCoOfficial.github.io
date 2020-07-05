@@ -1,6 +1,6 @@
 {% assign service = page.url | split: "/" | last %}
 
-{% assign social = site.data.logged_in_user.social %}
+{% assign social = site.data.session.social %}
 
 <!-- <div class="mdl-card__supporting-text">
     That’s an error, That’s all we know.
@@ -50,7 +50,7 @@
             </a>
             {% else %}
             
-            {% if actor.login == site.data.logged_in_user.username %}
+            {% if actor.login == site.data.session.username %}
             
                 {% if actor.status == 400 %}
                 <span class="mdl-list__item-secondary-info">

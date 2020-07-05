@@ -14,8 +14,8 @@ class Guest extends CI_Controller
             show_error('user must sign in');
         }
 
-        $logged_in_user = $this->lib_user_login->get_user();
-        if ( ! ($logged_in_user['permission'] == 'founder' OR $logged_in_user['permission'] == 'guest.moderator'))
+        $session = $this->lib_user_login->get_user();
+        if ( ! ($session['permission'] == 'founder' OR $session['permission'] == 'guest.moderator'))
         {
             show_error('unauthorized permission');
         }
@@ -24,8 +24,8 @@ class Guest extends CI_Controller
     // actor
     public function create($actor_id, $oauth_id)
     {
-        $logged_in_user = $this->lib_user_login->get_user();
-        $user_id = $logged_in_user['user_id'];
+        $session = $this->lib_user_login->get_user();
+        $user_id = $session['user_id'];
 
         $this->load->library('service/lib_actor_user_guest');
         if (is_null($result = $this->lib_actor_user_guest->is_actor_available($actor_id, $oauth_id, $user_id)))
@@ -65,15 +65,15 @@ class Guest extends CI_Controller
         }
 
         $new_user_result = $this->lib_user_login->create_guest_user(
-            $actor, $oauth_id, strtolower($actor['username']).'@guest.noreply.rime.co', $logged_in_user['user_id']);
+            $actor, $oauth_id, strtolower($actor['username']).'@guest.noreply.rime.co', $session['user_id']);
 
         redirect('guest/user/'.$actor['username']);
     }
 
     public function add($guest_user_id, $actor_id, $oauth_id)
     {
-        $logged_in_user = $this->lib_user_login->get_user();
-        $user_id = $logged_in_user['user_id'];
+        $session = $this->lib_user_login->get_user();
+        $user_id = $session['user_id'];
 
         $this->load->library('service/lib_actor_user_guest');
         if (is_null($result = $this->lib_actor_user_guest->is_actor_available($actor_id, $oauth_id, $user_id)))
@@ -99,8 +99,8 @@ class Guest extends CI_Controller
 
     public function remove($guest_user_id, $activity_id)
     {
-        $logged_in_user = $this->lib_user_login->get_user();
-        $user_id = $logged_in_user['user_id'];
+        $session = $this->lib_user_login->get_user();
+        $user_id = $session['user_id'];
 
         $this->load->library('service/lib_actor_user_guest');
         if (is_null($guest_user = $this->lib_actor_user_guest->remove_actor($guest_user_id, $activity_id, $user_id)))
@@ -115,8 +115,8 @@ class Guest extends CI_Controller
     // // oauth
     // public function replace($guest_user_id, $actor_id, $oauth_id)
     // {
-    //   $logged_in_user = $this->lib_user_login->get_user();
-    //   $user_id = $logged_in_user['user_id'];
+    //   $session = $this->lib_user_login->get_user();
+    //   $user_id = $session['user_id'];
 
     //   var_dump($actor_id, $oauth_id, $user_id); die();
     // }

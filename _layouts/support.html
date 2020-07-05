@@ -16,13 +16,13 @@ layout: default
             <!-- Navigation -->
             <nav class="mdl-navigation">
 
-                {% if site.data.logged_in_user %}
-                <a class="mdl-navigation__link" href="/@{{ site.data.logged_in_user.username }}">
+                {% if site.data.session %}
+                <a class="mdl-navigation__link" href="/@{{ site.data.session.username }}">
                     <img class="bg-cover img-circle"
-                        style="background-image: url({{ site.url }}/{{ site.data.logged_in_user.avatar }})"
+                        style="background-image: url({{ site.url }}/{{ site.data.session.avatar }})"
                         height="39px"
                         src="{{ site.url }}/assets/images/blank.png"
-                        alt="{{ site.data.logged_in_user.username }}">
+                        alt="{{ site.data.session.username }}">
                 </a>
                 {% else %}
                 <a class="mdl-navigation__link" href="{{ site.url }}/auth/sign-in">

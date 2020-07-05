@@ -4,7 +4,7 @@ title: Customize - Icon
 ---
 
 {% assign type = 'icon' %}
-{% assign src = site.data.logged_in_user.weblog.suvozit.icon %}
+{% assign src = site.data.session.weblog.suvozit.icon %}
 
 {% if src != nil  %}
 {% assign style = 'height: 40px;' %}

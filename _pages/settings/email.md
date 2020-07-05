@@ -8,9 +8,9 @@ title: Settings - Email
 ?>
 
 
-Your email address <strong>{{ site.data.logged_in_user.email }}</strong> will be used for account-related notifications (e.g. account changes, contacts joined)<br>
+Your email address <strong>{{ site.data.session.email }}</strong> will be used for account-related notifications (e.g. account changes, contacts joined)<br>
 
-{% if site.data.logged_in_user.verified %}
+{% if site.data.session.verified %}
 <br>
 <i class="icon-warning"></i> Verify your email, <a href="{{ site.url }}/settings/resend-verification">resend verification</a>
 <br>
@@ -25,7 +25,7 @@ Looking for activity notification controls?<br>
 
 <form>
 
-{% include form/input.html id="user_email" value=site.data.logged_in_user.email label="Email" %}
+{% include form/input.html id="user_email" value=site.data.session.email label="Email" %}
 
 <br>
 <br>

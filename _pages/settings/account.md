@@ -9,9 +9,9 @@ title: Settings - Account
 
 <form>
 
-{% include form/input.html id="name" value=site.data.logged_in_user.name label="Name" %}
-{% include form/textarea.html id="bio" value=site.data.logged_in_user.bio label="Bio" %}
-{% include form/input.html id="location" value=site.data.logged_in_user.location label="Location" %}
+{% include form/input.html id="name" value=site.data.session.name label="Name" %}
+{% include form/textarea.html id="bio" value=site.data.session.bio label="Bio" %}
+{% include form/input.html id="location" value=site.data.session.location label="Location" %}
 
 <br>
 <br>

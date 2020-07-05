@@ -14,15 +14,15 @@ title: Create new account
 {% endif %}
 
 
-{% assign username = site.data.logged_in_user.username %}
+{% assign username = site.data.session.username %}
 {% if username %}
 {% assign username = username | replace: " ", "" | replace: ".", "" %}
 {% endif %}
 
 <form>
 
-{% include form/input.html id="name" value=site.data.logged_in_user.name label="Name" %}
-{% include form/input.html id="email" value=site.data.logged_in_user.email label="Email" %}
+{% include form/input.html id="name" value=site.data.session.name label="Name" %}
+{% include form/input.html id="email" value=site.data.session.email label="Email" %}
 
 <!-- Bug: alpha_dash only allowed, dots are removed -->
 {% include form/input.html id="username" value=username label="Username" %}

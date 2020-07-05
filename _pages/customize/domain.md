@@ -15,10 +15,10 @@ title: Customize - Domain
 </p>
 
 <p>
-    <small>To learn more, visit our <a href="{{ site.url }}/support/faq" target="_blank">frequently asked questions</a> and our <a href="{{ site.url }}/legal/terms" target="_blank">terms of service</a>. Otherwise, you can always use your default URL {{ site.url }}/{{ site.data.logged_in_user.username }} free of charge.</small>
+    <small>To learn more, visit our <a href="{{ site.url }}/support/faq" target="_blank">frequently asked questions</a> and our <a href="{{ site.url }}/legal/terms" target="_blank">terms of service</a>. Otherwise, you can always use your default URL {{ site.url }}/{{ site.data.session.username }} free of charge.</small>
 </p>
 
-{% if site.data.logged_in_user.weblog.suvozit.domain %}
+{% if site.data.session.weblog.suvozit.domain %}
 <!-- Icon button -->
 <a href="{{ site.url }}/customize/reset/domain" class="mdl-button mdl-js-button mdl-button--icon pull-right">
     <i class="material-icons">delete_forever</i>
@@ -27,7 +27,7 @@ title: Customize - Domain
 
 <form>
 
-{% include form/input.html id="domain" value=site.data.logged_in_user.weblog.suvozit.domain label="Domain" %}
+{% include form/input.html id="domain" value=site.data.session.weblog.suvozit.domain label="Domain" %}
 
 <br>
 <br>

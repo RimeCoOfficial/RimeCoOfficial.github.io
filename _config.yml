@@ -42,7 +42,7 @@ defaults:
 # jekyll-sitemap
 defaults:
   - scope:
-      path:            "assets/*"
+      path:            "/assets/*"
     values:
       sitemap:         false
       

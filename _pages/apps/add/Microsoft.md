@@ -9,7 +9,7 @@ title: Apps
     .demo-card-square > .mdl-card__title {
         height: 200px;
         background:
-            url('{{ site.url }}/assets/images/social-icon-{{ service | downcase }}.svg') center center no-repeat #FFF;
+            url('/assets/images/social-icon-{{ service | downcase }}.svg') center center no-repeat #FFF;
     }
 </style>
 

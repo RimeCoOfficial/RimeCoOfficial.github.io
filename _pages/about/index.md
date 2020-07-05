@@ -6,7 +6,7 @@ layout: about
 
 <div class="mdl-grid mdl-color--black">
     <div class="mdl-cell mdl-cell--4-offset-desktop mdl-cell--4-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-        <img src="{{ site.url }}/assets/third-party/giphy.com/art-artist-on-tumblr-delirium-lab-3o85xpJDoAcPrVIeOs-downsized.gif" alt="both" style="max-width: 100%;">
+        <img src="/assets/third-party/giphy.com/art-artist-on-tumblr-delirium-lab-3o85xpJDoAcPrVIeOs-downsized.gif" alt="both" style="max-width: 100%;">
     </div>
 </div>
 <div class="mdl-grid">

@@ -9,7 +9,7 @@ title: Settings - Avatar
 
 
 {% if src %}
-<img class="bg-cover img-circle" style="background-image: url({{ site.url }}/{{ src }})" width="200px" height="200px" src="{{ site.url }}/assets/images/blank.png">
+<img class="bg-cover img-circle" style="background-image: url({{ site.url }}/{{ src }})" width="200px" height="200px" src="/assets/images/blank.png">
 <br>
 {% endif %}
 

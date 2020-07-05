@@ -27,7 +27,7 @@ if ( ! empty($oauth_actor_list))
             ?>
             <li class="mdl-list__item mdl-list__item--two-line">
                 <span class="mdl-list__item-primary-content">
-                    <img class="mdl-list__item-avatar bg-cover" style="background-image: url({{ site.url }}/assets/third-party/material.io/face.png)" width="40px" height="40px" src="{{ site.url }}/assets/images/blank.png">
+                    <img class="mdl-list__item-avatar bg-cover" style="background-image: url(/assets/third-party/material.io/face.png)" width="40px" height="40px" src="/assets/images/blank.png">
 
                     <span>
                         {{ actor['full_name'] }}

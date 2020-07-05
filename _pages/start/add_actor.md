@@ -16,8 +16,8 @@ $supporting_text = [
     .demo-card-square > .mdl-card__title {
         color: #fff;
         background:
-            url('{{ site.url }}/assets/images/social-icon-'.$service.'-white.svg') center center no-repeat,
-            url('{{ site.url }}/assets/images/stripe-v.png'),
+            url('/assets/images/social-icon-'.$service.'-white.svg') center center no-repeat,
+            url('/assets/images/stripe-v.png'),
             url('{{ site.url }}/{{ site.data.session.avatar }}') bottom center / cover;
     }
 </style>

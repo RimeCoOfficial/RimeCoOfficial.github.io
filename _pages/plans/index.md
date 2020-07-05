@@ -17,7 +17,7 @@ All the power you need at a fraction of the cost. Read our <a href="{{ site.url 
 }
 .demo-card-square > .mdl-card__title {
   background:
-    url('{{ site.url }}/assets/third-party/subtle-patterns/topography.png') bottom right 15% no-repeat #fff;
+    url('/assets/third-party/subtle-patterns/topography.png') bottom right 15% no-repeat #fff;
 }
 </style>
 

@@ -19,7 +19,7 @@ Take a look in at your new Rime profile.
 Stay tuned.
 Christmas is coming… with lot more features :)
 
-![]({{ site.url }}/assets/images/email-unnamed-1.gif)
+![](/assets/images/email-unnamed-1.gif)
 
 Have fun!
 

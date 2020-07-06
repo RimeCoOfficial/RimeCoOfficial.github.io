@@ -1,113 +1,126 @@
-# - name: Behance
-#   detials: WIP, Projects, Following
-#   kind:
-#       - type: user
-#         name: Behance
-#         icon: icon-behance
+be:
+  name: Behance
+  detials: WIP, Projects, Following
+  kind:
+    - type: user
+      name: Behance
+      icon: icon-behance
 
-# - name: Dropbox
-#   detials: Public folder
-#   kind:
-#       - type: user
-#         name: Dropbox
-#         icon: icon-dropbox
+db:
+  name: Dropbox
+  detials: Public folder
+  kind:
+    - type: user
+      name: Dropbox
+      icon: icon-dropbox
 
-- name: Facebook
+fb:
+  name: Facebook
   sign-in: true
   detials: Timeline posts, Friends, Likes
   kind:
-      - type: user
-        name: Facebook
-        icon: icon-facebook
+    - type: user
+      name: Facebook
+      icon: icon-facebook
       
-      - type: org
-        name: Facebook Page
-        icon: icon-facebook-official
+    - type: org
+      name: Facebook Page
+      icon: icon-facebook-official
 
-- name: Flickr
+fl:
+  name: Flickr
   detials: Photos, Videos, Albums, Following
   kind:
-      - type: user
-        name: Flickr
-        icon: icon-flickr
+    - type: user
+      name: Flickr
+      icon: icon-flickr
 
-- name: Foursquare
+fs:
+  name: Foursquare
   detials: Checkins, Following
   kind:
-      - type: user
-        name: Foursquare
-        icon: icon-foursquare
+    - type: user
+      name: Foursquare
+      icon: icon-foursquare
 
-- name: GitHub
+gh:
+  name: GitHub
   detials: Public Repositories, Gists
   kind:
-      - type: user
-        name: GitHub
-        icon: icon-github
+    - type: user
+      name: GitHub
+      icon: icon-github
 
-      - type: org
-        name: GitHub Org
-        icon: icon-github-circled
+    - type: org
+      name: GitHub Org
+      icon: icon-github-circled
 
-- name: Google
+go:
+  name: Google
   sign-in: true
   detials: Google+, Blogger, YouTube, Gmail contacts
   kind:
-      - type: user
-        name: Google+
-        icon: icon-google
+    - type: user
+      name: Google+
+      icon: icon-google
       
-      - type: channel
-        name: YouTube
-        icon: icon-youtube-play
+    - type: channel
+      name: YouTube
+      icon: icon-youtube-play
       
-      - type: blog
-        name: Blogger
-        icon: icon-blogger
+    - type: blog
+      name: Blogger
+      icon: icon-blogger
 
-- name: Instagram
+ig:
+  name: Instagram
   detials: Photos, Videos, Following
   kind:
-      - type: user
-        name: Instagram
-        icon: icon-instagram
+    - type: user
+      name: Instagram
+      icon: icon-instagram
 
-- name: LinkedIn
+li:
+  name: LinkedIn
   sign-in: true
   detials: User, Companies
   kind:
-      - type: user
-        name: LinkedIn
-        icon: icon-linkedin
+    - type: user
+      name: LinkedIn
+      icon: icon-linkedin
       
-      - type: org
-        name: LinkedIn Org
-        icon: icon-linkedin
+    - type: org
+      name: LinkedIn Org
+      icon: icon-linkedin
 
-- name: Microsoft
+ms:
+  name: Microsoft
   detials: Outlook Contacts
   kind:
-      - type: user
-        name: Microsoft
-        icon: icon-windows
+    - type: user
+      name: Microsoft
+      icon: icon-windows
 
-- name: Tumblr
+tu:
+  name: Tumblr
   detials: Blog Posts, Following
   kind:
-      - type: blog
-        name: tumblr
-        icon: icon-tumblr
+    - type: blog
+      name: tumblr
+      icon: icon-tumblr
 
-- name: Twitter
+tw:
+  name: Twitter
   detials: Read Tweets from your timeline, See who you follow.
   kind:
-      - type: user
-        name: twitter
-        icon: icon-twitter
+    - type: user
+      name: twitter
+      icon: icon-twitter
 
-- name: Vimeo
+vi:
+  name: Vimeo
   detials: Videos, Albums, Channels, Following
   kind:
-      - type: user
-        name: Vimeo
-        icon: icon-vimeo
+    - type: user
+      name: Vimeo
+      icon: icon-vimeo

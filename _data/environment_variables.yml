@@ -1,67 +1,61 @@
-# Environment Variables for application
+# Environment Variables for application in development
 
 FOO: BAR
 
-ci_base_url: http://localhost/GitHub/rime/
-ci_asset_url: http://localhost/GitHub/static/
-// testing:     https://rhymetek.github.io/static/
-// production:  https://rhymetek.s3.amazonaws.com/static/
-ci_encryption_key: 34c6b7a80397f73216acc3ceadf238b6
-ci_proxy_ips: 
-ci_email_smtp_user: AKIAIKIBLT3W47VDPIOQ
-ci_email_smtp_pass: AiG8mFaRY+1UKj9rhSvEBWSePeuxwKGaPHPQbaPWr');
-db_hostname: localhost
-db_username: root
-db_password: 
+oauth:
+  be:
+    id: DNN8X6LQIZRxBI1YDsZLAAkHQ1lcb4xt
+    secret: 
 
+  dp:
+    id: jn044bxg0qxd43o
+    secret: d42k59rvbk9f9ob
 
-oauth_behance_client_id: DNN8X6LQIZRxBI1YDsZLAAkHQ1lcb4xt
-oauth_behance_client_secret: 
+  fb:
+    id: 846304802103036
+    secret: 53dd173982249fe675b599582546d8c1
 
-oauth_dropbox_client_id: jn044bxg0qxd43o
-oauth_dropbox_client_secret: d42k59rvbk9f9ob
+  fl:
+    id: ddab09a3481d5d85ac333a2b70952229
+    secret: aac84fbb58dee4f9
 
-oauth_facebook_client_id: 846304802103036
-oauth_facebook_client_secret: 53dd173982249fe675b599582546d8c1
+  fs:
+    id: GI5UQ4ZFMND0OKUWSAN1TWM1GPLV335COYACKRD5U1DADOM1
+    secret: EGIW14TUWBN155FYMRKFLRLHT25TKKMYYHKDC4NC2VD02VJH
 
-oauth_flickr_client_id: ddab09a3481d5d85ac333a2b70952229
-oauth_flickr_client_secret: aac84fbb58dee4f9
+  gh:
+    id: 50d411f9334a42fcc751
+    secret: dec2a9b279f983e71225a7e8f3e0e2fe7524b6a0
 
-oauth_foursquare_client_id: GI5UQ4ZFMND0OKUWSAN1TWM1GPLV335COYACKRD5U1DADOM1
-oauth_foursquare_client_secret: EGIW14TUWBN155FYMRKFLRLHT25TKKMYYHKDC4NC2VD02VJH
+  go:
+    id: 202356958127.apps.googleusercontecom
+    secret: Dq49v-xnZOns_kLFO0scptN3
+    yt_key: AI39si6OUedMCBFCvC83ceX1F0yhrLa22hz64M7foai77X_jhAytNIhvILXu9Op0k2FOLy4pYRbJZUh4OHyM2V8UJIIyYvA
 
-oauth_github_client_id: 50d411f9334a42fcc751
-oauth_github_client_secret: dec2a9b279f983e71225a7e8f3e0e2fe7524b6a0
+  li:
+    id: 81nybltzemk2v7
+    secret: dGWuz6XsG0k6zpHy
 
-oauth_google_client_id: 202356958127.apps.googleusercontecom');
-oauth_google_client_secret: Dq49v-xnZOns_kLFO0scptN3
-oauth_youtube_key: AI39si6OUedMCBFCvC83ceX1F0yhrLa22hz64M7foai77X_jhAytNIhvILXu9Op0k2FOLy4pYRbJZUh4OHyM2V8UJIIyYvA');
+  ig:
+    id: f744926ac70948f8ac11b82255473b86
+    secret: 527b35d693894efa90af5bf921874b5b
 
-oauth_linkedin_client_id: 81nybltzemk2v7
-oauth_linkedin_client_secret: dGWuz6XsG0k6zpHy
+  ms:
+    id: 0000000040103A2D
+    secret: MjqqRifEPNjygdeW-HVDHUHVPZJMurhR
 
-oauth_instagram_client_id: f744926ac70948f8ac11b82255473b86
-oauth_instagram_client_secret: 527b35d693894efa90af5bf921874b5b
+  tw:
+    id: q9ssz77jlA23UMJucjhYtA
+    secret: 3ipCvBYZL4ogaWPLdGSTdMwbeM3ONCFBWD6QcHeKo8Y
 
-oauth_microsoft_client_id: 0000000040103A2D
-oauth_microsoft_client_secret: MjqqRifEPNjygdeW-HVDHUHVPZJMurhR
+  tu:
+    id: zJRgnOoaNeZKdb3yLD7WdeItjkEIf76bQeQNhODG9ZRipFyKsT
+    secret: tmc9JPWLpL8ihSncdT53MvWindMw5ZThLJL8yD7vd6cvFPFvDS
 
-oauth_twitter_client_id: q9ssz77jlA23UMJucjhYtA
-oauth_twitter_client_secret: 3ipCvBYZL4ogaWPLdGSTdMwbeM3ONCFBWD6QcHeKo8Y
+  vi:
+    id: 0b2700a2ea9c52ac1855db10194198a9a0fddbc9
+    secret: 1c5754063aaf2f4ad91a9a646dd7f68496d4aece
 
-oauth_tumblr_client_id: zJRgnOoaNeZKdb3yLD7WdeItjkEIf76bQeQNhODG9ZRipFyKsT
-oauth_tumblr_client_secret: tmc9JPWLpL8ihSncdT53MvWindMw5ZThLJL8yD7vd6cvFPFvDS
-
-oauth_vimeo_client_id: 0b2700a2ea9c52ac1855db10194198a9a0fddbc9
-oauth_vimeo_client_secret: 1c5754063aaf2f4ad91a9a646dd7f68496d4aece
-
-
-api_bing_public: AnWLEJTvYM0b-v3uXLMD4VckmHWGnxj20lIOsT73gvR8akZhXibwFg-6kK4Ek');
-
-aws_account_id: 793132624017
-aws_access_key: AKIAJ66PVMUZJS5TOO5A
-aws_secret_key: 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
-aws_s3_bucket: suvozit
-AWS_PHP_CACHE_DIR: /tmp/aws-cache
-
-ga: UA-41643154-1
+api:
+  bing: AnWLEJTvYM0b-v3uXLMD4VckmHWGnxj20lIOsT73gvR8akZhXibwFg-6kK4Ek
+  ga: UA-41643154-1

@@ -8,7 +8,7 @@ layout: default
             <!-- Title -->
             <span class="mdl-layout-title">
                 <a href="{{ site.url }}">
-                    <img src="{{ site.url }}/assets/images/logotype.svg" height=25 alt="Rime">
+                    <img src="/assets/images/logotype.svg" height=25 alt="Rime">
                 </a>
             </span>
             <!-- Add spacer, to align navigation to the right -->
@@ -24,7 +24,7 @@ layout: default
             <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--4-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
 
                 <h1 class="mdl-typography--font-light mdl-color-text--grey-600">
-                    <!-- Hello {{ site.data.logged_in_user.username }}, -->
+                    <!-- Hello {{ site.data.session.username }}, -->
                     <span id="typed-element-username"></span>
                 </h1>
 
@@ -50,7 +50,7 @@ layout: default
                         Connect
                     </a>
                     <div class="mdl-layout-spacer"></div>
-                    <a id="sync" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                    <a id="sync" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="/sync">
                         <i class="material-icons">sync</i>
                         <!-- <i class="material-icons">sync_disabled</i> -->
                         <!-- <i class="material-icons">sync_problem</i> -->
@@ -63,10 +63,10 @@ layout: default
 
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card portfolio-blog-card-compact">
                 <div class="mdl-card__media">
-                    <img class="article-image img-fluid" src="{{ site.data.logged_in_user.avatar }}" width="500">
+                    <img class="article-image img-fluid" src="{{ site.data.session.avatar }}" width="500">
                 </div>
                 <div class="mdl-card__actions">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="/@{{ site.data.logged_in_user.username }}">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="/@{{ site.data.session.username }}">
                         Archive
                     </a>
                 </div>
@@ -78,7 +78,7 @@ layout: default
                 </div>
 
                 <!-- <div class="mdl-card__menu">
-                    <a id="archive" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="/@{{ site.data.logged_in_user.username }}">
+                    <a id="archive" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="/@{{ site.data.session.username }}">
                         <i class="material-icons">archive</i>
                     </a>
                 </div> -->
@@ -88,7 +88,7 @@ layout: default
 
             <!-- <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card portfolio-blog-card-compact">
                 <div class="mdl-card__media">
-                    <img class="article-image img-fluid" src="{{ site.url }}/assets/images/invite.png">
+                    <img class="article-image img-fluid" src="/assets/images/invite.png">
                 </div>
                 <div class="mdl-card__title ">
                     <h2 class="mdl-card__title-text">We'd love your feedback</h2>
@@ -114,7 +114,7 @@ layout: default
 {% include nav_tooltips.html %}
 <div class="mdl-tooltip mdl-tooltip--large" for="sync">{{ site.github.build_revision | truncate: 7, "" }}</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="archive">Archive</div>
-<div class="mdl-tooltip mdl-tooltip--large" for="rss_feed">@{{ site.data.logged_in_user.username }}</div>
-<div class="mdl-tooltip mdl-tooltip--large" for="open_in_new">{{ site.data.logged_in_user.weblog.suvozit.domain }}</div>
+<div class="mdl-tooltip mdl-tooltip--large" for="rss_feed">@{{ site.data.session.username }}</div>
+<div class="mdl-tooltip mdl-tooltip--large" for="open_in_new">{{ site.data.session.weblog.suvozit.domain }}</div>
 
 {% include scripts.html %}

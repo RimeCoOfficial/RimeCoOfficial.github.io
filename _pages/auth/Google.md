@@ -1,6 +1,6 @@
 ---
 layout: auth
-title: Demo
+title: Login with Google
 ---
 
 {% include auth/actor_list.html %}

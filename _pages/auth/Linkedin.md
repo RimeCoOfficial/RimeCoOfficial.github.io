@@ -1,6 +1,6 @@
 ---
 layout: auth
-title: Demo
+title: Login with Linkedin
 ---
 
 {% include auth/actor_list.html %}

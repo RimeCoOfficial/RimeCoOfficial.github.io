@@ -50,7 +50,7 @@ All the power you need at a fraction of the cost. Read our <a href="{{ site.url 
     </div>
     <div class="mdl-card__actions mdl-card--border">
         <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/auth/sign-in">
-            ₹ 999.99
+            ₹ 789.99
         </a>
     </div>
 </div>

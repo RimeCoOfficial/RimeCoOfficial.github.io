@@ -1,0 +1,12 @@
+facebook_suvozit:
+  app: facebook
+  oauth: suvozit
+  actors: suvozit, rhymetek, bitsitsgames, StringYourStory, hizz.shot
+facebook_girishnayak12:
+  app: facebook
+  oauth: girishnayak12
+  actors: girishnayak12, rhymetek
+github_suvozit:
+  app: github
+  oauth: suvozit
+  actors: suvozit, rhymetek, bitsits

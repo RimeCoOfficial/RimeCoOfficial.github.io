@@ -1,4 +1,4 @@
-be:
+behance:
   name: Behance
   detials: WIP, Projects, Following
   kind:
@@ -6,7 +6,7 @@ be:
       name: Behance
       icon: icon-behance
 
-db:
+dropbox:
   name: Dropbox
   detials: Public folder
   kind:
@@ -14,7 +14,7 @@ db:
       name: Dropbox
       icon: icon-dropbox
 
-fb:
+facebook:
   name: Facebook
   sign-in: true
   detials: Timeline posts, Friends, Likes
@@ -27,7 +27,7 @@ fb:
       name: Facebook Page
       icon: icon-facebook-official
 
-fl:
+flickr:
   name: Flickr
   detials: Photos, Videos, Albums, Following
   kind:
@@ -35,7 +35,7 @@ fl:
       name: Flickr
       icon: icon-flickr
 
-fs:
+foursquare:
   name: Foursquare
   detials: Checkins, Following
   kind:
@@ -43,7 +43,7 @@ fs:
       name: Foursquare
       icon: icon-foursquare
 
-gh:
+github:
   name: GitHub
   detials: Public Repositories, Gists
   kind:
@@ -55,7 +55,7 @@ gh:
       name: GitHub Org
       icon: icon-github-circled
 
-go:
+google:
   name: Google
   sign-in: true
   detials: Google+, Blogger, YouTube, Gmail contacts
@@ -72,7 +72,7 @@ go:
       name: Blogger
       icon: icon-blogger
 
-ig:
+instagram:
   name: Instagram
   detials: Photos, Videos, Following
   kind:
@@ -80,7 +80,7 @@ ig:
       name: Instagram
       icon: icon-instagram
 
-li:
+linkedin:
   name: LinkedIn
   sign-in: true
   detials: User, Companies
@@ -93,7 +93,7 @@ li:
       name: LinkedIn Org
       icon: icon-linkedin
 
-ms:
+microsoft:
   name: Microsoft
   detials: Outlook Contacts
   kind:
@@ -101,7 +101,7 @@ ms:
       name: Microsoft
       icon: icon-windows
 
-tu:
+tumblr:
   name: Tumblr
   detials: Blog Posts, Following
   kind:
@@ -109,7 +109,7 @@ tu:
       name: tumblr
       icon: icon-tumblr
 
-tw:
+twitter:
   name: Twitter
   detials: Read Tweets from your timeline, See who you follow.
   kind:
@@ -117,7 +117,7 @@ tw:
       name: twitter
       icon: icon-twitter
 
-vi:
+vimeo:
   name: Vimeo
   detials: Videos, Albums, Channels, Following
   kind:

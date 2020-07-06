@@ -1,6 +1,6 @@
 # Schema
 
-<pre>
+```
 ci_sessions
 user
 |
@@ -27,11 +27,11 @@ user
 |       +---actor_method
 |       |
 |       +---actor_about
-|       +---post
+|       +---post                (Feed)
 |       +---post_tag
-|       +---contact_email
+|       +---contact_email       (People)
 |       +---contact_actor
 |
-+---promo_invite
-+---promo_feedback
-</pre>
++---promo_invite    (Arya Bot)
++---promo_feedback  (Google Forms)
+```

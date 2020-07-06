@@ -6,21 +6,6 @@ location: Howrah
 avatar: assets/images/team-93101128_10215803195343966_9003621194796105728_n.jpg
 email: suvozit@rhyme.tek
 verified: false
-oauth: fb-10214189707007766, gh-5635088
-actors:
-  - app: fb
-    id: 10214189707007766
-  - app: gh
-    id: 5635088
-weblog:
-  suvozit:
-    domain: www.shubhajitsaha.com
-    icon: /assets/users/suvozit/icon.svg
-    signature: /assets/users/suvozit/signature.png
-    font:
-      primary: Roboto Slab
-      secondary: Roboto
-    title: Shubhajit Saha
 email_subscription:
   notification: true
   tips: false

@@ -1,0 +1,9 @@
+suvozit:
+  default:
+    domain: www.shubhajitsaha.com
+    icon: /assets/users/suvozit/icon.svg
+    signature: /assets/users/suvozit/signature.png
+    font:
+      primary: Roboto Slab
+      secondary: Roboto
+    title: Shubhajit Saha

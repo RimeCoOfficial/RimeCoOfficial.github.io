@@ -11,3 +11,6 @@ email_subscription:
   tips: false
   newsletter: true
   announcement: true
+oauth:
+  facebook: suvozit
+  github: suvozit

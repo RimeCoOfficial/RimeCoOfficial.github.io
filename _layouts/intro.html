@@ -26,11 +26,20 @@ layout: default
             </span>
             <!-- Add spacer, to align navigation to the right -->
             <div class="mdl-layout-spacer"></div>
+            <!-- MDL Progress Bar with Buffering -->
+            <div id="p3" class="mdl-progress mdl-js-progress" style="width: 100px"></div>
+            <script>
+            document.querySelector('#p3').addEventListener('mdl-componentupgraded', function() {
+                this.MaterialProgress.setProgress({{ percent }});
+                this.MaterialProgress.setBuffer({{ percent }});
+            });
+            </script>
+            <!-- Add spacer, to align navigation to the left -->
+            <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" href="{{ site.url }}{{ intro.next }} ">
 
-                    
                     {% assign icon = "arrow_forward" %}
                     {% if stage == 2 %}
                     {% assign icon = "vpn_key" %}

@@ -3,8 +3,6 @@
 
 # Custom
 theme_color:      DA2E75
-analytics:
-  google: UA-41643154-1
 
 # Where things are Advanced
 sass:
@@ -80,3 +78,6 @@ social:
     - https://RhymeTek.tumblr.com
 webmaster_verifications:
   google: KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU
+
+bing-maps: AnWLEJTvYM0b-v3uXLMD4VckmHWGnxj20lIOsT73gvR8akZhXibwFg-6kK4Ek
+google-ananytics: UA-41643154-1

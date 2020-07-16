@@ -1,10 +1,10 @@
 <div class="mdl-card__supporting-text">
-    
-    {% for s in site.data.apps %}
-    {% if s.sign-in %}
-    <button class="service-popup mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/action/apps/add/{{ s.name }}">
-        <i class="icon icon-lg {{ s.kind[0].icon }}"></i>
-        <!-- {{ s.name }} -->
+
+    {% for app in site.data.apps %}
+    {% if app.sign-in %}
+    <button class="service-popup mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/action/apps/add/{{ app.name | downcase }}">
+        <i class="icon icon-lg {{ app.kind[0].icon }}"></i>
+        <!-- {{ app.name }} -->
     </button>
     &nbsp;
     {% endif %}
@@ -33,4 +33,4 @@
 </div>
 
 {% include apps/popup.html %}
-{% include js/login.html %}
+<!-- {% include js/login.html %} -->

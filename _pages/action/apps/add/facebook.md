@@ -2,7 +2,7 @@
 layout: action
 ---
 
-{% assign app = 'facebook' %}
+{% assign app = page.url | split: "/" | last %}
 
 {% assign query = "?" %}
 {% assign query = query | append: "client_id=" | append: site.data.oauth[app].client_id %}

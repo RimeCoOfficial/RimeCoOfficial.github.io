@@ -1,21 +1,18 @@
-behance:
-  name: Behance
+- name: Behance
   detials: WIP, Projects, Following
   kind:
     - type: user
       name: Behance
       icon: icon-behance
 
-dropbox:
-  name: Dropbox
+- name: Dropbox
   detials: Public folder
   kind:
     - type: user
       name: Dropbox
       icon: icon-dropbox
 
-facebook:
-  name: Facebook
+- name: Facebook
   sign-in: true
   detials: Timeline posts, Friends, Likes
   kind:
@@ -24,27 +21,24 @@ facebook:
       icon: icon-facebook
       
     - type: org
-      name: Facebook Page
+      name: Facebook Pages
       icon: icon-facebook-official
 
-flickr:
-  name: Flickr
+- name: Flickr
   detials: Photos, Videos, Albums, Following
   kind:
     - type: user
       name: Flickr
       icon: icon-flickr
 
-foursquare:
-  name: Foursquare
+- name: Foursquare
   detials: Checkins, Following
   kind:
     - type: user
       name: Foursquare
       icon: icon-foursquare
 
-github:
-  name: GitHub
+- name: GitHub
   detials: Public Repositories, Gists
   kind:
     - type: user
@@ -52,11 +46,10 @@ github:
       icon: icon-github
 
     - type: org
-      name: GitHub Org
+      name: GitHub Orgs
       icon: icon-github-circled
 
-google:
-  name: Google
+- name: Google
   sign-in: true
   detials: Google+, Blogger, YouTube, Gmail contacts
   kind:
@@ -72,16 +65,14 @@ google:
       name: Blogger
       icon: icon-blogger
 
-instagram:
-  name: Instagram
+- name: Instagram
   detials: Photos, Videos, Following
   kind:
     - type: user
       name: Instagram
       icon: icon-instagram
 
-linkedin:
-  name: LinkedIn
+- name: LinkedIn
   sign-in: true
   detials: User, Companies
   kind:
@@ -90,35 +81,31 @@ linkedin:
       icon: icon-linkedin
       
     - type: org
-      name: LinkedIn Org
+      name: LinkedIn Orgs
       icon: icon-linkedin
 
-microsoft:
-  name: Microsoft
+- name: Microsoft
   detials: Outlook Contacts
   kind:
     - type: user
       name: Microsoft
       icon: icon-windows
 
-tumblr:
-  name: Tumblr
+- name: Tumblr
   detials: Blog Posts, Following
   kind:
     - type: blog
       name: tumblr
       icon: icon-tumblr
 
-twitter:
-  name: Twitter
+- name: Twitter
   detials: Read Tweets from your timeline, See who you follow.
   kind:
     - type: user
       name: twitter
       icon: icon-twitter
 
-vimeo:
-  name: Vimeo
+- name: Vimeo
   detials: Videos, Albums, Channels, Following
   kind:
     - type: user

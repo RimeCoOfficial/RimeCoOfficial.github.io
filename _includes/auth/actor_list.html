@@ -1,5 +1,17 @@
-{% assign login_service = site.data.session.social[ 0 ] %}
-{% assign actors = login_service.actors %}
+{% assign app = page.url | split: "/" | last %}
+
+{% assign actors = site.data.session.actors[app] %}
+
+{% assign user_count = 0 %}
+{% assign nil_count = 0 %}
+
+{% for a in actors %}
+{% if a.user %}
+{% assign user_count = user_count | plus: 1 %}
+{% else %}
+{% assign nil_count = nil_count | plus: 1 %}
+{% endif %}
+{% endfor %}
 
 {% if actors.size == 0 %}
 
@@ -10,24 +22,20 @@
 {% else if actors.size == 1 %}
 
 <!-- Auto Login -->
-<script type="text/javascript">
-    $(function() {
-        setTimeout(function () {
-            // window.location = "{{ redirect }}";
-        }, 1000);
-    });
-</script>
+{% include js/redirect.html %}
 
 {% endif %}
 
+{% if user_count %}
 <div class="mdl-card__supporting-text">
     Choose an account
 </div>
+{% endif %}
 
 <ul class="demo-list-two mdl-list">
 
     {% for a in actors %}
-    {% if a.login %}
+    {% if a.user %}
     <li class="mdl-list__item mdl-list__item--two-line">
         <span class="mdl-list__item-primary-content">
             <!-- <i class="material-icons mdl-list__item-avatar">person</i> -->
@@ -39,7 +47,7 @@
                 <i class="material-icons md-text mdl-color-text--accent">star</i>
                 {% endif %}
             </span>
-            <span class="mdl-list__item-sub-title">{{ a.login }}</span>
+            <span class="mdl-list__item-sub-title">{{ a.user }}</span>
         </span>
         <span class="mdl-list__item-secondary-content">
             <!-- <span class="mdl-list__item-secondary-info">Actor Login</span> -->
@@ -50,14 +58,16 @@
     {% endfor %}
 </ul>
 
+{% if nil_count %}
 <div class="mdl-card__supporting-text">
     Create new account
 </div>
+{% endif %}
 
 <ul class="demo-list-two mdl-list">
 
     {% for a in actors %}
-    {% if a.login == nil %}
+    {% if a.user == nil %}
     <li class="mdl-list__item mdl-list__item--two-line">
         <span class="mdl-list__item-primary-content">
             <!-- <i class="material-icons mdl-list__item-avatar">person</i> -->

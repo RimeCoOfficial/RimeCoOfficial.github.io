@@ -1,11 +1,12 @@
 <script type="text/javascript">
-    $(document).on('click', '.service-popup', function(e) {
+    $('.service-popup').click(function(e) {
         var $this = $(this)
         if ($this.is('a')) e.preventDefault();
 
         var $btn = $this;
 
         var oAuthURL = $btn.attr('href');
+        console.log("Opening window: " + oAuthURL);
         win = window.open(oAuthURL, '_blank', 'modal=yes,alwaysRaised=yes,width=800,height=450');
 
         checkConnect = setInterval(function() {

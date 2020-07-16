@@ -2,7 +2,9 @@
 
     {% for app in site.data.apps %}
     {% if app.sign-in %}
-    <button class="service-popup mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/action/apps/add/{{ app.name | downcase }}">
+    <button 
+    class="service-popup mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" 
+    href="{{ site.url }}/action/apps/add/{{ app.name | downcase }}">
         <i class="icon icon-lg {{ app.kind[0].icon }}"></i>
         <!-- {{ app.name }} -->
     </button>

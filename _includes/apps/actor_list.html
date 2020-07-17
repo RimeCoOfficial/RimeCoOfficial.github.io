@@ -1,29 +1,25 @@
-{% assign service = page.url | split: "/" | last %}
+{% assign app = page.url | split: "/" | last %}
 
-{% assign social = site.data.session.social %}
+{% assign account_list = site.data.session.apps[app] %}
 
 <!-- <div class="mdl-card__supporting-text">
     That’s an error, That’s all we know.
 </div> -->
 
-{% for s in social %}
-{% if s.app == service %}
-{% assign actor_list = s.actors %}
-{% assign user_social = s %}
-
 <!-- 
     // view/user/about_ext_link, view/apps/actor_list
     $sorted_oauth_actor_list = array();
-    foreach ($oauth_actor_list as $a) $sorted_oauth_actor_list[  $a['service'].'.'.$a['oauth_id'].'.'.$a['kind'].'.'.$a['actor_id'] ] = $a;
+    foreach ($oauth_actor_list as $a) $sorted_oauth_actor_list[  $a['app'].'.'.$a['oauth_id'].'.'.$a['kind'].'.'.$a['actor_id'] ] = $a;
     ksort($sorted_oauth_actor_list);
 -->
 
+{% for actor_list in account_list %}
 <div class="mdl-card__supporting-text">
-    #{{ user_social.oauth }}
+    #{{ actor_list.oauth }}
 </div>
 
-<ul class="demo-list-three mdl-list">
-    {% for actor in actor_list %}
+<ul class="demo-list-two mdl-list">
+    {% for actor in actor_list.actors %}
     
 
     {% assign sub_title = actor.id %}
@@ -43,14 +39,14 @@
             </span>
         </span>
         <span class="mdl-list__item-secondary-content">
-            {% if actor.login == nil %}
-            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/action/actor/add/{{ actor.id }}?redirect=apps/add/{{ service }}">
+            {% if actor.user == nil %}
+            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/action/actor/add/{{ actor.id }}?redirect=apps/add/{{ app }}">
                 <!-- <i class="material-icons">add</i> -->
                 Connect
             </a>
             {% else %}
             
-            {% if actor.login == site.data.session.username %}
+            {% if actor.user == site.data.session.username %}
             
                 {% if actor.status == 400 %}
                 <span class="mdl-list__item-secondary-info">
@@ -63,16 +59,16 @@
                 <a class="mdl-list__item-secondary-action dialog-button mdl-button mdl-js-button mdl-color-text--primary mdl-button--icon"
                     href="#"
                     data-actor-id="{{ actor.id }}"
-                    data-service="{{ service }}"
+                    data-app="{{ app }}"
                     data-actor="{{ actor.name }}">
                     <i class="material-icons">delete</i>
                 </a>
             {% else %}
             <span class="mdl-list__item-secondary-info">
-                {{ actor.login }}
+                {{ actor.user }}
             </span>
 
-            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--icon" href="{{ site.url }}/@{{ actor.login }}" target="_blank">
+            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--icon" href="{{ site.url }}/@{{ actor.user }}" target="_blank">
                 <i class="material-icons">rss_feed</i>
             </a>
             {% endif %}
@@ -83,8 +79,6 @@
     </li>
     {% endfor %}
 </ul>
-
-{% endif %}
 {% endfor %}
 
 {% include js/moment.html %}

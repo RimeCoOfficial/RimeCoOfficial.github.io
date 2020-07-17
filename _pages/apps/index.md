@@ -11,7 +11,8 @@ title: Apps
     To add more than one service <a href="{{ site.url }}/people/invite">invite</a> at least {{ min_invites }} people.
 </div>
 
-<ul class="demo-list-two mdl-list">
+
+<ul class="demo-list-three mdl-list">
     {% for s in site.data.apps %}
     {% assign s_class = "" %}
     {% if service_status_list.s_class == 0 %}
@@ -30,14 +31,17 @@ title: Apps
         {% assign icon = "error_outline" %}
     {% endif %}
 
-    <li class="mdl-list__item mdl-list__item--two-line">
+    <li class="mdl-list__item mdl-list__item--three-line">
         <span class="mdl-list__item-primary-content">
-            <i class="mdl-list__item-icon {{ s.kind[0].icon }}"></i>
-            <span>{{ s.name }}</span>
-            <span class="mdl-list__item-sub-title">{{ s.detials }}</span>
+        <!-- <i class="material-icons mdl-list__item-avatar">person</i> -->
+        <i class="mdl-list__item-avatar mdl-list__item-icon {{ s.kind[0].icon }}"
+        style="line-height: 1.4; font-size: 28px; background-color: transparent; color: #757575;"
+        ></i>
+        <span>{{ s.name }}</span>
+        <span class="mdl-list__item-text-body">{{ s.detials }}</span>
         </span>
         <span class="mdl-list__item-secondary-content">
-            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button {{ icon_color }} mdl-button--icon" href="{{ site.url }}/apps/add/{{ s.name }}">
+            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button {{ icon_color }} mdl-button--icon" href="{{ site.url }}/apps/add/{{ s.name | downcase }}">
                 <i class="material-icons">{{ icon }}</i>
             </a>
         </span>

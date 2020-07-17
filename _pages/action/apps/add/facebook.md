@@ -2,4 +2,4 @@
 layout: action
 ---
 
-{% include apps/add.html %}
+{% include action/apps.html %}

@@ -11,95 +11,99 @@ email_subscription:
   tips: false
   newsletter: true
   announcement: true
-actors:
+apps:
   facebook:
-    - id: suvozit
-      name: Shubhajit Saha
-      img: assets/images/team-93101128_10215803195343966_9003621194796105728_n.jpg
-      user: suvozit
-      sync: 2011-01-01 10:00:00
-      status: 200
-      collection: event, format_quote, photo_album, photo_camera, poll, question_answer, shopping_cart, subject, videocam
-      topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
-      places:
-      stats:
-        posts: 1
-        views: 1
-        likes: 1
-        comments: 1
-        score: 1
-    - id: rhymetek
-      name: Rhyme Tek.
-      img: assets/images/team-93359136_1662726090541371_8835009497538756608_n.png
-      verified: y
-      user: rime
-      sync: 2011-01-01 10:00:00
-      status: 200
-      collection: code, event, format_quote, music_note, photo_album, photo_camera, playlist_play, poll, question_answer, shopping_cart, subject, videocam
-      topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
-      places:
-      stats:
-        posts: 1
-        views: 1
-        likes: 1
-        comments: 1
-        score: 1
-    - id: bitsitsgames
-      name: Bitsits Games
-      img: assets/images/team-93244581_2827117440705467_1235743369020309504_n.png
-      user: bitsits
-      sync: 2011-01-01 10:00:00
-      status: 200
-      collection: code, event, format_quote, music_note, photo_album, photo_camera, playlist_play, poll, question_answer, shopping_cart, subject, videocam
-      topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
-      places:
-      stats:
-        posts: 1
-        views: 1
-        likes: 1
-        comments: 1
-        score: 1
-    - id: StringYourStory
-      name: String Your Story
-      img: assets/images/team-10154267_740948132594185_8004710779763242299_n.png
-    - id: hizz.shot
-      name: Hizz Shot
-      img: assets/images/team-94889555_112627467092342_2404837147778482176_o.jpg
+    - oauth: 10214189707007766
+      actors:
+        - id: suvozit
+          name: Shubhajit Saha
+          img: assets/images/team-93101128_10215803195343966_9003621194796105728_n.jpg
+          user: suvozit
+          sync: 2011-01-01 10:00:00
+          status: 200
+          collection: event, format_quote, photo_album, photo_camera, poll, question_answer, shopping_cart, subject, videocam
+          topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
+          places:
+          stats:
+            posts: 1
+            views: 1
+            likes: 1
+            comments: 1
+            score: 1
+        - id: rhymetek
+          name: Rhyme Tek.
+          img: assets/images/team-93359136_1662726090541371_8835009497538756608_n.png
+          verified: y
+          user: rime
+          sync: 2011-01-01 10:00:00
+          status: 200
+          collection: code, event, format_quote, music_note, photo_album, photo_camera, playlist_play, poll, question_answer, shopping_cart, subject, videocam
+          topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
+          places:
+          stats:
+            posts: 1
+            views: 1
+            likes: 1
+            comments: 1
+            score: 1
+        - id: bitsitsgames
+          name: Bitsits Games
+          img: assets/images/team-93244581_2827117440705467_1235743369020309504_n.png
+          user: bitsits
+          sync: 2011-01-01 10:00:00
+          status: 200
+          collection: code, event, format_quote, music_note, photo_album, photo_camera, playlist_play, poll, question_answer, shopping_cart, subject, videocam
+          topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
+          places:
+          stats:
+            posts: 1
+            views: 1
+            likes: 1
+            comments: 1
+            score: 1
+        - id: StringYourStory
+          name: String Your Story
+          img: assets/images/team-10154267_740948132594185_8004710779763242299_n.png
+        - id: hizz.shot
+          name: Hizz Shot
+          img: assets/images/team-94889555_112627467092342_2404837147778482176_o.jpg
   github:
-    - id: suvozit
-      name: Shubhajit Saha
-      img: assets/images/team-93101128_10215803195343966_9003621194796105728_n.jpg
-      sync: 2011-01-01 10:00:00
-      status: 200
-      user: suvozit
-      collection: code, subject
-      topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
-      places:
-      stats:
-        posts: 1
-        views: 1
-        likes: 1
-        comments: 1
-        score: 1
-    - id: rhymetek
-      name: Rhyme Tek.
-      img: assets/images/team-93359136_1662726090541371_8835009497538756608_n.png
-      sync: 2011-01-01 10:00:00
-      status: 200
-      verified: y
-      user: rime
-      collection: code, subject, videocam
-      topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
-      places:
-      stats:
-        posts: 1
-        views: 1
-        likes: 1
-        comments: 1
-        score: 1
-    - id: bitsits
-      name: Bitsits Games
-      img: assets/images/team-93244581_2827117440705467_1235743369020309504_n.png
+    - oauth: 5635088
+      actors:
+        - id: suvozit
+          name: Shubhajit Saha
+          img: assets/images/team-93101128_10215803195343966_9003621194796105728_n.jpg
+          sync: 2011-01-01 10:00:00
+          status: 200
+          user: suvozit
+          collection: code, subject
+          topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
+          places:
+          stats:
+            posts: 1
+            views: 1
+            likes: 1
+            comments: 1
+            score: 1
+        - id: rhymetek
+          name: Rhyme Tek.
+          img: assets/images/team-93359136_1662726090541371_8835009497538756608_n.png
+          sync: 2011-01-01 10:00:00
+          status: 200
+          verified: y
+          user: rime
+          collection: code, subject, videocam
+          topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
+          places:
+          stats:
+            posts: 1
+            views: 1
+            likes: 1
+            comments: 1
+            score: 1
+        - id: bitsits
+          name: Bitsits Games
+          img: assets/images/team-93244581_2827117440705467_1235743369020309504_n.png
 websites:
   - url: /default
     domain: www.shubhajitsaha.com

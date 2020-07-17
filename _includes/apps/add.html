@@ -1,19 +1,44 @@
 {% assign app = page.url | split: "/" | last %}
 
-{% assign query = "?" %}
+<style type="text/css">
+    .demo-card-square > .mdl-card__title {
+        height: 200px;
+        background:
+            url('/assets/images/social-icon-{{ app | downcase }}.svg') center center no-repeat #FFF;
+    }
+</style>
 
-{% assign query = query | append: "client_id=" | append: site.data.oauth[app].client_id %}
-{% assign query = query | append: "&redirect_uri=" | append: site.url | append: site.data.oauth.redirect_url | append: app %}
+<div class="mdl-card__title mdl-card--expand">
+   <!-- <h3 class="mdl-card__title-text">{{ app }}</h3> -->
+</div>
 
-{% for param in site.data.oauth[app].authorize_params %}
-{% assign query = query | append: "&" | append: param[0] | append: "=" | append: param[1] %}
-{% endfor %}
+{% assign launch = 0 %}
+{% if launch == 0 %}
+<div class="mdl-card__actions">
+    <a class="mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/apps">
+        <i class="material-icons">arrow_back</i>
+    </a>
 
-<!-- construct authorize url -->
-{% assign authorize_url = site.data.oauth[app].authorize_url | append: query %}
+    <button class="apps-popup mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent pull-right" href="{{ site.url }}/{{ site.data.oauth.path_base }}/app">
+        Authorize new account <i class="material-icons">launch</i>
+    </button>
+</div>
 
-Redirecting to {{ authorize_url }}
+{% include apps/actor_list.html %}
+{% else %}
 
-<script type="text/javascript">
-    window.location = "{{ authorize_url }}";
-</script>
+{% assign oauth_id = "this->session->tempdata('oauth_id')" %}
+
+<div id="get_actor_list_{{ oauth_id }}">
+    <!-- MDL Progress Bar with Indeterminate Progress -->
+    <div class="mdl-progress mdl-js-progress mdl-progress__indeterminate full-width"></div>
+    <script type="text/javascript"> $('#get_actor_list_{{ oauth_id }}').load('{{ site.base_url }}/apps/get-actor-list/{{ oauth_id }}'); </script>
+</div>
+
+<div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/apps">
+        <!-- try again <i class="material-icons">refresh</i> -->
+        <i class="material-icons">arrow_back</i>
+    </a>
+</div>
+{% endif %}

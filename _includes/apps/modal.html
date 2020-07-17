@@ -1,7 +1,7 @@
 <!-- Dynamic Modal  -->
 <!--
-<button class="mdl-button mdl-button--raised mdl-js-button dialog-button" data-actor-id="123" data-service="youtube" data-actor="Full Name">Show Dialog</button>
-<button class="mdl-button mdl-button--raised mdl-js-button dialog-button" data-actor-id="222" data-service="youtube222" data-actor="Full Name222">Show Dialog2</button>
+<button class="mdl-button mdl-button--raised mdl-js-button dialog-button" data-actor-id="123" data-app="youtube" data-actor="Full Name">Show Dialog</button>
+<button class="mdl-button mdl-button--raised mdl-js-button dialog-button" data-actor-id="222" data-app="youtube222" data-actor="Full Name222">Show Dialog2</button>
 -->
 
 <dialog id="dialog" class="mdl-dialog">
@@ -37,14 +37,14 @@
 
                 var actor_id = jq_dialogButton.data('actor-id') // Extract info from data-* attributes
                 var actor = jq_dialogButton.data('actor') // Extract info from data-* attributes
-                var service = jq_dialogButton.data('service') // Extract info from data-* attributes
+                var app = jq_dialogButton.data('app') // Extract info from data-* attributes
 
                 // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
                 // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
                 var jq_dialog = $(dialog)
-                jq_dialog.find('p strong').text(service)
+                jq_dialog.find('p strong').text(app)
                 jq_dialog.find('p span').text(actor)
-                jq_dialog.find('a.unlink').attr("href", "{{ site.url }}/action/actor/remove/" + service + "/" + actor_id + "?redirect=apps/add/" + service)
+                jq_dialog.find('a.unlink').attr("href", "{{ site.url }}/action/actor/remove/" + app + "/" + actor_id + "?redirect=apps/add/" + app)
 
                 dialog.showModal();
             });

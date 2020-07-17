@@ -1,6 +1,6 @@
 {% assign app = page.url | split: "/" | last %}
 
-{% assign actors = site.data.session.actors[app] %}
+{% assign actors = site.data.session.apps[app][0].actors %}
 
 {% assign asize = actors | size %}
 {% assign user_count = 0 %}
@@ -82,7 +82,7 @@
                 <i class="material-icons md-text mdl-color-text--accent">star</i>
                 {% endif %}
             </span>
-            <span class="mdl-list__item-sub-title">{{ login_service.url }}/{{ a.id }}</span>
+            <span class="mdl-list__item-sub-title">{{ a.id }}</span>
         </span>
         <span class="mdl-list__item-secondary-content">
             <!-- <span class="mdl-list__item-secondary-info">Actor Login</span> -->

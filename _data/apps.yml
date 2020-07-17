@@ -1,16 +1,16 @@
-- name: Behance
-  detials: WIP, Projects, Following
-  kind:
-    - type: user
-      name: Behance
-      icon: icon-behance
+# - name: Behance
+#   detials: WIP, Projects, Following
+#   kind:
+#     - type: user
+#       name: Behance
+#       icon: icon-behance
 
-- name: Dropbox
-  detials: Public folder
-  kind:
-    - type: user
-      name: Dropbox
-      icon: icon-dropbox
+# - name: Dropbox
+#   detials: Public folder
+#   kind:
+#     - type: user
+#       name: Dropbox
+#       icon: icon-dropbox
 
 - name: Facebook
   sign-in: true
@@ -25,7 +25,7 @@
       icon: icon-facebook-official
 
 - name: Flickr
-  detials: Photos, Videos, Albums, Following
+  detials: Photos, Videos, Albums, Followings
   kind:
     - type: user
       name: Flickr
@@ -51,7 +51,7 @@
 
 - name: Google
   sign-in: true
-  detials: Google+, Blogger, YouTube, Gmail contacts
+  detials: Blogger, YouTube, Gmail contacts
   kind:
     - type: user
       name: Google+
@@ -92,21 +92,21 @@
       icon: icon-windows
 
 - name: Tumblr
-  detials: Blog Posts, Following
+  detials: Blog Posts, Followings
   kind:
     - type: blog
       name: tumblr
       icon: icon-tumblr
 
 - name: Twitter
-  detials: Read Tweets from your timeline, See who you follow.
+  detials: Read Tweets, See who you follow
   kind:
     - type: user
       name: twitter
       icon: icon-twitter
 
 - name: Vimeo
-  detials: Videos, Albums, Channels, Following
+  detials: Videos, Albums, Channels, Followings
   kind:
     - type: user
       name: Vimeo

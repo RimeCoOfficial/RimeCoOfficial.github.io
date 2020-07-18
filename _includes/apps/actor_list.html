@@ -30,7 +30,7 @@
     <li class="mdl-list__item mdl-list__item--two-line">
         <span class="mdl-list__item-primary-content">
             <!-- <i class="material-icons mdl-list__item-avatar">person</i> -->
-            <img class="mdl-list__item-avatar bg-cover" style="background-image: url(/assets/third-party/material.io/face.png)" width="40px" height="40px" src="{{ site.url }}/{{ actor.img }}">
+            <img class="mdl-list__item-avatar bg-cover" style="background-image: url(/assets/third-party/material.io/face.png)" width="40px" height="40px" src="/{{ actor.img }}">
 
             <span>{{ actor.name }}</span>
 
@@ -40,7 +40,7 @@
         </span>
         <span class="mdl-list__item-secondary-content">
             {% if actor.user == nil %}
-            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/action/actor/add/{{ actor.id }}?redirect=apps/add/{{ app }}">
+            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/action/actor/add/{{ actor.id }}?redirect=apps/add/{{ app }}">
                 <!-- <i class="material-icons">add</i> -->
                 Connect
             </a>
@@ -68,7 +68,7 @@
                 {{ actor.user }}
             </span>
 
-            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--icon" href="{{ site.url }}/@{{ actor.user }}" target="_blank">
+            <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--icon" href="/@{{ actor.user }}" target="_blank">
                 <i class="material-icons">rss_feed</i>
             </a>
             {% endif %}

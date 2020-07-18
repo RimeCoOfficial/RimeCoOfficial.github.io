@@ -10,7 +10,7 @@ title: Signed Out
 <br>
 
 <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/auth/sign-in">
+    <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="/auth/sign-in">
         Sign in
     </a>
 </div>

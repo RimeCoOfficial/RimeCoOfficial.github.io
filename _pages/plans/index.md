@@ -5,7 +5,7 @@ layout: plans
 
 <h1 class="mdl-typography--font-light">Pricing</h1>
 
-All the power you need at a fraction of the cost. Read our <a href="{{ site.url }}/plans/refund">refund policy</a> for more information.
+All the power you need at a fraction of the cost. Read our <a href="/plans/refund">refund policy</a> for more information.
 
 <!-- Square card -->
 <style>
@@ -32,7 +32,7 @@ All the power you need at a fraction of the cost. Read our <a href="{{ site.url 
         + 10 Websites.
     </div>
     <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/auth/sign-in">
+        <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="/auth/sign-in">
             ₹ 89.99
         </a>
     </div>
@@ -49,7 +49,7 @@ All the power you need at a fraction of the cost. Read our <a href="{{ site.url 
         + 100 Websites.
     </div>
     <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/auth/sign-in">
+        <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="/auth/sign-in">
             ₹ 789.99
         </a>
     </div>

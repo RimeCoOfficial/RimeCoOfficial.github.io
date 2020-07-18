@@ -6,5 +6,5 @@
 </p>
 
 <p>
-    Didn't mean to do this? You can re-subscribe to Rime emails via the "Email Preferences" section of the <a href="{{ site.url }}/settings/notifications">Account Settings</a> page.
+    Didn't mean to do this? You can re-subscribe to Rime emails via the "Email Preferences" section of the <a href="/settings/notifications">Account Settings</a> page.
 </p>

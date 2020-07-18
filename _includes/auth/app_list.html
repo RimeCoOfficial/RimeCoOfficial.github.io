@@ -4,7 +4,7 @@
     {% if app.sign-in %}
     <button 
     class="apps-popup mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" 
-    href="{{ site.url }}/action/apps/add/{{ app.name | downcase }}">
+    href="/action/apps/add/{{ app.name | downcase }}">
         <i class="icon icon-lg {{ app.kind[0].icon }}"></i>
         <!-- {{ app.name }} -->
     </button>
@@ -26,10 +26,10 @@
 </div>
 
 <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="{{ site.url }}/support/faq">
+    <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="/support/faq">
         FAQ
     </a>
-    <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored pull-right" href="{{ site.url }}/auth/demo">
+    <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored pull-right" href="/auth/demo">
         <i id="vpn_key" class="material-icons mdl-color-text--grey-200--" tabindex="0">vpn_key</i>
     </a>
 </div>

@@ -6,7 +6,7 @@
   <Image width="16" height="16" type="image/x-icon">
     {{ site.url }}/favicon.ico
   </Image>
-  <Url method="GET" type="text/html" template="{{ site.url }}/search?q={searchTerms}"/>
-  <Url method="GET" type="application/x-suggestions+json" template="{{ site.url }}/search/suggestions.js?q={searchTerms}"/>
+  <Url method="GET" type="text/html" template="/search?q={searchTerms}"/>
+  <Url method="GET" type="application/x-suggestions+json" template="/search/suggestions.js?q={searchTerms}"/>
   <moz:SearchForm>{{ site.url }}/search</moz:SearchForm>
 </OpenSearchDescription>

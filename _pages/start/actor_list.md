@@ -53,7 +53,7 @@ if ( ! empty($oauth_actor_list))
                     if (is_null($actor['user_id']))
                     {
                         ?>
-                        <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ site.url }}/action/actor/add/'.$actor['actor_id'].'/'.$actor['oauth_id']).'?redirect=start/add/'.$actor['service'].'/'.$oauth_id }}">
+                        <a class="mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/action/actor/add/'.$actor['actor_id'].'/'.$actor['oauth_id']).'?redirect=start/add/'.$actor['service'].'/'.$oauth_id }}">
                             Connect
                         </a>
                         <?php

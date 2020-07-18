@@ -29,7 +29,7 @@ layout: about
             Startups and companies can use this Weblog on their website to inform their visitor about their activities on the web. It helps them to build better SEO for their company without spending time and money on technology. 
         </p>
 
-        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="{{ site.url }}/about/us" style="width: 175px; margin-bottom: 10px;">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="/about/us" style="width: 175px; margin-bottom: 10px;">
             Our story
         </a>
     </div>

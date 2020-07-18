@@ -12,7 +12,7 @@ Your email address <strong>{{ site.data.session.email }}</strong> will be used f
 
 {% if site.data.session.verified %}
 <br>
-<i class="icon-warning"></i> Verify your email, <a href="{{ site.url }}/settings/resend-verification">resend verification</a>
+<i class="icon-warning"></i> Verify your email, <a href="/settings/resend-verification">resend verification</a>
 <br>
 {% endif %}
 

@@ -9,7 +9,7 @@ layout: default
         <div class="mdl-layout__header-row">
             <!-- Title -->
             <span class="mdl-layout-title">
-                <a href="{{ site.url }}/">
+                <a href="/">
                     <img src="/assets/images/logotype.svg" height=25 alt="Rime">
                 </a>
             </span>
@@ -27,7 +27,7 @@ layout: default
                         alt="{{ site.data.session.username }}">
                 </a>
                 {% else %}
-                <a class="mdl-navigation__link" href="{{ site.url }}/auth/sign-in">
+                <a class="mdl-navigation__link" href="/auth/sign-in">
                     <span class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                         Sign in
                     </span>
@@ -41,9 +41,9 @@ layout: default
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="{{ site.url }}/legal">Overview</a>
-                <a class="mdl-navigation__link" href="{{ site.url }}/legal/privacy">Privacy</a>
-                <a class="mdl-navigation__link" href="{{ site.url }}/legal/terms">Terms</a>
+                <a class="mdl-navigation__link" href="/legal">Overview</a>
+                <a class="mdl-navigation__link" href="/legal/privacy">Privacy</a>
+                <a class="mdl-navigation__link" href="/legal/terms">Terms</a>
             </nav>
         </div>
     </header>

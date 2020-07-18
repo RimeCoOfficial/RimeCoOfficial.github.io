@@ -15,12 +15,12 @@ title: Customize - Domain
 </p>
 
 <p>
-    <small>To learn more, visit our <a href="{{ site.url }}/support/faq" target="_blank">frequently asked questions</a> and our <a href="{{ site.url }}/legal/terms" target="_blank">terms of service</a>. Otherwise, you can always use your default URL {{ site.url }}/{{ site.data.session.username }} free of charge.</small>
+    <small>To learn more, visit our <a href="/support/faq" target="_blank">frequently asked questions</a> and our <a href="/legal/terms" target="_blank">terms of service</a>. Otherwise, you can always use your default URL {{ site.url }}/{{ site.data.session.username }} free of charge.</small>
 </p>
 
 {% if site.data.session.weblog.suvozit.domain %}
 <!-- Icon button -->
-<a href="{{ site.url }}/customize/reset/domain" class="mdl-button mdl-js-button mdl-button--icon pull-right">
+<a href="/customize/reset/domain" class="mdl-button mdl-js-button mdl-button--icon pull-right">
     <i class="material-icons">delete_forever</i>
 </a>
 {% endif %}

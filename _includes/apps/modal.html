@@ -44,7 +44,7 @@
                 var jq_dialog = $(dialog)
                 jq_dialog.find('p strong').text(app)
                 jq_dialog.find('p span').text(actor)
-                jq_dialog.find('a.unlink').attr("href", "{{ site.url }}/action/actor/remove/" + app + "/" + actor_id + "?redirect=apps/add/" + app)
+                jq_dialog.find('a.unlink').attr("href", "/action/actor/remove/" + app + "/" + actor_id + "?redirect=apps/add/" + app)
 
                 dialog.showModal();
             });

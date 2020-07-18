@@ -15,7 +15,7 @@ title: Customize - Icon
 
 {% if show_delete_button %}
 <!-- Icon button -->
-<a href="{{ site.url }}/customize/reset/{{ type }}" class="mdl-button mdl-js-button mdl-button--icon pull-right">
+<a href="/customize/reset/{{ type }}" class="mdl-button mdl-js-button mdl-button--icon pull-right">
     <i class="material-icons">delete_forever</i>
 </a>
 {% endif %}

@@ -7,7 +7,7 @@ layout: default
         <div class="mdl-layout__header-row">
             <!-- Title -->
             <span class="mdl-layout-title">
-                <a href="{{ site.url }}/">
+                <a href="/">
                     <img src="/assets/images/logotype.svg" height=25 alt="Rime">
                 </a>
             </span>
@@ -25,7 +25,7 @@ layout: default
                         alt="{{ site.data.session.username }}">
                 </a>
                 {% else %}
-                <a class="mdl-navigation__link" href="{{ site.url }}/auth/sign-in">
+                <a class="mdl-navigation__link" href="/auth/sign-in">
                     <span class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                         Sign in
                     </span>
@@ -47,9 +47,9 @@ layout: default
                     {% assign page = page.url %}
                     <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
                       <div class="mdl-tabs__tab-bar">
-                          <a href="{{ site.url }}/press" class="mdl-tabs__tab {% if page == '/press/index' %} is-active {% endif %}">Press</a>
-                          <a href="{{ site.url }}/press/brand" class="mdl-tabs__tab {% if page == '/press/brand' %} is-active {% endif %}">Brand</a>
-                          <a href="{{ site.url }}/press/timeline" class="mdl-tabs__tab {% if page == '/press/timeline' %} is-active {% endif %}">Timeline</a>
+                          <a href="/press" class="mdl-tabs__tab {% if page == '/press/index' %} is-active {% endif %}">Press</a>
+                          <a href="/press/brand" class="mdl-tabs__tab {% if page == '/press/brand' %} is-active {% endif %}">Brand</a>
+                          <a href="/press/timeline" class="mdl-tabs__tab {% if page == '/press/timeline' %} is-active {% endif %}">Timeline</a>
                       </div>
 
                     {{content}}

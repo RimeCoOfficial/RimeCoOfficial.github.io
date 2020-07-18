@@ -16,7 +16,7 @@
     <!-- Settings / Sign out -->
 
     {% if settings %}
-    <a id="exit_to_app" class="mdl-navigation__link" href="{{ site.url }}/auth/sign-out">
+    <a id="exit_to_app" class="mdl-navigation__link" href="/auth/sign-out">
         <i class="material-icons">exit_to_app</i>
     </a>
     {% else %}
@@ -24,21 +24,21 @@
     <!-- Explore -->
 
     {% if dashboard %}
-    <a id="explore" class="mdl-navigation__link" href="{{ site.url }}/explore">
+    <a id="explore" class="mdl-navigation__link" href="/explore">
         <i class="material-icons">explore</i>
     </a>
     {% endif %}
 
     <!-- Inbox -->
 
-    <a id="inbox" class="mdl-navigation__link" href="{{ site.url }}/people">
+    <a id="inbox" class="mdl-navigation__link" href="/people">
         <!-- Number badge on icon -->
         <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="4">inbox</div>
     </a>
 
     <!-- Profile | Settings -->
     {% if user %}
-    <a id="settings" class="mdl-navigation__link" href="{{ site.url }}/settings">
+    <a id="settings" class="mdl-navigation__link" href="/settings">
         <i class="material-icons">settings</i>
     </a>
     {% else %}

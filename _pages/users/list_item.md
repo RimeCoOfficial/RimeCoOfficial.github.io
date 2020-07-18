@@ -6,7 +6,7 @@ $people_item
 <div class="media">
 
     <div class="media-left">
-        <a href="{{ site.url }}/@'.$user['username']">
+        <a href="/@'.$user['username']">
             <img class="bg-cover" style="background-image: url({{ user['avatar'] }})" width="60px" height="60px" src="/assets/images/blank.png">
         </a>
     </div>
@@ -19,7 +19,7 @@ $people_item
             data-loading-text="&lt;i class=&quot;icon-dots-three-horizontal&quot;&gt;&lt;/i&gt;"
             data-complete-text="Unfollow" style="display:none">Follow</a>
         
-            <a href="{{ site.url }}/@'.$user['username']">
+            <a href="/@'.$user['username']">
                 {{ user['full_name'] }}
                 <small>{{ user['username'] }}</small>    
             </a>

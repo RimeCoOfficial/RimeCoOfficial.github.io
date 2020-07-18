@@ -175,4 +175,5 @@ vimeo:
   authorize_params: [response_type: code, scope: 'public']
   # 'permission=delete'
 
+path_base: /action/apps/add
 redirect_url: /action/apps/callback/

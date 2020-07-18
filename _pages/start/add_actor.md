@@ -51,7 +51,7 @@ else if ($this->session->flashdata('flash_oauth_id') != TRUE)
     </div>
 
     <div class="mdl-card__actions">
-        <button class="apps-popup mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="{{ site.url }}/{{ site.data.oauth.path_base }}/service">
+        <button class="apps-popup mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="{{ site.data.oauth.path_base }}/service">
             Add service <i class="material-icons">launch</i>
         </button>
     </div>

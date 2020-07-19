@@ -1,29 +1,142 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="demo-layout-email mdl-layout mdl-js-layout">
-    <main class="mdl-layout__content">
+<head>
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/assets/stylesheets/email.css">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
+    <meta name="robots" content="none">
+    <style>
+        @media all and (max-width: 500px) {
+            .email {
+                width: 100% !important;
+            }
+            .email-hr {
+                margin-top: 25px;
+                margin-right: auto;
+                margin-bottom: 25px;
+                margin-left: auto;
+            }
+            .email-disclaimer {
+                font-size: 12px;
+            }
+            .email-title--stats {
+                font-size: 32px;
+                line-height: 35px;
+            }
+            .email-allCaps {
+                font-size: 12px;
+                line-height: 14px;
+            }
+            .email-title--post {
+                font-size: 22px;
+                line-height: 26px;
+            }
+            .email-postImage {
+                width: 92px;
+                height: 80px;
+            }
+            .email-postImage--hero {
+                float: right;
+                margin-left: 7px;
+            }
+            .email-topWriter--badge {
+                float: none;
+                text-align: center;
+                width: 100%;
+                min-width: 100%;
+                padding-top: 0;
+                padding-right: 0;
+                padding-bottom: 0;
+                padding-left: 0;
+                margin-bottom: 20px;
+            }
+            .email-card {
+                width: 100%;
+                margin-left: 0;
+                margin-right: 0;
+            }
+            .email-headline--section {
+                font-size: 20px;
+                line-height: 24px;
+                margin-bottom: 5px;
+            }
+            .email-subtitle--section {
+                font-size: 14px;
+                line-height: 18px;
+            }
+            .email-subtitle--stats {
+                font-size: 12px;
+            }
+            .email-xs-width100 {
+                width: 100px;
+            }
+            .email-xs-width140 {
+                width: 140px;
+            }
+            .email-xs-height85 {
+                height: 85px;
+            }
+            .email-xs-minHeight0 {
+                min-height: 0;
+            }
+            .email-xs-hide {
+                display: none;
+            }
+        }
+    </style>
+</head>
 
-        <div class="mdl-grid">
+<body class="emojify" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+    <div class="email-fillWidth email-backgroundWhite" style="min-width: 100%; width: 100%; background-color: #ffffff;">
+        <table class="email email-paddingBottom0" style="width: 600px; margin-left: auto; margin-right: auto; padding-left: 20px; padding-right: 20px; padding-bottom: 0; color: #333332; line-height: 1.4; font-family: -apple-system , BlinkMacSystemFont , &apos;Segoe UI&apos; , &apos;Roboto&apos; , &apos;Ubuntu&apos; , &apos;Open Sans&apos; , &apos;Helvetica Neue&apos; , sans-serif;">
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <table class="email" style="width: 600px; margin-left: auto; margin-right: auto; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; color: #333332; line-height: 1.4; font-family: -apple-system , BlinkMacSystemFont , &apos;Segoe UI&apos; , &apos;Roboto&apos; , &apos;Ubuntu&apos; , &apos;Open Sans&apos; , &apos;Helvetica Neue&apos; , sans-serif;">
+        <tr>
+            <td>
+                <div>
+                    <div class="email-sectionPreview email-sectionPreview--collection email-sectionPreview--borderless email-center" style="margin-top: 15px; margin-bottom: 30px; padding-top: 0; border-top: 1px solid #e5e5e5; border: 0; text-align: center;">
+                        <a href="/" style="color: #333332; text-decoration: none;"><img class="email-avatar email-avatar--medium email-avatar--square email-inlineBlock email-floatNone" src="https://cdn-images-1.medium.com/fit/c/150/150/1*4xmlVpaEJavjFB_6I6OYHA.png" alt="Rime" style="display: inline-block; width: 75px; height: 75px; border-radius: 0; background: #f0f0f0; line-height: 0; margin-right: 10px; float: none;">
+                        </a>
+                    </div>
+                    <div class="email-left" style="text-align: left;">
+                        <h2 class="email-title" style="font-family: Charter , Georgia , Cambria , &apos;Times New Roman&apos; , Times , serif; color: #333332; font-size: 32px; font-weight: 300; line-height: 36px; margin-bottom: 20px;">{{ page.title }}</h2>
 
-            <div class="mdl-cell mdl-cell--3-offset-desktop mdl-cell--9-col-desktop mdl-cell--1-offset-tablet mdl-cell--7-col-tablet mdl-cell--4-col-phone">
-                <a href="{{ site.url }}">
-                    <img src="/assets/images/logotype.svg" height=25 alt="Rime">
-                </a>
-
-                <a href="{{ site.url }}" class="pull-right mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="top: 10px;right: 10px;position: fixed;">
-                    <i class="material-icons">close</i>
-                </a>
-            </div>
-
-            <div class="demo-card-square mdl-card mdl-cell mdl-cell--3-offset-desktop mdl-cell--6-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                <div class="mdl-card__title mdl-card--expand">
-                   <h2 class="mdl-card__title-text">{{ page.title }}</h2>
+                        {{ content }}
+                    </div>
                 </div>
-                
-                {{ content }}
-            </div>
-        </div>
-    </main>
-</div>
+                {% assign web_url = page.web_url %}
+                {% if web_url == nil %}{% assign web_url = page.url %}{% endif %}
+                <div class="email-left email-section--letter" style="margin-top: 20px; font-size: 12px; text-align: left;"><a class="email-link email-textTransparentBlack" href="{{ web_url }}" style="color: rgba(0 , 0 , 0 , 0.44); text-decoration: none;">View in browser</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <style>
+                /* https://stackoverflow.com/a/53336754/3466389 */
+                .filter-green{
+                    /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
+                    filter: invert(48%);
+                }
+            </style>
+            <td><img class="filter-green email-logo email-logo--small" src="/assets/images/icon.svg" alt="Medium Logo" style="display: block; margin-left: auto; margin-right: auto; width: 32px;">
+                <div class="email-footer" style="padding-top: 15px; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 30px; color: #b3b3b1; font-size: 12px; text-align: center; border-top: 1px solid #e5e5e5;">Sent by <a class="email-link email-textGray email-underline" href="/" style="color: #8e8e8e; text-decoration: underline;">Rime</a> &middot; Ranka Colony, Bilekahalli. Bengaluru, KA 560076
+                    <div><a class="email-link email-textGray email-underline" href="/settings/notifications" style="color: #8e8e8e; text-decoration: underline;">Email settings</a> &middot; <a class="email-link email-textGray email-underline" href="/support/faq" style="color: #8e8e8e; text-decoration: underline;">Help center</a> &middot; <a class="email-link email-textGray email-underline" href="/legal/privacy" style="color: #8e8e8e; text-decoration: underline;">Privacy policy</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+{% include js/emojify.html %}
+
+</html>

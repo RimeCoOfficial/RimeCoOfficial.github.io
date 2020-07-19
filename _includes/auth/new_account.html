@@ -21,7 +21,7 @@
 {% assign username = username | replace: " ", "_" | replace: ".", "-" %}
 {% endif %}
 
-<form>
+<form action="/email/verify">
 
 {% include form/input.html id="name" value=actor.name label="Name" %}
 {% include form/input.html id="email" label="Email" %}

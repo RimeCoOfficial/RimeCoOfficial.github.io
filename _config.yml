@@ -7,6 +7,7 @@ theme_color:      DA2E75
 # Where things are Advanced
 sass:
   style: compact # possible values: nested expanded compact compressed
+  sass_dir: _sass
 
 collections:
   posts:
@@ -27,6 +28,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate 
   - jekyll-redirect-from
+  - jekyll-coffeescript
 
 # Outputting
 # permalink:        /:categories/:title

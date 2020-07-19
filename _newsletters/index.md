@@ -1,22 +1,23 @@
 ---
 title: Newsletters
-layout: newsletters
+layout: email
+web_url: https://medium.com/postmaster
 ---
 
 <!-- LIST -->
 
-<ol>
+<ul class="email-list email-list--unordered">
 	{% for n in site.newsletters limit:33 %}
 	{% if n.url contains 'index' %}
 	<!-- {{ n.title }} -->
     {% else %}
-    <li>
-		<a href="{{ n.url }}">{{ n.title }}</a>
+    <li class="email-left email-list-item">
+		<strong class="email-bold">{{ n.title }}</strong>
 	</li>
 
-	<code>{{ n.date | date: "%A %d %b'%y" }}</code>
-	{% for tag in n.tags %}#{{ tag }} {% endfor %}
+	<a class="email-link email-underline" href="{{ n.url }}">{{ n.date | date: "%A %d %b'%y" }}</a>
+	<em>{% for tag in n.tags %}#{{ tag }} {% endfor %}</em>
 
 	{% endif %}
 	{% endfor %}
-</ol>
+</ul>

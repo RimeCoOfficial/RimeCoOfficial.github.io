@@ -3,7 +3,7 @@ layout: settings
 title: Settings - Notification
 ---
 
-<form>
+<form action="/auth/email/unsubscribed">
 
 {% include form/checkbox.html id="notification" value=site.data.session.email_subscription.notification label="Notification" %}
 {{ site.data.unsubscribe.notification }}

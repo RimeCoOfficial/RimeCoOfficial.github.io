@@ -1,12 +1,23 @@
 ---
 title: No Password
-layout: newsletters
+layout: email
 date: 2016-09-27 10:00:00
 tags: Social-Media Technology
+web_url: https://medium.com/p/4f4fa332d51a
 ---
 
+{:.email-image .email-center}
+![](/assets/email/12-1*8DEPau3grhwpup2eQgE4fg.png){:.email-maxFillWidth}
+
+{:.email-left}
 Hi {_to_name} (@{_metadata_username}),
+
+{:.email-left}
 We are not going to be yet another social media that asks you to create new password to login to Rime because we believe remembering passwords is a thing of past. Instead, just use your authenticated social media login, and enjoy.
+
+{:.email-left}
 Facing any troubles? Let us know.
-Thanks!
-— The Rime (@rime) Team
+
+{:.email-left}
+Thanks!<br>
+— The Rime ([@rime](/@rhymetek){:.email-link .email-underline}) Team

@@ -1,0 +1,20 @@
+reserved:
+  _request_id: request_id
+  _subject: subject
+  _recipient_id: recipient_id
+  _to_email: to_email
+  _to_name: to_name
+  _reply_to_email: reply_to_email
+  _reply_to_name: reply_to_name
+  _unsubscribe_link: /auth/email/unsubscribe
+  _web_version_link: /newsletter
+  _current_day: current_day
+  _current_day_number: current_day_number
+  _current_date: current_date
+  _current_month: current_month
+  _current_month_number: current_month_number
+  _current_year: current_year
+  _app_name: Rime
+  _app_base_url: https://rhymetek.github.io
+custom:
+  foo: bar

@@ -3,27 +3,19 @@ layout: settings
 title: Settings - Email
 ---
 
-<?php
-// var_dump($user_email);
-?>
-
 
 Your email address <strong>{{ site.data.session.email }}</strong> will be used for account-related notifications (e.g. account changes, contacts joined)<br>
 
-{% if site.data.session.verified %}
-<br>
-<i class="icon-warning"></i> Verify your email, <a href="/settings/resend-verification">resend verification</a>
-<br>
+{% if site.data.session.verified == false %}
+<i class="icon-warning"></i> Verify your email, <a href="/email/verify">resend verification</a>
 {% endif %}
 
-
-<br>
 <i id="info_outline" class="material-icons md-24 pull-right">info_outline</i>
 Looking for activity notification controls?<br>
 
 <br>
 
-<form>
+<form action="/email/update">
 
 {% include form/input.html id="user_email" value=site.data.session.email label="Email" %}
 

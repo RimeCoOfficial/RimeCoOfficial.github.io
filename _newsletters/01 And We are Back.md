@@ -1,26 +1,33 @@
 ---
 title: And We are Back!! Launch 2.0
-layout: newsletters
+layout: email
 date: 2014-12-08 10:10:00 +0530
 tags: Startup Apps
+web_url: https://medium.com/p/5ebad0c7ee14
 ---
 
-Hi {{ site.data.users[0].name }} ([@{{ site.data.users[0].username }}]({{ site.data.users[0].username }})), Team Rime would like to thank you all for joining us in beta phase of Rime.
+{:.email-left}
+Hi {{ site.data.users[0].name }} ([@{{ site.data.users[0].username }}]({{ site.data.users[0].username }}){:.email-link .email-underline}), Team Rime would like to thank you all for joining us in beta phase of Rime.
 Your feedback’s and support constantly helped us to build a better platform.
 
+{:.email-left}
 We have been working hard and It took more than 6 months to our team to revamp our core and rebuild our improved back-end. Rime is now packed with new features:
 
-- Auto Syncing of your content from connected platforms
-- Timeline: your content in timeline style [@{{ site.data.users[0].username }}]({{ site.data.users[0].username }})
-- Now Comment or Like on any URL.
+{:.email-list .email-list--unordered}
+- {:.email-left .email-list-item}Auto Syncing of your content from connected platforms
+- {:.email-left .email-list-item}Timeline: your content in timeline style [@{{ site.data.users[0].username }}]({{ site.data.users[0].username }}){:.email-link email-underline}
+- {:.email-left .email-list-item}Now Comment or Like on any URL.
 
+{:.email-left}
 Take a look in at your new Rime profile.
 
+{:.email-left}
 Stay tuned.
 Christmas is coming… with lot more features :)
 
-![](/assets/images/email-unnamed-1.gif)
+{:.email-image .email-center}
+![](/assets/email/01-unnamed-1.gif){:.email-maxFillWidth}
 
-Have fun!
-
+{:.email-left}
+Have fun!<br>
 &mdash; The {{ site.title }} Team

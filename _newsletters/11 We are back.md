@@ -7,10 +7,10 @@ web_url: https://medium.com/p/811dce4bb618
 ---
 
 {:.email-image .email-center}
-![](/assets/email/11-1*Y1ADwWT2I6Clm1rhGPlM4A.gif){:.email-maxFillWidth}
+![](/assets/email/11-BGyhvrZQRC.gif){:.email-maxFillWidth}
 
 {:.email-left}
-Hi {_to_name} (@{_metadata_username}),
+Hi {{ site.data.session.name }} ([@{{ site.data.users[0].username }}](/@{{ site.data.users[0].username }}){:.email-link .email-underline}),
 
 {:.email-left}
 At Rime, it has been always about YOU. To get your Rime page the attention it needs from search engines, we work hard so that can effortlessly share your stories, memories, art, code, and what not!
@@ -19,7 +19,7 @@ At Rime, it has been always about YOU. To get your Rime page the attention it ne
 And it is this work that kept us occupied over the last few months. We are back with your personal, self-creating Page.
 
 {:.email-left}
-Check out new look of [your Rime profile](/@{_metadata_username})
+Check out new look of [your Rime profile](/@{{ site.data.users[0].username }}){:.email-link .email-underline})
 
 {:.email-left}
 Thanks!<br>

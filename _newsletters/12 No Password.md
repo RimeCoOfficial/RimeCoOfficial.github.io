@@ -7,10 +7,10 @@ web_url: https://medium.com/p/4f4fa332d51a
 ---
 
 {:.email-image .email-center}
-![](/assets/email/12-1*8DEPau3grhwpup2eQgE4fg.png){:.email-maxFillWidth}
+![](/assets/email/12-tag-cloud-password.png){:.email-maxFillWidth}
 
 {:.email-left}
-Hi {_to_name} (@{_metadata_username}),
+Hi {{ site.data.session.name }} ([@{{ site.data.users[0].username }}](/@{{ site.data.users[0].username }}){:.email-link .email-underline}),
 
 {:.email-left}
 We are not going to be yet another social media that asks you to create new password to login to Rime because we believe remembering passwords is a thing of past. Instead, just use your authenticated social media login, and enjoy.

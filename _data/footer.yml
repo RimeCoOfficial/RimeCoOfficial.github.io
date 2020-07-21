@@ -1,13 +1,13 @@
 - h1: "Features"
   list:
     - name: About
-      href: about
       
+      href: /about
     - name: Terms
-      href: legal/terms
+      href: /legal/terms
       
     - name: Jobs
-      href: jobs
+      href: /jobs
       
     - name: Partners
       href: https://medium.com/स्वतंत्र/business-ffaa41747e3
@@ -28,19 +28,19 @@
       attr: target="_blank"
 
     - name: Security
-      href: support/security
+      href: /support/security
       
     - name: Libraries
-      href: support/libraries
+      href: /support/libraries
       
     - name: Newsletters
-      href: newsletters
+      href: /newsletters
       attr: target="_blank"
       
 - h1: "Technology"
   list:
     - name: AI
-      href: ai
+      href: /ai
       
     - name: Open Source
       href: https://RhymeTek.github.io/Open-Source
@@ -57,10 +57,10 @@
 - h1: "FAQ"
   list:
     - name: Questions
-      href: support/faq
+      href: /support/faq
 
     - name: Press
-      href: press
+      href: /press
       
     - name: Ask
       href: https://RhymeTek.tumblr.com/ask

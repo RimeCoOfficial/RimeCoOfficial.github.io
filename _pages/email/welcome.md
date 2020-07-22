@@ -4,7 +4,7 @@ title: Welcome To The World of Awesomeness!
 ---
 
 {:.email-left}
-Hi <strong class="email-bold">{{ site.data.session.name }}</strong> (<a class="email-link email-underline" href="/@{{ site.data.session.username }}">@{{ site.data.session.username }}</a>), welcome to Rime!
+Hi {{ site.data.session.name }} (<a class="email-link email-underline" href="/@{{ site.data.session.username }}">@{{ site.data.session.username }}</a>), welcome to Rime!
 
 {:.email-left}
 We listed your sign in details below, make sure you keep them safe.

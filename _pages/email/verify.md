@@ -4,7 +4,7 @@ title: Verify your new email address
 ---
 
 {:.email-left}
-Hi **{{ site.data.session.name }}**{:.email-bold} (<a class="email-link email-underline" href="/@{{ site.data.session.username }}">@{{ site.data.session.username }}</a>),
+Hi {{ site.data.session.name }} (<a class="email-link email-underline" href="/@{{ site.data.session.username }}">@{{ site.data.session.username }}</a>),
 
 {:.email-left}
 Help us secure your Rime account by verifying your email address {{ site.data.session.email }}

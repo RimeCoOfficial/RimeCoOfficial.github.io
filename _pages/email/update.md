@@ -4,11 +4,11 @@ title: Your email address was updated
 ---
 
 {:.email-left}
-Hi <strong class="email-bold">{{ site.data.session.name }}</strong> (<a class="email-link email-underline" href="http://me.dm/r-gBd2pzchW5?source=email-anon_93d68650c5c2--publication.newsletter">@{{ site.data.session.username }}</a>),
+Hi {{ site.data.session.name }} (<a class="email-link email-underline" href="http://me.dm/r-gBd2pzchW5?source=email-anon_93d68650c5c2--publication.newsletter">@{{ site.data.session.username }}</a>),
 
 {:.email-left}
 You have added an email address.
-    <br>New email address: <strong class="email-bold">{new_email_address}</strong>
+    <br>New email address: <strong class="email-bold">{{ site.data.session.new_email }}</strong>
 
 
 {:.email-left}

@@ -19,7 +19,7 @@ At Rime, it has been always about YOU. To get your Rime page the attention it ne
 And it is this work that kept us occupied over the last few months. We are back with your personal, self-creating Page.
 
 {:.email-left}
-Check out new look of [your Rime profile](/@{{ site.data.users[0].username }}){:.email-link .email-underline})
+Check out new look of [your Rime profile](/@{{ site.data.users[0].username }}){:.email-link .email-underline}
 
 {:.email-left}
 Thanks!<br>

@@ -1,6 +1,6 @@
 ---
 layout: apps
-title: Apps
+title: Instagram
 ---
 
 {% include apps/add.html %}

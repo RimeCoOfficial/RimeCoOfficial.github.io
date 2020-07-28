@@ -1,0 +1,18 @@
+{% assign alert = "This site uses cookies" %}
+
+<div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button class="mdl-snackbar__action mdl-color-text--white" type="button"></button>
+</div>
+
+<script>
+    document.querySelector('#demo-snackbar-example').addEventListener('mdl-componentupgraded', function() {
+        var data = {
+            timeout: 5000,
+            actionHandler: function(event) { window.open('/legal/privacy','_blank'); },
+            actionText: 'Privacy',
+            message: '{{ alert }}'
+        };
+        this.MaterialSnackbar.showSnackbar(data);
+    });
+</script>

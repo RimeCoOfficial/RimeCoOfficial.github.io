@@ -1,6 +1,6 @@
 ---
 layout: apps
-title: Apps
+title: Foursquare
 ---
 
 {% include apps/add.html %}

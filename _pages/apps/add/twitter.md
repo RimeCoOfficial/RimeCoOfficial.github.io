@@ -1,6 +1,6 @@
 ---
 layout: apps
-title: Apps
+title: Twitter
 ---
 
 {% include apps/add.html %}

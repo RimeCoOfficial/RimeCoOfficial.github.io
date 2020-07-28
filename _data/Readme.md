@@ -27,9 +27,9 @@ user
 |       +---actor_method
 |       |
 |       +---actor_about
-|       +---post                (Feed)
+|       +---post
 |       +---post_tag
-|       +---contact_email       (People)
+|       +---contact_email
 |       +---contact_actor
 |
 +---promo_invite    (Arya Bot)

@@ -145,9 +145,9 @@ layout: about
             </span>
         </h2>
 
-        {% for indi in site.data.contributors %}
-        <a href="{{ indi.link }}" target="_blank" class="thumbnail">
-            <img id="{{ indi.name | downcase | replace: ' ', '-' }}"  class="img-circle pull-left" src="{{ site.url }}{{ indi.picture }}" alt="{{ indi.name }}" width="120px" style="margin-right: 15px; margin-bottom: 15px;">
+        {% for people in site.data.contributors %}
+        <a href="{{ people.url }}" target="_blank" class="thumbnail">
+            <img id="{{ people.name | downcase | replace: ' ', '-' }}"  class="img-circle pull-left" src="{{ site.url }}{{ people.avatar }}" alt="{{ people.name }}" width="120px" style="margin-right: 15px; margin-bottom: 15px;">
         </a>
         {% endfor %}
 
@@ -156,6 +156,6 @@ layout: about
 
 {% include nav_tooltips.html %}
 
-{% for indi in site.data.contributors %}
-<div class="mdl-tooltip mdl-tooltip--large" for="{{ indi.name | downcase | replace: ' ', '-' }}">{{ indi.name }}</div>
+{% for people in site.data.contributors %}
+<div class="mdl-tooltip mdl-tooltip--large" for="{{ people.name | downcase | replace: ' ', '-' }}">{{ people.name }}</div>
 {% endfor %}

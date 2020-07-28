@@ -1,6 +1,6 @@
 ---
 layout: apps
-title: Apps
+title: Vimeo
 ---
 
 {% include apps/add.html %}

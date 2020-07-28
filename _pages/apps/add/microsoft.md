@@ -1,6 +1,6 @@
 ---
 layout: apps
-title: Apps
+title: Microsoft
 ---
 
 {% include apps/add.html %}

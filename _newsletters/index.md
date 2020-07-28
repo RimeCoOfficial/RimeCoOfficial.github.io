@@ -16,7 +16,7 @@ web_url: https://medium.com/postmaster
 	</li>
 
 	<a class="email-link email-underline" href="{{ n.url }}">{{ n.date | date: "%A %d %b'%y" }}</a>
-	<em>{% for tag in n.tags %}#{{ tag }} {% endfor %}</em>
+	{% for tag in n.tags %}#{{ tag }} {% endfor %}
 
 	{% endif %}
 	{% endfor %}

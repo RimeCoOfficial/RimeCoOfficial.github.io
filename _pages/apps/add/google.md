@@ -1,6 +1,6 @@
 ---
 layout: apps
-title: Apps
+title: Google
 ---
 
 {% include apps/add.html %}

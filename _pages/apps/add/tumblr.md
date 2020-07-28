@@ -1,6 +1,6 @@
 ---
 layout: apps
-title: Apps
+title: Tumblr
 ---
 
 {% include apps/add.html %}

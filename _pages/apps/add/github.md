@@ -1,6 +1,6 @@
 ---
 layout: apps
-title: Apps
+title: GitHub
 ---
 
 {% include apps/add.html %}

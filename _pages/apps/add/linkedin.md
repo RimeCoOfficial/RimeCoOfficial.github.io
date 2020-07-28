@@ -1,6 +1,6 @@
 ---
 layout: apps
-title: Apps
+title: Linkedin
 ---
 
 {% include apps/add.html %}

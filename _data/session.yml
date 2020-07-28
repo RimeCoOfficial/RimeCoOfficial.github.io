@@ -3,7 +3,7 @@ username: suvozit
 hash: e57d108fcdc4698ddd09ca11024118e3
 bio: I am an Entrepreneur. Founder @RymeTek @Bitsits Ex Ubisoft BTech IIESTS Civil ♊︎ 🙇🏻‍♂️ ··· 🤖
 location: Howrah
-avatar: assets/images/team-93101128_10215803195343966_9003621194796105728_n.jpg
+avatar: assets/users/suvozit/avatar.jpg
 email: suvozit@rhyme.tek
 new_email: shubhajit@rhyme.tek
 verification_code: c848e0886d5dca523b4b6c87da73220e
@@ -19,7 +19,7 @@ apps:
       actors:
         - id: suvozit
           name: Shubhajit Saha
-          img: assets/images/team-93101128_10215803195343966_9003621194796105728_n.jpg
+          img: assets/users/suvozit/avatar.jpg
           user: suvozit
           sync: 2011-01-01 10:00:00
           status: 200
@@ -34,7 +34,7 @@ apps:
             score: 1
         - id: rhymetek
           name: Rhyme Tek.
-          img: assets/images/team-93359136_1662726090541371_8835009497538756608_n.png
+          img: assets/users/rhymetek/avatar.png
           verified: y
           user: rime
           sync: 2011-01-01 10:00:00
@@ -50,7 +50,7 @@ apps:
             score: 1
         - id: bitsitsgames
           name: Bitsits Games
-          img: assets/images/team-93244581_2827117440705467_1235743369020309504_n.png
+          img: assets/users/bitsits/avatar.png
           user: bitsits
           sync: 2011-01-01 10:00:00
           status: 200
@@ -65,16 +65,16 @@ apps:
             score: 1
         - id: StringYourStory
           name: String Your Story
-          img: assets/images/team-10154267_740948132594185_8004710779763242299_n.png
-        - id: hizz.shot
-          name: Hizz Shot
-          img: assets/images/team-94889555_112627467092342_2404837147778482176_o.jpg
+          img: assets/users/StringYourStory/avatar.png
+        - id: hiss.shot
+          name: Hiss Shot
+          img: assets/users/hiss.shot/avatar.jpg
   github:
     - oauth: 5635088
       actors:
         - id: suvozit
           name: Shubhajit Saha
-          img: assets/images/team-93101128_10215803195343966_9003621194796105728_n.jpg
+          img: assets/users/suvozit/avatar.jpg
           sync: 2011-01-01 10:00:00
           status: 200
           user: suvozit
@@ -89,7 +89,7 @@ apps:
             score: 1
         - id: rhymetek
           name: Rhyme Tek.
-          img: assets/images/team-93359136_1662726090541371_8835009497538756608_n.png
+          img: assets/users/rhymetek/avatar.png
           sync: 2011-01-01 10:00:00
           status: 200
           verified: y
@@ -105,7 +105,7 @@ apps:
             score: 1
         - id: bitsits
           name: Bitsits Games
-          img: assets/images/team-93244581_2827117440705467_1235743369020309504_n.png
+          img: assets/users/bitsits/avatar.png
 websites:
   - url: /default
     domain: www.shubhajitsaha.com

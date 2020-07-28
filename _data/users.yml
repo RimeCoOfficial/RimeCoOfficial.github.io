@@ -3,7 +3,7 @@
   hash: e57d108fcdc4698ddd09ca11024118e3
   bio: I am an Entrepreneur. Founder @RymeTek @Bitsits Ex Ubisoft BTech IIESTS Civil ♊︎ 🙇🏻‍♂️ ··· 🤖
   location: Howrah
-  avatar: assets/images/team-93101128_10215803195343966_9003621194796105728_n.jpg
+  avatar: assets/images/suvozit/avatar.jpg
   email: suvozit@rhyme.tek
   verified: false
   email_subscription:
@@ -15,7 +15,8 @@
   username: girish
   hash: dabe0d16e465745eb3108c9598d07860
   bio: Madness is the emergency exit.
-  avatar: assets/images/team-45683760_10157920272808626_5521347417271697408_n.jpg
+  location: Raipur
+  avatar: assets/images/username/avatar.jpg
   email: girish@arya.rime
   email_subscription:
     notification: true
@@ -27,7 +28,7 @@
   hash: ec1f113920132724a1205db4e1d9d147
   bio: 
   location: Bengaluru
-  avatar: assets/images/team-93101128_10215803195343966_9003621194796105728_n.jpg
+  avatar: assets/images/username/avatar.png
   email: arya@rhyme.tek
   verified: true
   email_subscription:

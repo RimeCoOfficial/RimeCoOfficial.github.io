@@ -47,7 +47,7 @@ layout: about
                 A Timeline that compiles your 140 character messages to filtered photos to 6 sec looping videos. Where the only limitation is your imagination.
             </li>
             <li>
-                We happen to be the first people’s network that defines you completely.
+                We happen to be the first contributor’s network that defines you completely.
             </li>
         </ul>
 
@@ -145,9 +145,9 @@ layout: about
             </span>
         </h2>
 
-        {% for people in site.data.contributors %}
-        <a href="{{ people.url }}" target="_blank" class="thumbnail">
-            <img id="{{ people.name | downcase | replace: ' ', '-' }}"  class="img-circle pull-left" src="{{ site.url }}{{ people.avatar }}" alt="{{ people.name }}" width="120px" style="margin-right: 15px; margin-bottom: 15px;">
+        {% for contributor in site.data.contributors %}
+        <a href="{{ contributor.url }}" target="_blank" class="thumbnail">
+            <img id="{{ contributor.name | downcase | replace: ' ', '-' }}"  class="img-circle pull-left" src="{{ site.url }}{{ contributor.avatar }}" alt="{{ contributor.name }}" width="120px" style="margin-right: 15px; margin-bottom: 15px;">
         </a>
         {% endfor %}
 
@@ -156,6 +156,6 @@ layout: about
 
 {% include nav_tooltips.html %}
 
-{% for people in site.data.contributors %}
-<div class="mdl-tooltip mdl-tooltip--large" for="{{ people.name | downcase | replace: ' ', '-' }}">{{ people.name }}</div>
+{% for contributor in site.data.contributors %}
+<div class="mdl-tooltip mdl-tooltip--large" for="{{ contributor.name | downcase | replace: ' ', '-' }}">{{ contributor.name }}</div>
 {% endfor %}

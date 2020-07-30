@@ -1,12 +1,12 @@
 ---
 layout: customize
-title: Customize - Signature
+title: Customize - Banner
 ---
 
 <br>
 
-{% assign type = 'signature' %}
-{% assign src = site.data.session.websites[0].signature %}
+{% assign type = 'banner' %}
+{% assign src = site.data.session.websites[0].banner %}
 
 {% if src != nil  %}
 {% assign style = 'height: 40px;' %}

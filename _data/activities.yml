@@ -5,6 +5,7 @@
   url: /@suvozit?app=tumblr&time=2013-06-20
   date: 2013-06-20
   unread: true
+
 - icon: cached
   type: system
   title: Instagram
@@ -12,6 +13,7 @@
   url: /@suvozit?app=instagram&time=2013-06-20
   date: 2013-06-20
   unread: true
+
 - icon: cached
   type: system
   title: GitHub
@@ -19,24 +21,28 @@
   url: /@suvozit?app=github&time=2013-06-20
   date: 2013-06-20
   unread: true
+
 - icon: add
   type: user
   title: Tumblr
   description: Added <b>suvozit</b>
   url: /apps/add/tumblr
   date: 2013-06-20
+
 - icon: add
   type: user
   title: Instagram
   description: Added <b>suvozit</b>
   url: /apps/add/instagram
   date: 2013-06-20
+
 - icon: add
   type: user
   title: GitHub
   description: Added <b>suvozit</b>
   url: /apps/add/github
   date: 2013-06-20
+
 - icon: cached
   type: system
   title: Facebook
@@ -44,12 +50,14 @@
   url: /@suvozit?app=facebook&time=2013-06-20
   date: 2013-06-20
   unread: true
+
 - icon: add
   type: user
   title: Facebook
   description: Added <b>suvozit</b>
   url: /apps/add/facebook
   date: 2013-06-20
+
 - icon: create
   type: user
   title: Account

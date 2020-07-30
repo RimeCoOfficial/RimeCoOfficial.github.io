@@ -1,8 +1,0 @@
-- name: face
-  url: /customize/icon
-- name: title
-  url: /customize/signature
-- name: font_download
-  url: /customize/fonts
-- name: domain
-  url: /customize/domain

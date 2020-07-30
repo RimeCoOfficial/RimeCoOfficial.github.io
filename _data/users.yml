@@ -11,6 +11,7 @@
     tips: false
     newsletter: true
     announcement: true
+
 - name: Girish Nayak
   username: girish
   hash: dabe0d16e465745eb3108c9598d07860
@@ -23,6 +24,7 @@
     tips: true
     newsletter: true
     announcement: true
+
 - name: Rhyme Tek.
   username: rhymetek
   hash: ec1f113920132724a1205db4e1d9d147

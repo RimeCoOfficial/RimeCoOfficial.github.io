@@ -68,7 +68,7 @@ layout: default
                     <img class="article-image img-fluid" src="{{ site.data.session.avatar }}" width="500">
                 </div>
                 <div class="mdl-card__actions">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="/@{{ site.data.session.username }}">
+                    <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="/@{{ site.data.session.username }}">
                         Archive
                     </a>
                 </div>
@@ -115,7 +115,7 @@ layout: default
                     <h2 class="mdl-card__title-text">Websites</h2>
                 </div>
                 <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                    <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">
                         Add new website
                     </a>
                 </div>
@@ -125,7 +125,7 @@ layout: default
                     <li class="mdl-list__item mdl-list__item--three-line">
                       <span class="mdl-list__item-primary-content">
                         <!-- <i class="material-icons mdl-list__item-avatar">person</i> -->
-                        <img class="material-icons mdl-list__item-avatar" src="{{ website.icon }}">
+                        <img class="material-icons mdl-list__item-avatar" src="{{ website.icon }}" style="background-color: transparent; border-radius: 0;">
                         <span>{{ website.title }}</span>
                         <span class="mdl-list__item-text-body">
                             {{ website.description }}

@@ -1,11 +1,15 @@
 - title: Home
   url: /dashboard
+
 - title: Explore
   url: /explore
+
 - title: Inbox
   url: /inbox
   badge: 4
+
 - title: Apps
   url: /apps
+
 - title: Settings
   url: /settings

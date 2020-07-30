@@ -1,7 +1,7 @@
 - name: Icon
   url: /customize/icon
-- name: Signature
-  url: /customize/signature
+- name: Banner
+  url: /customize/banner
 - name: Fonts
   url: /customize/fonts
 - name: Domain

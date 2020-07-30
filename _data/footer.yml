@@ -1,4 +1,4 @@
-- h1: "Features"
+- title: "Features"
   list:
     - name: About
       
@@ -17,7 +17,7 @@
       href: https://RhymeTek.tumblr.com
       attr: target="_blank"
 
-- h1: "Details"
+- title: "Details"
   list:      
     - name: Design
       href: https://RhymeTek.tumblr.com/tagged/design
@@ -37,7 +37,7 @@
       href: /newsletters
       attr: target="_blank"
       
-- h1: "Technology"
+- title: "Technology"
   list:
     - name: AI
       href: /ai
@@ -54,7 +54,7 @@
       href: https://medium.com/postmaster
       attr: target="_blank"
 
-- h1: "FAQ"
+- title: "FAQ"
   list:
     - name: Questions
       href: /support/faq

@@ -17,7 +17,7 @@ Looking for activity notification controls?<br>
 
 <form action="/email/update">
 
-{% include form/input.html id="user_email" value=site.data.session.email label="Email" %}
+{% include form/input.html id="user_email" value=site.data.session.new_email label="Email" %}
 
 <br>
 <br>

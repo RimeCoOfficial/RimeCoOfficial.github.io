@@ -1,99 +1,50 @@
 ---
-layout: people
-title: People
+layout: inbox
+title: Invite
 ---
-<?php
-// var_dump($contact_email_list);
 
-if (!empty($contact_email_list))
-{
-    if (empty($contact_email_list['items']))
-    {
-        ?>
-        <h4>No contacts found</h4>
-        <p>
-            <i class="icon-help-with-circle"></i>
-            <?php echo anchor('service', 'Add a Google, Live or Yahoo account'); ?> to invite your contacts.
-        </p>
-        <?php
-    }
-    else
-    {
-        ?>
-        <div class="infinite-container">
-            <div class="infinite-item">
-                <?php
-                foreach ($contact_email_list['items'] as $c)
-                {
-                    // var_dump($c);
-                    ?>
-                    <div class="media">
-                        <div class="media-body">
-                            <h4 class="media-heading">
-                                <span class="text-capitalize"><?php echo $c['name']; ?></span>
-                                <span class="small"><?php echo $c['email_id']; ?></span>
-                            </h4>
-                        </div>
-                        <div class="media-right">
-                            <?php
-                            if (!empty($c['invite']))
-                            {
-                                ?>
-                                <span class="media-object small text-gray pull-right"
-                                    data-toggle="tooltip"
-                                    data-placement="top"
-                                    title="Resend invitation">
-                                    <i class="icon-info-with-circle"></i>
-                                </span>
-                                <?php
-                            }
-                            ?>
-                        </div>
-                        <div class="media-right" style="min-height: 28px;">
-                            <a type="button" class="invite-btn media-object btn btn-sm btn-primary btn-75px"
-                                data-loading-text="&lt;i class=&quot;icon-dots-three-horizontal&quot;&gt;&lt;/i&gt;"
-                                data-complete-text="&lt;i class=&quot;icon-check&quot;&gt;&lt;/i&gt;"
-                                autocomplete="off"
-                                data-invite-email="<?php echo $c['email_id']; ?>"
-                                data-invite-name="<?php echo $c['name']; ?>"
-                            >
-                                Invite
-                            </a>
+{% assign invites = site.data.invites.sent %}
+{% assign invites_count = invites | size %}
+{% assign min_invites = site.data.invites.min %}
 
-                            <!-- <div class="btn-75px text-center hidden"><i class="icon-check"></i></div> -->
-                        </div>
-                    </div>
-                    <hr>
-                    <?php
-                }
-                ?>
-            </div>
-        </div>
-        <?php
-    }
+<style>
+.mdl-card__title {
+    background: url('/assets/images/invite.png') center / cover;
 }
-?>
+</style>
 
-<script type="text/javascript">
-    $(document).on('click', '.invite-btn', function (e) {
-        var $this = $(this)
-        if ($this.is('a')) e.preventDefault()
-        var $btn = $this.button('loading')
-        $btn.button('loading')
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">
+        Invites sent ({{ invites_count }}/{{ min_invites }})
+    </h2>
+</div>
 
-        // console.log($btn.data('inviteName'))
-        $.ajax("<?php echo base_url(); ?>"+"action/people/invite/"+$btn.data('inviteEmail')+"?name="+$btn.data('inviteName')).success(function () {
-            $btn.button('complete')
+<div class="mdl-card__supporting-text">
 
-            // $this.removeClass('btn-primary')
-            // $this.addClass('hidden')
-        })
-    });
-</script>
+<p>
+    <strong>Share your invite Code</strong> {{ site.url }}?invited_by={{ site.data.session.username }}
+</p>
 
-<?php
-if (!empty($contact_email_list['next_id']))
-{
-    $this->view('js/infinite_scroll', array('next_id' => $contact_email_list['next_id']));
-}
-?>
+{% if invites_count == 0 %}
+<p><em>No people found.</em></p>
+{% else %}
+<ul>
+{% for email in invites %}
+<li>{{ email }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+</div>
+
+<div class="mdl-card__actions mdl-card--border">
+    <a id="show-dialog" class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">
+        Invite
+    </a>
+</div>
+
+<div class="mdl-card__menu">
+<a id="preview" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="/email/invite" target="_blank">
+    <i class="material-icons">visibility</i>
+</a>
+</div>

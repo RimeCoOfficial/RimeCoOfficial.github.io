@@ -37,7 +37,7 @@ You can comment and like on any url.
 - {:.email-left .email-list-item}[@Shashiclicks](/@Shashiclicks) (Photographer)
 
 {:.email-left}
-[Invite the people you love](/people/invite){:.email-link .email-underline} and who will love Rime too.
+[Invite the people you love](/inbox/invite){:.email-link .email-underline} and who will love Rime too.
 
 {:.email-left}
 Have fun!<br>

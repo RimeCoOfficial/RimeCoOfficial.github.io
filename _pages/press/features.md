@@ -1,6 +1,6 @@
 ---
 title: Features
-layout: features
+layout: press
 ---
 
 <h1 class="mdl-typography--font-light">Features</h1>

@@ -1,6 +1,6 @@
 ---
-layout: people
-title: People
+layout: default
+title: Start
 ---
 
 <?php

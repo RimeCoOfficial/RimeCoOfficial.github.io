@@ -11,10 +11,10 @@ layout: press
     Are you a journalist? Let us know if you're interested in getting occasional press-related news. <a href="mailto:press@{{ site.url | remove: "https://"  | remove: "http://" }}?subject=Press">press@{{ site.url | remove: "https://"  | remove: "http://" }}</a>
 </p>
 
-{% for article in site.data.articles.recent %}
+{% for article in site.data.articles %}
 <h4 class="mdl-typography--font-light">{{ article.title }}</h4>
 <p>
-    <a href="{{ article.url }}" target="_blank">{{ article.published }}</a>
+    <a href="{{ article.url }}" target="_blank">{{ article.published | date: "%A %d %b '%y" }}</a>
     {{ article.author }}, {{ article.org }}
 </p>
 {% endfor %}

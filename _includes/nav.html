@@ -31,7 +31,7 @@
 
     <!-- Inbox -->
 
-    <a id="inbox" class="mdl-navigation__link" href="/people">
+    <a id="inbox" class="mdl-navigation__link" href="/inbox">
         <!-- Number badge on icon -->
         <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="4">inbox</div>
     </a>
@@ -44,7 +44,7 @@
     {% else %}
     <a id="username" class="mdl-navigation__link" href="/@{{ site.data.session.username }}">
         <img class="bg-cover img-circle"
-            style="background-image: url({{ site.url }}/{{ site.data.session.avatar }})"
+            style="background-image: url({{ site.data.session.avatar }})"
             height="39px"
             src="/assets/images/blank.png"
             alt="{{ site.data.session.username }}">

@@ -1,51 +1,74 @@
 ---
-layout: people
-title: People
+layout: inbox
+title: Inbox
 ---
 
-<?php
-// $invites_count = count($invites);
-$min_invites = $this->config->item('min_invites', 'social');
-?>
-
-<?php
-if (FALSE)
-{
-    if ($invites_count >= $min_invites)
-    {
-        ?>
-        <p><strong><i class="icon-check"></i> Now you can add more services. <?php echo anchor($this->input->get('redirect'), 'Click here to continue'); ?></strong></p>
-        <?php
-    }
-    else
-    {
-        ?>
-        <p><strong><i class="icon-warning"></i> Invite <?php echo $min_invites;?> or more friends to add more services</strong></p>
-        <?php
-    }
+<style>
+.mdl-card__title {
+  color: #fff;
+  background:
+    url('/assets/third-party/getmdl.io/dog.png') bottom right 15% no-repeat #DA2E75;
 }
-?>
+</style>
 
-<strong>Share your invite Code</strong>
-<p class="well well-sm"><?php echo base_url('?invited_by='.$user['username']); ?></p>
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Activities</h2>
+</div>
 
-<hr>
+<div class="mdl-card__actions">
+    <!-- <a class="mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/apps">
+        <i class="material-icons">arrow_back</i>
+    </a> -->
+    <!-- <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-2">
+    <input type="checkbox" id="switch-2" class="mdl-switch__input">
+    <span class="mdl-switch__label"></span>
+    </label> -->
+    <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent pull-right" href="#">
+        Mark all as read
+    </button>
+</div>
 
-<h2>
-    Contacts
-    <?php if (!empty($invites_count)): ?>
-        <small class="pull-right2"><?php echo $invites_count; ?> invites sent</small>
-    <?php endif; ?>
-</h2>
 
-<?php $this->view('search/form', array('class' => NULL)); ?>
+{% assign activities = site.data.activities %}
+{% assign activities_count = activities | size %}
 
-<br>
-<br>
+{% if activities_count == 0 %}
+<div class="mdl-card__supporting-text">
+    <p><em>No activities found</em></p>
+</div>
+{% else %}
+<ul class="demo-list-two mdl-list">
+    {% for activity in activities %}
+    <li class="mdl-list__item mdl-list__item--two-line {% if activity.unread %} mdl-color--grey-100 {% endif %}">
+        <span class="mdl-list__item-primary-content">
+            <!-- <i class="material-icons mdl-list__item-avatar" style="font-size: 22px; background-color: transparent; color: #757575;">{{ activity.icon }}</i> -->
+            {% if activity.type == "system" %}
+            <img class="mdl-list__item-avatar" src="/assets/images/logo-share-black.png">
+            {% else %}
+            <img class="mdl-list__item-avatar" src="{{ site.data.session.avatar }}">
+            {% endif %}
+            <span>{{ activity.title }}</span>
+            <span class="mdl-list__item-sub-title">{{ activity.description }}</span>
+        </span>
+        <span class="mdl-list__item-secondary-content">
+        <time class="mdl-list__item-secondary-info dateDisplay" datetime="{{ activity.date | date: "%Y%m%d" }}"></time>
+        {% if activity.url %}
+        <a class="mdl-list__item-secondary-action" href="{{ activity.url }}"><i class="material-icons">{{ activity.icon }}</i></a>
+        {% endif %}
+        </span>
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
 
-<?php
-if (!empty($contact_email_list))
-{
-    $this->view('people/invite_contact_list', array('contact_email_list' => $contact_email_list));
-}
-?>
+<div class="mdl-card__menu">
+<a id="sync" class="mdl-button mdl- mdl-button--icon mdl-js-button mdl-js-ripple-effect mdl-color-text--white" href="/sync">
+    <i class="material-icons">sync</i>
+</a>
+</div>
+
+{% if activities.next_id %}
+{% include js/infinite_scroll.html next_id=activities.next_id %}
+{% endif %}
+
+{% include js/moment.html %}

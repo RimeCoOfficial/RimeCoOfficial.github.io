@@ -18,7 +18,7 @@ $supporting_text = [
         background:
             url('/assets/images/social-icon-'.$service.'-white.svg') center center no-repeat,
             url('/assets/images/stripe-v.png'),
-            url('{{ site.url }}/{{ site.data.session.avatar }}') bottom center / cover;
+            url('{{ site.data.session.avatar }}') bottom center / cover;
     }
 </style>
 

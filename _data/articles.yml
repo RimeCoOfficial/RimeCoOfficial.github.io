@@ -1,19 +1,17 @@
-recent:
+- title: Rime is a desktop app from 2 Indian founders that allows you to display all of your social media content in one place
+  author: Edmund
+  org: Haggerston Times
+  published: 2015-09-03
+  url: https://www.haggerston-times.com/rime-is-a-desktop-app-from-2-indian-Founders-that-allows-you-to-display-all-of-your-social-media-content-in-one-place
 
-  - title: 'Rime is a desktop app from 2 Indian founders that allows you to display all of your social media content in one place'
-    author: 'Edmund'
-    org: 'Haggerston Times'
-    published: 'Sep 3 .2015'
-    url: 'https://www.haggerston-times.com/rime-is-a-desktop-app-from-2-indian-Founders-that-allows-you-to-display-all-of-your-social-media-content-in-one-place'
+- title: Research assistants from IIT Bombay start a social media startup
+  author: YS Team
+  org: YourStory
+  published: 2015-02-20
+  url: https://yourstory.com/2015/02/rime-social-media
 
-  - title: 'Research assistants from IIT Bombay start a social media startup'
-    author: 'YS Team'
-    org: 'YourStory'
-    published: 'Feb 20. 2015'
-    url: 'https://yourstory.com/2015/02/rime-social-media'
-
-  - title: 'Indian Startup Opportunities'
-    author: 'Ravi Vooda'
-    org: 'Mafianz'
-    published: 'Apr 16. 2014'
-    url: 'https://www.mafianz.com/blog/philosophy/indian-startup-opportunities'
+- title: Indian Startup Opportunities
+  author: Ravi Vooda
+  org: Mafianz
+  published: 2014-04-16
+  url: https://www.mafianz.com/blog/philosophy/indian-startup-opportunities

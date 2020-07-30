@@ -3,15 +3,7 @@ layout: apps
 title: Apps
 ---
 
-{% assign min_invites = 3 %}
-
-<div class="mdl-card__supporting-text">
-    <!-- <strong><a href="/people/invite">Invite</a>  {{ min_invites }} or more to add more than one service</strong><br> -->
-    <!-- Add Facebook, Google or Microsoft account to sync contacts -->
-    To add more than one service <a href="/people/invite">invite</a> at least {{ min_invites }} people.
-</div>
-
-
+<br>
 <ul class="demo-list-three mdl-list">
     {% for s in site.data.apps %}
     {% assign s_class = "" %}
@@ -30,7 +22,6 @@ title: Apps
         {% assign icon_color = "" %}
         {% assign icon = "error_outline" %}
     {% endif %}
-
     <li class="mdl-list__item mdl-list__item--three-line">
         <span class="mdl-list__item-primary-content">
         <!-- <i class="material-icons mdl-list__item-avatar">person</i> -->
@@ -48,3 +39,9 @@ title: Apps
     </li>
     {% endfor %}   
 </ul>
+
+<div class="mdl-card__menu">
+<a id="warning" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="/inbox/invite">
+    <i class="material-icons">warning</i>
+</a>
+</div>

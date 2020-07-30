@@ -45,7 +45,7 @@ layout: default
                     <h1 class="mdl-typography--font-light mdl-color-text--grey-600">Connect</h1>
 
                     <p class="mdl-color-text--grey-600">
-                        We Respect the privacy of user. We never store passwords on your behalf. <strong>We will never post or message your friends</strong>.</span>
+                        We Respect the privacy of user. We never store passwords on your behalf. <strong>We will never post or message your friends</strong>.
                     </p>
                 </div>
 
@@ -62,3 +62,6 @@ layout: default
 </div>
 
 {% include nav_tooltips.html %}
+
+{% assign min_invites = site.data.invites.min %}
+<div class="mdl-tooltip mdl-tooltip--large" for="warning">To add more than one service invite at least {{ min_invites }} people.</div>

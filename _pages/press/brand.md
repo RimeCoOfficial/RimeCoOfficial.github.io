@@ -7,7 +7,7 @@ layout: press
 
 <img class="full-width" src="/assets/images/design_icon.png">
 
-<h3>Glyph: ✱</h3>
+<h3>Glyph ✱</h3>
 
 <pre>
 Menlo Regular
@@ -18,13 +18,11 @@ UTF-8: E2 9C B1
 
 <img class="full-width" src="/assets/images/design_type.png">
 
-<h3>Typeface: Nexa Bold 80% Opacity</h3>
-
-<p><a href="https://www.fontfabric.com/nexa-free-font/">Nexa Bold</a></p>
+<h3>Typeface <a href="https://www.fontfabric.com/nexa-free-font/">Nexa Bold</a> 80% Opacity</h3>
 
 <img class="full-width" src="/assets/images/design_logo.png">
 
-<h3>Primary Color #DA2E75</h3>
+<h3>Primary Color #<a href="https://www.google.co.in/search?q=%23DA2E75">DA2E75</a></h3>
 
 <img class="full-width" src="/assets/images/design-01.png">
 

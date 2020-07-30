@@ -8,6 +8,7 @@
 
 <script src="/assets/third-party/plugins/webcreate-2.2.1/jquery-ias.min.js"></script>
 
+{% assign emojifyInit = true %}
 <script type="text/javascript">
     var ias = $.ias({
         container:  '.infinite-container',
@@ -16,13 +17,13 @@
         next:       '.infinite-next-link',
         delay:      100,
     }).on('rendered', function() {
-        {% if $emojifyInit %}
+        {% if emojifyInit %}
         emojifyInit();
         {% endif %}
     });
 
     // Adds a link which has to be clicked to load the next page
-    {% if $emojifyInit %}
+    {% if emojifyInit %}
     ias.extension(new IASTriggerExtension({ text: 'Load more' }));
     {% endif %}
 

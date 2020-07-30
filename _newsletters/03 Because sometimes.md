@@ -91,7 +91,7 @@ Because sometimes you want to send a ❤️ to someone.
 [@lipuster](/@lipuster){:.email-link .email-underline}
 
 {:.email-left}
-[Invite the people you love](/people/invite){:.email-link .email-underline} and who will love Rime too.
+[Invite the people you love](/inbox/invite){:.email-link .email-underline} and who will love Rime too.
 
 {:.email-left}
 Have fun!<br>

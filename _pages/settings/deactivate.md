@@ -9,7 +9,7 @@ title: Settings - Deactivate
 
 <form>
 
-{% include form/checkbox.html id="agreement" value=0 label="I understand" %}
+{% include form/checkbox.html id="agreement" label="I understand" %}
 
 <br>
 <br>

@@ -15,14 +15,15 @@ title: Invite
 
 <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">
-        Invites sent ({{ invites_count }}/{{ min_invites }})
+        Invitation Sent ({{ invites_count }}/{{ min_invites }})
     </h2>
 </div>
 
 <div class="mdl-card__supporting-text">
 
 <p>
-    <strong>Share your invite Code</strong> {{ site.url }}?invited_by={{ site.data.session.username }}
+    <strong>Share your invite Code</strong><br>
+    {{ site.url }}?invited_by={{ site.data.session.username }}
 </p>
 
 {% if invites_count == 0 %}

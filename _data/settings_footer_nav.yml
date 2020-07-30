@@ -1,9 +1,9 @@
 - title: About
-  url: about
+  url: /about
 - title: Jobs
-  url: jobs
+  url: /jobs
 - title: FAQ
-  url: support/faq
+  url: /support/faq
 
 - title: Blog
   url: https://medium.com/rimeofficial
@@ -12,16 +12,16 @@
   url: http://github.com/RhymeTek
   attr: target="_blank"
 - title: Press
-  url: press
+  url: /press
 
 - title: Terms
-  url: legal/terms
+  url: /legal/terms
 - title: Privacy
-  url: legal/privacy
+  url: /legal/privacy
 - title: Security
-  url: support/security
+  url: /support/security
 - title: Libraries
-  url: support/libraries
+  url: /support/libraries
 - title: Feedback
   url: https://docs.google.com/forms/d/15T8c86v5_QmD887jpHBNLB4teRxHfM_0479QDb_pkV8
   attr: target="_blank"

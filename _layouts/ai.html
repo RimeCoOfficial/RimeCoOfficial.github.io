@@ -14,25 +14,7 @@ layout: default
             <!-- Add spacer, to align navigation to the right -->
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
-            <nav class="mdl-navigation">
-                
-                {% if site.data.session %}
-                <a class="mdl-navigation__link" href="/@{{ site.data.session.username }}">
-                    <img class="bg-cover img-circle"
-                        style="background-image: url({{ site.data.session.avatar }})"
-                        height="39px"
-                        src="/assets/images/blank.png"
-                        alt="{{ site.data.session.username }}">
-                </a>
-                {% else %}
-                <a class="mdl-navigation__link" href="/auth/sign-in">
-                    <span class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-                        Sign in
-                    </span>
-                </a>
-                {% endif %}
-                
-            </nav>
+            {% include nav.html %}
         </div>
     </header>
     
@@ -51,3 +33,5 @@ layout: default
         {% include footer.html %}
     </main>
 </div>
+
+{% include nav_tooltips.html %}

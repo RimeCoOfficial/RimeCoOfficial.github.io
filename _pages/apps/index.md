@@ -3,7 +3,23 @@ layout: apps
 title: Apps
 ---
 
-<br>
+{% assign invites = site.data.invites.sent %}
+{% assign invites_count = invites | size %}
+{% assign min_invites = site.data.invites.min %}
+
+{% if invites_count < min_invites  %}
+<div class="mdl-card__supporting-text">
+    To add more than one app invite at least {{ min_invites }} people.
+</div>
+
+<div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent pull-right--" href="/inbox/invite">
+        Invite
+    </a>
+</div>
+{% endif %}
+
+<!-- <br> -->
 <ul class="demo-list-three mdl-list">
     {% for s in site.data.apps %}
     {% assign s_class = "" %}
@@ -40,8 +56,11 @@ title: Apps
     {% endfor %}   
 </ul>
 
-<div class="mdl-card__menu">
+<!-- <div class="mdl-card__menu">
 <a id="warning" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="/inbox/invite">
     <i class="material-icons">warning</i>
 </a>
-</div>
+</div> -->
+
+{% assign min_invites = site.data.invites.min %}
+<div class="mdl-tooltip mdl-tooltip--large" for="warning">To add more than one app invite at least {{ min_invites }} people.</div>

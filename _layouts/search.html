@@ -2,19 +2,68 @@
 layout: default
 ---
 
-<section>
-    <div class="container">
-        <div class="row">
+<div class="demo-layout-dashboard mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-200">
+    <header class="mdl-layout__header mdl-color--white">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">
+                <a href="{{ site.url }}">
+                    <img src="/assets/images/logotype.svg" height=25 alt="Rime">
+                </a>
+            </span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+            {% include nav.html %}
+        </div>
+    </header>
+    
+    <main class="mdl-layout__content">
+        <div class="mdl-grid">
 
-            <div class="col-sm-12">
-                <h1>Explore</h1>
-                <hr>
+            <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--10-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+
+                <h1 class="mdl-typography--font-light mdl-color-text--grey-600">
+                    Explore
+                </h1>
+
+                <p class="mdl-color-text--grey-600">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+
             </div>
 
-            <div class="col-md-offset-2 col-md-6 col-sm-offset-2 col-sm-8">
-                <?php if (!empty($user_list)) $this->view('user/list', array('user_list' => $user_list)); ?>
+            <!-- Websites -->
+
+            {% for featured in site.data.featured %}
+            
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card portfolio-blog-card-compact">
+                <div class="mdl-card__media">
+                    <img class="article-image img-fluid" src="{{ featured.preview }}" width="500">
+                </div>
+                <div class="mdl-card__actions">
+                    <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ featured.domain }}" target="_blank">
+                        Visit
+                    </a>
+                </div>
+            </div>
+
+            {% endfor %}
+
+
+            <div class="mdl-cell mdl-cell--4-offset-desktop mdl-cell--4-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone" style="padding-top: 15px; padding-bottom: 30px;">
+
+                <!-- Accent-colored raised button with ripple -->
+                <a href="" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent full-width">
+                    Load More
+                </a>
+
             </div>
 
         </div>
-    </div>
-</section>
+    </main>
+</div>
+
+{% include nav_tooltips.html %}
+
+{% include scripts.html %}

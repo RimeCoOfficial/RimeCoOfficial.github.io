@@ -1,8 +1,14 @@
 - name: Icon
   url: /customize/icon
+
 - name: Banner
   url: /customize/banner
+
 - name: Fonts
   url: /customize/fonts
+
+- name: Analytics
+  url: /customize/analytics
+
 - name: Domain
   url: /customize/domain

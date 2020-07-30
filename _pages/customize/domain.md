@@ -38,7 +38,7 @@ title: Customize - Domain
 
 {% if site.data.session.websites[0].domain %}
 <div class="mdl-card__menu">
-    <a href="/customize/reset/{{ type }}" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+    <a id="delete_forever" href="#" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
         <i class="material-icons">delete_forever</i>
     </a>
 </div>

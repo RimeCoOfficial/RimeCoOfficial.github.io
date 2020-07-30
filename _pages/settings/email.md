@@ -3,14 +3,15 @@ layout: settings
 title: Settings - Email
 ---
 
+<div class="mdl-card__supporting-text">
 
-Your email address <strong>{{ site.data.session.email }}</strong> will be used for account-related notifications (e.g. account changes, contacts joined)<br>
+<p>Your email address <strong>{{ site.data.session.email }}</strong> will be used for account-related notifications (e.g. account changes, contacts joined)</p>
 
 {% if site.data.session.verified == false %}
-<i class="icon-warning"></i> Verify your email, <a href="/email/verify">resend verification</a>
+<p><i class="icon-warning"></i> Verify your email, <a href="/email/verify">resend verification</a></p>
 {% endif %}
 
-Looking for activity notification controls?<br>
+<p>Looking for activity notification controls?</p>
 
 <br>
 
@@ -28,6 +29,7 @@ Looking for activity notification controls?<br>
 </button>
 
 </form>
+</div>
 
 <div class="mdl-card__menu">
     <button id="info_outline" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">

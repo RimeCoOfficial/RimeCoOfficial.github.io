@@ -3,6 +3,7 @@ layout: settings
 title: Settings - Username
 ---
 
+<div class="mdl-card__supporting-text">
 <p>{{ site.url }}/@<strong>{{ site.data.session.username }}</strong></p>
 
 <form></form>
@@ -21,3 +22,4 @@ title: Settings - Username
 </button>
 
 </form>
+</div>

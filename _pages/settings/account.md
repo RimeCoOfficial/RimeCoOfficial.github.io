@@ -3,10 +3,7 @@ layout: settings
 title: Settings - Account
 ---
 
-<!-- view settings/profile_image -->
-
-<!-- <br> -->
-
+<div class="mdl-card__supporting-text">
 <form>
 
 {% include form/input.html id="name" value=site.data.session.name label="Name" %}
@@ -23,3 +20,4 @@ title: Settings - Account
 </button>
 
 </form>
+</div>

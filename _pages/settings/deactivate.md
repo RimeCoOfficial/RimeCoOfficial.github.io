@@ -3,6 +3,8 @@ layout: settings
 title: Settings - Deactivate
 ---
 
+<div class="mdl-card__supporting-text">
+
 <p>Deactivating your account will remove it from Rime within a few minutes. You can sign back in anytime to reactivate your account and restore its content.</p>
 
 <form>
@@ -20,3 +22,5 @@ title: Settings - Deactivate
 </a>
 
 </form>
+
+</div>

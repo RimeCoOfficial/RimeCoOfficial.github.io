@@ -3,6 +3,7 @@ layout: settings
 title: Settings - Notification
 ---
 
+<div class="mdl-card__supporting-text">
 <form>
 
 {% include form/checkbox.html id="notification" value=site.data.session.email_subscription.notification label="Notification" %}
@@ -30,3 +31,4 @@ title: Settings - Notification
 </button>
 
 </form>
+</div>

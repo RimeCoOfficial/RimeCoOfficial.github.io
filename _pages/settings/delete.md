@@ -3,6 +3,8 @@ layout: settings
 title: Settings - Deactivate
 ---
 
+<div class="mdl-card__supporting-text">
+
 <p>Permanently delete your account and all of your content.</p>
 
 <form>
@@ -20,3 +22,5 @@ title: Settings - Deactivate
 </a>
 
 </form>
+
+</div>

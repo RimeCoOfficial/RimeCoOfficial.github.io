@@ -3,6 +3,7 @@ layout: settings
 title: Settings - Payment
 ---
 
+<div class="mdl-card__supporting-text">
 <form>
 
 {% include form/input.html id="card" value=site.data.session.payment.card label="Card" %}
@@ -19,3 +20,4 @@ title: Settings - Payment
 </button>
 
 </form>
+</div>

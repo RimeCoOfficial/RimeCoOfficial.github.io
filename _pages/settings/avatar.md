@@ -3,6 +3,8 @@ layout: settings
 title: Settings - Avatar
 ---
 
+<div class="mdl-card__supporting-text">
+
 {% assign src = site.data.session.avatar %}
 {% assign style = 'height: 500px;' %}
 {% assign text = 'This works like a user icon and appears in previews of your publication content throughout Rime. It is square and should be at least 200 × 200px in size.' %}
@@ -18,3 +20,5 @@ title: Settings - Avatar
 {% include form/checkbox.html id="sync" value=site.data.session.sync_avatar label="Sync from apps data" %}
 
 {% include form/upload.html id='userfile' %}
+
+</div>

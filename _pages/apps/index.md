@@ -53,7 +53,7 @@ title: Apps
             </a>
         </span>
     </li>
-    {% endfor %}   
+    {% endfor %}
 </ul>
 
 <!-- <div class="mdl-card__menu">

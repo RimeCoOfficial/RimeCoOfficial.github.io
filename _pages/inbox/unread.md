@@ -1,6 +1,6 @@
 ---
 layout: inbox
-title: Inbox
+title: Unread
 ---
 
 <style>
@@ -39,6 +39,7 @@ title: Inbox
 {% else %}
 <ul class="demo-list-two mdl-list">
     {% for activity in activities %}
+    {% if activity.unread %}
     <li class="mdl-list__item mdl-list__item--two-line {% if activity.unread %} mdl-color--grey-100 {% endif %}">
         <span class="mdl-list__item-primary-content">
             <!-- <i class="material-icons mdl-list__item-avatar" style="font-size: 22px; background-color: transparent; color: #757575;">{{ activity.icon }}</i> -->
@@ -57,13 +58,14 @@ title: Inbox
         {% endif %}
         </span>
     </li>
+    {% endif %}
     {% endfor %}
 </ul>
 {% endif %}
 
 <div class="mdl-card__menu">
-    <a id="mark_chat_unread" class="mdl-button mdl- mdl-button--icon mdl-js-button mdl-js-ripple-effect mdl-color-text--white" href="/inbox/unread">
-        <i class="material-icons">mark_chat_unread</i>
+    <a id="chat" class="mdl-button mdl- mdl-button--icon mdl-js-button mdl-js-ripple-effect mdl-color-text--white" href="/inbox">
+        <i class="material-icons">chat</i>
     </a>
 </div>
 

@@ -13,7 +13,7 @@ layout: default
             {% include nav.html %}
         </div>
     </header>
-
+    
     {% include nav_drawer.html %}
     
     <main class="mdl-layout__content">
@@ -23,26 +23,20 @@ layout: default
 
             <div class="mdl-grid">
                 <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--4-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                    <h1 class="mdl-typography--font-light mdl-color-text--grey-600">Connect</h1>
+                    <h1 class="mdl-typography--font-light mdl-color-text--grey-600">Analytics</h1>
 
                     <p class="mdl-color-text--grey-600">
-                        We Respect the privacy of user. We never store passwords on your behalf. <strong>We will never post or message your friends</strong>.
+                        The tools you need to better understand your customers. You can then use those business insights to take action, such as improving your website, creating tailored audience lists, and more.
                     </p>
                 </div>
 
-                <div class="demo-card-square mdl-card mdl-cell mdl-cell--6-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                    {{ content }}
-                </div>
+                {{ content }}
+
             </div>
         </div>
-
-        {% include settings/alert.html %}
-        {% include apps/popup.html %}
-        {% include apps/modal.html %}
     </main>
 </div>
 
-{% include nav_tooltips.html %}
+{% include scripts.html %}
 
-{% assign min_invites = site.data.invites.min %}
-<div class="mdl-tooltip mdl-tooltip--large" for="warning">To add more than one app invite at least {{ min_invites }} people.</div>
+{% include nav_tooltips.html %}

@@ -107,6 +107,7 @@ apps:
         - id: bitsits
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png
+places: /assets/users/suvozit/places.jpg
 websites:
   - title: Shubhajit Saha
     description: I am an Entrepreneur. Founder @RymeTek @Bitsits Ex Ubisoft BTech IIESTS Civil ♊︎ 🙇🏻‍♂️ ··· 🤖
@@ -117,6 +118,7 @@ websites:
       secondary: Roboto
     analytics: UA-73113283-1
     domain: www.shubhajitsaha.com
+    bandwidth: 32.51
   - title: Blog
     description: 👾 👾 👾 ˙ ˙˙🔫
     icon: /assets/users/suvozit/websites/Blog/icon.jpg
@@ -126,6 +128,7 @@ websites:
       secondary: Roboto
     analytics: UA-73113283-2
     domain: blog.shubhajitsaha.com
+    bandwidth: 12.39
   - title: Portfolio
     description: Artist/ Entrepreneur/ Streamer
     icon: /assets/users/suvozit/websites/Portfolio/icon.png
@@ -135,11 +138,12 @@ websites:
       secondary: Roboto
     analytics: UA-73113283-3
     domain: portfolio.shubhajitsaha.com
-plan:
-  type: enterprise
-  count: 1
-  expiry: 2020-12-25
+    bandwidth: 4.72
 payment:
   card: 4617 8734 5678 9010
   name: Shubhajit Saha
   expiry: 05/26
+plan:
+  type: enterprise
+  count: 1
+  expiry: 2020-12-25

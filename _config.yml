@@ -5,14 +5,13 @@
 theme_color:      DA2E75
 
 # Where things are Advanced
+paginate: 5
+paginate_path: "/posts/page:num/"
 sass:
   style: compact # possible values: nested expanded compact compressed
   sass_dir: _sass
 
 collections:
-  posts:
-    output:       true
-    permalink:    /:collection/:name
   pages:
     output:       true
     permalink:    /:path

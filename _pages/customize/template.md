@@ -27,7 +27,7 @@ title: Customize - Template
             <img class="material-icons mdl-list__item-avatar" style="border-radius: 0; background-color: transparent;" src="{{ template.image }}">
             <span>{{ template.title }}</span>
             <span class="mdl-list__item-text-body">
-            {{ template.description }}
+            {{ template.description | truncate: 50, "..." }}
             </span>
         </span>
         <span class="mdl-list__item-secondary-content">

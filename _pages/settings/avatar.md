@@ -15,4 +15,6 @@ title: Settings - Avatar
 
 <p>{{ text }}</p>
 
+{% include form/checkbox.html id="sync" value=site.data.session.sync_avatar label="Sync from apps data" %}
+
 {% include form/upload.html id='userfile' %}

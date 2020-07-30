@@ -128,7 +128,7 @@ layout: default
                         <img class="material-icons mdl-list__item-avatar" src="{{ website.icon }}" style="background-color: transparent; border-radius: 0;">
                         <span>{{ website.title }}</span>
                         <span class="mdl-list__item-text-body">
-                            {{ website.description }}
+                            {{ website.description | truncate: 50, "..." }}
                         </span>
                       </span>
                       <span class="mdl-list__item-secondary-content">

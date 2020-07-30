@@ -10,7 +10,6 @@ Your email address <strong>{{ site.data.session.email }}</strong> will be used f
 <i class="icon-warning"></i> Verify your email, <a href="/email/verify">resend verification</a>
 {% endif %}
 
-<i id="info_outline" class="material-icons md-24 pull-right">info_outline</i>
 Looking for activity notification controls?<br>
 
 <br>
@@ -29,3 +28,9 @@ Looking for activity notification controls?<br>
 </button>
 
 </form>
+
+<div class="mdl-card__menu">
+    <button id="info_outline" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+        <i class="material-icons">info_outline</i>
+    </button>
+</div>

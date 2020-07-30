@@ -7,7 +7,8 @@ avatar: /assets/users/suvozit/avatar.jpg
 email: suvozit@rhyme.tek
 new_email: shubhajit@rhyme.tek
 verification_code: c848e0886d5dca523b4b6c87da73220e
-verified: false 
+verified: false
+sync_avatar: true
 email_subscription:
   notification: true
   tips: false

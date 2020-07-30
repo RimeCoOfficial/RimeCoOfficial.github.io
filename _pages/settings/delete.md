@@ -3,13 +3,17 @@ layout: settings
 title: Settings - Deactivate
 ---
 
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Delete account</h2>
+</div>
+
 <div class="mdl-card__supporting-text">
 
 <p>Permanently delete your account and all of your content.</p>
 
 <form>
 
-{% include form/checkbox.html id="agreement" label="I understand" %}
+{% include form/checkbox.html id="agreement" label="I agree" %}
 
 <br>
 <br>

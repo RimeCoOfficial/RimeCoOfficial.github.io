@@ -3,8 +3,12 @@ layout: customize
 title: Customize - Analytics
 ---
 
+<div class="mdl-card mdl-cell mdl-cell--6-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Analytics</h2>
+</div>
+
 <div class="mdl-card__supporting-text">
-<br>
 
 {% assign default = site.data.session.websites[0] %}
 
@@ -33,3 +37,5 @@ title: Customize - Analytics
     </a>
 </div>
 {% endif %}
+
+</div>

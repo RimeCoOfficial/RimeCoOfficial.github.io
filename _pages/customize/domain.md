@@ -3,8 +3,12 @@ layout: customize
 title: Customize - Domain
 ---
 
+<div class="mdl-card mdl-cell mdl-cell--6-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Domain</h2>
+</div>
+
 <div class="mdl-card__supporting-text">
-<br>
 
 <p>
     With the power of Rime publications, you can create a unique home for your brand and reach millions of our engaged readers directly.
@@ -45,3 +49,5 @@ title: Customize - Domain
     </a>
 </div>
 {% endif %}
+
+</div>

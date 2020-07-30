@@ -3,12 +3,6 @@
 - type
 - autocomplete -->
 
-{% assign label = "Number" %}
-
-{% if include.lable %}
-{% assign label = include.label %}
-{% endif %}
-
 {% if include.id == "domain" %}
 {% assign form_error = "The domain is already registered." %}
 {% assign is_invalid = nil %}

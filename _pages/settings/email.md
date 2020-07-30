@@ -3,6 +3,10 @@ layout: settings
 title: Settings - Email
 ---
 
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Your Email</h2>
+</div>
+
 <div class="mdl-card__supporting-text">
 
 <p>Your email address <strong>{{ site.data.session.email }}</strong> will be used for account-related notifications (e.g. account changes, contacts joined)</p>

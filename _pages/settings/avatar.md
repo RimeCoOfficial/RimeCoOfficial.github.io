@@ -3,6 +3,10 @@ layout: settings
 title: Settings - Avatar
 ---
 
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Your avatar</h2>
+</div>
+
 <div class="mdl-card__supporting-text">
 
 {% assign src = site.data.session.avatar %}

@@ -3,6 +3,10 @@ layout: settings
 title: Settings - Account
 ---
 
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Your account</h2>
+</div>
+
 <div class="mdl-card__supporting-text">
 <form>
 

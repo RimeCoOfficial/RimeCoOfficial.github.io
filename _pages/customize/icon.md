@@ -3,8 +3,12 @@ layout: customize
 title: Customize - Icon
 ---
 
+<div class="mdl-card mdl-cell mdl-cell--6-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Icon</h2>
+</div>
+
 <div class="mdl-card__supporting-text">
-<br>
 
 {% assign src = site.data.session.websites[0].icon %}
 
@@ -13,7 +17,7 @@ title: Customize - Icon
 {% assign show_delete_button = 1 %}
 {% endif %}
 
-{% assign text = 'This works like a user icon and appears in previews of your publication content throughout Rime. It is square and should be at least 200 × 200px in size.' %}
+{% assign text = 'This works like a user icon and appears in previews of your publication content throughout Medium. It is square and should be at least 60 × 60px in size.' %}
 
 {% if src %}
 <img src="{{ src }}" style="{{ style }} padding-bottom: 20px; padding-top: 5px;" />
@@ -21,7 +25,7 @@ title: Customize - Icon
 
 <p>{{ text }}</p>
 
-{% include form/upload.html id='userfile' %}
+{% include form/upload.html id='upload' name='userfile' label='Add Image' %}
 
 </div>
 
@@ -32,3 +36,5 @@ title: Customize - Icon
     </a>
 </div>
 {% endif %}
+
+</div>

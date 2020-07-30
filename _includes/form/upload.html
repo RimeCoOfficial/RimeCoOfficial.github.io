@@ -1,4 +1,3 @@
-{% assign label = "Number" %}
 {% assign form_error = "Input is not a number!" %}
 {% assign is_invalid = nil %}
 
@@ -6,8 +5,10 @@
 
 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label {% if is_invalid %}is-invalid{% endif %}">
 
-    <input type="file" name="{{ id }}" size="20" />
+    <label for="{{ include.id }}">{{ include.label }}</label>
+    <input id="{{ include.id }}" type="file" name="{{ include.name }}" size="20" />
     <input type="hidden" name="validate" value="true">
+    
 
     {{ if is_invalid }}
     <span class="mdl-textfield__error">{{ form_error }}</span>

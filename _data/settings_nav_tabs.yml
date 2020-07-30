@@ -13,8 +13,11 @@
 - name: Notifications
   url: /settings/notifications
 
-- name: Payment
-  url: /settings/payment
+- name: Membership
+  url: /settings/membership
+
+- name: Download
+  url: /settings/download
 
 - name: Deactivate
   url: /settings/deactivate

@@ -3,8 +3,12 @@ layout: customize
 title: Customize - Banner
 ---
 
+<div class="mdl-card mdl-cell mdl-cell--6-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Banner</h2>
+</div>
+
 <div class="mdl-card__supporting-text">
-<br>
 
 {% assign src = site.data.session.websites[0].banner %}
 
@@ -13,7 +17,7 @@ title: Customize - Banner
 {% assign show_delete_button = 1 %}
 {% endif %}
 
-{% assign text = 'This title appears at the top of all your publication’s stories. It should have a transparent background, and be at least 800px tall.' %}
+{% assign text = 'This logo appears at the top of all your publication’s stories. It should have a transparent background, and be at least 600px wide and 72px tall.' %}
 
 {% if src %}
 <img src="{{ src }}" style="{{ style }} padding-bottom: 20px; padding-top: 5px;" />
@@ -21,7 +25,7 @@ title: Customize - Banner
 
 <p>{{ text }}</p>
 
-{% include form/upload.html id='userfile' %}
+{% include form/upload.html id='upload' name='userfile' label='Add Image' %}
 </div>
 
 {% if show_delete_button %}
@@ -31,3 +35,4 @@ title: Customize - Banner
     </a>
 </div>
 {% endif %}
+</div>

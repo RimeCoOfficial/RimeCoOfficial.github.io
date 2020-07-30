@@ -3,21 +3,33 @@ layout: customize
 title: Customize - Template
 ---
 
-<div class="mdl-card__supporting-text">
-    <p>
-    <b>Current Theme</b> The Keyword
-    </p>
-    Upload Custom
+<div class="mdl-card mdl-cell mdl-cell--6-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Template</h2>
+</div>
 
-    {% include form/upload.html id='userfile' %}
+<div class="mdl-card__supporting-text">
+    <p><b>Current Theme</b> {{ site.data.session.websites[0].template }}</p>
+
+    {% include form/upload.html id='upload' name='userfile' label='Add .zip' %}
+</div>
+
+{% assign show_delete_button = 1 %}
+{% if show_delete_button %}
+<div class="mdl-card__menu">
+    <a id="delete_forever" href="#" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+        <i class="material-icons">delete_forever</i>
+    </a>
+</div>
+{% endif %}
+
 </div>
 
 <!-- Templates -->
 
-<div class="mdl-card__supporting-text">
-    {% include form/search.html %}
-
-    Most frequently used
+<div class="mdl-card mdl-cell mdl-cell--5-offset-desktop mdl-cell--6-col-desktop mdl-cell--1-offset-tablet mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Store</h2>
 </div>
 
 <ul class="demo-list-three mdl-list">
@@ -38,16 +50,8 @@ title: Customize - Template
 </ul>
 
 <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-        Load More
+    <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="/templates">
+        View More
     </a>
 </div>
-
-{% assign show_delete_button = 1 %}
-{% if show_delete_button %}
-<div class="mdl-card__menu">
-    <a id="delete_forever" href="#" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-        <i class="material-icons">delete_forever</i>
-    </a>
 </div>
-{% endif %}

@@ -3,6 +3,10 @@ layout: settings
 title: Settings - Username
 ---
 
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Your username</h2>
+</div>
+
 <div class="mdl-card__supporting-text">
 <p>{{ site.url }}/@<strong>{{ site.data.session.username }}</strong></p>
 

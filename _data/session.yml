@@ -109,17 +109,19 @@ apps:
           img: /assets/users/bitsits/avatar.png
 places: /assets/users/suvozit/places.jpg
 websites:
-  - title: Shubhajit Saha
+  - template: The-Keyword
+    title: Shubhajit Saha
     description: I am an Entrepreneur. Founder @RymeTek @Bitsits Ex Ubisoft BTech IIESTS Civil ♊︎ 🙇🏻‍♂️ ··· 🤖
     icon: /assets/users/suvozit/websites/Shubhajit Saha/icon.png
-    banner: /assets/users/suvozit/websites/Shubhajit Saha/banner.jpg
+    banner: /assets/users/suvozit/websites/Shubhajit Saha/banner.png
     font:
       primary: Roboto Slab
       secondary: Roboto
     analytics: UA-73113283-1
     domain: www.shubhajitsaha.com
     bandwidth: 32.51
-  - title: Blog
+  - template: The-Keyword
+    title: Blog
     description: 👾 👾 👾 ˙ ˙˙🔫
     icon: /assets/users/suvozit/websites/Blog/icon.jpg
     banner: 
@@ -129,7 +131,8 @@ websites:
     analytics: UA-73113283-2
     domain: blog.shubhajitsaha.com
     bandwidth: 12.39
-  - title: Portfolio
+  - template: The-Keyword
+    title: Portfolio
     description: Artist/ Entrepreneur/ Streamer
     icon: /assets/users/suvozit/websites/Portfolio/icon.png
     banner: 

@@ -3,6 +3,10 @@ layout: settings
 title: Settings - Notification
 ---
 
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Emails from subscriptions</h2>
+</div>
+
 <div class="mdl-card__supporting-text">
 <form>
 

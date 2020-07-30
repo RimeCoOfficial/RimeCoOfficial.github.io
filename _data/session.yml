@@ -107,28 +107,30 @@ apps:
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png
 websites:
-  - url: /default
+  - url: /home
     domain: www.shubhajitsaha.com
-    icon: /assets/users/suvozit/icon.svg
-    signature: /assets/users/suvozit/signature.png
-    font:
-      primary: Roboto Slab
-      secondary: Roboto
-  - url: /blog
-    domain: blog.shubhajitsaha.com
-    icon: /assets/users/suvozit/icon.svg
-    signature: /assets/users/suvozit/signature.png
+    icon: /assets/users/suvozit/websites/icon.png
+    signature: /assets/users/suvozit/websites/signature.png
     font:
       primary: Roboto Slab
       secondary: Roboto
     title: Shubhajit Saha
     description: I am an Entrepreneur. Founder @RymeTek @Bitsits Ex Ubisoft BTech IIESTS Civil ♊︎ 🙇🏻‍♂️ ··· 🤖
-  - url: /porfolio
-    domain: portfolio.shubhajitsaha.com
-    icon: /assets/users/suvozit/icon.svg
-    signature: /assets/users/suvozit/signature.png
+  - url: /blog
+    domain: blog.shubhajitsaha.com
+    icon: /assets/users/suvozit/websites/icon.png
+    signature: /assets/users/suvozit/websites/signature.png
     font:
       primary: Roboto Slab
       secondary: Roboto
-    title: Shubhajit Saha
-    description: Artist/ Entrepreneur/ Streamer 🙇🏻‍♂️ ··· 🤖
+    title: Blog
+    description: 🙇🏻‍♂️ ··· 🤖
+  - url: /porfolio
+    domain: portfolio.shubhajitsaha.com
+    icon: /assets/users/suvozit/websites/icon.png
+    signature: /assets/users/suvozit/websites/signature.png
+    font:
+      primary: Roboto Slab
+      secondary: Roboto
+    title: Portfolio
+    description: Artist/ Entrepreneur/ Streamer

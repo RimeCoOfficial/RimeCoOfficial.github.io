@@ -3,8 +3,10 @@ layout: customize
 title: Customize - Icon
 ---
 
+<br>
+
 {% assign type = 'icon' %}
-{% assign src = site.data.session.weblog.suvozit.icon %}
+{% assign src = site.data.session.websites[0].icon %}
 
 {% if src != nil  %}
 {% assign style = 'height: 40px;' %}
@@ -15,9 +17,7 @@ title: Customize - Icon
 
 {% if show_delete_button %}
 <!-- Icon button -->
-<a href="/customize/reset/{{ type }}" class="mdl-button mdl-js-button mdl-button--icon pull-right">
-    <i class="material-icons">delete_forever</i>
-</a>
+
 {% endif %}
 
 {% if src %}
@@ -27,3 +27,11 @@ title: Customize - Icon
 <p>{{ text }}</p>
 
 {% include form/upload.html id='userfile' %}
+
+{% if show_delete_button %}
+<div class="mdl-card__menu">
+    <a href="/customize/reset/{{ type }}" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+        <i class="material-icons">delete_forever</i>
+    </a>
+</div>
+{% endif %}

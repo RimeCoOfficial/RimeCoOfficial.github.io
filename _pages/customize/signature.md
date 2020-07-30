@@ -3,8 +3,10 @@ layout: customize
 title: Customize - Signature
 ---
 
+<br>
+
 {% assign type = 'signature' %}
-{% assign src = site.data.session.weblog.suvozit.signature %}
+{% assign src = site.data.session.websites[0].signature %}
 
 {% if src != nil  %}
 {% assign style = 'height: 40px;' %}
@@ -13,17 +15,18 @@ title: Customize - Signature
 
 {% assign text = 'This title appears at the top of all your publication’s stories. It should have a transparent background, and be at least 40px tall.' %}
 
-{% if show_delete_button %}
-<!-- Icon button -->
-<a href="/customize/reset/{{ type }}" class="mdl-button mdl-js-button mdl-button--icon pull-right">
-    <i class="material-icons">delete_forever</i>
-</a>
-{% endif %}
-
 {% if src %}
-<img src="/{{ src }}" style="{{ style }} padding-bottom: 20px; padding-top: 5px;" />
+<img src="{{ src }}" style="{{ style }} padding-bottom: 20px; padding-top: 5px;" />
 {% endif %}
 
 <p>{{ text }}</p>
 
 {% include form/upload.html id='userfile' %}
+
+{% if show_delete_button %}
+<div class="mdl-card__menu">
+    <a href="/customize/reset/{{ type }}" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+        <i class="material-icons">delete_forever</i>
+    </a>
+</div>
+{% endif %}

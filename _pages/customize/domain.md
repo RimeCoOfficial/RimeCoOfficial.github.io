@@ -3,6 +3,8 @@ layout: customize
 title: Customize - Domain
 ---
 
+<br>
+
 <p>
     With the power of Rime publications, you can create a unique home for your brand and reach millions of our engaged readers directly.
 </p>
@@ -18,16 +20,10 @@ title: Customize - Domain
     <small>To learn more, visit our <a href="/support/faq" target="_blank">frequently asked questions</a> and our <a href="/legal/terms" target="_blank">terms of service</a>. Otherwise, you can always use your default URL {{ site.url }}/{{ site.data.session.username }} free of charge.</small>
 </p>
 
-{% if site.data.session.weblog.suvozit.domain %}
-<!-- Icon button -->
-<a href="/customize/reset/domain" class="mdl-button mdl-js-button mdl-button--icon pull-right">
-    <i class="material-icons">delete_forever</i>
-</a>
-{% endif %}
-
 <form>
 
-{% include form/input.html id="domain" value=site.data.session.weblog.suvozit.domain label="Domain" %}
+{% assign default = site.data.session.websites[0] %}
+{% include form/input.html id="domain" value=default.domain label="Domain" %}
 
 <br>
 <br>
@@ -39,3 +35,11 @@ title: Customize - Domain
 </button>
 
 </form>
+
+{% if site.data.session.websites[0].domain %}
+<div class="mdl-card__menu">
+    <a href="/customize/reset/{{ type }}" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+        <i class="material-icons">delete_forever</i>
+    </a>
+</div>
+{% endif %}

@@ -3,9 +3,6 @@ title: About Us
 description: Find out where it all began. Read the history of how Rime has grown since Shubhajit Saha and Girish Nayak founded the company in 2016.
 layout: about
 ---
-<style>
-
-</style>
 
 <div class="founder-image mdl-grid mdl-color--white">
     <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
@@ -153,8 +150,6 @@ layout: about
 
     </div>
 </div>
-
-{% include nav_tooltips.html %}
 
 {% for contributor in site.data.contributors %}
 <div class="mdl-tooltip mdl-tooltip--large" for="{{ contributor.name | downcase | replace: ' ', '-' }}">{{ contributor.name }}</div>

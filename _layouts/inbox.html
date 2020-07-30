@@ -45,13 +45,11 @@ layout: default
                 </div>
             </div>
         </div>
-
-        <!-- <div class="mdl-tooltip mdl-tooltip--large" for="info">Add a Google, Microsoft or Yahoo account to invite your contacts.</div> -->
-        <!-- <div class="mdl-tooltip mdl-tooltip--large" for="done">Resend invitation</div> -->
-        <div class="mdl-tooltip mdl-tooltip--large" for="preview">Preview</div>
-        <div class="mdl-tooltip mdl-tooltip--large" for="sync">{{ site.github.build_revision | truncate: 7, "" }}</div>
         
         {% include settings/alert.html %}
         {% include inbox/dialog.html %}
     </main>
 </div>
+
+{% include nav_tooltips.html %}
+<div class="mdl-tooltip mdl-tooltip--large" for="preview">Preview</div>

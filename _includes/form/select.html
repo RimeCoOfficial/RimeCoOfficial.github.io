@@ -1,3 +1,5 @@
+{% assign default = site.data.session.websites[0] %}
+
 <form enctype="multipart/form-data">
 
     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label {{ include.is-invalid }}">
@@ -5,7 +7,7 @@
         <select name="{{ id }}-Primary" id="{{ id }}-Primary">
             <option value="">Select</option>
             {% for option in site.data.fonts %}
-            <option value="{{ option.Family | downcase }}" {% if option.Family == site.data.session.weblog.suvozit.font.primary %}selected{% endif %}>{{ option.Family }}</option>
+            <option value="{{ option.Family | downcase }}" {% if option.Family == default.font.primary %}selected{% endif %}>{{ option.Family }}</option>
             {% endfor %}
         </select>
 
@@ -15,7 +17,7 @@
         <select name="{{ id }}-Secondary" id="{{ id }}-Secondary">
             <option value="">Select</option>
             {% for option in site.data.fonts %}
-            <option value="{{ option.Family | downcase }}" {% if option.Family == site.data.session.weblog.suvozit.font.secondary %}selected{% endif %}>{{ option.Family }}</option>
+            <option value="{{ option.Family | downcase }}" {% if option.Family == default.font.secondary %}selected{% endif %}>{{ option.Family }}</option>
             {% endfor %}
         </select>
 

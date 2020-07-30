@@ -269,13 +269,30 @@ Bootstrap CSS reference elements
 
 .flex-flow-row-wrap { flex-flow: row wrap; }
 
-dialog::backdrop {
+/* 
+::backdrop
+
+In native <dialog>, the backdrop is a pseudo-element. 
+When using the polyfill, the backdrop will be an adjacent element:
+
+https://github.com/GoogleChrome/dialog-polyfill
+ */
+dialog::backdrop { /* native */
+    opacity: .75;
+    background: #333 url(../images/dot.png);
+}
+dialog + .backdrop { /* polyfill */
     opacity: .75;
     background: #333 url(../images/dot.png);
 }
 .mdl-layout__obfuscator.is-visible {
     opacity: .75;
     background: #333 url(../images/dot.png);
+}
+dialog {
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 .full-width { width: 100% !important; }

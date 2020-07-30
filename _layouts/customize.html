@@ -27,19 +27,8 @@ layout: default
             {% endfor %}
         </div>
     </header>
-    <div class="mdl-layout__drawer mdl-color--white">
-        <span class="mdl-layout-title">
-            <!-- Title -->
-            <a href="{{ site.url }}">
-                <img src="/assets/images/logotype.svg" height=25 alt="Rime">
-            </a>
-        </span>
-        <nav class="mdl-navigation">
-            {% for n in site.data.nav_links %}
-            <a class="mdl-navigation__link" href="{{ n.url }}">{{ n.title }}</a>
-            {% endfor %}
-        </nav>
-    </div>
+    
+    {% include nav_drawer.html %}
 
     <main class="mdl-layout__content">
         <div class="mdl-grid">

@@ -19,8 +19,8 @@ title: Customize - Fonts
 
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={{ default.font.primary }}&family={{ default.font.secondary }}">
-<div style="font-family: '{{ default.font.primary }}', serif; font-size: 28px; line-height: 1.5; margin-top: 10px;">{{ site.data.session.name }}</div>
-<div style="font-family: '{{ default.font.secondary }}', serif; font-size: 16px; line-height: 1.5; margin-top: 10px;">{{ site.data.session.bio }}</div>
+<div style="font-family: '{{ default.font.primary }}', serif; font-size: 28px; line-height: 1.5; margin-bottom: 10px;">{{ site.data.session.name }}</div>
+<div style="font-family: '{{ default.font.secondary }}', serif; font-size: 18px; line-height: 1.5;">{{ site.data.session.bio }}</div>
 
 <br>
 

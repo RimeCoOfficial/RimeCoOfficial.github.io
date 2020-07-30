@@ -1,0 +1,21 @@
+<div class="mdl-layout__drawer mdl-color--white">
+    <span class="mdl-layout-title">
+        <!-- Title -->
+        <a href="{{ site.url }}">
+            <img src="/assets/images/logotype.svg" height=25 alt="Rime">
+        </a>
+    </span>
+    <nav class="mdl-navigation">
+        {% for nav in site.data.nav_links %}
+        <a class="mdl-navigation__link" href="{{ site.url }}{{ nav.url }}">
+
+            {% if nav.badge == nil %}
+            {{ nav.title }}
+            {% else %}
+            <span class="mdl-badge" data-badge="{{ nav.badge }}">{{ nav.title }}</span>
+            {% endif %}
+
+        </a>
+        {% endfor %}
+    </nav>
+</div>

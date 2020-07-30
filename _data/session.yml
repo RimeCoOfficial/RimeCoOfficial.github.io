@@ -109,8 +109,8 @@ apps:
 websites:
   - title: Shubhajit Saha
     description: I am an Entrepreneur. Founder @RymeTek @Bitsits Ex Ubisoft BTech IIESTS Civil ♊︎ 🙇🏻‍♂️ ··· 🤖
-    icon: /assets/users/suvozit/websites/Shubhajit-Saha/icon.png
-    banner: /assets/users/suvozit/websites/Shubhajit-Saha/banner.png
+    icon: /assets/users/suvozit/websites/Shubhajit Saha/icon.png
+    banner: /assets/users/suvozit/websites/Shubhajit Saha/banner.jpg
     font:
       primary: Roboto Slab
       secondary: Roboto
@@ -119,7 +119,7 @@ websites:
   - title: Blog
     description: 👾 👾 👾 ˙ ˙˙🔫
     icon: /assets/users/suvozit/websites/Blog/icon.jpg
-    banner: /assets/users/suvozit/websites/Blog/banner.png
+    banner: 
     font:
       primary: Roboto Slab
       secondary: Roboto
@@ -128,7 +128,7 @@ websites:
   - title: Portfolio
     description: Artist/ Entrepreneur/ Streamer
     icon: /assets/users/suvozit/websites/Portfolio/icon.png
-    banner: /assets/users/suvozit/websites/Portfolio/banner.png
+    banner: 
     font:
       primary: Roboto Slab
       secondary: Roboto

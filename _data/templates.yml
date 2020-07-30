@@ -7,6 +7,7 @@
 
 - title: The Keyword
   description: blog.google
+  image: /assets/templates/The Keyword.jpeg
   theme: Blog
   pricing: Free
   author: Google
@@ -14,6 +15,7 @@
 
 - title: Hyde
   description: A brazen two-column theme that pairs a prominent sidebar with uncomplicated content.
+  image: /assets/templates/Hyde.png
   theme: GitHub Pages
   pricing: Free
   author: mdo
@@ -21,6 +23,7 @@
 
 - title: MDL Blog
   description: A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.
+  image: /assets/templates/MDL Blog.png
   theme: Portfolio, Blog, Landing page
   pricing: Free
   author: Google

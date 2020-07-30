@@ -9,16 +9,11 @@ title: Customize - Icon
 {% assign src = site.data.session.websites[0].icon %}
 
 {% if src != nil  %}
-{% assign style = 'height: 40px;' %}
+{% assign style = 'height: 100px;' %}
 {% assign show_delete_button = 1 %}
 {% endif %}
 
-{% assign text = 'This works like a user icon and appears in previews of your publication content throughout Rime. It is square and should be at least 64 × 64px in size.' %}
-
-{% if show_delete_button %}
-<!-- Icon button -->
-
-{% endif %}
+{% assign text = 'This works like a user icon and appears in previews of your publication content throughout Rime. It is square and should be at least 200 × 200px in size.' %}
 
 {% if src %}
 <img src="{{ src }}" style="{{ style }} padding-bottom: 20px; padding-top: 5px;" />

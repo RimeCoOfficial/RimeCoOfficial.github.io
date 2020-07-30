@@ -9,11 +9,11 @@ title: Customize - Banner
 {% assign src = site.data.session.websites[0].banner %}
 
 {% if src != nil  %}
-{% assign style = 'height: 40px;' %}
+{% assign style = 'height: 100px;' %}
 {% assign show_delete_button = 1 %}
 {% endif %}
 
-{% assign text = 'This title appears at the top of all your publication’s stories. It should have a transparent background, and be at least 40px tall.' %}
+{% assign text = 'This title appears at the top of all your publication’s stories. It should have a transparent background, and be at least 800px tall.' %}
 
 {% if src %}
 <img src="{{ src }}" style="{{ style }} padding-bottom: 20px; padding-top: 5px;" />

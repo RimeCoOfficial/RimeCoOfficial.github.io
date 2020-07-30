@@ -3,6 +3,7 @@ layout: customize
 title: Customize - Analytics
 ---
 
+<div class="mdl-card__supporting-text">
 <br>
 
 {% assign default = site.data.session.websites[0] %}
@@ -23,6 +24,7 @@ title: Customize - Analytics
 </button>
 
 </form>
+</div>
 
 {% if site.data.session.websites[0].analytics %}
 <div class="mdl-card__menu">

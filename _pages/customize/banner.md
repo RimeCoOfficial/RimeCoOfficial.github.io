@@ -3,6 +3,7 @@ layout: customize
 title: Customize - Banner
 ---
 
+<div class="mdl-card__supporting-text">
 <br>
 
 {% assign src = site.data.session.websites[0].banner %}
@@ -21,6 +22,7 @@ title: Customize - Banner
 <p>{{ text }}</p>
 
 {% include form/upload.html id='userfile' %}
+</div>
 
 {% if show_delete_button %}
 <div class="mdl-card__menu">

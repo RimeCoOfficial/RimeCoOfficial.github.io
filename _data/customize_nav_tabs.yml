@@ -1,3 +1,6 @@
+- name: Template
+  url: /customize/template
+
 - name: Icon
   url: /customize/icon
 

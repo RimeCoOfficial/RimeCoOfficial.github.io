@@ -3,6 +3,7 @@ layout: customize
 title: Customize - Fonts
 ---
 
+<div class="mdl-card__supporting-text">
 <br>
 
 {% assign default = site.data.session.websites[0] %}
@@ -24,6 +25,8 @@ title: Customize - Fonts
 <br>
 
 {% include form/select.html id='font' %}
+
+</div>
 
 {% if show_delete_button %}
 <div class="mdl-card__menu">

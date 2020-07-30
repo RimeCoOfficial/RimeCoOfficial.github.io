@@ -3,6 +3,7 @@ layout: customize
 title: Customize - Domain
 ---
 
+<div class="mdl-card__supporting-text">
 <br>
 
 <p>
@@ -35,6 +36,7 @@ title: Customize - Domain
 </button>
 
 </form>
+</div>
 
 {% if site.data.session.websites[0].domain %}
 <div class="mdl-card__menu">

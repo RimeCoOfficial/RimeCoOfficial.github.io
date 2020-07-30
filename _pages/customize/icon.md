@@ -3,6 +3,7 @@ layout: customize
 title: Customize - Icon
 ---
 
+<div class="mdl-card__supporting-text">
 <br>
 
 {% assign src = site.data.session.websites[0].icon %}
@@ -26,6 +27,8 @@ title: Customize - Icon
 <p>{{ text }}</p>
 
 {% include form/upload.html id='userfile' %}
+
+</div>
 
 {% if show_delete_button %}
 <div class="mdl-card__menu">

@@ -23,8 +23,8 @@ title: Inbox
     <input type="checkbox" id="switch-2" class="mdl-switch__input">
     <span class="mdl-switch__label"></span>
     </label> -->
-    <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent pull-right" href="#">
-        Mark all as read
+    <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="#">
+        Mark all read
     </button>
 </div>
 
@@ -62,9 +62,9 @@ title: Inbox
 {% endif %}
 
 <div class="mdl-card__menu">
-<a id="sync" class="mdl-button mdl- mdl-button--icon mdl-js-button mdl-js-ripple-effect mdl-color-text--white" href="/sync">
-    <i class="material-icons">sync</i>
-</a>
+    <a id="mark_chat_unread" class="mdl-button mdl- mdl-button--icon mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+        <i class="material-icons">mark_chat_unread</i>
+    </a>
 </div>
 
 {% if activities.next_id %}

@@ -57,10 +57,7 @@ title: Apps
 </ul>
 
 <!-- <div class="mdl-card__menu">
-<a id="warning" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="/inbox/invite">
-    <i class="material-icons">warning</i>
-</a>
+    <a id="email" class="mdl-button mdl-button--accent mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="/inbox/invite">
+        <i class="material-icons">email</i>
+    </a>
 </div> -->
-
-{% assign min_invites = site.data.invites.min %}
-<div class="mdl-tooltip mdl-tooltip--large" for="warning">To add more than one app invite at least {{ min_invites }} people.</div>

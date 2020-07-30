@@ -22,21 +22,21 @@
   date: 2013-06-20
   unread: true
 
-- icon: add
+- icon: check
   type: user
   title: Tumblr
   description: Added <b>suvozit</b>
   url: /apps/add/tumblr
   date: 2013-06-20
 
-- icon: add
+- icon: check
   type: user
   title: Instagram
   description: Added <b>suvozit</b>
   url: /apps/add/instagram
   date: 2013-06-20
 
-- icon: add
+- icon: check
   type: user
   title: GitHub
   description: Added <b>suvozit</b>
@@ -51,14 +51,14 @@
   date: 2013-06-20
   unread: true
 
-- icon: add
+- icon: check
   type: user
   title: Facebook
   description: Added <b>suvozit</b>
   url: /apps/add/facebook
   date: 2013-06-20
 
-- icon: create
+- icon: alternate_email
   type: user
   title: Account
   description: Created new account

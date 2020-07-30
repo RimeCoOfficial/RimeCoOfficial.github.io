@@ -1,3 +1,4 @@
 ---
-layout: default
+title: Search
+layout: search
 ---

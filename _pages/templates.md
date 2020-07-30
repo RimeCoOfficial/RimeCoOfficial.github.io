@@ -1,4 +1,4 @@
 ---
 title: Templates
-layout: default
+layout: templates
 ---

@@ -50,7 +50,7 @@ title: Customize - Template
 </ul>
 
 <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="/templates">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/templates">
         View More
     </a>
 </div>

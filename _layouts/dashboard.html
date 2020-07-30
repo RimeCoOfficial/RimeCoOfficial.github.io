@@ -114,11 +114,11 @@ layout: default
                 <div class="mdl-card__title">
                     <h2 class="mdl-card__title-text">Websites</h2>
                 </div>
-                <div class="mdl-card__actions mdl-card--border">
+                <!-- <div class="mdl-card__actions mdl-card--border">
                     <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">
-                        Add new website
+                        Create a new website
                     </a>
-                </div>
+                </div> -->
                 
                 <ul class="demo-list-three mdl-list">
                     {% for website in site.data.session.websites %}
@@ -137,6 +137,12 @@ layout: default
                     </li>
                     {% endfor %}
                 </ul>
+
+                <div class="mdl-card__menu">
+                    <a id="playlist_add" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                        <i class="material-icons">playlist_add</i>
+                    </a>
+                </div>
             </div>
 
         </div>

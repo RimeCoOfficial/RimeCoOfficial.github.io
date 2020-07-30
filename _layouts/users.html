@@ -40,7 +40,7 @@ layout: default
 
                                     {% if req_user.verified %}
                                     <small>
-                                        <i id="verified" class="material-icons md-text mdl-color-text--accent">star</i>
+                                        <i id="verified" class="material-icons md-text mdl-color-text--accent">verified</i>
                                     </small>
                                     {% endif %}
                                     
@@ -61,11 +61,11 @@ layout: default
                                 </a>
                             </div>
 
-                            <div class="mdl-card__menu">
+                            <!-- <div class="mdl-card__menu">
                                 <a id="open_in_new" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="https://{{ req_user.weblog.suvozit.domain }}" target="_blank">
                                     <i class="material-icons">open_in_new</i>
                                 </a>
-                            </div>
+                            </div> -->
                             
                         </div>
                     </div>
@@ -79,4 +79,5 @@ layout: default
 <div class="mdl-tooltip mdl-tooltip--large" for="palette">Customize</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="feedback">Report Abuse</div>
 <div class="mdl-tooltip mdl-tooltip--large" for="verified">Verified</div>
-<div class="mdl-tooltip mdl-tooltip--large" for="open_in_new">{{ req_user.weblog.suvozit.domain }}</div>
+
+{% include scripts.html %}

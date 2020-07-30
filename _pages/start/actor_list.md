@@ -35,7 +35,7 @@ if ( ! empty($oauth_actor_list))
                         if ($actor['verified'])
                         {
                             ?>
-                            <i id="actor-id" class="material-icons md-text mdl-color-text--accent">star</i>
+                            <i id="actor-id" class="material-icons md-text mdl-color-text--accent">verified</i>
                             <div class="mdl-tooltip  mdl-tooltip--large" for="actor-id">Verified</div>
                             <?php
                         }

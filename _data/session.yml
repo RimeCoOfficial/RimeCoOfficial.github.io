@@ -15,6 +15,24 @@ email_subscription:
   newsletter: true
   announcement: true
 apps:
+  behance:
+    - oauth: 10214189707007766
+      actors:
+        - id: suvozit
+          name: Shubhajit Saha
+          img: /assets/users/suvozit/avatar.jpg
+          user: suvozit
+          sync: 2011-01-01 10:00:00
+          status: 200
+          collection: event, format_quote, photo_album, photo_camera, poll, question_answer, shopping_cart, subject, videocam
+          topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
+          places:
+          stats:
+            posts: 1
+            views: 1
+            likes: 1
+            comments: 1
+            score: 1
   facebook:
     - oauth: 10214189707007766
       actors:

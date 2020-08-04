@@ -1,11 +1,3 @@
-# - title: The Keyword
-#   description: Discover all the latest about our products, technology, and Google culture on our official blog.
-#   image: /assets/templates/The Keyword.jpeg
-#   theme: Blog
-#   pricing: Free
-#   author: Google
-#   url: https://blog.google
-
 - title: Minima
   description: A Bootstrap responsive two-column Jekyll documentation theme that pairs a prominent navbar.
   image: /assets/templates/Jekyll.png

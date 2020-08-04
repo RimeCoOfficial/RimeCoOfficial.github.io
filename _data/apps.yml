@@ -1,16 +1,16 @@
-# - name: Behance
-#   detials: WIP, Projects, Following
-#   kind:
-#     - type: user
-#       name: Behance
-#       icon: icon-behance
+- name: Behance
+  detials: WIP, Projects, Following
+  kind:
+    - type: user
+      name: Behance
+      icon: icon-behance
 
-# - name: Dropbox
-#   detials: Public folder
-#   kind:
-#     - type: user
-#       name: Dropbox
-#       icon: icon-dropbox
+- name: Dribbble
+  detials: Public folder
+  kind:
+    - type: user
+      name: Dribbble
+      icon: icon-dribbble
 
 - name: Facebook
   sign-in: true

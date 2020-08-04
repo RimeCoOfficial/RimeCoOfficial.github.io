@@ -16,7 +16,7 @@ email_subscription:
   announcement: true
 apps:
   behance:
-    - oauth: 10214189707007766
+    - oauth: 11111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
@@ -24,15 +24,49 @@ apps:
           user: suvozit
           sync: 2011-01-01 10:00:00
           status: 200
-          collection: event, format_quote, photo_album, photo_camera, poll, question_answer, shopping_cart, subject, videocam
-          topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
-          places:
-          stats:
-            posts: 1
-            views: 1
-            likes: 1
-            comments: 1
-            score: 1
+        - id: bitsits
+          name: Bitsits Games
+          img: /assets/users/bitsits/avatar.png
+          user: bitsits
+        - id: rhymetek
+          name: Rhyme Tek.
+          img: /assets/users/rhymetek/avatar.png
+          user: rhymetek
+  dribbble:
+    - oauth: 11111111111
+      actors:
+        - id: suvozit
+          name: Shubhajit Saha
+          img: /assets/users/suvozit/avatar.jpg
+          user: suvozit
+          sync: 2011-01-01 10:00:00
+          status: 200
+        - id: bitsits
+          name: Bitsits Games
+          img: /assets/users/bitsits/avatar.png
+          user: bitsits
+        - id: rhymetek
+          name: Rhyme Tek.
+          img: /assets/users/rhymetek/avatar.png
+          user: rhymetek
+  flickr:
+    - oauth: 11111111111
+      actors:
+        - id: suvozit
+          name: Shubhajit Saha
+          img: /assets/users/suvozit/avatar.jpg
+          user: suvozit
+          sync: 2011-01-01 10:00:00
+          status: 200
+  foursquare:
+    - oauth: 11111111111
+      actors:
+        - id: suvozit
+          name: Shubhajit Saha
+          img: /assets/users/suvozit/avatar.jpg
+          user: suvozit
+          sync: 2011-01-01 10:00:00
+          status: 200
   facebook:
     - oauth: 10214189707007766
       actors:
@@ -42,46 +76,15 @@ apps:
           user: suvozit
           sync: 2011-01-01 10:00:00
           status: 200
-          collection: event, format_quote, photo_album, photo_camera, poll, question_answer, shopping_cart, subject, videocam
-          topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
-          places:
-          stats:
-            posts: 1
-            views: 1
-            likes: 1
-            comments: 1
-            score: 1
         - id: rhymetek
           name: Rhyme Tek.
           img: /assets/users/rhymetek/avatar.png
           verified: y
           user: rime
-          sync: 2011-01-01 10:00:00
-          status: 200
-          collection: code, event, format_quote, music_note, photo_album, photo_camera, playlist_play, poll, question_answer, shopping_cart, subject, videocam
-          topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
-          places:
-          stats:
-            posts: 1
-            views: 1
-            likes: 1
-            comments: 1
-            score: 1
         - id: bitsitsgames
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png
           user: bitsits
-          sync: 2011-01-01 10:00:00
-          status: 200
-          collection: code, event, format_quote, music_note, photo_album, photo_camera, playlist_play, poll, question_answer, shopping_cart, subject, videocam
-          topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
-          places:
-          stats:
-            posts: 1
-            views: 1
-            likes: 1
-            comments: 1
-            score: 1
         - id: StringYourStory
           name: String Your Story
           img: /assets/users/StringYourStory/avatar.png
@@ -97,34 +100,146 @@ apps:
           sync: 2011-01-01 10:00:00
           status: 200
           user: suvozit
-          collection: code, subject
-          topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
-          places:
-          stats:
-            posts: 1
-            views: 1
-            likes: 1
-            comments: 1
-            score: 1
         - id: rhymetek
           name: Rhyme Tek.
           img: /assets/users/rhymetek/avatar.png
-          sync: 2011-01-01 10:00:00
-          status: 200
           verified: y
           user: rime
-          collection: code, subject, videocam
-          topics: ai, artificial-intelligence, artificialintelligence, google, iamdoing, intelligence, learning, machinelearning, programer, technology
-          places:
-          stats:
-            posts: 1
-            views: 1
-            likes: 1
-            comments: 1
-            score: 1
         - id: bitsits
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png
+          user: bitsits
+        - id: IIESTS-CE110407060
+          name: IIEST Shibpur
+          img: /assets/users/IIESTS-CE110407060/avatar.png
+          sync: 2011-01-01 10:00:00
+          status: 200
+          user: suvozit
+        - id: IITB-P13098
+          name: IDC School of Design, IIT Bombay
+          img: /assets/users/IITB-P13098/avatar.jpg
+          sync: 2011-01-01 10:00:00
+          status: 200
+          user: suvozit
+        - id: nazariya
+          name: Nazariya
+          img: /assets/users/nazariya/avatar.png
+          user: nazariya
+        - id: mudraclub
+          name: Mudra Club
+          img: /assets/users/mudraclub/avatar.png
+  google:
+    - oauth: 11111111111
+      actors:
+        - id: bitsits
+          name: Bitsits Games
+          img: /assets/users/bitsits/avatar.png
+          sync: 2011-01-01 10:00:00
+          status: 200
+          user: suvozit
+        - id: rhymetek
+          name: Rhyme Tek.
+          img: /assets/users/rhymetek/avatar.png
+          verified: y
+          user: rime
+        - id: hiss.shot
+          name: Hiss Shot
+          img: /assets/users/hiss.shot/avatar.jpg
+  instagram:
+    - oauth: 11111111111
+      actors:
+        - id: suvozit
+          name: Shubhajit Saha
+          img: /assets/users/suvozit/avatar.jpg
+          user: suvozit
+          sync: 2011-01-01 10:00:00
+          status: 200
+        - id: rhyme.tek
+          name: Rhyme Tek.
+          img: /assets/users/rhymetek/avatar.png
+          verified: y
+          user: rime
+        - id: bitsitsgames
+          name: Bitsits Games
+          img: /assets/users/bitsits/avatar.png
+          user: bitsits
+  linkedin:
+    - oauth: 11111111111
+      actors:
+        - id: suvozit
+          name: Shubhajit Saha
+          img: /assets/users/suvozit/avatar.jpg
+          user: suvozit
+          sync: 2011-01-01 10:00:00
+          status: 200
+        - id: rhyme.tek
+          name: Rhyme Tek.
+          img: /assets/users/rhymetek/avatar.png
+          verified: y
+          user: rime
+        - id: bitsitsgames
+          name: Bitsits Games
+          img: /assets/users/bitsits/avatar.png
+          user: bitsits
+  microsoft:
+    - oauth: 11111111111
+      actors:
+        - id: suvozit@live.com
+          name: Shubhajit Saha
+          img: /assets/users/suvozit/avatar.jpg
+          user: suvozit
+          sync: 2011-01-01 10:00:00
+          status: 200
+    - oauth: 11111111111
+      actors:
+        - id: bitsits@outlook.com
+          name: Bitsits
+          img: /assets/users/bitsits/avatar.png
+          user: suvozit
+          sync: 2011-01-01 10:00:00
+          status: 200
+  tumblr:
+    - oauth: 11111111111
+      actors:
+        - id: suvozit
+          name: Shubhajit Saha
+          img: /assets/users/suvozit/avatar.jpg
+          user: suvozit
+          sync: 2011-01-01 10:00:00
+          status: 200
+        - id: rhyme.tek
+          name: Rhyme Tek.
+          img: /assets/users/rhymetek/avatar.png
+          verified: y
+          user: rime
+        - id: bitsitsgames
+          name: Bitsits Games
+          img: /assets/users/bitsits/avatar.png
+          user: bitsits
+        - id: rimefounders
+          name: Rime Founders
+          img: /assets/users/rimefounders/avatar.jpg
+        - id: tokochu
+          name: To Kochu
+          img: /assets/users/tokochu/avatar.png
+  twitter:
+    - oauth: 11111111111
+      actors:
+        - id: suvozit
+          name: Shubhajit Saha
+          img: /assets/users/suvozit/avatar.jpg
+          user: suvozit
+          sync: 2011-01-01 10:00:00
+          status: 200
+  vimeo:
+    - oauth: 11111111111
+      actors:
+        - id: suvozit
+          name: Shubhajit Saha
+          img: /assets/users/suvozit/avatar.jpg
+          user: suvozit
+          sync: 2011-01-01 10:00:00
+          status: 200
 places: /assets/users/suvozit/places.jpg
 websites:
   - template: The-Keyword

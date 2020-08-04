@@ -1,3 +1,5 @@
+# Redirecting&hellip;
+
 {% assign app = page.url | split: "/" | last %}
 
 {% assign query = "?" %}
@@ -12,7 +14,7 @@
 <!-- construct authorize url -->
 {% assign authorize_url = site.data.oauth[app].authorize_url | append: query %}
 
-Redirecting to {{ authorize_url }}
+[Click here if you are not redirected.]({{ authorize_url }})
 
 <script type="text/javascript">
     window.location = "{{ authorize_url }}";

@@ -1,30 +1,39 @@
-# - title: Untitled
-#   description: In a line.
-#   theme: Portfolio, Blog, Landing page, Documentation, GitHub Pages
-#   pricing: Premium | Free
-#   author: Author
-#   url: /Untitled
+# - title: The Keyword
+#   description: Discover all the latest about our products, technology, and Google culture on our official blog.
+#   image: /assets/templates/The Keyword.jpeg
+#   theme: Blog
+#   pricing: Free
+#   author: Google
+#   url: https://blog.google
 
-- title: The Keyword
-  description: blog.google
-  image: /assets/templates/The Keyword.jpeg
-  theme: Blog
-  pricing: Free
-  author: Google
-  url: /The-Keyword
-
-- title: Hyde
-  description: A brazen two-column theme that pairs a prominent sidebar with uncomplicated content.
-  image: /assets/templates/Hyde.png
+- title: Minima
+  description: A Bootstrap responsive two-column Jekyll documentation theme that pairs a prominent navbar.
+  image: /assets/templates/Jekyll.png
   theme: GitHub Pages
   pricing: Free
   author: mdo
-  url: /Hyde
+  url: https://rhymetek.github.io/Minima/About
+
+- title: Minimo
+  description: Minimalist theme for Hugo
+  image: /assets/templates/Hugo.png
+  theme: Hugo Theme
+  pricing: Free
+  author: mdo
+  url: https://themes.gohugo.io/theme/minimo/
 
 - title: MDL Blog
-  description: A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.
-  image: /assets/templates/MDL Blog.png
+  description: A mobile focused responsive template that showcases blog entries with an expanded article page.
+  image: /assets/templates/MDL.png
   theme: Portfolio, Blog, Landing page
   pricing: Free
   author: Google
-  url: /mdl
+  url: https://getmdl.io/templates/index.html
+
+- title: Phantom
+  description: a free, fully responsive site template designed by HTML5 UP.
+  image: /assets/templates/HTML5UP.png
+  theme: Portfolio, Blog, HTML Pages
+  pricing: Free
+  author: HTML5 UP
+  url: https://html5up.net/phantom

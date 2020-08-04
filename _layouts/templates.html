@@ -22,8 +22,8 @@ layout: default
         <div class="mdl-grid">
 
             <div class="mdl-cell mdl-cell--12-col mdl-typography--text-center">
-                <p class="mdl-color-text--grey-700 mdl-typography--display-2 mdl-typography--font-light" style="margin-top: 30px; margin-bottom: 70px;">
-                    Explore 🧭
+                <p class="mdl-color-text--grey-700 mdl-typography--display-2 mdl-typography--font-light" style="margin-top: 30px; margin-bottom: 30px;">
+                    Templates
                 </p>
             </div>
 
@@ -39,17 +39,27 @@ layout: default
 
             </div> -->
 
-            <!-- Websites -->
+            <!-- Templates -->
 
-            {% for featured in site.data.featured %}
+            {% for template in site.data.templates %}
             
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card portfolio-blog-card-compact">
                 <div class="mdl-card__media">
-                    <img class="article-image img-fluid" src="{{ featured.preview }}" width="500">
+                    <img class="article-image img-fluid" src="{{ template.image }}" width="500">
                 </div>
                 <div class="mdl-card__actions">
-                    <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ featured.domain }}" target="_blank">
-                        Visit
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">{{ template.title }}</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text" style="min-height: 150px;">
+                        <p>
+                            <b>Author</b> {{ template.author }}
+                        </p>
+                        <p>{{ template.description }}</p>
+                    </div>
+                    
+                    <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ template.url }}" target="_blank">
+                        Demo
                     </a>
                 </div>
             </div>

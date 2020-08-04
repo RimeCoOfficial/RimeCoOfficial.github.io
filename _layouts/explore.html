@@ -22,7 +22,7 @@ layout: default
         <div class="mdl-grid">
 
             <div class="mdl-cell mdl-cell--12-col mdl-typography--text-center">
-                <p class="mdl-color-text--grey-700 mdl-typography--display-2 mdl-typography--font-light" style="margin-top: 30px; margin-bottom: 70px;">
+                <p class="mdl-color-text--grey-700 mdl-typography--display-2 mdl-typography--font-light" style="margin-top: 30px; margin-bottom: 30px;">
                     Explore 🧭
                 </p>
             </div>
@@ -46,6 +46,9 @@ layout: default
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-card portfolio-blog-card-compact">
                 <div class="mdl-card__media">
                     <img class="article-image img-fluid" src="{{ featured.preview }}" width="500">
+                </div>
+                <div class="mdl-card__supporting-text">
+                    <strong>{{ featured.title }}</strong> {{ featured.user }}
                 </div>
                 <div class="mdl-card__actions">
                     <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ featured.domain }}" target="_blank">

@@ -41,7 +41,7 @@ title: Apps
     <li class="mdl-list__item mdl-list__item--three-line">
         <span class="mdl-list__item-primary-content">
         <!-- <i class="material-icons mdl-list__item-avatar">person</i> -->
-        <i class="mdl-list__item-avatar mdl-list__item-icon {{ s.kind[0].icon }}"
+        <i class="mdl-list__item-avatar mdl-list__item-icon {{ s.icon }}"
         style="line-height: 1.4; font-size: 28px; background-color: transparent; color: #757575;"
         ></i>
         <span>{{ s.name }}</span>

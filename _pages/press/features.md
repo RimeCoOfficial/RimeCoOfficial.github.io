@@ -30,7 +30,7 @@ layout: press
 
 <ol>
 {% for app in site.data.apps %}
-<li><i class="{{ app.kind[0].icon }}"></i> {{ app.name }}</li>
+<li><i class="{{ app.icon }}"></i> {{ app.name }}</li>
 {% endfor %}
 </ol>
 

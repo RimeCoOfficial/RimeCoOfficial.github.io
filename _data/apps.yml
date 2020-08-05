@@ -1,5 +1,6 @@
 - name: Behance
   detials: WIP, Projects, Following
+  icon: icon-behance
   kind:
     - type: user
       name: Behance
@@ -7,6 +8,7 @@
 
 - name: Dribbble
   detials: Public folder
+  icon: icon-dribbble
   kind:
     - type: user
       name: Dribbble
@@ -15,6 +17,7 @@
 - name: Facebook
   sign-in: true
   detials: Timeline posts, Friends, Likes
+  icon: icon-facebook
   kind:
     - type: user
       name: Facebook
@@ -26,6 +29,7 @@
 
 - name: Flickr
   detials: Photos, Videos, Albums, Followings
+  icon: icon-flickr
   kind:
     - type: user
       name: Flickr
@@ -33,6 +37,7 @@
 
 - name: Foursquare
   detials: Checkins, Following
+  icon: icon-foursquare
   kind:
     - type: user
       name: Foursquare
@@ -40,6 +45,7 @@
 
 - name: GitHub
   detials: Public Repositories, Gists
+  icon: icon-github
   kind:
     - type: user
       name: GitHub
@@ -52,6 +58,7 @@
 - name: Google
   sign-in: true
   detials: Blogger, YouTube, Gmail contacts
+  icon: icon-google
   kind:
     - type: user
       name: Google+
@@ -67,6 +74,7 @@
 
 - name: Instagram
   detials: Photos, Videos, Following
+  icon: icon-instagram
   kind:
     - type: user
       name: Instagram
@@ -75,6 +83,7 @@
 - name: LinkedIn
   sign-in: true
   detials: User, Companies
+  icon: icon-linkedin
   kind:
     - type: user
       name: LinkedIn
@@ -86,6 +95,7 @@
 
 - name: Microsoft
   detials: Outlook Contacts
+  icon: icon-windows
   kind:
     - type: user
       name: Microsoft
@@ -93,6 +103,7 @@
 
 - name: Tumblr
   detials: Blog Posts, Followings
+  icon: icon-tumblr
   kind:
     - type: blog
       name: tumblr
@@ -100,6 +111,7 @@
 
 - name: Twitter
   detials: Read Tweets, See who you follow
+  icon: icon-twitter
   kind:
     - type: user
       name: twitter
@@ -107,6 +119,7 @@
 
 - name: Vimeo
   detials: Videos, Albums, Channels, Followings
+  icon: icon-vimeo
   kind:
     - type: user
       name: Vimeo

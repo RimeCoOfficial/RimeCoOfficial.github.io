@@ -1,6 +1,6 @@
 ---
 layout: apps
-title: Vimeo
+title: Medium
 ---
 
 {% include apps/add.html %}

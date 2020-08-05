@@ -80,14 +80,14 @@ apps:
           name: Rhyme Tek.
           img: /assets/users/rhymetek/avatar.png
           verified: y
-          user: rime
+          user: rhymetek
         - id: bitsitsgames
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png
           user: bitsits
-        - id: StringYourStory
+        - id: stringyourstory
           name: String Your Story
-          img: /assets/users/StringYourStory/avatar.png
+          img: /assets/users/stringyourstory/avatar.png
         - id: hiss.shot
           name: Hiss Shot
           img: /assets/users/hiss.shot/avatar.jpg
@@ -104,20 +104,20 @@ apps:
           name: Rhyme Tek.
           img: /assets/users/rhymetek/avatar.png
           verified: y
-          user: rime
+          user: rhymetek
         - id: bitsits
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png
           user: bitsits
-        - id: IIESTS-CE110407060
+        - id: iiests-ce110407060
           name: IIEST Shibpur
-          img: /assets/users/IIESTS-CE110407060/avatar.png
+          img: /assets/users/iiests-ce110407060/avatar.png
           sync: 2011-01-01 10:00:00
           status: 200
           user: suvozit
-        - id: IITB-P13098
+        - id: iitb-p13098
           name: IDC School of Design, IIT Bombay
-          img: /assets/users/IITB-P13098/avatar.jpg
+          img: /assets/users/iitb-p13098/avatar.jpg
           sync: 2011-01-01 10:00:00
           status: 200
           user: suvozit
@@ -141,7 +141,7 @@ apps:
           name: Rhyme Tek.
           img: /assets/users/rhymetek/avatar.png
           verified: y
-          user: rime
+          user: rhymetek
         - id: hiss.shot
           name: Hiss Shot
           img: /assets/users/hiss.shot/avatar.jpg
@@ -158,7 +158,7 @@ apps:
           name: Rhyme Tek.
           img: /assets/users/rhymetek/avatar.png
           verified: y
-          user: rime
+          user: rhymetek
         - id: bitsitsgames
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png
@@ -176,11 +176,52 @@ apps:
           name: Rhyme Tek.
           img: /assets/users/rhymetek/avatar.png
           verified: y
-          user: rime
+          user: rhymetek
         - id: bitsitsgames
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png
           user: bitsits
+  medium:
+    - oauth: 11111111111
+      actors:
+        - id: suvozit
+          name: Shubhajit Saha
+          img: /assets/users/suvozit/avatar.jpg
+          user: suvozit
+          sync: 2011-01-01 10:00:00
+          status: 200
+        - id: postmaster
+          name: Postmaster
+          img: /assets/users/postmaster/avatar.jpg
+          user: rhymetek
+        - id: स्वतंत्र
+          name: Swatantra
+          img: /assets/users/स्वतंत्र/avatar.jpeg
+          user: rhymetek
+        - id: web3
+          name: Web 3.0
+          img: /assets/users/web3/avatar.png
+        - id: oembed
+          name: oEmbed
+          img: /assets/users/oembed/avatar.jpeg
+          user: rhymetek
+        - id: highdimension
+          name: High Dimension ✊
+          img: /assets/users/highdimension/avatar.gif
+          user: suvozit
+          sync: 2011-01-01 10:00:00
+          status: 200
+        - id: collecting-something
+          name: Collecting Something
+          img: /assets/users/collecting-something/avatar.jpeg
+        - id: loudly-blog
+          name: Loudly.blog
+          img: /assets/users/loudly-blog/avatar.png
+        - id: rhymetek
+          name: Rhyme Tek.
+          img: /assets/users/rhymetek/avatar.png
+          verified: y
+          user: rhymetek
   microsoft:
     - oauth: 11111111111
       actors:
@@ -211,7 +252,7 @@ apps:
           name: Rhyme Tek.
           img: /assets/users/rhymetek/avatar.png
           verified: y
-          user: rime
+          user: rhymetek
         - id: bitsitsgames
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png

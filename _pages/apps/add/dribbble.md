@@ -1,6 +1,6 @@
 ---
 layout: apps
-title: Vimeo
+title: Dribbble
 ---
 
 {% include apps/add.html %}

@@ -9,7 +9,7 @@
     document.querySelector('#demo-snackbar-example').addEventListener('mdl-componentupgraded', function() {
         var data = {
             timeout: 5000,
-            actionHandler: function(event) { window.open('/legal/privacy','_blank'); },
+            actionHandler: function(event) { window.open('/legal/privacy#cookies','_blank'); },
             actionText: 'Privacy',
             message: '{{ alert }}'
         };

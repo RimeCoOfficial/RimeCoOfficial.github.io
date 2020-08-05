@@ -1,14 +1,28 @@
-Album
-Article
-Audio
-Code
-Loop
-Event
-Group
-Photo
-Playlist
-Poll
-Product
-Question
-Quote
-Video
+- name: Album
+  icon: photo_album_black
+- name: Article
+  icon: subject_black
+- name: Audio
+  icon: music_note_black
+- name: Code
+  icon: code_black
+- name: Loop
+  icon: all_inclusive
+- name: Event
+  icon: event_black
+- name: Group
+  icon: group_black
+- name: Photo
+  icon: photo_camera_black
+- name: Playlist
+  icon: playlist_play_black
+- name: Poll
+  icon: poll_black
+- name: Product
+  icon: shopping_cart_black
+- name: Question
+  icon: question_answer_black
+- name: Quote
+  icon: format_quote_black
+- name: Video
+  icon: videocam_black

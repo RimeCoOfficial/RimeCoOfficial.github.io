@@ -93,6 +93,17 @@
       name: LinkedIn Orgs
       icon: icon-linkedin
 
+- name: Medium
+  detials: Posts and Publications
+  icon: icon-medium
+  kind:
+    - type: user
+      name: Medium
+      icon: icon-medium
+    - type: publications
+      name: Medium Publications
+      icon: icon-medium
+
 - name: Microsoft
   detials: Outlook Contacts
   icon: icon-windows

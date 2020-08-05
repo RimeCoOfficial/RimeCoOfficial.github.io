@@ -95,6 +95,12 @@
       "css": "windows",
       "code": 61818,
       "src": "fontawesome"
+    },
+    {
+      "uid": "bf09b1c6561dc0ced707476e2cd83d29",
+      "css": "medium",
+      "code": 62010,
+      "src": "fontawesome"
     }
   ]
 }

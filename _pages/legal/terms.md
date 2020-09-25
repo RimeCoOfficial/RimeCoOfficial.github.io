@@ -88,7 +88,7 @@ layout: legal
                 <em>Taxes</em>.  All payments required by this Agreement exclude all sales, value-added, use, on other taxes and obligations, all of which the User will be responsible for and will pay in full.
             </li>
             <li>
-                <em>Cancellation and refunds</em>: The User can cancel the Service at any time by sending an email to <a href="mailto:plans@{{ site.url | remove: "https://"  | remove: "http://" }}">plans@{{ site.url | remove: "https://"  | remove: "http://" }}</a>. If the user cancels the Service before the end of the month, pro rata charges will be applied for the number of days of usage.
+                <em>Cancellation and refunds</em>: The User can cancel the Service at any time by sending an email to <a href="mailto:plans@rime.co">plans@rime.co</a>. If the user cancels the Service before the end of the month, pro rata charges will be applied for the number of days of usage.
             </li>
         </ol>
 
@@ -192,7 +192,7 @@ layout: legal
         
             <ul>
                 <li>
-                    Ink respects the intellectual property rights of individuals and companies, and expect the users of the applications we power to similarly respect intellectual property rights and all applicable laws and regulations. Rime is not responsible for infringing content - if you are a copyright owner and believe your copyright has been infringed, please send us a notice to <a href="mailto:legal@{{ site.url | remove: "https://"  | remove: "http://" }}">legal@{{ site.url | remove: "https://"  | remove: "http://" }}</a> in accordance with DMCA Takedown policies.
+                    Ink respects the intellectual property rights of individuals and companies, and expect the users of the applications we power to similarly respect intellectual property rights and all applicable laws and regulations. Rime is not responsible for infringing content - if you are a copyright owner and believe your copyright has been infringed, please send us a notice to <a href="mailto:legal@rime.co">legal@rime.co</a> in accordance with DMCA Takedown policies.
                 </li>
             </ul>
         </li>

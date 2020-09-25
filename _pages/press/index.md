@@ -8,7 +8,7 @@ layout: press
 <h4>Contact Us</h4>
 <p>
     If you'd like to write a story about Rime, please get in touch!
-    Are you a journalist? Let us know if you're interested in getting occasional press-related news. <a href="mailto:press@{{ site.url | remove: "https://"  | remove: "http://" }}?subject=Press">press@{{ site.url | remove: "https://"  | remove: "http://" }}</a>
+    Are you a journalist? Let us know if you're interested in getting occasional press-related news. <a href="mailto:press@rime.co?subject=Press">press@rime.co</a>
 </p>
 
 {% for article in site.data.articles %}

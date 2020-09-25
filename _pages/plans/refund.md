@@ -23,7 +23,7 @@ layout: plans
 
 <p>When you request a chargeback, the bank that issues your credit card reverses a payment you made to Rime, and sending is disabled in your account. To resolve the chargeback and re-enable sending, navigate to the <a href="/plans">Monthly plans or credits</a> page, and re-purchase your order. </p>
 
-<p>For more information, <a href="mailto:support@{{ site.url | remove: "https://"  | remove: "http://" }}">contact</a> our Billing Team.</p>
+<p>For more information, <a href="mailto:support@rime.co">contact</a> our Billing Team.</p>
 
 <h3 class="mdl-typography--font-light">Request a Refund</h3>
 
@@ -31,4 +31,4 @@ layout: plans
 
 <blockquote style="font-size: 1.2em;">You or Rime may terminate this Agreement at any time and for any reason by giving Notice to the other party. We may suspend our Service to you at any time, with or without cause. If we terminate your account without cause, we’ll refund a prorated portion of your monthly prepayment or reimburse you for unused Email Credits. We won’t refund or reimburse you if there’s cause, like a violation of these Terms or our Acceptable Use Policy.</blockquote>
 
-<p>To request a refund, <a href="mailto:support@{{ site.url | remove: "https://"  | remove: "http://" }}">contact</a> our Support Team.</p>
+<p>To request a refund, <a href="mailto:support@rime.co">contact</a> our Support Team.</p>

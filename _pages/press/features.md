@@ -19,7 +19,7 @@ layout: press
 - Search
 - RSS (Posts, Collection and Topics)
 - Random
-- About (Life events and Institutions - school, work, places)
+- About (Life events, School and Work)
 - Places
 - Custom Domain
 - Upload Template

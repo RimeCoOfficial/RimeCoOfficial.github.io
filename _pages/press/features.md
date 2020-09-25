@@ -5,26 +5,25 @@ layout: press
 
 <h1 class="mdl-typography--font-light">Features</h1>
 
-- Embed url
-- Auto Thumbnail (Images Cached, positioned, repetation removed [via giphy])
-- Cross-post (canonical + title, match in a while)
+- Embed URLs
+- Thumbnail Cached
 - Refresh
-- Repost
+- Reposts merged
 - Cache
-- Real time
-- Title, description, body
-- SEO (AMP, Schema, Social Tags)
-- Analytics (Google analytics, events, tag manager)
+- Real-time Sync
+- Post (Title, Description and Body)
+- SEO (AMP, Schema and Social Tags)
+- Google analytics (Events and Tag manager)
 - Collection
 - Topics
 - Search
-- RSS (all, collection, topics)
+- RSS (Posts, Collection and Topics)
 - Random
-- About (life events, institutions - school, work, places)
+- About (Life events and Institutions - school, work, places)
 - Places
-- Contact (Notification, Invite)
 - Custom Domain
-- PNG, JPG, GIF (logo, name, title)
+- Upload Template
+- Customize PNG, JPG, GIF (Icon and Banner)
 
 <h4>Services</h4>
 

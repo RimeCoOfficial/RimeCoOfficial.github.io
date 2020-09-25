@@ -69,8 +69,4 @@ title: Unread
     </a>
 </div>
 
-{% if activities.next_id %}
-{% include js/infinite_scroll.html next_id=activities.next_id %}
-{% endif %}
-
 {% include js/moment.html %}

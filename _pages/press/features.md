@@ -23,7 +23,7 @@ layout: press
 - Places
 - Custom Domain
 - Upload Template
-- Customize PNG, JPG, GIF (Icon and Banner)
+- Customize PNG, JPG or GIF (Icon and Banner)
 
 <h4>Services</h4>
 

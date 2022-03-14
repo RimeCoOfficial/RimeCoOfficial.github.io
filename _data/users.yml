@@ -4,7 +4,7 @@
   bio: I am an Entrepreneur. Founder @RymeTek @Bitsits Ex Ubisoft BTech IIESTS Civil ♊︎ 🙇🏻‍♂️ ··· 🤖
   location: Howrah
   avatar: assets/images/suvozit/avatar.jpg
-  email: suvozit@rhyme.tek
+  email: suvozit@rime.co
   verified: false
   email_subscription:
     notification: true
@@ -18,20 +18,20 @@
   bio: Madness is the emergency exit.
   location: Raipur
   avatar: assets/images/username/avatar.jpg
-  email: girish@arya.rime
+  email: girish@rime.co
   email_subscription:
     notification: true
     tips: true
     newsletter: true
     announcement: true
 
-- name: Rhyme Tek.
-  username: rhymetek
+- name: Rime
+  username: rime
   hash: ec1f113920132724a1205db4e1d9d147
   bio: 
   location: Bengaluru
   avatar: assets/images/username/avatar.png
-  email: arya@rhyme.tek
+  email: arya@rime.co
   verified: true
   email_subscription:
     notification: true

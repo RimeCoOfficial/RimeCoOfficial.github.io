@@ -21,7 +21,7 @@ After getting amazing response and feedback from our users, we have decided to i
 — The Joker, The Dark Knight
 
 {:.email-left}
-Checkout our **[previous newsletters](//rhymetek.tumblr.com/newsletters?utm_source=Newsletter-23&utm_campaign=23+Agent+of+chaos&utm_medium=email&utm_content=hyperlink){:.email-link .email-underlined}**{:.email-bold}
+Checkout our **[previous newsletters](//rimeofficial.tumblr.com/newsletters?utm_source=Newsletter-23&utm_campaign=23+Agent+of+chaos&utm_medium=email&utm_content=hyperlink){:.email-link .email-underlined}**{:.email-bold}
 
 
 {:.email-subtitle .email-subtitle--letter}

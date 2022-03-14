@@ -1,5 +1,5 @@
 # GitHub
-# baseurl:          /rhymetek.github.io
+# baseurl:          /RimeOfficial
 
 # Custom
 theme_color:      DA2E75
@@ -56,10 +56,10 @@ image:
   path:           /assets/images/logo-share.png
   height:         500
   width:          500
-author:           Rhyme Tek.
+author:           Rhyme Technologies
 lang: en_UK
 twitter:
-  username:       rimeofficial
+  username:       RhymeTek_
   card:           summary
 facebook:
   app_id:         510262139040639
@@ -67,16 +67,16 @@ facebook:
   admins:         suvozit
 logo:             /assets/images/logo-share.png
 social:
-  name: Rhyme Tek.
+  name: Rime
   links:
-    - https://twitter.com/RhymeTek
-    - https://www.facebook.com/RhymeTek
-    - https://www.linkedin.com/in/RhymeTek
-    - https://github.com/RhymeTek
+    - https://twitter.com/RhymeTek_
+    - https://www.facebook.com/RimeSocial
+    - https://www.linkedin.com/company/rhyme-tek/
+    - https://github.com/RimeOfficial
     - https://keybase.io/RhymeTek
     - https://dribbble.com/rimeofficial
     - https://medium.com/rimeofficial
-    - https://RhymeTek.tumblr.com
+    - https://rimeofficial.tumblr.com
 webmaster_verifications:
   google: KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU
 

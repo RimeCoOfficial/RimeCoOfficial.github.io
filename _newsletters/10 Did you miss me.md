@@ -24,4 +24,4 @@ Yeah…one of our favourite moments of Sherlock as well. We have meticulously (t
 
 {:.email-left}
 Have fun!<br>
-— The Rime ([@rime](/@rhymetek){:.email-link .email-underline}) Team
+— The Rime ([@rime](/@rime){:.email-link .email-underline}) Team

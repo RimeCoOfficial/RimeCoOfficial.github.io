@@ -14,17 +14,17 @@
       attr: target="_blank"
 
     - name: Updates
-      href: https://RhymeTek.tumblr.com
+      href: https://rimeofficial.tumblr.com
       attr: target="_blank"
 
 - title: "Details"
   list:      
     - name: Design
-      href: https://RhymeTek.tumblr.com/tagged/design
+      href: https://rimeofficial.tumblr.com/tagged/design
       attr: target="_blank"
 
     - name: Engineering
-      href: https://RhymeTek.tumblr.com/tagged/engineering
+      href: https://rimeofficial.tumblr.com/tagged/engineering
       attr: target="_blank"
 
     - name: Security
@@ -43,7 +43,7 @@
       href: /ai
       
     - name: Open Source
-      href: https://RhymeTek.github.io/Open-Source
+      href: https://RimeOfficial.github.io/Open-Source
       attr: target="_blank"
 
     - name: oEmbed
@@ -63,7 +63,7 @@
       href: /press
       
     - name: Ask
-      href: https://RhymeTek.tumblr.com/ask
+      href: https://rimeofficial.tumblr.com/ask
       attr: target="_blank"
 
     - name: Founders

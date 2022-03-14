@@ -22,7 +22,7 @@ layout: about
 
         
         <address>
-            <h5>Rhyme Tek</h5>
+            <h5>Rhyme Technologies</h5>
             Ranka Colony, Bilekahalli<br>
             Bengaluru, Karnataka 560076
         </address>

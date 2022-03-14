@@ -23,4 +23,4 @@ Check out new look of [your Rime profile](/@{{ site.data.users[0].username }}){:
 
 {:.email-left}
 Thanks!<br>
-— The Rime ([@rime](/@rhymetek){:.email-link .email-underline}) Team
+— The Rime ([@rime](/@rime){:.email-link .email-underline}) Team

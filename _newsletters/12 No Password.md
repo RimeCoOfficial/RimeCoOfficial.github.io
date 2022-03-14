@@ -20,4 +20,4 @@ Facing any troubles? Let us know.
 
 {:.email-left}
 Thanks!<br>
-— The Rime ([@rime](/@rhymetek){:.email-link .email-underline}) Team
+— The Rime ([@rime](/@rime){:.email-link .email-underline}) Team

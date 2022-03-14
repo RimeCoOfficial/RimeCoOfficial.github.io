@@ -4,8 +4,8 @@ hash: e57d108fcdc4698ddd09ca11024118e3
 bio: I am an Entrepreneur. Founder @RymeTek @Bitsits Ex Ubisoft BTech IIESTS Civil ♊︎ 🙇🏻‍♂️ ··· 🤖
 location: Howrah
 avatar: /assets/users/suvozit/avatar.jpg
-email: suvozit@rhyme.tek
-new_email: shubhajit@rhyme.tek
+email: suvozit@rime.co
+new_email: shubhajit@rime.co
 verification_code: c848e0886d5dca523b4b6c87da73220e
 verified: false
 sync_avatar: true
@@ -28,10 +28,10 @@ apps:
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png
           user: bitsits
-        - id: rhymetek
-          name: Rhyme Tek.
-          img: /assets/users/rhymetek/avatar.png
-          user: rhymetek
+        - id: rimeofficial
+          name: Rime
+          img: /assets/users/rime/avatar.png
+          user: rime
   dribbble:
     - oauth: 11111111111
       actors:
@@ -45,10 +45,10 @@ apps:
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png
           user: bitsits
-        - id: rhymetek
-          name: Rhyme Tek.
-          img: /assets/users/rhymetek/avatar.png
-          user: rhymetek
+        - id: rimeofficial
+          name: Rime
+          img: /assets/users/rime/avatar.png
+          user: rime
   flickr:
     - oauth: 11111111111
       actors:
@@ -76,11 +76,11 @@ apps:
           user: suvozit
           sync: 2011-01-01 10:00:00
           status: 200
-        - id: rhymetek
-          name: Rhyme Tek.
-          img: /assets/users/rhymetek/avatar.png
+        - id: rimeofficial
+          name: Rime
+          img: /assets/users/rime/avatar.png
           verified: y
-          user: rhymetek
+          user: rime
         - id: bitsitsgames
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png
@@ -97,11 +97,11 @@ apps:
           sync: 2011-01-01 10:00:00
           status: 200
           user: suvozit
-        - id: rhymetek
-          name: Rhyme Tek.
-          img: /assets/users/rhymetek/avatar.png
+        - id: rimeofficial
+          name: Rime
+          img: /assets/users/rime/avatar.png
           verified: y
-          user: rhymetek
+          user: rime
         - id: bitsits
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png
@@ -131,11 +131,11 @@ apps:
           sync: 2011-01-01 10:00:00
           status: 200
           user: suvozit
-        - id: rhymetek
-          name: Rhyme Tek.
-          img: /assets/users/rhymetek/avatar.png
+        - id: rimeofficial
+          name: Rime
+          img: /assets/users/rime/avatar.png
           verified: y
-          user: rhymetek
+          user: rime
   instagram:
     - oauth: 11111111111
       actors:
@@ -145,11 +145,11 @@ apps:
           user: suvozit
           sync: 2011-01-01 10:00:00
           status: 200
-        - id: rhyme.tek
-          name: Rhyme Tek.
-          img: /assets/users/rhymetek/avatar.png
+        - id: rimeofficial
+          name: Rime
+          img: /assets/users/rime/avatar.png
           verified: y
-          user: rhymetek
+          user: rime
         - id: bitsitsgames
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png
@@ -163,11 +163,11 @@ apps:
           user: suvozit
           sync: 2011-01-01 10:00:00
           status: 200
-        - id: rhyme.tek
-          name: Rhyme Tek.
-          img: /assets/users/rhymetek/avatar.png
+        - id: rimeofficial
+          name: Rime
+          img: /assets/users/rime/avatar.png
           verified: y
-          user: rhymetek
+          user: rime
         - id: bitsitsgames
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png
@@ -184,20 +184,20 @@ apps:
         - id: postmaster
           name: Postmaster
           img: /assets/users/postmaster/avatar.jpg
-          user: rhymetek
+          user: rime
         - id: स्वतंत्र
           name: Swatantra
           img: /assets/users/स्वतंत्र/avatar.jpeg
-          user: rhymetek
+          user: rime
         - id: oembed
           name: oEmbed
           img: /assets/users/oembed/avatar.jpeg
-          user: rhymetek
-        - id: rhymetek
-          name: Rhyme Tek.
-          img: /assets/users/rhymetek/avatar.png
+          user: rime
+        - id: rimeofficial
+          name: Rime
+          img: /assets/users/rime/avatar.png
           verified: y
-          user: rhymetek
+          user: rime
   microsoft:
     - oauth: 11111111111
       actors:
@@ -216,11 +216,11 @@ apps:
           user: suvozit
           sync: 2011-01-01 10:00:00
           status: 200
-        - id: rhyme.tek
-          name: Rhyme Tek.
-          img: /assets/users/rhymetek/avatar.png
+        - id: rimeofficial
+          name: Rime
+          img: /assets/users/rime/avatar.png
           verified: y
-          user: rhymetek
+          user: rime
         - id: bitsitsgames
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png

@@ -29,6 +29,6 @@ UTF-8: E2 9C B1
 <br>
 <br>
 
-<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="https://github.com/RhymeTek/brand" style="width: 175px; margin-bottom: 10px;">
+<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent" href="https://github.com/RimeOfficial/brand" style="width: 175px; margin-bottom: 10px;">
     Download
 </a>

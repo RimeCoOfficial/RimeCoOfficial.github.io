@@ -22,7 +22,7 @@ apps:
           name: Shubhajit Saha
           img: /assets/users/suvozit/avatar.jpg
           user: suvozit
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
         - id: bitsits
           name: Bitsits Games
@@ -39,7 +39,7 @@ apps:
           name: Shubhajit Saha
           img: /assets/users/suvozit/avatar.jpg
           user: suvozit
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
         - id: bitsits
           name: Bitsits Games
@@ -56,7 +56,7 @@ apps:
           name: Shubhajit Saha
           img: /assets/users/suvozit/avatar.jpg
           user: suvozit
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
   foursquare:
     - oauth: 11111111111
@@ -65,7 +65,7 @@ apps:
           name: Shubhajit Saha
           img: /assets/users/suvozit/avatar.jpg
           user: suvozit
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
   facebook:
     - oauth: 11111111111
@@ -74,7 +74,7 @@ apps:
           name: Shubhajit Saha
           img: /assets/users/suvozit/avatar.jpg
           user: suvozit
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
         - id: rimeofficial
           name: Rime
@@ -94,7 +94,7 @@ apps:
         - id: suvozit
           name: Shubhajit Saha
           img: /assets/users/suvozit/avatar.jpg
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
           user: suvozit
         - id: rimeofficial
@@ -109,13 +109,13 @@ apps:
         - id: iiests-ce110407060
           name: IIEST Shibpur
           img: /assets/users/iiests-ce110407060/avatar.png
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
           user: suvozit
         - id: iitb-p13098
           name: IDC School of Design, IIT Bombay
           img: /assets/users/iitb-p13098/avatar.jpg
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
           user: suvozit
         - id: nazariya
@@ -128,7 +128,7 @@ apps:
         - id: bitsits
           name: Bitsits Games
           img: /assets/users/bitsits/avatar.png
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
           user: suvozit
         - id: rimeofficial
@@ -143,7 +143,7 @@ apps:
           name: Shubhajit Saha
           img: /assets/users/suvozit/avatar.jpg
           user: suvozit
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
         - id: rimeofficial
           name: Rime
@@ -161,7 +161,7 @@ apps:
           name: Shubhajit Saha
           img: /assets/users/suvozit/avatar.jpg
           user: suvozit
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
         - id: rimeofficial
           name: Rime
@@ -179,7 +179,7 @@ apps:
           name: Shubhajit Saha
           img: /assets/users/suvozit/avatar.jpg
           user: suvozit
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
         - id: postmaster
           name: Postmaster
@@ -205,7 +205,7 @@ apps:
           name: Shubhajit Saha
           img: /assets/users/suvozit/avatar.jpg
           user: suvozit
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
   tumblr:
     - oauth: 11111111111
@@ -214,7 +214,7 @@ apps:
           name: Shubhajit Saha
           img: /assets/users/suvozit/avatar.jpg
           user: suvozit
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
         - id: rimeofficial
           name: Rime
@@ -232,7 +232,7 @@ apps:
           name: Shubhajit Saha
           img: /assets/users/suvozit/avatar.jpg
           user: suvozit
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
   vimeo:
     - oauth: 11111111111
@@ -241,7 +241,7 @@ apps:
           name: Shubhajit Saha
           img: /assets/users/suvozit/avatar.jpg
           user: suvozit
-          sync: 2011-01-01 10:00:00
+          sync: 2018-01-01 00:00:00
           status: 200
 places: /assets/users/suvozit/places.jpg
 websites:
@@ -281,8 +281,8 @@ websites:
 payment:
   card: 4444 3333 2222 1111
   name: Shubhajit Saha
-  expiry: 01/99
+  expiry: 01/77
 plan:
   type: enterprise
   count: 1
-  expiry: 2020-12-25
+  expiry: 2077-07-07

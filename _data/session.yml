@@ -1,11 +1,11 @@
 name: Shubhajit Saha
 username: suvozit
 hash: e57d108fcdc4698ddd09ca11024118e3
-bio: I am an Entrepreneur. Founder @RymeTek @Bitsits Ex Ubisoft BTech IIESTS Civil ♊︎ 🙇🏻‍♂️ ··· 🤖
+bio: I am an Artist // Entrepreneur // Streamer. Founder @RymeTek @Bitsits Ex Ubisoft BTech IIESTS Civil ♊︎ 🙇🏻‍♂️ ··· 🤖
 location: Howrah
 avatar: /buckets/users/suvozit/avatar.jpg
 email: suvozit@rime.co
-new_email: shubhajit@rime.co
+new_email: suvozit@live.com
 verification_code: c848e0886d5dca523b4b6c87da73220e
 verified: false
 sync_avatar: true
@@ -16,7 +16,7 @@ email_subscription:
   announcement: true
 apps:
   behance:
-    - oauth: 11111111111
+    - oauth: 1111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
@@ -33,7 +33,7 @@ apps:
           img: /buckets/users/rime/avatar.png
           user: rime
   dribbble:
-    - oauth: 11111111111
+    - oauth: 1111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
@@ -50,7 +50,7 @@ apps:
           img: /buckets/users/rime/avatar.png
           user: rime
   flickr:
-    - oauth: 11111111111
+    - oauth: 1111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
@@ -59,7 +59,7 @@ apps:
           sync: 2018-01-01 00:00:00
           status: 200
   foursquare:
-    - oauth: 11111111111
+    - oauth: 1111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
@@ -68,7 +68,7 @@ apps:
           sync: 2018-01-01 00:00:00
           status: 200
   facebook:
-    - oauth: 11111111111
+    - oauth: 1111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
@@ -89,7 +89,7 @@ apps:
           name: String Your Story
           img: /buckets/users/stringyourstory/avatar.png
   github:
-    - oauth: 11111111111
+    - oauth: 1111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
@@ -111,7 +111,7 @@ apps:
           img: /buckets/users/nazariya/avatar.png
           user: nazariya
   google:
-    - oauth: 11111111111
+    - oauth: 1111111111
       actors:
         - id: bitsits
           name: Bitsits Games
@@ -125,7 +125,7 @@ apps:
           verified: y
           user: rime
   instagram:
-    - oauth: 11111111111
+    - oauth: 1111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
@@ -143,7 +143,7 @@ apps:
           img: /buckets/users/bitsits/avatar.png
           user: bitsits
   linkedin:
-    - oauth: 11111111111
+    - oauth: 1111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
@@ -161,7 +161,7 @@ apps:
           img: /buckets/users/bitsits/avatar.png
           user: bitsits
   medium:
-    - oauth: 11111111111
+    - oauth: 1111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
@@ -187,7 +187,7 @@ apps:
           verified: y
           user: rime
   microsoft:
-    - oauth: 11111111111
+    - oauth: 1111111111
       actors:
         - id: suvozit@live.com
           name: Shubhajit Saha
@@ -196,7 +196,7 @@ apps:
           sync: 2018-01-01 00:00:00
           status: 200
   tumblr:
-    - oauth: 11111111111
+    - oauth: 1111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
@@ -214,7 +214,7 @@ apps:
           img: /buckets/users/bitsits/avatar.png
           user: bitsits
   twitter:
-    - oauth: 11111111111
+    - oauth: 1111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
@@ -223,7 +223,7 @@ apps:
           sync: 2018-01-01 00:00:00
           status: 200
   vimeo:
-    - oauth: 11111111111
+    - oauth: 1111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha

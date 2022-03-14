@@ -7,7 +7,7 @@
 
         var oAuthURL = $btn.attr('href');
         console.log("Opening window: " + oAuthURL);
-        win = window.open(oAuthURL, '_blank', 'modal=yes,alwaysRaised=yes,width=600,height=800');
+        win = window.open(oAuthURL, '_blank', 'modal=yes,alwaysRaised=yes,width=640,height=480');
 
         checkConnect = setInterval(function() {
             if (!win || !win.closed) return;

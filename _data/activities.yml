@@ -2,7 +2,7 @@
   type: system
   title: Tumblr
   description: Cached 30 posts from <b>suvozit</b>
-  url: /@suvozit?app=tumblr&time=2013-06-20
+  url: /@suvozit?app=tumblr&timestamp=20130620-000000
   date: 2013-06-20
   unread: true
 
@@ -10,7 +10,7 @@
   type: system
   title: Instagram
   description: Cached 30 posts from <b>suvozit</b>
-  url: /@suvozit?app=instagram&time=2013-06-20
+  url: /@suvozit?app=instagram&timestamp=20130620-000000
   date: 2013-06-20
   unread: true
 
@@ -18,7 +18,7 @@
   type: system
   title: GitHub
   description: Cached 30 posts from <b>suvozit</b>
-  url: /@suvozit?app=github&time=2013-06-20
+  url: /@suvozit?app=github&timestamp=20130620-000000
   date: 2013-06-20
   unread: true
 
@@ -47,7 +47,7 @@
   type: system
   title: Facebook
   description: Cached 78 posts from <b>suvozit</b>
-  url: /@suvozit?app=facebook&time=2013-06-20
+  url: /@suvozit?app=facebook&timestamp=20130620-000000
   date: 2013-06-20
   unread: true
 

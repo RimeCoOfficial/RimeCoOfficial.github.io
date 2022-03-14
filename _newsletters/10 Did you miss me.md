@@ -10,7 +10,7 @@ web_url: https://medium.com/p/cdefb0c22e4a
 In an era, defined by Donald Trump’s insights to yet another Super Hero ensemble movie, we have few interesting things to…err…interest you into reading this mail further. WE ARE BACK!!
 
 {:.email-image .email-center}
-![](/bucket/email/10-tumblr_mzz6cfLpLU1rzik3go1_500.gif){:.email-maxFillWidth}
+![](/buckets/email/10-tumblr_mzz6cfLpLU1rzik3go1_500.gif){:.email-maxFillWidth}
 
 {:.email-left}
 Yeah…one of our favourite moments of Sherlock as well. We have meticulously (thanks, Thesaurus) worked hard over the past few months to bring you a better experience at Rime. We have always maintained that we will give your “complete picture” to your target audience and we thusly release Rime 2.5 to make a step further. Below are the feature-set of our new release.

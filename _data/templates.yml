@@ -1,23 +1,23 @@
 - title: Minima
   description: A Bootstrap responsive two-column Jekyll documentation theme that pairs a prominent navbar.
-  image: /bucket/templates/Jekyll.png
+  image: /buckets/templates/Jekyll.png
   author: mdo
   url: https://RimeOfficial.github.io/Minima/About
 
 - title: Minimo
   description: Minimalist theme for Hugo
-  image: /bucket/templates/Hugo.png
+  image: /buckets/templates/Hugo.png
   author: Munif Tanjim
   url: https://minimo.netlify.app
 
 - title: MDL Blog
   description: A mobile focused responsive template that showcases blog entries with an expanded article page.
-  image: /bucket/templates/MDL.png
+  image: /buckets/templates/MDL.png
   author: Google
   url: https://getmdl.io/templates/index.html
 
 - title: Phantom
   description: a free, fully responsive site template designed by HTML5 UP.
-  image: /bucket/templates/HTML5UP.png
+  image: /buckets/templates/HTML5UP.png
   author: HTML5 UP
   url: https://html5up.net/phantom

@@ -14,7 +14,7 @@ Weekend is ahead! We have curated some amazing contents for you to make it perfe
 
 
 {:.email-image .email-center}
-![](/bucket/email/07-monday.png){:.email-maxFillWidth}
+![](/buckets/email/07-monday.png){:.email-maxFillWidth}
 
 {:.email-left}
 FONTSPRING.COM  
@@ -23,7 +23,7 @@ Monday, a font family by Fenotype. Preview, purchase and instantly download Mond
 
 
 {:.email-image .email-center}
-![](/bucket/email/07-11193188_779452448837175_1493061734_n.jpg){:.email-maxFillWidth}
+![](/buckets/email/07-11193188_779452448837175_1493061734_n.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 INSTAGRAM    
@@ -32,7 +32,7 @@ INSTAGRAM
 
 
 {:.email-image .email-center}
-![](/bucket/email/07-new-modern-funny-random-words-portmanteaus-fb-2.jpg){:.email-maxFillWidth}
+![](/buckets/email/07-new-modern-funny-random-words-portmanteaus-fb-2.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 DEMILKED.COM  
@@ -41,7 +41,7 @@ The beautiful thing about language is that it changes to reflect the times. Some
 
 
 {:.email-image .email-center}
-![](/bucket/email/07-palline_animation.gif){:.email-maxFillWidth}
+![](/buckets/email/07-palline_animation.gif){:.email-maxFillWidth}
 
 {:.email-left}
 DRIBBBLE.COM  
@@ -50,7 +50,7 @@ I love music and i thought to make a different Christmas tree, with some creativ
 
 
 {:.email-image .email-center}
-![](/bucket/email/07-quot2.jpg){:.email-maxFillWidth}
+![](/buckets/email/07-quot2.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 SCOOPWHOOP.COM  
@@ -59,7 +59,7 @@ Because age is just a number.
 
 
 {:.email-image .email-center}
-![](/bucket/email/07-515802460_640.jpg){:.email-maxFillWidth}
+![](/buckets/email/07-515802460_640.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 VIMEO  
@@ -68,7 +68,7 @@ VIMEO
 
 
 {:.email-image .email-center}
-![](/bucket/email/07-11117083_1632336270320185_877213999_n.jpg){:.email-maxFillWidth}
+![](/buckets/email/07-11117083_1632336270320185_877213999_n.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 INSTAGRAM  
@@ -77,7 +77,7 @@ INSTAGRAM
 
 
 {:.email-image .email-center}
-![](/bucket/email/07-11176248_343465115843338_452831447_n.jpg){:.email-maxFillWidth}
+![](/buckets/email/07-11176248_343465115843338_452831447_n.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 INSTAGRAM  
@@ -86,7 +86,7 @@ INSTAGRAM
 
 
 {:.email-image .email-center}
-![](/bucket/email/07-AAGY187i_400x400.jpg){:.email-maxFillWidth}
+![](/buckets/email/07-AAGY187i_400x400.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 TWITTER  
@@ -95,7 +95,7 @@ TWITTER
 
 
 {:.email-image .email-center}
-![](/bucket/email/07-AAGY187i_400x400.jpg){:.email-maxFillWidth}
+![](/buckets/email/07-AAGY187i_400x400.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 TWITTER  
@@ -104,7 +104,7 @@ TWITTER
 
 
 {:.email-image .email-center}
-![](/bucket/email/07-11190236_1444413669185680_1396680911_n.jpg){:.email-maxFillWidth}
+![](/buckets/email/07-11190236_1444413669185680_1396680911_n.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 INSTAGRAM  
@@ -113,7 +113,7 @@ INSTAGRAM
 
 
 {:.email-image .email-center}
-![](/bucket/email/07-11189631_477366215754255_1101980612_n.jpg){:.email-maxFillWidth}
+![](/buckets/email/07-11189631_477366215754255_1101980612_n.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 INSTAGRAM  
@@ -122,7 +122,7 @@ INSTAGRAM
 
 
 {:.email-image .email-center}
-![](/bucket/email/07-11111456_482540501895369_1787040518_n.jpg){:.email-maxFillWidth}
+![](/buckets/email/07-11111456_482540501895369_1787040518_n.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 INSTAGRAM  
@@ -131,7 +131,7 @@ INSTAGRAM
 
 
 {:.email-image .email-center}
-![](/bucket/email/07-11055981_1627430637487129_445012784_n.jpg){:.email-maxFillWidth}
+![](/buckets/email/07-11055981_1627430637487129_445012784_n.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 INSTAGRAM  

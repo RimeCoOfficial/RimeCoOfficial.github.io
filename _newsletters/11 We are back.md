@@ -7,7 +7,7 @@ web_url: https://medium.com/p/811dce4bb618
 ---
 
 {:.email-image .email-center}
-![](/bucket/email/11-BGyhvrZQRC.gif){:.email-maxFillWidth}
+![](/buckets/email/11-BGyhvrZQRC.gif){:.email-maxFillWidth}
 
 {:.email-left}
 Hi {{ site.data.session.name }} ([@{{ site.data.users[0].username }}](/@{{ site.data.users[0].username }}){:.email-link .email-underline}),

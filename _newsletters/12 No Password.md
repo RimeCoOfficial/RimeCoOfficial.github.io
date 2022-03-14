@@ -7,7 +7,7 @@ web_url: https://medium.com/p/4f4fa332d51a
 ---
 
 {:.email-image .email-center}
-![](/bucket/email/12-tag-cloud-password.png){:.email-maxFillWidth}
+![](/buckets/email/12-tag-cloud-password.png){:.email-maxFillWidth}
 
 {:.email-left}
 Hi {{ site.data.session.name }} ([@{{ site.data.users[0].username }}](/@{{ site.data.users[0].username }}){:.email-link .email-underline}),

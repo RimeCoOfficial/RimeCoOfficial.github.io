@@ -19,7 +19,7 @@ It creates **unique online identity**{:.email-bold} on the internet and keep me 
 
 
 {:.email-image .email-center}
-![](/bucket/email/invite.png){:.email-maxFillWidth}
+![](/buckets/email/invite.png){:.email-maxFillWidth}
 
 
 {% assign user = site.data.session %}

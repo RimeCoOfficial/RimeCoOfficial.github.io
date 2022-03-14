@@ -15,7 +15,7 @@ It creates **unique online identity**{:.email-bold} on the internet and keep me 
 {:.email-left}
 **Its new way to explore the internet.**{:.email-bold}
 
-[Click here to join!!](https://rime.co){:.email-link .email-underline}
+[Click here to join!!]({{ site.url }}){:.email-link .email-underline}
 
 
 {:.email-image .email-center}

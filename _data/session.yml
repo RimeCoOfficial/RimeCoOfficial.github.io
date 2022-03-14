@@ -8,7 +8,6 @@ email: suvozit@rime.co
 new_email: suvozit@live.com
 verification_code: c848e0886d5dca523b4b6c87da73220e
 verified: false
-sync_avatar: true
 email_subscription:
   notification: true
   tips: false
@@ -72,6 +71,9 @@ apps:
           img: /buckets/users/rime/avatar.png
           verified: y
           user: rime
+        - id: stringyourstory
+          name: String Your Story
+          img: /buckets/users/stringyourstory/avatar.png
   instagram:
     - oauth: 1111111111
       actors:
@@ -108,6 +110,9 @@ apps:
           name: Bitsits Games
           img: /buckets/users/bitsits/avatar.png
           user: bitsits
+        - id: stringyourstory
+          name: String Your Story
+          img: /buckets/users/stringyourstory/avatar.png
   tumblr:
     - oauth: 1111111111
       actors:

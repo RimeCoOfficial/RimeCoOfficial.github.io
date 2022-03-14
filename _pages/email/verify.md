@@ -10,7 +10,7 @@ Hi {{ site.data.session.name }} (<a class="email-link email-underline" href="/@{
 Help us secure your Rime account by verifying your email address {{ site.data.session.new_email }}
 
 {:.email-left}
-<a class="email-link email-underline" href="/auth/email/verify/{{ site.data.session.username }}/{{ site.data.session.email }}/{{ site.data.session.verification_code }}">Verify Email</a>
+<a class="email-link email-underline" href="/auth/email/verify/{{ site.data.session.username }}/{{ site.data.session.new_email }}/{{ site.data.session.verification_code }}">Verify Email</a>
 
 
 {:.email-left}

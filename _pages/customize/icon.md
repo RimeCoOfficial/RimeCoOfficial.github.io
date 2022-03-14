@@ -17,7 +17,7 @@ title: Customize - Icon
 {% assign show_delete_button = 1 %}
 {% endif %}
 
-{% assign text = 'This works like a user icon and appears in previews of your publication content throughout Medium. It is square and should be at least 60 × 60px in size.' %}
+{% assign text = 'This works like a user icon and appears in previews of your publication content throughout Rime. It is square and should be at least 60 × 60px in size.' %}
 
 {% if src %}
 <img src="{{ src }}" style="{{ style }} padding-bottom: 20px; padding-top: 5px;" />
@@ -25,7 +25,7 @@ title: Customize - Icon
 
 <p>{{ text }}</p>
 
-{% include form/upload.html id='upload' name='userfile' label='Add Image' %}
+{% include form/upload.html id='upload' name='userfile' label='Upload new icon' %}
 
 </div>
 

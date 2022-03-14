@@ -25,7 +25,7 @@ title: Customize - Banner
 
 <p>{{ text }}</p>
 
-{% include form/upload.html id='upload' name='userfile' label='Add Image' %}
+{% include form/upload.html id='upload' name='userfile' label='Upload new banner' %}
 </div>
 
 {% if show_delete_button %}

@@ -21,6 +21,3 @@
 
 - name: Deactivate
   url: /settings/deactivate
-
-- name: Delete
-  url: /settings/delete

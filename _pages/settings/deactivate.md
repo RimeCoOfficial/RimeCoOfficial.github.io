@@ -13,7 +13,7 @@ title: Settings - Deactivate
 
 <form>
 
-{% include form/checkbox.html id="agreement" label="I agree" %}
+{% include form/checkbox.html id="agreement-deactivate" label="I agree" %}
 
 <br>
 <br>
@@ -23,6 +23,32 @@ title: Settings - Deactivate
 <!-- Accent-colored raised button with ripple -->
 <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/auth/sign-out">
     Deactivate
+</a>
+
+</form>
+
+</div>
+
+<div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Delete account</h2>
+</div>
+
+<div class="mdl-card__supporting-text">
+
+<p>Permanently delete your account and all of your content.</p>
+
+<form>
+
+{% include form/checkbox.html id="agreement-delete" label="I agree" %}
+
+<br>
+<br>
+
+<br>
+
+<!-- Accent-colored raised button with ripple -->
+<a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/auth/sign-out">
+    Delete
 </a>
 
 </form>

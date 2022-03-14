@@ -11,7 +11,7 @@ title: Customize - Template
 <div class="mdl-card__supporting-text">
     <p><b>Current Theme</b> {{ site.data.session.websites[0].template }}</p>
 
-    {% include form/upload.html id='upload' name='userfile' label='Add .zip' %}
+    {% include form/upload.html id='upload' name='userfile' label='Upload new template' %}
 </div>
 
 {% assign show_delete_button = 1 %}

@@ -1,22 +1,6 @@
-- name: Behance
-  detials: WIP, Projects, Following
-  icon: icon-behance
-  kind:
-    - type: user
-      name: Behance
-      icon: icon-behance
-
-- name: Dribbble
-  detials: Public folder
-  icon: icon-dribbble
-  kind:
-    - type: user
-      name: Dribbble
-      icon: icon-dribbble
-
 - name: Facebook
   sign-in: true
-  detials: Timeline posts, Friends, Likes
+  detials: Timeline posts & Pages
   icon: icon-facebook
   kind:
     - type: user
@@ -28,7 +12,7 @@
       icon: icon-facebook-official
 
 - name: Flickr
-  detials: Photos, Videos, Albums, Followings
+  detials: Photos, Videos & Albums
   icon: icon-flickr
   kind:
     - type: user
@@ -36,7 +20,7 @@
       icon: icon-flickr
 
 - name: Foursquare
-  detials: Checkins, Following
+  detials: Checkins
   icon: icon-foursquare
   kind:
     - type: user
@@ -44,7 +28,7 @@
       icon: icon-foursquare
 
 - name: GitHub
-  detials: Public Repositories, Gists
+  detials: Repositories, Gists & Organizations
   icon: icon-github
   kind:
     - type: user
@@ -57,7 +41,7 @@
 
 - name: Google
   sign-in: true
-  detials: Blogger, YouTube, Gmail contacts
+  detials: Google+, Blogger & YouTube
   icon: icon-google
   kind:
     - type: user
@@ -73,7 +57,7 @@
       icon: icon-blogger
 
 - name: Instagram
-  detials: Photos, Videos, Following
+  detials: Photos & Videos
   icon: icon-instagram
   kind:
     - type: user
@@ -82,7 +66,7 @@
 
 - name: LinkedIn
   sign-in: true
-  detials: User, Companies
+  detials: Posts & Organizations
   icon: icon-linkedin
   kind:
     - type: user
@@ -93,27 +77,8 @@
       name: LinkedIn Orgs
       icon: icon-linkedin
 
-- name: Medium
-  detials: Posts and Publications
-  icon: icon-medium
-  kind:
-    - type: user
-      name: Medium
-      icon: icon-medium
-    - type: publications
-      name: Medium Publications
-      icon: icon-medium
-
-- name: Microsoft
-  detials: Outlook Contacts
-  icon: icon-windows
-  kind:
-    - type: user
-      name: Microsoft
-      icon: icon-windows
-
 - name: Tumblr
-  detials: Blog Posts, Followings
+  detials: Blogs
   icon: icon-tumblr
   kind:
     - type: blog
@@ -121,7 +86,7 @@
       icon: icon-tumblr
 
 - name: Twitter
-  detials: Read Tweets, See who you follow
+  detials: Tweets
   icon: icon-twitter
   kind:
     - type: user
@@ -129,7 +94,7 @@
       icon: icon-twitter
 
 - name: Vimeo
-  detials: Videos, Albums, Channels, Followings
+  detials: Videos, Albums & Channels
   icon: icon-vimeo
   kind:
     - type: user

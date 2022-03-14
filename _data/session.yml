@@ -15,58 +15,6 @@ email_subscription:
   newsletter: true
   announcement: true
 apps:
-  behance:
-    - oauth: 1111111111
-      actors:
-        - id: suvozit
-          name: Shubhajit Saha
-          img: /buckets/users/suvozit/avatar.jpg
-          user: suvozit
-          sync: 2018-01-01 00:00:00
-          status: 200
-        - id: bitsits
-          name: Bitsits Games
-          img: /buckets/users/bitsits/avatar.png
-          user: bitsits
-        - id: rimeofficial
-          name: Rime
-          img: /buckets/users/rime/avatar.png
-          user: rime
-  dribbble:
-    - oauth: 1111111111
-      actors:
-        - id: suvozit
-          name: Shubhajit Saha
-          img: /buckets/users/suvozit/avatar.jpg
-          user: suvozit
-          sync: 2018-01-01 00:00:00
-          status: 200
-        - id: bitsits
-          name: Bitsits Games
-          img: /buckets/users/bitsits/avatar.png
-          user: bitsits
-        - id: rimeofficial
-          name: Rime
-          img: /buckets/users/rime/avatar.png
-          user: rime
-  flickr:
-    - oauth: 1111111111
-      actors:
-        - id: suvozit
-          name: Shubhajit Saha
-          img: /buckets/users/suvozit/avatar.jpg
-          user: suvozit
-          sync: 2018-01-01 00:00:00
-          status: 200
-  foursquare:
-    - oauth: 1111111111
-      actors:
-        - id: suvozit
-          name: Shubhajit Saha
-          img: /buckets/users/suvozit/avatar.jpg
-          user: suvozit
-          sync: 2018-01-01 00:00:00
-          status: 200
   facebook:
     - oauth: 1111111111
       actors:
@@ -160,41 +108,6 @@ apps:
           name: Bitsits Games
           img: /buckets/users/bitsits/avatar.png
           user: bitsits
-  medium:
-    - oauth: 1111111111
-      actors:
-        - id: suvozit
-          name: Shubhajit Saha
-          img: /buckets/users/suvozit/avatar.jpg
-          user: suvozit
-          sync: 2018-01-01 00:00:00
-          status: 200
-        - id: postmaster
-          name: Postmaster
-          img: /buckets/users/postmaster/avatar.jpg
-          user: rime
-        - id: स्वतंत्र
-          name: Swatantra
-          img: /buckets/users/स्वतंत्र/avatar.jpeg
-          user: rime
-        - id: oembed
-          name: oEmbed
-          img: /buckets/users/oembed/avatar.jpeg
-          user: rime
-        - id: rimeofficial
-          name: Rime
-          img: /buckets/users/rime/avatar.png
-          verified: y
-          user: rime
-  microsoft:
-    - oauth: 1111111111
-      actors:
-        - id: suvozit@live.com
-          name: Shubhajit Saha
-          img: /buckets/users/suvozit/avatar.jpg
-          user: suvozit
-          sync: 2018-01-01 00:00:00
-          status: 200
   tumblr:
     - oauth: 1111111111
       actors:

@@ -52,10 +52,9 @@ which are:
     <li>Flickr</li>
     <li>Foursquare</li>
     <li>GitHub <em>(including company pages)</em></li>
-    <li>Google <em>(Google+, YouTube, Blogger)</em></li>
+    <li>Google+ <em>(including YouTube & Blogger)</em></li>
     <li>Instagram</li>
     <li>LinkedIn <em>(including company pages)</em></li>
-    <li>Microsoft</li>
     <li>Twitter</li>
     <li>Tumblr</li>
     <li>Vimeo <em>(including channels)</em></li>

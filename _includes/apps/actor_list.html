@@ -41,10 +41,10 @@
         </span>
         <span class="mdl-list__item-secondary-content">
             {% if actor.user == nil %}
-            <a class="mdl-cell--hide-desktop mdl-list__item-secondary-action mdl-button mdl-button--icon mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="/action/actor/add/{{ actor.id }}?redirect=apps/add/{{ app }}">
+            <a class="mdl-cell--hide-desktop mdl-list__item-secondary-action mdl-button mdl-button--icon mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="">
                 <i class="material-icons">add</i>
             </a>
-            <a class="mdl-cell--hide-tablet mdl-cell--hide-phone mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/action/actor/add/{{ actor.id }}?redirect=apps/add/{{ app }}">
+            <a class="mdl-cell--hide-tablet mdl-cell--hide-phone mdl-list__item-secondary-action mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="">
                 Connect
             </a>
             {% else %}

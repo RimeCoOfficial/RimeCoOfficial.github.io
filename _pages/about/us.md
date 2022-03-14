@@ -12,7 +12,7 @@ layout: about
     <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--3-col-tablet mdl-cell--4-col-phone">
 
         <h5>Founded</h5>
-        <p>2016</p>
+        <p>2014</p>
 
         <h5>Founders</h5>
         <p>Girish Nayak & Shubhajit Saha</p>
@@ -83,17 +83,9 @@ layout: about
         <p>
             <strong>CTO</strong>
 
-            Founder of 
-            <a href="https://www.bitsits.games">Bitsits Games</a>, 
-            <a href="https://www.azadi.store">Azadi Store</a>, 
-            <a href="https://www.mudra.club">Mudra Club</a>. 
-            
+            Founder of <a href="https://www.bitsits.games">Bitsits Games</a>.
             
             Worked as 
-            
-            SDE III 
-            at <a href="http://agricx.com/">Agricx</a>,
-
             Sr. Project Tech Assistant 
             at <a href="http://www.idc.iitb.ac.in/">IDC</a> 
             <a href="http://www.iitb.ac.in/">IIT Bombay</a>

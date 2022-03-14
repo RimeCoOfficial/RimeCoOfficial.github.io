@@ -14,7 +14,7 @@ Keep sharing, keep art alive!
 #### Featured Posts #staffpicks
 
 {:.email-image .email-center}
-![](/assets/email/06-11055893_455027391314373_934182756_n.jpg){:.email-maxFillWidth}
+![](/bucket/email/06-11055893_455027391314373_934182756_n.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 INSTAGRAM  
@@ -22,7 +22,7 @@ INSTAGRAM
 
 
 {:.email-image .email-center}
-![](/assets/email/06-11052234_890793257610149_4480821858937520917_n.jpg){:.email-maxFillWidth}
+![](/bucket/email/06-11052234_890793257610149_4480821858937520917_n.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 FACEBOOK.COM  
@@ -30,7 +30,7 @@ FACEBOOK.COM
 
 
 {:.email-image .email-center}
-![](/assets/email/06-11111417_1587498224861500_259154698_n.jpg){:.email-maxFillWidth}
+![](/bucket/email/06-11111417_1587498224861500_259154698_n.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 INSTAGRAM  
@@ -38,7 +38,7 @@ INSTAGRAM
 
 
 {:.email-image .email-center}
-![](/assets/email/06-10817665_1050018295027612_2093477364_n.jpg){:.email-maxFillWidth}
+![](/bucket/email/06-10817665_1050018295027612_2093477364_n.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 INSTAGRAM  
@@ -46,7 +46,7 @@ INSTAGRAM
 
 
 {:.email-image .email-center}
-![](/assets/email/06-505094677_295x166.jpg){:.email-maxFillWidth}
+![](/bucket/email/06-505094677_295x166.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 TUMBLR  
@@ -54,7 +54,7 @@ TUMBLR
 
 
 {:.email-image .email-center}
-![](/assets/email/06-463703209_295x166.jpg){:.email-maxFillWidth}
+![](/bucket/email/06-463703209_295x166.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 TUMBLR  
@@ -62,7 +62,7 @@ TUMBLR
 
 
 {:.email-image .email-center}
-![](/assets/email/06-_81816883_81813713.jpg){:.email-maxFillWidth}
+![](/bucket/email/06-_81816883_81813713.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 BBC.COM  
@@ -70,7 +70,7 @@ BBC.COM
 
 
 {:.email-image .email-center}
-![](/assets/email/06-1531754_794855947195463_1920576709_n.jpg){:.email-maxFillWidth}
+![](/bucket/email/06-1531754_794855947195463_1920576709_n.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 PLUS.GOOGLE.COM  
@@ -78,7 +78,7 @@ PLUS.GOOGLE.COM
 
 
 {:.email-image .email-center}
-![](/assets/email/06-hqdefault.jpg){:.email-maxFillWidth}
+![](/bucket/email/06-hqdefault.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 YOUTUBE  
@@ -86,7 +86,7 @@ YOUTUBE
 
 
 {:.email-image .email-center}
-![](/assets/email/06-11201513_369091689946007_209255757_n.jpg){:.email-maxFillWidth}
+![](/bucket/email/06-11201513_369091689946007_209255757_n.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 INSTAGRAM  
@@ -94,7 +94,7 @@ INSTAGRAM
 
 
 {:.email-image .email-center}
-![](/assets/email/06-CDG9R_rW4AA-71L.jpg){:.email-maxFillWidth}
+![](/bucket/email/06-CDG9R_rW4AA-71L.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 TWITTER  
@@ -102,7 +102,7 @@ TWITTER
 
 
 {:.email-image .email-center}
-![](/assets/email/06-avatar_23027dc4510e_128.png){:.email-maxFillWidth}
+![](/bucket/email/06-avatar_23027dc4510e_128.png){:.email-maxFillWidth}
 
 {:.email-left}
 ICK4U.TUMBLR.COM  
@@ -110,7 +110,7 @@ ICK4U.TUMBLR.COM
 
 
 {:.email-image .email-center}
-![](/assets/email/06-11098317_521474577991099_1690896470_n.jpg){:.email-maxFillWidth}
+![](/bucket/email/06-11098317_521474577991099_1690896470_n.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 INSTAGRAM  
@@ -118,7 +118,7 @@ INSTAGRAM
 
 
 {:.email-image .email-center}
-![](/assets/email/06-10616946_567510113360515_216081827_n.jpg){:.email-maxFillWidth}
+![](/bucket/email/06-10616946_567510113360515_216081827_n.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 INSTAGRAM  
@@ -126,7 +126,7 @@ INSTAGRAM
 
 
 {:.email-image .email-center}
-![](/assets/email/06-tumblr_nm8l48SiWe1sfkk5eo1_500.jpg){:.email-maxFillWidth}
+![](/bucket/email/06-tumblr_nm8l48SiWe1sfkk5eo1_500.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 TUMBLR  
@@ -134,7 +134,7 @@ TUMBLR
 
 
 {:.email-image .email-center}
-![](/assets/email/06-hqdefault (1).jpg){:.email-maxFillWidth}
+![](/bucket/email/06-hqdefault (1).jpg){:.email-maxFillWidth}
 
 {:.email-left}
 YOUTUBE  

@@ -3,25 +3,25 @@
   user: suvozit
   template: The-Keyword
   url: https://www.shubhajitsaha.com
-  preview: /assets/users/suvozit/websites/default.png
+  preview: /bucket/users/suvozit/websites/default.png
 
 - title: Girish Nayak
   domain: https://www.girish.blog
   user: girish
   template: The-Keyword
   url: https://www.girish.blog
-  preview: /assets/users/girish/websites/default.png
+  preview: /bucket/users/girish/websites/default.png
   
 - title: Rime
   domain: https://www.rime.blog
   user: rime
   template: The-Keyword
   url: https://www.rime.blog
-  preview: /assets/users/rime/websites/default.png
+  preview: /bucket/users/rime/websites/default.png
 
 - title: Nazariya
   domain: https://explore.nazariya.com
   user: nazariya
   template: The-Keyword
   url: https://explore.nazariya.in
-  preview: /assets/users/nazariya/websites/default.png
+  preview: /bucket/users/nazariya/websites/default.png

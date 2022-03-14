@@ -26,7 +26,7 @@ Stay tuned.
 Christmas is coming… with lot more features :)
 
 {:.email-image .email-center}
-![](/assets/email/01-unnamed-1.gif){:.email-maxFillWidth}
+![](/bucket/email/01-unnamed-1.gif){:.email-maxFillWidth}
 
 {:.email-left}
 Have fun!<br>

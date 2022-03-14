@@ -16,14 +16,14 @@ You can comment and like on any url.
 ► **[Learn How to Make A Heart Shaped Egg Before Valentine’s Day](/url/1aa1216cb88a2a25d502370a56a738de1f9705f36f62c62f50c3152debaabfc6?utm_source=Newsletter-17&utm_campaign=17+Oh+boy%21+Newsletter&utm_medium=email&utm_content=hyperlink){:.email-link .email-underline}**{:.email-bold}
 
 {:.email-image .email-center}
-![](/assets/email/02-maxresdefault.jpg){:.email-maxFillWidth}
+![](/bucket/email/02-maxresdefault.jpg){:.email-maxFillWidth}
 
 
 {:.email-left}
 ► **[Lost and Found (ODESZA Remix) — The Hidden Shades by Pretty Lights](/url/58a6998f9d3aff20717415f0793ca70e3f80075c95a7f4031787335be5c7b114?utm_source=Newsletter-17&utm_campaign=17+Oh+boy%21+Newsletter&utm_medium=email&utm_content=hyperlink){:.email-link .email-underline}**{:.email-bold}
 
 {:.email-image .email-center}
-![](/assets/email/02-artworks-000073914951-saca11-t500x500.jpg){:.email-maxFillWidth}
+![](/bucket/email/02-artworks-000073914951-saca11-t500x500.jpg){:.email-maxFillWidth}
 
 {:.email-left}
 <strong>Featured users:</strong>{:.email-bold} Check out some of the amazing artists that are posting on Rime:

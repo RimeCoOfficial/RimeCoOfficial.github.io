@@ -3,7 +3,7 @@ username: suvozit
 hash: e57d108fcdc4698ddd09ca11024118e3
 bio: I am an Entrepreneur. Founder @RymeTek @Bitsits Ex Ubisoft BTech IIESTS Civil ♊︎ 🙇🏻‍♂️ ··· 🤖
 location: Howrah
-avatar: /assets/users/suvozit/avatar.jpg
+avatar: /bucket/users/suvozit/avatar.jpg
 email: suvozit@rime.co
 new_email: shubhajit@rime.co
 verification_code: c848e0886d5dca523b4b6c87da73220e
@@ -20,41 +20,41 @@ apps:
       actors:
         - id: suvozit
           name: Shubhajit Saha
-          img: /assets/users/suvozit/avatar.jpg
+          img: /bucket/users/suvozit/avatar.jpg
           user: suvozit
           sync: 2018-01-01 00:00:00
           status: 200
         - id: bitsits
           name: Bitsits Games
-          img: /assets/users/bitsits/avatar.png
+          img: /bucket/users/bitsits/avatar.png
           user: bitsits
         - id: rimeofficial
           name: Rime
-          img: /assets/users/rime/avatar.png
+          img: /bucket/users/rime/avatar.png
           user: rime
   dribbble:
     - oauth: 11111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
-          img: /assets/users/suvozit/avatar.jpg
+          img: /bucket/users/suvozit/avatar.jpg
           user: suvozit
           sync: 2018-01-01 00:00:00
           status: 200
         - id: bitsits
           name: Bitsits Games
-          img: /assets/users/bitsits/avatar.png
+          img: /bucket/users/bitsits/avatar.png
           user: bitsits
         - id: rimeofficial
           name: Rime
-          img: /assets/users/rime/avatar.png
+          img: /bucket/users/rime/avatar.png
           user: rime
   flickr:
     - oauth: 11111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
-          img: /assets/users/suvozit/avatar.jpg
+          img: /bucket/users/suvozit/avatar.jpg
           user: suvozit
           sync: 2018-01-01 00:00:00
           status: 200
@@ -63,7 +63,7 @@ apps:
       actors:
         - id: suvozit
           name: Shubhajit Saha
-          img: /assets/users/suvozit/avatar.jpg
+          img: /bucket/users/suvozit/avatar.jpg
           user: suvozit
           sync: 2018-01-01 00:00:00
           status: 200
@@ -72,68 +72,68 @@ apps:
       actors:
         - id: suvozit
           name: Shubhajit Saha
-          img: /assets/users/suvozit/avatar.jpg
+          img: /bucket/users/suvozit/avatar.jpg
           user: suvozit
           sync: 2018-01-01 00:00:00
           status: 200
         - id: rimeofficial
           name: Rime
-          img: /assets/users/rime/avatar.png
+          img: /bucket/users/rime/avatar.png
           verified: y
           user: rime
         - id: bitsitsgames
           name: Bitsits Games
-          img: /assets/users/bitsits/avatar.png
+          img: /bucket/users/bitsits/avatar.png
           user: bitsits
         - id: stringyourstory
           name: String Your Story
-          img: /assets/users/stringyourstory/avatar.png
+          img: /bucket/users/stringyourstory/avatar.png
   github:
     - oauth: 11111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
-          img: /assets/users/suvozit/avatar.jpg
+          img: /bucket/users/suvozit/avatar.jpg
           sync: 2018-01-01 00:00:00
           status: 200
           user: suvozit
         - id: rimeofficial
           name: Rime
-          img: /assets/users/rime/avatar.png
+          img: /bucket/users/rime/avatar.png
           verified: y
           user: rime
         - id: bitsits
           name: Bitsits Games
-          img: /assets/users/bitsits/avatar.png
+          img: /bucket/users/bitsits/avatar.png
           user: bitsits
         - id: iiests-ce110407060
           name: IIEST Shibpur
-          img: /assets/users/iiests-ce110407060/avatar.png
+          img: /bucket/users/iiests-ce110407060/avatar.png
           sync: 2018-01-01 00:00:00
           status: 200
           user: suvozit
         - id: iitb-p13098
           name: IDC School of Design, IIT Bombay
-          img: /assets/users/iitb-p13098/avatar.jpg
+          img: /bucket/users/iitb-p13098/avatar.jpg
           sync: 2018-01-01 00:00:00
           status: 200
           user: suvozit
         - id: nazariya
           name: Nazariya
-          img: /assets/users/nazariya/avatar.png
+          img: /bucket/users/nazariya/avatar.png
           user: nazariya
   google:
     - oauth: 11111111111
       actors:
         - id: bitsits
           name: Bitsits Games
-          img: /assets/users/bitsits/avatar.png
+          img: /bucket/users/bitsits/avatar.png
           sync: 2018-01-01 00:00:00
           status: 200
           user: suvozit
         - id: rimeofficial
           name: Rime
-          img: /assets/users/rime/avatar.png
+          img: /bucket/users/rime/avatar.png
           verified: y
           user: rime
   instagram:
@@ -141,61 +141,61 @@ apps:
       actors:
         - id: suvozit
           name: Shubhajit Saha
-          img: /assets/users/suvozit/avatar.jpg
+          img: /bucket/users/suvozit/avatar.jpg
           user: suvozit
           sync: 2018-01-01 00:00:00
           status: 200
         - id: rimeofficial
           name: Rime
-          img: /assets/users/rime/avatar.png
+          img: /bucket/users/rime/avatar.png
           verified: y
           user: rime
         - id: bitsitsgames
           name: Bitsits Games
-          img: /assets/users/bitsits/avatar.png
+          img: /bucket/users/bitsits/avatar.png
           user: bitsits
   linkedin:
     - oauth: 11111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
-          img: /assets/users/suvozit/avatar.jpg
+          img: /bucket/users/suvozit/avatar.jpg
           user: suvozit
           sync: 2018-01-01 00:00:00
           status: 200
         - id: rimeofficial
           name: Rime
-          img: /assets/users/rime/avatar.png
+          img: /bucket/users/rime/avatar.png
           verified: y
           user: rime
         - id: bitsitsgames
           name: Bitsits Games
-          img: /assets/users/bitsits/avatar.png
+          img: /bucket/users/bitsits/avatar.png
           user: bitsits
   medium:
     - oauth: 11111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
-          img: /assets/users/suvozit/avatar.jpg
+          img: /bucket/users/suvozit/avatar.jpg
           user: suvozit
           sync: 2018-01-01 00:00:00
           status: 200
         - id: postmaster
           name: Postmaster
-          img: /assets/users/postmaster/avatar.jpg
+          img: /bucket/users/postmaster/avatar.jpg
           user: rime
         - id: स्वतंत्र
           name: Swatantra
-          img: /assets/users/स्वतंत्र/avatar.jpeg
+          img: /bucket/users/स्वतंत्र/avatar.jpeg
           user: rime
         - id: oembed
           name: oEmbed
-          img: /assets/users/oembed/avatar.jpeg
+          img: /bucket/users/oembed/avatar.jpeg
           user: rime
         - id: rimeofficial
           name: Rime
-          img: /assets/users/rime/avatar.png
+          img: /bucket/users/rime/avatar.png
           verified: y
           user: rime
   microsoft:
@@ -203,7 +203,7 @@ apps:
       actors:
         - id: suvozit@live.com
           name: Shubhajit Saha
-          img: /assets/users/suvozit/avatar.jpg
+          img: /bucket/users/suvozit/avatar.jpg
           user: suvozit
           sync: 2018-01-01 00:00:00
           status: 200
@@ -212,25 +212,25 @@ apps:
       actors:
         - id: suvozit
           name: Shubhajit Saha
-          img: /assets/users/suvozit/avatar.jpg
+          img: /bucket/users/suvozit/avatar.jpg
           user: suvozit
           sync: 2018-01-01 00:00:00
           status: 200
         - id: rimeofficial
           name: Rime
-          img: /assets/users/rime/avatar.png
+          img: /bucket/users/rime/avatar.png
           verified: y
           user: rime
         - id: bitsitsgames
           name: Bitsits Games
-          img: /assets/users/bitsits/avatar.png
+          img: /bucket/users/bitsits/avatar.png
           user: bitsits
   twitter:
     - oauth: 11111111111
       actors:
         - id: suvozit
           name: Shubhajit Saha
-          img: /assets/users/suvozit/avatar.jpg
+          img: /bucket/users/suvozit/avatar.jpg
           user: suvozit
           sync: 2018-01-01 00:00:00
           status: 200
@@ -239,17 +239,25 @@ apps:
       actors:
         - id: suvozit
           name: Shubhajit Saha
-          img: /assets/users/suvozit/avatar.jpg
+          img: /bucket/users/suvozit/avatar.jpg
           user: suvozit
           sync: 2018-01-01 00:00:00
           status: 200
-places: /assets/users/suvozit/places.jpg
+    - oauth: 22222222222
+      actors:
+        - id: web3
+          name: Web 3.0
+          img: /bucket/users/web3/avatar.png
+          user: suvozit
+          sync: 2018-01-01 00:00:00
+          status: 200
+places: /bucket/users/suvozit/places.jpg
 websites:
   - template: The-Keyword
     title: Shubhajit Saha
     description: I am an Entrepreneur. Founder @RymeTek @Bitsits Ex Ubisoft BTech IIESTS Civil ♊︎ 🙇🏻‍♂️ ··· 🤖
-    icon: /assets/users/suvozit/websites/Shubhajit Saha/icon.png
-    banner: /assets/users/suvozit/websites/Shubhajit Saha/banner.JPG
+    icon: /bucket/users/suvozit/websites/Shubhajit Saha/icon.png
+    banner: /bucket/users/suvozit/websites/Shubhajit Saha/banner.JPG
     font:
       primary: Roboto Slab
       secondary: Roboto
@@ -259,7 +267,7 @@ websites:
   - template: The-Keyword
     title: Blog
     description: 👾 👾 👾 ˙ ˙˙🔫
-    icon: /assets/users/suvozit/websites/Blog/icon.jpg
+    icon: /bucket/users/suvozit/websites/Blog/icon.jpg
     banner: 
     font:
       primary: Roboto Slab
@@ -270,7 +278,7 @@ websites:
   - template: The-Keyword
     title: Portfolio
     description: Artist/ Entrepreneur/ Streamer
-    icon: /assets/users/suvozit/websites/Portfolio/icon.png
+    icon: /bucket/users/suvozit/websites/Portfolio/icon.png
     banner: 
     font:
       primary: Roboto Slab

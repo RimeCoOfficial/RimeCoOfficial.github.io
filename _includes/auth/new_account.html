@@ -13,7 +13,7 @@
 {% assign username = username | replace: " ", "_" | replace: ".", "-" %}
 {% endif %}
 
-<form action="/email/verify">
+<form action="/email/welcome">
 
 {% include form/input.html id="name" value=site.data.session.name label="Name" %}
 {% include form/input.html id="email" value=site.data.session.new_email label="Email" %}

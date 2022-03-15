@@ -3,6 +3,9 @@ layout: email
 title: Shubhajit Saha (@suvozit) invites you to Rime
 ---
 
+{:.email-image .email-center}
+![](/buckets/email/invite.png){:.email-maxFillWidth}
+
 {:.email-left}
 Hi Name,
 
@@ -16,11 +19,6 @@ It creates **unique online identity**{:.email-bold} on the internet and keep me 
 **Its new way to explore the internet.**{:.email-bold}
 
 [Click here to join!!]({{ site.url }}){:.email-link .email-underline}
-
-
-{:.email-image .email-center}
-![](/buckets/email/invite.png){:.email-maxFillWidth}
-
 
 {% assign user = site.data.session %}
 

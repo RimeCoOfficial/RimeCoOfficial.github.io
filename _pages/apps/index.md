@@ -31,7 +31,7 @@ title: Apps
     }
     {% else if service_status_list.s_class < 400 %}
         <!-- all sytem OK -->
-        {% assign icon_color = "mdl-button--colored" %}
+        {% assign icon_color = "mdl-button--accent" %}
         {% assign icon = "arrow_forward" %}
     {% else %}
         <!-- warning: required attention -->
